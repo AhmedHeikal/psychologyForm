@@ -86,14 +86,25 @@
     <Compile Include="BCDateTimePicker.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CeLearningToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="circularButtton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="ExtenssionMethods.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyRectangle.cs" />
+    <Compile Include="patientReports.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="patientReports.Designer.cs">
+      <DependentUpon>patientReports.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,20 +113,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>psychologyDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Report.cs">
+    <Compile Include="roundedButton.cs">
       <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report.Designer.cs">
-      <DependentUpon>Report.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Report2.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Report2.Designer.cs">
-      <DependentUpon>Report2.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientReports.resx">
+      <DependentUpon>patientReports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -126,13 +131,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Report.resx">
-      <DependentUpon>Report.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report2.resx">
-      <DependentUpon>Report2.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -155,7 +155,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -177,6 +179,25 @@
       <DependentUpon>psychologyDB.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\abu-dhabi-police-logo-21AF543362-seeklogo.com.png" />
+    <Content Include="Resources\ds.png" />
+    <None Include="Resources\reportMeetingWhite.png" />
+    <None Include="Resources\reportMeetingOrange.png" />
+    <None Include="Resources\TideWhite.png" />
+    <None Include="Resources\TideOrange.png" />
+    <None Include="Resources\brushWhite.png" />
+    <None Include="Resources\brushOrange.png" />
+    <None Include="Resources\WWWhite.png" />
+    <None Include="Resources\WWOrange.png" />
+    <None Include="Resources\WR.png" />
+    <None Include="Resources\OR.png" />
+    <None Include="Resources\fdff.png" />
+    <None Include="Resources\daf_orange.png" />
+    <None Include="Resources\fds.png" />
+    <None Include="Resources\d.png" />
+    <None Include="Resources\closed__.png" />
+    <None Include="Resources\open.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

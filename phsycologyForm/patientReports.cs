@@ -6,12 +6,11 @@ using DevExpress.XtraReports.UI;
 
 namespace phsycologyForm
 {
-    public partial class Report : DevExpress.XtraReports.UI.XtraReport
+    public partial class patientReports : DevExpress.XtraReports.UI.XtraReport
     {
-        public Report()
+        public patientReports()
         {
             InitializeComponent();
         }
-
     }
 }
