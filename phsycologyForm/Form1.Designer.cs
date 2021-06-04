@@ -29,17 +29,11 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -62,6 +56,15 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle94 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle95 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle96 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle97 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle99 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle100 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle101 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle102 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle103 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle104 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle105 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.TabPage0_0 = new System.Windows.Forms.TabPage();
             this.tabControl4 = new System.Windows.Forms.TabControl();
@@ -74,22 +77,23 @@
             this.c2_1s = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.c3_1s = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.c4_1s = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.interedInstituteBrush = new phsycologyForm.roundedButton();
             this.enteredInstituteNotesTextBox = new System.Windows.Forms.TextBox();
             this.enteredInstituteAgeTextBox = new System.Windows.Forms.TextBox();
             this.enteredInstituteCaseTextBox = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.enteredInstituteJudgementTextBox = new System.Windows.Forms.TextBox();
-            this.addEnteredInstituteButton = new phsycologyForm.circularButtton();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.enteredInstituteYearTextBox = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
             this.GEneralInformationGroupBox = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.PdfInfoLabel = new System.Windows.Forms.Label();
+            this.pdfFilesComboBox = new System.Windows.Forms.ComboBox();
+            this.uploadLocation = new System.Windows.Forms.Label();
             this.deleteRecordButton = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.ToggleConditionButton = new phsycologyForm.CeLearningToggle();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.modifySSNRB = new System.Windows.Forms.RadioButton();
             this.newCaseRB = new System.Windows.Forms.RadioButton();
@@ -126,8 +130,6 @@
             this.label30 = new System.Windows.Forms.Label();
             this.nationalityTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.birthDayTP = new phsycologyForm.BCDateTimePicker();
-            this.dateDTP = new phsycologyForm.BCDateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.maritalStatusGB = new System.Windows.Forms.GroupBox();
             this.singleRB = new System.Windows.Forms.RadioButton();
@@ -158,7 +160,6 @@
             this.purposeRehabilationRB = new System.Windows.Forms.RadioButton();
             this.anyInjuriesCB = new System.Windows.Forms.CheckBox();
             this.accidentsGB = new System.Windows.Forms.GroupBox();
-            this.accidentsBrush = new phsycologyForm.roundedButton();
             this.injuryDetailsTextBox = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.fracturesTextBox = new System.Windows.Forms.TextBox();
@@ -169,7 +170,6 @@
             this.C0 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.C1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addInjuryButton = new phsycologyForm.circularButtton();
             this.transferredFromGB = new System.Windows.Forms.GroupBox();
             this.convertedFromOthersRB = new System.Windows.Forms.RadioButton();
             this.convertedFromSocialSupportRB = new System.Windows.Forms.RadioButton();
@@ -265,15 +265,12 @@
             this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.employersBrush = new phsycologyForm.roundedButton();
             this.label18 = new System.Windows.Forms.Label();
-            this.workToDate = new phsycologyForm.BCDateTimePicker();
             this.workStartAgeTextBox = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.miserableJobReasonTextBox = new System.Windows.Forms.TextBox();
             this.miserableJobCB = new System.Windows.Forms.CheckBox();
             this.label43 = new System.Windows.Forms.Label();
-            this.workFromDate = new phsycologyForm.BCDateTimePicker();
             this.workNatureGB = new System.Windows.Forms.GroupBox();
             this.shiftsRB = new System.Windows.Forms.RadioButton();
             this.workingNatureOthersRB = new System.Windows.Forms.RadioButton();
@@ -282,7 +279,6 @@
             this.officialHoursRB = new System.Windows.Forms.RadioButton();
             this.nightShiftsRB = new System.Windows.Forms.RadioButton();
             this.notesWorkTextBox = new System.Windows.Forms.TextBox();
-            this.addWorkDurationButton = new phsycologyForm.circularButtton();
             this.label44 = new System.Windows.Forms.Label();
             this.entityWorkTextBox = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
@@ -309,8 +305,6 @@
             this.doctorTreatmentTextBox = new System.Windows.Forms.TextBox();
             this.notesTreatmentTextBox = new System.Windows.Forms.TextBox();
             this.hospitalTreatmentTextBox = new System.Windows.Forms.TextBox();
-            this.treatmentPlacesBrush = new phsycologyForm.roundedButton();
-            this.addPlaceButton = new phsycologyForm.circularButtton();
             this.drugsGB = new System.Windows.Forms.GroupBox();
             this.totalDurationTextBox = new System.Windows.Forms.TextBox();
             this.drugUsedDetailsTextBox = new System.Windows.Forms.TextBox();
@@ -343,20 +337,6 @@
             this.TabPage2_0 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.TabPage2_1 = new System.Windows.Forms.TabPage();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.pressureCheckBox = new System.Windows.Forms.CheckBox();
-            this.responsibleForDescriptionTextBox = new System.Windows.Forms.TextBox();
-            this.totalMembersTextBox = new System.Windows.Forms.TextBox();
-            this.responsibleForCoutTextBox = new System.Windows.Forms.TextBox();
-            this.nearestFamilyMemberTextBox = new System.Windows.Forms.TextBox();
-            this.familyResponsibilitiesGB = new System.Windows.Forms.GroupBox();
-            this.otherResponsibilitiesTextBox = new System.Windows.Forms.TextBox();
-            this.otherResponsibilitiesRB = new System.Windows.Forms.RadioButton();
-            this.smallFamilyRB = new System.Windows.Forms.RadioButton();
-            this.bigFamilyRB = new System.Windows.Forms.RadioButton();
-            this.patientOrderTextBox = new System.Windows.Forms.TextBox();
-            this.sistersCoutTextBox = new System.Windows.Forms.TextBox();
-            this.brothersCountTextBox = new System.Windows.Forms.TextBox();
             this.maritalStausReasonsTextBox = new System.Windows.Forms.TextBox();
             this.patientMaritalStatusGB = new System.Windows.Forms.GroupBox();
             this.msSingleRB = new System.Windows.Forms.RadioButton();
@@ -364,8 +344,6 @@
             this.msSeperatedRB = new System.Windows.Forms.RadioButton();
             this.msDivorcedRB = new System.Windows.Forms.RadioButton();
             this.InCaseOfMarriageGB = new System.Windows.Forms.GroupBox();
-            this.InCaseOfMarriageBrush = new phsycologyForm.roundedButton();
-            this.addPatientMaritalStatusButton = new phsycologyForm.circularButtton();
             this.label27 = new System.Windows.Forms.Label();
             this.forFemaleMarriageGB = new System.Windows.Forms.GroupBox();
             this.ageAtProcreationFemaleTextBox = new System.Windows.Forms.TextBox();
@@ -374,8 +352,6 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.marriageToDate = new phsycologyForm.BCDateTimePicker();
-            this.marriageFromDate = new phsycologyForm.BCDateTimePicker();
             this.marriageDurationTextBox = new System.Windows.Forms.TextBox();
             this.husbandNationalityTextBox = new System.Windows.Forms.TextBox();
             this.totalSonsTextBox = new System.Windows.Forms.TextBox();
@@ -430,8 +406,10 @@
             this.motherBoysCountTextBox = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.totalMotherMarriageTextBox = new System.Windows.Forms.TextBox();
-            this.motherBigFamilyRB = new phsycologyForm.roundedButton();
-            this.motherMarriageDetailsAddButton = new phsycologyForm.circularButtton();
+            this.motherDeadGB = new System.Windows.Forms.GroupBox();
+            this.motherDeathPatientInfluenceTextBox = new System.Windows.Forms.TextBox();
+            this.motherDeathPatientAgeTextBox = new System.Windows.Forms.TextBox();
+            this.motherDeathReasonTextBox = new System.Windows.Forms.TextBox();
             this.fatherBigFamilyGB = new System.Windows.Forms.GroupBox();
             this.fatherDGV = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -442,11 +420,6 @@
             this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.label68 = new System.Windows.Forms.Label();
-            this.noFatherRelativeRB = new System.Windows.Forms.RadioButton();
-            this.fatherMarriageSideComboBox = new System.Windows.Forms.ComboBox();
-            this.yesFatherRelativeRB = new System.Windows.Forms.RadioButton();
             this.fatherEducationLevelTextBox = new System.Windows.Forms.TextBox();
             this.fatherNationalityTextBox = new System.Windows.Forms.TextBox();
             this.fatherMarriageDurationTextBox = new System.Windows.Forms.TextBox();
@@ -461,8 +434,59 @@
             this.fatherWorkingRB = new System.Windows.Forms.RadioButton();
             this.fatherRetiredRB = new System.Windows.Forms.RadioButton();
             this.label28 = new System.Windows.Forms.Label();
-            this.fatherBigFamilyBrush = new phsycologyForm.roundedButton();
-            this.fatherMarriageDetailsAddButton = new phsycologyForm.circularButtton();
+            this.fatherDeadGB = new System.Windows.Forms.GroupBox();
+            this.fatherDeathPatientInfluenceTextBox = new System.Windows.Forms.TextBox();
+            this.fatherDeathPatientAgeTextBox = new System.Windows.Forms.TextBox();
+            this.fatherDeathReasonTextBox = new System.Windows.Forms.TextBox();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.noFatherRelativeRB = new System.Windows.Forms.RadioButton();
+            this.fatherMarriageSideComboBox = new System.Windows.Forms.ComboBox();
+            this.yesFatherRelativeRB = new System.Windows.Forms.RadioButton();
+            this.TabPage2_3 = new System.Windows.Forms.TabPage();
+            this.additionalSiblingsInfoCheckbox = new System.Windows.Forms.CheckBox();
+            this.siblingsTreeGB = new System.Windows.Forms.GroupBox();
+            this.additionalNotes = new System.Windows.Forms.TextBox();
+            this.deadSiblingGB = new System.Windows.Forms.GroupBox();
+            this.siblingDeadAgePatientTextBox = new System.Windows.Forms.TextBox();
+            this.siblingDeadMissingTextBox = new System.Windows.Forms.TextBox();
+            this.siblingDeadAgeTextBox = new System.Windows.Forms.TextBox();
+            this.siblingDeadReasonTextBox = new System.Windows.Forms.TextBox();
+            this.maritalStatusSiblingsGB = new System.Windows.Forms.GroupBox();
+            this.deadSiblingRB = new System.Windows.Forms.RadioButton();
+            this.singleSiblingRB = new System.Windows.Forms.RadioButton();
+            this.marriedSiblingRB = new System.Windows.Forms.RadioButton();
+            this.seperatedSiblingRB = new System.Windows.Forms.RadioButton();
+            this.divorceSiblingRB = new System.Windows.Forms.RadioButton();
+            this.siblingEducationTextBox = new System.Windows.Forms.TextBox();
+            this.sexSiblingGB = new System.Windows.Forms.GroupBox();
+            this.maleSiblingRB = new System.Windows.Forms.RadioButton();
+            this.femaleSiblingRB = new System.Windows.Forms.RadioButton();
+            this.siblingAgeTextBox = new System.Windows.Forms.TextBox();
+            this.siblingsDGV = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.pressureCheckBox = new System.Windows.Forms.CheckBox();
+            this.responsibleForDescriptionTextBox = new System.Windows.Forms.TextBox();
+            this.totalMembersTextBox = new System.Windows.Forms.TextBox();
+            this.responsibleForCoutTextBox = new System.Windows.Forms.TextBox();
+            this.nearestFamilyMemberTextBox = new System.Windows.Forms.TextBox();
+            this.familyResponsibilitiesGB = new System.Windows.Forms.GroupBox();
+            this.otherResponsibilitiesTextBox = new System.Windows.Forms.TextBox();
+            this.otherResponsibilitiesRB = new System.Windows.Forms.RadioButton();
+            this.smallFamilyRB = new System.Windows.Forms.RadioButton();
+            this.bigFamilyRB = new System.Windows.Forms.RadioButton();
+            this.patientOrderTextBox = new System.Windows.Forms.TextBox();
+            this.sistersCoutTextBox = new System.Windows.Forms.TextBox();
+            this.brothersCountTextBox = new System.Windows.Forms.TextBox();
             this.TabPage3_0 = new System.Windows.Forms.TabPage();
             this.tabControl5 = new System.Windows.Forms.TabControl();
             this.TabPage3_1 = new System.Windows.Forms.TabPage();
@@ -494,12 +518,10 @@
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.studyingPhaseBrush = new phsycologyForm.roundedButton();
             this.schoolStageComboBox = new System.Windows.Forms.ComboBox();
             this.label48 = new System.Windows.Forms.Label();
             this.schoolNotesTextBox = new System.Windows.Forms.TextBox();
             this.schoolNameTextBox = new System.Windows.Forms.TextBox();
-            this.schoolAddButton = new phsycologyForm.circularButtton();
             this.label37 = new System.Windows.Forms.Label();
             this.schoolFailureYearsTextBox = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
@@ -585,7 +607,6 @@
             this.TabPage4_0 = new System.Windows.Forms.TabPage();
             this.label75 = new System.Windows.Forms.Label();
             this.meetingTitleComboBox = new System.Windows.Forms.ComboBox();
-            this.deleteMeetingButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.editMeetingTitle = new System.Windows.Forms.RadioButton();
@@ -609,8 +630,6 @@
             this.label63 = new System.Windows.Forms.Label();
             this.ssnNumberTargetTextBox = new System.Windows.Forms.TextBox();
             this.label64 = new System.Windows.Forms.Label();
-            this.targetMeetingsBrush = new phsycologyForm.roundedButton();
-            this.addTargetButton = new phsycologyForm.circularButtton();
             this.label60 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
@@ -634,29 +653,20 @@
             this.meetingTypeGB = new System.Windows.Forms.GroupBox();
             this.individualMeetingRB = new System.Windows.Forms.RadioButton();
             this.groupMeetingRB = new System.Windows.Forms.RadioButton();
-            this.meetingToogleButton = new phsycologyForm.CeLearningToggle();
-            this.meetingDate = new phsycologyForm.BCDateTimePicker();
-            this.registeringDate = new phsycologyForm.BCDateTimePicker();
+            this.deleteMeetingButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.editMeetingTitlePanel = new System.Windows.Forms.Panel();
             this.editTitleOldComboBox = new System.Windows.Forms.ComboBox();
-            this.editTitleButton = new phsycologyForm.circularButtton();
             this.editTitleNewTextBox = new System.Windows.Forms.TextBox();
             this.label74 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
             this.editSSNPanel = new System.Windows.Forms.Panel();
-            this.editSSN = new phsycologyForm.circularButtton();
             this.newSSN = new System.Windows.Forms.TextBox();
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.oldSSN = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.meetingsReportButton = new phsycologyForm.roundedButton();
-            this.roundedButton1 = new phsycologyForm.roundedButton();
-            this.clearPageDataButton = new phsycologyForm.roundedButton();
-            this.patientReportButton = new phsycologyForm.roundedButton();
-            this.saveButton = new phsycologyForm.roundedButton();
-            this.nextPageButton = new phsycologyForm.roundedButton();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.meetingsButton = new System.Windows.Forms.Button();
             this.teensPanel = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -666,6 +676,7 @@
             this.socialDetailsButton = new System.Windows.Forms.Button();
             this.teensButton = new System.Windows.Forms.Button();
             this.enviromentAnalysisPanel = new System.Windows.Forms.Panel();
+            this.siblingsBigFamilyButton = new System.Windows.Forms.Button();
             this.bigFamilyButton = new System.Windows.Forms.Button();
             this.socialStatusButton = new System.Windows.Forms.Button();
             this.enviromentAnalysisButton = new System.Windows.Forms.Button();
@@ -679,8 +690,50 @@
             this.generalInformationsButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.editTitleButton = new phsycologyForm.circularButtton();
+            this.editSSN = new phsycologyForm.circularButtton();
+            this.backupButton = new phsycologyForm.roundedButton();
+            this.pdfButton = new phsycologyForm.roundedButton();
+            this.meetingsReportButton = new phsycologyForm.roundedButton();
+            this.roundedButton1 = new phsycologyForm.roundedButton();
+            this.clearPageDataButton = new phsycologyForm.roundedButton();
+            this.patientReportButton = new phsycologyForm.roundedButton();
+            this.saveButton = new phsycologyForm.roundedButton();
+            this.nextPageButton = new phsycologyForm.roundedButton();
+            this.interedInstituteBrush = new phsycologyForm.roundedButton();
+            this.addEnteredInstituteButton = new phsycologyForm.circularButtton();
+            this.uploadButton = new phsycologyForm.circularButtton();
+            this.ToggleConditionButton = new phsycologyForm.CeLearningToggle();
+            this.birthDayTP = new phsycologyForm.BCDateTimePicker();
+            this.dateDTP = new phsycologyForm.BCDateTimePicker();
+            this.accidentsBrush = new phsycologyForm.roundedButton();
+            this.addInjuryButton = new phsycologyForm.circularButtton();
+            this.employersBrush = new phsycologyForm.roundedButton();
+            this.workToDate = new phsycologyForm.BCDateTimePicker();
+            this.workFromDate = new phsycologyForm.BCDateTimePicker();
+            this.addWorkDurationButton = new phsycologyForm.circularButtton();
+            this.addPlaceButton = new phsycologyForm.circularButtton();
+            this.treatmentPlacesBrush = new phsycologyForm.roundedButton();
+            this.InCaseOfMarriageBrush = new phsycologyForm.roundedButton();
+            this.addPatientMaritalStatusButton = new phsycologyForm.circularButtton();
+            this.marriageToDate = new phsycologyForm.BCDateTimePicker();
+            this.marriageFromDate = new phsycologyForm.BCDateTimePicker();
+            this.motherMarriageDetailsAddButton = new phsycologyForm.circularButtton();
+            this.motherBigFamilyRB = new phsycologyForm.roundedButton();
+            this.fatherMarriageDetailsAddButton = new phsycologyForm.circularButtton();
+            this.fatherBigFamilyBrush = new phsycologyForm.roundedButton();
+            this.addSiblingsButton = new phsycologyForm.circularButtton();
+            this.siblingRushButton = new phsycologyForm.roundedButton();
+            this.studyingPhaseBrush = new phsycologyForm.roundedButton();
+            this.schoolAddButton = new phsycologyForm.circularButtton();
+            this.addTargetButton = new phsycologyForm.circularButtton();
+            this.targetMeetingsBrush = new phsycologyForm.roundedButton();
+            this.meetingToogleButton = new phsycologyForm.CeLearningToggle();
+            this.meetingDate = new phsycologyForm.BCDateTimePicker();
+            this.registeringDate = new phsycologyForm.BCDateTimePicker();
+            this.label76 = new System.Windows.Forms.Label();
+            this.till18TextBox = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.TabPage0_0.SuspendLayout();
             this.tabControl4.SuspendLayout();
@@ -688,6 +741,7 @@
             this.wnteredInstituteGB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.enteredInstituteDGV)).BeginInit();
             this.GEneralInformationGroupBox.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.adultTypeGB.SuspendLayout();
             this.linguisticGB.SuspendLayout();
@@ -736,8 +790,6 @@
             this.TabPage2_0.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.TabPage2_1.SuspendLayout();
-            this.groupBox17.SuspendLayout();
-            this.familyResponsibilitiesGB.SuspendLayout();
             this.patientMaritalStatusGB.SuspendLayout();
             this.InCaseOfMarriageGB.SuspendLayout();
             this.forFemaleMarriageGB.SuspendLayout();
@@ -748,10 +800,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.motherDGV)).BeginInit();
             this.motherStatusGB.SuspendLayout();
             this.groupBox16.SuspendLayout();
+            this.motherDeadGB.SuspendLayout();
             this.fatherBigFamilyGB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fatherDGV)).BeginInit();
-            this.groupBox15.SuspendLayout();
             this.fatherStatusGB.SuspendLayout();
+            this.fatherDeadGB.SuspendLayout();
+            this.groupBox15.SuspendLayout();
+            this.TabPage2_3.SuspendLayout();
+            this.siblingsTreeGB.SuspendLayout();
+            this.deadSiblingGB.SuspendLayout();
+            this.maritalStatusSiblingsGB.SuspendLayout();
+            this.sexSiblingGB.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siblingsDGV)).BeginInit();
+            this.groupBox17.SuspendLayout();
+            this.familyResponsibilitiesGB.SuspendLayout();
             this.TabPage3_0.SuspendLayout();
             this.tabControl5.SuspendLayout();
             this.TabPage3_1.SuspendLayout();
@@ -812,8 +874,8 @@
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(986, 853);
-            this.tabControl1.TabIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(986, 761);
+            this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // TabPage0_0
@@ -823,7 +885,7 @@
             this.TabPage0_0.Location = new System.Drawing.Point(4, 22);
             this.TabPage0_0.Name = "TabPage0_0";
             this.TabPage0_0.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage0_0.Size = new System.Drawing.Size(978, 827);
+            this.TabPage0_0.Size = new System.Drawing.Size(978, 735);
             this.TabPage0_0.TabIndex = 0;
             this.TabPage0_0.Text = "معلومات أساسية";
             this.TabPage0_0.Enter += new System.EventHandler(this.InitialPageTabPage_Enter);
@@ -860,11 +922,11 @@
             this.enteredInstituteCB.AutoSize = true;
             this.enteredInstituteCB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.enteredInstituteCB.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.enteredInstituteCB.Location = new System.Drawing.Point(732, 416);
+            this.enteredInstituteCB.Location = new System.Drawing.Point(732, 469);
             this.enteredInstituteCB.Name = "enteredInstituteCB";
             this.enteredInstituteCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteCB.Size = new System.Drawing.Size(227, 32);
-            this.enteredInstituteCB.TabIndex = 973;
+            this.enteredInstituteCB.TabIndex = 0;
             this.enteredInstituteCB.Text = "هل سبق وأن دخل المؤسسة؟";
             this.enteredInstituteCB.UseVisualStyleBackColor = true;
             this.enteredInstituteCB.CheckedChanged += new System.EventHandler(this.enteredInstituteCB_CheckedChanged);
@@ -886,32 +948,32 @@
             this.wnteredInstituteGB.Controls.Add(this.label40);
             this.wnteredInstituteGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.wnteredInstituteGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.wnteredInstituteGB.Location = new System.Drawing.Point(6, 448);
+            this.wnteredInstituteGB.Location = new System.Drawing.Point(6, 499);
             this.wnteredInstituteGB.Name = "wnteredInstituteGB";
             this.wnteredInstituteGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.wnteredInstituteGB.Size = new System.Drawing.Size(955, 242);
-            this.wnteredInstituteGB.TabIndex = 974;
+            this.wnteredInstituteGB.Size = new System.Drawing.Size(955, 217);
+            this.wnteredInstituteGB.TabIndex = 1;
             this.wnteredInstituteGB.TabStop = false;
             this.wnteredInstituteGB.Text = "سجل دخوله المؤسسة";
             // 
             // enteredInstituteDGV
             // 
             this.enteredInstituteDGV.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle65.Font = new System.Drawing.Font("Sitka Heading", 11F);
-            dataGridViewCellStyle65.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle71.Font = new System.Drawing.Font("Sitka Heading", 11F);
+            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.White;
+            this.enteredInstituteDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle71;
             this.enteredInstituteDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.enteredInstituteDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.enteredInstituteDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.enteredInstituteDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle66.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle66.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.enteredInstituteDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle72.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.enteredInstituteDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle72;
             this.enteredInstituteDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.enteredInstituteDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.c0_1s,
@@ -919,33 +981,34 @@
             this.c2_1s,
             this.c3_1s,
             this.c4_1s});
-            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle67.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.enteredInstituteDGV.DefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle73.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.enteredInstituteDGV.DefaultCellStyle = dataGridViewCellStyle73;
             this.enteredInstituteDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.enteredInstituteDGV.GridColor = System.Drawing.Color.White;
-            this.enteredInstituteDGV.Location = new System.Drawing.Point(6, 21);
+            this.enteredInstituteDGV.Location = new System.Drawing.Point(6, 30);
             this.enteredInstituteDGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteDGV.MultiSelect = false;
             this.enteredInstituteDGV.Name = "enteredInstituteDGV";
             this.enteredInstituteDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle68.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.enteredInstituteDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle74.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle74.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.enteredInstituteDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle74;
             this.enteredInstituteDGV.RowHeadersWidth = 30;
             this.enteredInstituteDGV.RowTemplate.Height = 26;
-            this.enteredInstituteDGV.Size = new System.Drawing.Size(692, 162);
+            this.enteredInstituteDGV.Size = new System.Drawing.Size(692, 129);
             this.enteredInstituteDGV.TabIndex = 959;
+            this.enteredInstituteDGV.TabStop = false;
             // 
             // c0_1s
             // 
@@ -974,20 +1037,6 @@
             this.c4_1s.HeaderText = "ملاحظات";
             this.c4_1s.Name = "c4_1s";
             // 
-            // interedInstituteBrush
-            // 
-            this.interedInstituteBrush.FlatAppearance.BorderSize = 0;
-            this.interedInstituteBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.interedInstituteBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.interedInstituteBrush.Location = new System.Drawing.Point(498, 182);
-            this.interedInstituteBrush.Name = "interedInstituteBrush";
-            this.interedInstituteBrush.Size = new System.Drawing.Size(59, 57);
-            this.interedInstituteBrush.TabIndex = 994;
-            this.interedInstituteBrush.UseVisualStyleBackColor = false;
-            this.interedInstituteBrush.Click += new System.EventHandler(this.interedInstituteBrush_Click);
-            this.interedInstituteBrush.MouseLeave += new System.EventHandler(this.interedInstituteBrush_MouseLeave);
-            this.interedInstituteBrush.MouseHover += new System.EventHandler(this.interedInstituteBrush_MouseHover);
-            // 
             // enteredInstituteNotesTextBox
             // 
             this.enteredInstituteNotesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -995,13 +1044,13 @@
             this.enteredInstituteNotesTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.enteredInstituteNotesTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enteredInstituteNotesTextBox.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteNotesTextBox.Location = new System.Drawing.Point(716, 200);
+            this.enteredInstituteNotesTextBox.Location = new System.Drawing.Point(716, 178);
             this.enteredInstituteNotesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteNotesTextBox.Multiline = true;
             this.enteredInstituteNotesTextBox.Name = "enteredInstituteNotesTextBox";
             this.enteredInstituteNotesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteNotesTextBox.Size = new System.Drawing.Size(148, 26);
-            this.enteredInstituteNotesTextBox.TabIndex = 972;
+            this.enteredInstituteNotesTextBox.TabIndex = 4;
             // 
             // enteredInstituteAgeTextBox
             // 
@@ -1010,13 +1059,13 @@
             this.enteredInstituteAgeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.enteredInstituteAgeTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enteredInstituteAgeTextBox.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteAgeTextBox.Location = new System.Drawing.Point(716, 159);
+            this.enteredInstituteAgeTextBox.Location = new System.Drawing.Point(716, 141);
             this.enteredInstituteAgeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteAgeTextBox.Multiline = true;
             this.enteredInstituteAgeTextBox.Name = "enteredInstituteAgeTextBox";
             this.enteredInstituteAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteAgeTextBox.Size = new System.Drawing.Size(148, 26);
-            this.enteredInstituteAgeTextBox.TabIndex = 971;
+            this.enteredInstituteAgeTextBox.TabIndex = 3;
             // 
             // enteredInstituteCaseTextBox
             // 
@@ -1025,13 +1074,13 @@
             this.enteredInstituteCaseTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.enteredInstituteCaseTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enteredInstituteCaseTextBox.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteCaseTextBox.Location = new System.Drawing.Point(716, 77);
+            this.enteredInstituteCaseTextBox.Location = new System.Drawing.Point(716, 67);
             this.enteredInstituteCaseTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteCaseTextBox.Multiline = true;
             this.enteredInstituteCaseTextBox.Name = "enteredInstituteCaseTextBox";
             this.enteredInstituteCaseTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteCaseTextBox.Size = new System.Drawing.Size(148, 26);
-            this.enteredInstituteCaseTextBox.TabIndex = 970;
+            this.enteredInstituteCaseTextBox.TabIndex = 1;
             // 
             // label42
             // 
@@ -1040,7 +1089,7 @@
             this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label42.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label42.Location = new System.Drawing.Point(868, 200);
+            this.label42.Location = new System.Drawing.Point(868, 179);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(69, 28);
             this.label42.TabIndex = 969;
@@ -1053,7 +1102,7 @@
             this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label41.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label41.Location = new System.Drawing.Point(868, 159);
+            this.label41.Location = new System.Drawing.Point(868, 142);
             this.label41.Name = "label41";
             this.label41.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label41.Size = new System.Drawing.Size(85, 28);
@@ -1067,27 +1116,13 @@
             this.enteredInstituteJudgementTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.enteredInstituteJudgementTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enteredInstituteJudgementTextBox.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteJudgementTextBox.Location = new System.Drawing.Point(716, 118);
+            this.enteredInstituteJudgementTextBox.Location = new System.Drawing.Point(716, 104);
             this.enteredInstituteJudgementTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteJudgementTextBox.Multiline = true;
             this.enteredInstituteJudgementTextBox.Name = "enteredInstituteJudgementTextBox";
             this.enteredInstituteJudgementTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteJudgementTextBox.Size = new System.Drawing.Size(148, 26);
-            this.enteredInstituteJudgementTextBox.TabIndex = 967;
-            // 
-            // addEnteredInstituteButton
-            // 
-            this.addEnteredInstituteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addEnteredInstituteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addEnteredInstituteButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addEnteredInstituteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addEnteredInstituteButton.Location = new System.Drawing.Point(563, 188);
-            this.addEnteredInstituteButton.Name = "addEnteredInstituteButton";
-            this.addEnteredInstituteButton.Size = new System.Drawing.Size(135, 38);
-            this.addEnteredInstituteButton.TabIndex = 966;
-            this.addEnteredInstituteButton.Text = "إضافة";
-            this.addEnteredInstituteButton.UseVisualStyleBackColor = false;
-            this.addEnteredInstituteButton.Click += new System.EventHandler(this.addEnteredInstituteButton_Click);
+            this.enteredInstituteJudgementTextBox.TabIndex = 2;
             // 
             // label16
             // 
@@ -1096,7 +1131,7 @@
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label16.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label16.Location = new System.Drawing.Point(868, 77);
+            this.label16.Location = new System.Drawing.Point(868, 68);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(53, 28);
             this.label16.TabIndex = 964;
@@ -1109,7 +1144,7 @@
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label17.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label17.Location = new System.Drawing.Point(868, 36);
+            this.label17.Location = new System.Drawing.Point(868, 31);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 28);
             this.label17.TabIndex = 960;
@@ -1122,13 +1157,13 @@
             this.enteredInstituteYearTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.enteredInstituteYearTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enteredInstituteYearTextBox.ForeColor = System.Drawing.Color.White;
-            this.enteredInstituteYearTextBox.Location = new System.Drawing.Point(716, 36);
+            this.enteredInstituteYearTextBox.Location = new System.Drawing.Point(716, 30);
             this.enteredInstituteYearTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.enteredInstituteYearTextBox.Multiline = true;
             this.enteredInstituteYearTextBox.Name = "enteredInstituteYearTextBox";
             this.enteredInstituteYearTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.enteredInstituteYearTextBox.Size = new System.Drawing.Size(148, 26);
-            this.enteredInstituteYearTextBox.TabIndex = 961;
+            this.enteredInstituteYearTextBox.TabIndex = 0;
             // 
             // label40
             // 
@@ -1137,7 +1172,7 @@
             this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label40.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label40.Location = new System.Drawing.Point(868, 118);
+            this.label40.Location = new System.Drawing.Point(868, 105);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(43, 28);
             this.label40.TabIndex = 962;
@@ -1147,6 +1182,9 @@
             // 
             this.GEneralInformationGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.GEneralInformationGroupBox.Controls.Add(this.label76);
+            this.GEneralInformationGroupBox.Controls.Add(this.till18TextBox);
+            this.GEneralInformationGroupBox.Controls.Add(this.groupBox4);
             this.GEneralInformationGroupBox.Controls.Add(this.deleteRecordButton);
             this.GEneralInformationGroupBox.Controls.Add(this.ToggleConditionButton);
             this.GEneralInformationGroupBox.Controls.Add(this.groupBox3);
@@ -1193,10 +1231,66 @@
             this.GEneralInformationGroupBox.Location = new System.Drawing.Point(6, 1);
             this.GEneralInformationGroupBox.Name = "GEneralInformationGroupBox";
             this.GEneralInformationGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.GEneralInformationGroupBox.Size = new System.Drawing.Size(955, 408);
-            this.GEneralInformationGroupBox.TabIndex = 972;
+            this.GEneralInformationGroupBox.Size = new System.Drawing.Size(955, 461);
+            this.GEneralInformationGroupBox.TabIndex = 0;
             this.GEneralInformationGroupBox.TabStop = false;
             this.GEneralInformationGroupBox.Text = "المعلومات الأساسية";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox4.Controls.Add(this.PdfInfoLabel);
+            this.groupBox4.Controls.Add(this.pdfFilesComboBox);
+            this.groupBox4.Controls.Add(this.uploadLocation);
+            this.groupBox4.Controls.Add(this.uploadButton);
+            this.groupBox4.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.groupBox4.Location = new System.Drawing.Point(624, 351);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox4.Size = new System.Drawing.Size(308, 104);
+            this.groupBox4.TabIndex = 948;
+            this.groupBox4.TabStop = false;
+            // 
+            // PdfInfoLabel
+            // 
+            this.PdfInfoLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PdfInfoLabel.AutoSize = true;
+            this.PdfInfoLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.PdfInfoLabel.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PdfInfoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
+            this.PdfInfoLabel.Location = new System.Drawing.Point(8, 63);
+            this.PdfInfoLabel.Name = "PdfInfoLabel";
+            this.PdfInfoLabel.Size = new System.Drawing.Size(226, 28);
+            this.PdfInfoLabel.TabIndex = 1003;
+            this.PdfInfoLabel.Text = "اختر ملف واعرضه من زر الPDF";
+            // 
+            // pdfFilesComboBox
+            // 
+            this.pdfFilesComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.pdfFilesComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.pdfFilesComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.pdfFilesComboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.pdfFilesComboBox.ForeColor = System.Drawing.Color.White;
+            this.pdfFilesComboBox.FormattingEnabled = true;
+            this.pdfFilesComboBox.Location = new System.Drawing.Point(10, 34);
+            this.pdfFilesComboBox.Name = "pdfFilesComboBox";
+            this.pdfFilesComboBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.pdfFilesComboBox.Size = new System.Drawing.Size(211, 27);
+            this.pdfFilesComboBox.TabIndex = 1002;
+            this.pdfFilesComboBox.TabStop = false;
+            // 
+            // uploadLocation
+            // 
+            this.uploadLocation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.uploadLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.uploadLocation.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uploadLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
+            this.uploadLocation.Location = new System.Drawing.Point(6, 15);
+            this.uploadLocation.Name = "uploadLocation";
+            this.uploadLocation.Size = new System.Drawing.Size(223, 86);
+            this.uploadLocation.TabIndex = 996;
+            this.uploadLocation.Text = "يتم وضع جميع الملفات المراد رفعها داخل ملف واختيار الملفات جميعها مرةً واحدة";
             // 
             // deleteRecordButton
             // 
@@ -1206,10 +1300,11 @@
             this.deleteRecordButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteRecordButton.ImageIndex = 0;
             this.deleteRecordButton.ImageList = this.imageList1;
-            this.deleteRecordButton.Location = new System.Drawing.Point(529, 24);
+            this.deleteRecordButton.Location = new System.Drawing.Point(525, 13);
             this.deleteRecordButton.Name = "deleteRecordButton";
-            this.deleteRecordButton.Size = new System.Drawing.Size(35, 35);
+            this.deleteRecordButton.Size = new System.Drawing.Size(35, 53);
             this.deleteRecordButton.TabIndex = 991;
+            this.deleteRecordButton.TabStop = false;
             this.deleteRecordButton.UseVisualStyleBackColor = true;
             this.deleteRecordButton.Click += new System.EventHandler(this.deleteRecordButton_Click);
             this.deleteRecordButton.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
@@ -1222,24 +1317,6 @@
             this.imageList1.Images.SetKeyName(0, "closed__.png");
             this.imageList1.Images.SetKeyName(1, "open.png");
             // 
-            // ToggleConditionButton
-            // 
-            this.ToggleConditionButton.BorderColor = System.Drawing.Color.LightGray;
-            this.ToggleConditionButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ToggleConditionButton.ForeColor = System.Drawing.Color.White;
-            this.ToggleConditionButton.IsOn = true;
-            this.ToggleConditionButton.Location = new System.Drawing.Point(565, 25);
-            this.ToggleConditionButton.Name = "ToggleConditionButton";
-            this.ToggleConditionButton.OffColor = System.Drawing.Color.DarkGray;
-            this.ToggleConditionButton.OffText = "تعديل";
-            this.ToggleConditionButton.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.ToggleConditionButton.OnText = "جديد";
-            this.ToggleConditionButton.Size = new System.Drawing.Size(62, 33);
-            this.ToggleConditionButton.TabIndex = 990;
-            this.ToggleConditionButton.Text = "ceLearningToggle1";
-            this.ToggleConditionButton.TextEnabled = true;
-            this.ToggleConditionButton.Click += new System.EventHandler(this.ToggleConditionButton_Click);
-            // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -1249,10 +1326,10 @@
             this.groupBox3.Controls.Add(this.editCaseRB);
             this.groupBox3.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.groupBox3.Location = new System.Drawing.Point(520, 328);
+            this.groupBox3.Location = new System.Drawing.Point(337, 351);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox3.Size = new System.Drawing.Size(433, 64);
+            this.groupBox3.Size = new System.Drawing.Size(265, 104);
             this.groupBox3.TabIndex = 947;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "وصف حالة البيانات الحالية";
@@ -1261,13 +1338,12 @@
             // 
             this.modifySSNRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.modifySSNRB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.modifySSNRB.Location = new System.Drawing.Point(1, 28);
+            this.modifySSNRB.Location = new System.Drawing.Point(6, 61);
             this.modifySSNRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.modifySSNRB.Name = "modifySSNRB";
             this.modifySSNRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.modifySSNRB.Size = new System.Drawing.Size(143, 32);
             this.modifySSNRB.TabIndex = 93;
-            this.modifySSNRB.TabStop = true;
             this.modifySSNRB.Text = "تعديل الرقم الموحد";
             this.modifySSNRB.UseVisualStyleBackColor = true;
             this.modifySSNRB.CheckedChanged += new System.EventHandler(this.modifySSNRB_CheckedChanged);
@@ -1277,13 +1353,12 @@
             this.newCaseRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.newCaseRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.newCaseRB.ForeColor = System.Drawing.Color.White;
-            this.newCaseRB.Location = new System.Drawing.Point(334, 27);
+            this.newCaseRB.Location = new System.Drawing.Point(164, 25);
             this.newCaseRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newCaseRB.Name = "newCaseRB";
             this.newCaseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.newCaseRB.Size = new System.Drawing.Size(93, 32);
             this.newCaseRB.TabIndex = 92;
-            this.newCaseRB.TabStop = true;
             this.newCaseRB.Text = "حالة جديدة";
             this.newCaseRB.UseVisualStyleBackColor = false;
             this.newCaseRB.CheckedChanged += new System.EventHandler(this.newCaseRB_CheckedChanged);
@@ -1292,13 +1367,12 @@
             // 
             this.deleteCaseRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.deleteCaseRB.ForeColor = System.Drawing.Color.White;
-            this.deleteCaseRB.Location = new System.Drawing.Point(136, 27);
+            this.deleteCaseRB.Location = new System.Drawing.Point(157, 61);
             this.deleteCaseRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.deleteCaseRB.Name = "deleteCaseRB";
             this.deleteCaseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.deleteCaseRB.Size = new System.Drawing.Size(100, 32);
             this.deleteCaseRB.TabIndex = 89;
-            this.deleteCaseRB.TabStop = true;
             this.deleteCaseRB.Text = "حذف الحالة";
             this.deleteCaseRB.UseVisualStyleBackColor = true;
             this.deleteCaseRB.CheckedChanged += new System.EventHandler(this.deleteCaseRB_CheckedChanged);
@@ -1308,13 +1382,12 @@
             this.editCaseRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.editCaseRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.editCaseRB.ForeColor = System.Drawing.Color.White;
-            this.editCaseRB.Location = new System.Drawing.Point(221, 27);
+            this.editCaseRB.Location = new System.Drawing.Point(35, 25);
             this.editCaseRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.editCaseRB.Name = "editCaseRB";
             this.editCaseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.editCaseRB.Size = new System.Drawing.Size(114, 32);
             this.editCaseRB.TabIndex = 91;
-            this.editCaseRB.TabStop = true;
             this.editCaseRB.Text = "تعديل بيانات";
             this.editCaseRB.UseVisualStyleBackColor = false;
             this.editCaseRB.CheckedChanged += new System.EventHandler(this.editCaseRB_CheckedChanged);
@@ -1326,13 +1399,13 @@
             this.judgementTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.judgementTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.judgementTextBox.ForeColor = System.Drawing.Color.White;
-            this.judgementTextBox.Location = new System.Drawing.Point(637, 265);
+            this.judgementTextBox.Location = new System.Drawing.Point(637, 291);
             this.judgementTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.judgementTextBox.Multiline = true;
             this.judgementTextBox.Name = "judgementTextBox";
             this.judgementTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.judgementTextBox.Size = new System.Drawing.Size(200, 26);
-            this.judgementTextBox.TabIndex = 989;
+            this.judgementTextBox.TabIndex = 7;
             // 
             // label7
             // 
@@ -1341,7 +1414,7 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label7.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label7.Location = new System.Drawing.Point(854, 230);
+            this.label7.Location = new System.Drawing.Point(854, 256);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 28);
             this.label7.TabIndex = 986;
@@ -1354,7 +1427,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label6.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label6.Location = new System.Drawing.Point(854, 264);
+            this.label6.Location = new System.Drawing.Point(854, 289);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 28);
             this.label6.TabIndex = 988;
@@ -1367,13 +1440,13 @@
             this.caseTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.caseTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caseTextBox.ForeColor = System.Drawing.Color.White;
-            this.caseTextBox.Location = new System.Drawing.Point(637, 231);
+            this.caseTextBox.Location = new System.Drawing.Point(637, 258);
             this.caseTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caseTextBox.Multiline = true;
             this.caseTextBox.Name = "caseTextBox";
             this.caseTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.caseTextBox.Size = new System.Drawing.Size(200, 26);
-            this.caseTextBox.TabIndex = 987;
+            this.caseTextBox.TabIndex = 6;
             // 
             // label38
             // 
@@ -1414,7 +1487,7 @@
             this.waistTextBox.Name = "waistTextBox";
             this.waistTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.waistTextBox.Size = new System.Drawing.Size(200, 26);
-            this.waistTextBox.TabIndex = 984;
+            this.waistTextBox.TabIndex = 11;
             // 
             // label31
             // 
@@ -1436,13 +1509,13 @@
             this.weightTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.weightTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.weightTextBox.ForeColor = System.Drawing.Color.White;
-            this.weightTextBox.Location = new System.Drawing.Point(230, 86);
+            this.weightTextBox.Location = new System.Drawing.Point(231, 86);
             this.weightTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.weightTextBox.Multiline = true;
             this.weightTextBox.Name = "weightTextBox";
             this.weightTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.weightTextBox.Size = new System.Drawing.Size(200, 26);
-            this.weightTextBox.TabIndex = 982;
+            this.weightTextBox.TabIndex = 10;
             // 
             // label15
             // 
@@ -1470,7 +1543,7 @@
             this.heightTextBox.Name = "heightTextBox";
             this.heightTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.heightTextBox.Size = new System.Drawing.Size(200, 26);
-            this.heightTextBox.TabIndex = 980;
+            this.heightTextBox.TabIndex = 9;
             // 
             // label67
             // 
@@ -1479,7 +1552,7 @@
             this.label67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label67.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label67.Location = new System.Drawing.Point(855, 162);
+            this.label67.Location = new System.Drawing.Point(855, 190);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(82, 28);
             this.label67.TabIndex = 977;
@@ -1492,13 +1565,13 @@
             this.residencePlaceTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.residencePlaceTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.residencePlaceTextBox.ForeColor = System.Drawing.Color.White;
-            this.residencePlaceTextBox.Location = new System.Drawing.Point(638, 163);
+            this.residencePlaceTextBox.Location = new System.Drawing.Point(638, 192);
             this.residencePlaceTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.residencePlaceTextBox.Multiline = true;
             this.residencePlaceTextBox.Name = "residencePlaceTextBox";
             this.residencePlaceTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.residencePlaceTextBox.Size = new System.Drawing.Size(200, 26);
-            this.residencePlaceTextBox.TabIndex = 978;
+            this.residencePlaceTextBox.TabIndex = 4;
             // 
             // phoneNumberTextBox
             // 
@@ -1507,13 +1580,13 @@
             this.phoneNumberTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.phoneNumberTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phoneNumberTextBox.ForeColor = System.Drawing.Color.White;
-            this.phoneNumberTextBox.Location = new System.Drawing.Point(637, 197);
+            this.phoneNumberTextBox.Location = new System.Drawing.Point(637, 225);
             this.phoneNumberTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.phoneNumberTextBox.Multiline = true;
             this.phoneNumberTextBox.Name = "phoneNumberTextBox";
             this.phoneNumberTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.phoneNumberTextBox.Size = new System.Drawing.Size(200, 26);
-            this.phoneNumberTextBox.TabIndex = 976;
+            this.phoneNumberTextBox.TabIndex = 5;
             // 
             // label66
             // 
@@ -1522,7 +1595,7 @@
             this.label66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label66.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label66.Location = new System.Drawing.Point(854, 196);
+            this.label66.Location = new System.Drawing.Point(854, 223);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(76, 28);
             this.label66.TabIndex = 975;
@@ -1533,11 +1606,11 @@
             this.canBeCalledAgainCB.AutoSize = true;
             this.canBeCalledAgainCB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.canBeCalledAgainCB.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.canBeCalledAgainCB.Location = new System.Drawing.Point(634, 301);
+            this.canBeCalledAgainCB.Location = new System.Drawing.Point(634, 325);
             this.canBeCalledAgainCB.Name = "canBeCalledAgainCB";
             this.canBeCalledAgainCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.canBeCalledAgainCB.Size = new System.Drawing.Size(255, 32);
-            this.canBeCalledAgainCB.TabIndex = 974;
+            this.canBeCalledAgainCB.TabIndex = 8;
             this.canBeCalledAgainCB.Text = "يمكن استدعاء الحالة مرةً أخرى؟";
             this.canBeCalledAgainCB.UseVisualStyleBackColor = true;
             // 
@@ -1548,11 +1621,11 @@
             this.adultTypeGB.Controls.Add(this.employeeRB);
             this.adultTypeGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.adultTypeGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.adultTypeGB.Location = new System.Drawing.Point(11, 328);
+            this.adultTypeGB.Location = new System.Drawing.Point(10, 320);
             this.adultTypeGB.Name = "adultTypeGB";
             this.adultTypeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.adultTypeGB.Size = new System.Drawing.Size(157, 64);
-            this.adultTypeGB.TabIndex = 946;
+            this.adultTypeGB.TabIndex = 17;
             this.adultTypeGB.TabStop = false;
             this.adultTypeGB.Text = "صفة البالغ";
             // 
@@ -1565,7 +1638,7 @@
             this.residentRB.Name = "residentRB";
             this.residentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.residentRB.Size = new System.Drawing.Size(63, 32);
-            this.residentRB.TabIndex = 90;
+            this.residentRB.TabIndex = 0;
             this.residentRB.TabStop = true;
             this.residentRB.Text = "نزيل";
             this.residentRB.UseVisualStyleBackColor = true;
@@ -1580,7 +1653,7 @@
             this.employeeRB.Name = "employeeRB";
             this.employeeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.employeeRB.Size = new System.Drawing.Size(72, 32);
-            this.employeeRB.TabIndex = 89;
+            this.employeeRB.TabIndex = 100000;
             this.employeeRB.TabStop = true;
             this.employeeRB.Text = "موظف";
             this.employeeRB.UseVisualStyleBackColor = true;
@@ -1592,7 +1665,7 @@
             this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label36.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.label36.Location = new System.Drawing.Point(395, 234);
+            this.label36.Location = new System.Drawing.Point(395, 230);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(124, 28);
             this.label36.TabIndex = 963;
@@ -1606,11 +1679,11 @@
             this.linguisticGB.Controls.Add(this.thickRB);
             this.linguisticGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.linguisticGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.linguisticGB.Location = new System.Drawing.Point(230, 158);
+            this.linguisticGB.Location = new System.Drawing.Point(230, 154);
             this.linguisticGB.Name = "linguisticGB";
             this.linguisticGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.linguisticGB.Size = new System.Drawing.Size(267, 64);
-            this.linguisticGB.TabIndex = 945;
+            this.linguisticGB.TabIndex = 12;
             this.linguisticGB.TabStop = false;
             this.linguisticGB.Text = "الصفات اللغوية";
             // 
@@ -1624,7 +1697,7 @@
             this.tactfulRB.Name = "tactfulRB";
             this.tactfulRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tactfulRB.Size = new System.Drawing.Size(50, 32);
-            this.tactfulRB.TabIndex = 91;
+            this.tactfulRB.TabIndex = 0;
             this.tactfulRB.TabStop = true;
             this.tactfulRB.Text = "لبق";
             this.tactfulRB.UseVisualStyleBackColor = true;
@@ -1639,7 +1712,7 @@
             this.cleverRB.Name = "cleverRB";
             this.cleverRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.cleverRB.Size = new System.Drawing.Size(56, 32);
-            this.cleverRB.TabIndex = 90;
+            this.cleverRB.TabIndex = 10000;
             this.cleverRB.TabStop = true;
             this.cleverRB.Text = "فطن";
             this.cleverRB.UseVisualStyleBackColor = true;
@@ -1654,7 +1727,7 @@
             this.thickRB.Name = "thickRB";
             this.thickRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.thickRB.Size = new System.Drawing.Size(60, 32);
-            this.thickRB.TabIndex = 89;
+            this.thickRB.TabIndex = 10000;
             this.thickRB.TabStop = true;
             this.thickRB.Text = "غليظ";
             this.thickRB.UseVisualStyleBackColor = true;
@@ -1666,13 +1739,13 @@
             this.musclesTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.musclesTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.musclesTextBox.ForeColor = System.Drawing.Color.White;
-            this.musclesTextBox.Location = new System.Drawing.Point(230, 298);
+            this.musclesTextBox.Location = new System.Drawing.Point(230, 294);
             this.musclesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.musclesTextBox.Multiline = true;
             this.musclesTextBox.Name = "musclesTextBox";
             this.musclesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.musclesTextBox.Size = new System.Drawing.Size(200, 26);
-            this.musclesTextBox.TabIndex = 962;
+            this.musclesTextBox.TabIndex = 14;
             // 
             // label33
             // 
@@ -1681,7 +1754,7 @@
             this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label33.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label33.Location = new System.Drawing.Point(447, 265);
+            this.label33.Location = new System.Drawing.Point(447, 261);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(48, 28);
             this.label33.TabIndex = 959;
@@ -1694,7 +1767,7 @@
             this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label35.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label35.Location = new System.Drawing.Point(447, 297);
+            this.label35.Location = new System.Drawing.Point(447, 293);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(97, 28);
             this.label35.TabIndex = 961;
@@ -1707,13 +1780,13 @@
             this.walkingTexBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.walkingTexBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.walkingTexBox.ForeColor = System.Drawing.Color.White;
-            this.walkingTexBox.Location = new System.Drawing.Point(230, 268);
+            this.walkingTexBox.Location = new System.Drawing.Point(230, 264);
             this.walkingTexBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.walkingTexBox.Multiline = true;
             this.walkingTexBox.Name = "walkingTexBox";
             this.walkingTexBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.walkingTexBox.Size = new System.Drawing.Size(200, 26);
-            this.walkingTexBox.TabIndex = 960;
+            this.walkingTexBox.TabIndex = 13;
             // 
             // label30
             // 
@@ -1722,7 +1795,7 @@
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label30.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label30.Location = new System.Drawing.Point(855, 128);
+            this.label30.Location = new System.Drawing.Point(855, 157);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(57, 28);
             this.label30.TabIndex = 951;
@@ -1735,13 +1808,13 @@
             this.nationalityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nationalityTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nationalityTextBox.ForeColor = System.Drawing.Color.White;
-            this.nationalityTextBox.Location = new System.Drawing.Point(638, 129);
+            this.nationalityTextBox.Location = new System.Drawing.Point(638, 159);
             this.nationalityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nationalityTextBox.Multiline = true;
             this.nationalityTextBox.Name = "nationalityTextBox";
             this.nationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nationalityTextBox.Size = new System.Drawing.Size(200, 26);
-            this.nationalityTextBox.TabIndex = 952;
+            this.nationalityTextBox.TabIndex = 3;
             // 
             // label4
             // 
@@ -1756,45 +1829,6 @@
             this.label4.TabIndex = 950;
             this.label4.Text = "تاريخ الميلاد";
             // 
-            // birthDayTP
-            // 
-            this.birthDayTP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.birthDayTP.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.birthDayTP.CustomFormat = "yyyy-MM-dd";
-            this.birthDayTP.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.birthDayTP.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
-            this.birthDayTP.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.birthDayTP.Location = new System.Drawing.Point(10, 133);
-            this.birthDayTP.Name = "birthDayTP";
-            this.birthDayTP.Size = new System.Drawing.Size(158, 39);
-            this.birthDayTP.TabIndex = 949;
-            this.birthDayTP.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
-            // dateDTP
-            // 
-            this.dateDTP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.dateDTP.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.dateDTP.CustomFormat = "yyyy-MM-dd";
-            this.dateDTP.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dateDTP.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
-            this.dateDTP.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateDTP.Location = new System.Drawing.Point(10, 56);
-            this.dateDTP.Name = "dateDTP";
-            this.dateDTP.Size = new System.Drawing.Size(158, 39);
-            this.dateDTP.TabIndex = 947;
-            // 
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -1802,7 +1836,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label5.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label5.Location = new System.Drawing.Point(855, 26);
+            this.label5.Location = new System.Drawing.Point(855, 25);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 28);
             this.label5.TabIndex = 399;
@@ -1817,11 +1851,11 @@
             this.maritalStatusGB.Controls.Add(this.divorcedRB);
             this.maritalStatusGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.maritalStatusGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.maritalStatusGB.Location = new System.Drawing.Point(209, 329);
+            this.maritalStatusGB.Location = new System.Drawing.Point(10, 391);
             this.maritalStatusGB.Name = "maritalStatusGB";
             this.maritalStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.maritalStatusGB.Size = new System.Drawing.Size(305, 64);
-            this.maritalStatusGB.TabIndex = 946;
+            this.maritalStatusGB.TabIndex = 18;
             this.maritalStatusGB.TabStop = false;
             this.maritalStatusGB.Text = "الحالة الاجتماعية";
             // 
@@ -1835,7 +1869,7 @@
             this.singleRB.Name = "singleRB";
             this.singleRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.singleRB.Size = new System.Drawing.Size(80, 32);
-            this.singleRB.TabIndex = 92;
+            this.singleRB.TabIndex = 0;
             this.singleRB.TabStop = true;
             this.singleRB.Text = "أعزب";
             this.singleRB.UseVisualStyleBackColor = false;
@@ -1851,7 +1885,7 @@
             this.marriedRB.Name = "marriedRB";
             this.marriedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.marriedRB.Size = new System.Drawing.Size(79, 32);
-            this.marriedRB.TabIndex = 91;
+            this.marriedRB.TabIndex = 10000;
             this.marriedRB.TabStop = true;
             this.marriedRB.Text = "متزوج";
             this.marriedRB.UseVisualStyleBackColor = false;
@@ -1867,7 +1901,7 @@
             this.separatedRB.Name = "separatedRB";
             this.separatedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.separatedRB.Size = new System.Drawing.Size(73, 32);
-            this.separatedRB.TabIndex = 90;
+            this.separatedRB.TabIndex = 0;
             this.separatedRB.TabStop = true;
             this.separatedRB.Text = "منفصل";
             this.separatedRB.UseVisualStyleBackColor = true;
@@ -1882,7 +1916,7 @@
             this.divorcedRB.Name = "divorcedRB";
             this.divorcedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.divorcedRB.Size = new System.Drawing.Size(67, 32);
-            this.divorcedRB.TabIndex = 89;
+            this.divorcedRB.TabIndex = 10000;
             this.divorcedRB.TabStop = true;
             this.divorcedRB.Text = "مطلق";
             this.divorcedRB.UseVisualStyleBackColor = true;
@@ -1901,7 +1935,7 @@
             this.SSNTextBox.Name = "SSNTextBox";
             this.SSNTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.SSNTextBox.Size = new System.Drawing.Size(200, 26);
-            this.SSNTextBox.TabIndex = 400;
+            this.SSNTextBox.TabIndex = 0;
             this.SSNTextBox.TextChanged += new System.EventHandler(this.SSNTextBox_TextChanged);
             // 
             // groupBox8
@@ -1911,11 +1945,11 @@
             this.groupBox8.Controls.Add(this.teenRB);
             this.groupBox8.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.groupBox8.Location = new System.Drawing.Point(11, 253);
+            this.groupBox8.Location = new System.Drawing.Point(11, 249);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox8.Size = new System.Drawing.Size(157, 64);
-            this.groupBox8.TabIndex = 945;
+            this.groupBox8.TabIndex = 16;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "الفئة";
             // 
@@ -1928,7 +1962,7 @@
             this.adultRB.Name = "adultRB";
             this.adultRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.adultRB.Size = new System.Drawing.Size(63, 32);
-            this.adultRB.TabIndex = 90;
+            this.adultRB.TabIndex = 0;
             this.adultRB.TabStop = true;
             this.adultRB.Text = "بالغ/ة";
             this.adultRB.UseVisualStyleBackColor = true;
@@ -1943,7 +1977,7 @@
             this.teenRB.Name = "teenRB";
             this.teenRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.teenRB.Size = new System.Drawing.Size(72, 32);
-            this.teenRB.TabIndex = 89;
+            this.teenRB.TabIndex = 10000;
             this.teenRB.TabStop = true;
             this.teenRB.Text = "قاصر";
             this.teenRB.UseVisualStyleBackColor = true;
@@ -1955,7 +1989,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label1.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label1.Location = new System.Drawing.Point(855, 60);
+            this.label1.Location = new System.Drawing.Point(855, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 28);
             this.label1.TabIndex = 401;
@@ -1972,7 +2006,7 @@
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox7.Size = new System.Drawing.Size(157, 64);
-            this.groupBox7.TabIndex = 944;
+            this.groupBox7.TabIndex = 15;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "الجنس";
             // 
@@ -1985,7 +2019,7 @@
             this.maleRB.Name = "maleRB";
             this.maleRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.maleRB.Size = new System.Drawing.Size(52, 32);
-            this.maleRB.TabIndex = 90;
+            this.maleRB.TabIndex = 0;
             this.maleRB.TabStop = true;
             this.maleRB.Text = "ذكر";
             this.maleRB.UseVisualStyleBackColor = true;
@@ -2001,7 +2035,7 @@
             this.femaleRB.Name = "femaleRB";
             this.femaleRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.femaleRB.Size = new System.Drawing.Size(55, 32);
-            this.femaleRB.TabIndex = 89;
+            this.femaleRB.TabIndex = 10000;
             this.femaleRB.TabStop = true;
             this.femaleRB.Text = "أنثى";
             this.femaleRB.UseVisualStyleBackColor = true;
@@ -2013,13 +2047,13 @@
             this.nameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nameTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameTextBox.ForeColor = System.Drawing.Color.White;
-            this.nameTextBox.Location = new System.Drawing.Point(638, 61);
+            this.nameTextBox.Location = new System.Drawing.Point(638, 60);
             this.nameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nameTextBox.Multiline = true;
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nameTextBox.Size = new System.Drawing.Size(200, 26);
-            this.nameTextBox.TabIndex = 402;
+            this.nameTextBox.TabIndex = 1;
             // 
             // label2
             // 
@@ -2028,7 +2062,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label2.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label2.Location = new System.Drawing.Point(855, 94);
+            this.label2.Location = new System.Drawing.Point(855, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 28);
             this.label2.TabIndex = 403;
@@ -2037,17 +2071,19 @@
             // ageTextBox
             // 
             this.ageTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ageTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.ageTextBox.BackColor = System.Drawing.Color.Gray;
             this.ageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ageTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageTextBox.ForeColor = System.Drawing.Color.White;
-            this.ageTextBox.Location = new System.Drawing.Point(638, 95);
+            this.ageTextBox.Location = new System.Drawing.Point(638, 93);
             this.ageTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ageTextBox.Multiline = true;
             this.ageTextBox.Name = "ageTextBox";
+            this.ageTextBox.ReadOnly = true;
             this.ageTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ageTextBox.Size = new System.Drawing.Size(200, 26);
-            this.ageTextBox.TabIndex = 404;
+            this.ageTextBox.TabIndex = 2;
+            this.ageTextBox.TabStop = false;
             // 
             // label34
             // 
@@ -2090,7 +2126,7 @@
             this.currentComplainTextBox.Name = "currentComplainTextBox";
             this.currentComplainTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.currentComplainTextBox.Size = new System.Drawing.Size(449, 128);
-            this.currentComplainTextBox.TabIndex = 974;
+            this.currentComplainTextBox.TabIndex = 2;
             // 
             // purposeGB
             // 
@@ -2107,7 +2143,7 @@
             this.purposeGB.Name = "purposeGB";
             this.purposeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.purposeGB.Size = new System.Drawing.Size(958, 63);
-            this.purposeGB.TabIndex = 976;
+            this.purposeGB.TabIndex = 4;
             this.purposeGB.TabStop = false;
             this.purposeGB.Text = "غرض المقابلة";
             // 
@@ -2196,7 +2232,7 @@
             this.purposeFamilyRB.Name = "purposeFamilyRB";
             this.purposeFamilyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.purposeFamilyRB.Size = new System.Drawing.Size(65, 32);
-            this.purposeFamilyRB.TabIndex = 988;
+            this.purposeFamilyRB.TabIndex = 0;
             this.purposeFamilyRB.TabStop = true;
             this.purposeFamilyRB.Text = "أسرية";
             this.purposeFamilyRB.UseVisualStyleBackColor = true;
@@ -2225,7 +2261,7 @@
             this.anyInjuriesCB.Name = "anyInjuriesCB";
             this.anyInjuriesCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.anyInjuriesCB.Size = new System.Drawing.Size(277, 32);
-            this.anyInjuriesCB.TabIndex = 976;
+            this.anyInjuriesCB.TabIndex = 5;
             this.anyInjuriesCB.Text = "هل تعرض لأي حوادث أو إصابات؟";
             this.anyInjuriesCB.UseVisualStyleBackColor = true;
             this.anyInjuriesCB.CheckedChanged += new System.EventHandler(this.anyInjuriesCB_CheckedChanged);
@@ -2247,24 +2283,9 @@
             this.accidentsGB.Name = "accidentsGB";
             this.accidentsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.accidentsGB.Size = new System.Drawing.Size(960, 232);
-            this.accidentsGB.TabIndex = 977;
+            this.accidentsGB.TabIndex = 6;
             this.accidentsGB.TabStop = false;
             this.accidentsGB.Text = "الحوادث والإصابات";
-            // 
-            // accidentsBrush
-            // 
-            this.accidentsBrush.FlatAppearance.BorderSize = 0;
-            this.accidentsBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.accidentsBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.accidentsBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.accidentsBrush.Location = new System.Drawing.Point(386, 161);
-            this.accidentsBrush.Name = "accidentsBrush";
-            this.accidentsBrush.Size = new System.Drawing.Size(55, 55);
-            this.accidentsBrush.TabIndex = 993;
-            this.accidentsBrush.UseVisualStyleBackColor = false;
-            this.accidentsBrush.Click += new System.EventHandler(this.accidentsBrush_Click);
-            this.accidentsBrush.MouseLeave += new System.EventHandler(this.accidentsBrush_MouseLeave);
-            this.accidentsBrush.MouseHover += new System.EventHandler(this.accidentsBrush_MouseHover);
             // 
             // injuryDetailsTextBox
             // 
@@ -2279,7 +2300,7 @@
             this.injuryDetailsTextBox.Name = "injuryDetailsTextBox";
             this.injuryDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.injuryDetailsTextBox.Size = new System.Drawing.Size(273, 89);
-            this.injuryDetailsTextBox.TabIndex = 967;
+            this.injuryDetailsTextBox.TabIndex = 1;
             // 
             // label22
             // 
@@ -2307,7 +2328,7 @@
             this.fracturesTextBox.Name = "fracturesTextBox";
             this.fracturesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fracturesTextBox.Size = new System.Drawing.Size(273, 57);
-            this.fracturesTextBox.TabIndex = 965;
+            this.fracturesTextBox.TabIndex = 2;
             // 
             // label20
             // 
@@ -2335,7 +2356,7 @@
             this.yearInjuredCB.Name = "yearInjuredCB";
             this.yearInjuredCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yearInjuredCB.Size = new System.Drawing.Size(148, 26);
-            this.yearInjuredCB.TabIndex = 961;
+            this.yearInjuredCB.TabIndex = 0;
             // 
             // label21
             // 
@@ -2353,34 +2374,34 @@
             // injuriesDGV
             // 
             this.injuriesDGV.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle69.Font = new System.Drawing.Font("Sitka Heading", 11F);
-            dataGridViewCellStyle69.ForeColor = System.Drawing.Color.White;
-            this.injuriesDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle75.Font = new System.Drawing.Font("Sitka Heading", 11F);
+            dataGridViewCellStyle75.ForeColor = System.Drawing.Color.White;
+            this.injuriesDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle75;
             this.injuriesDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.injuriesDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.injuriesDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.injuriesDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle70.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.injuriesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle76.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.injuriesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle76;
             this.injuriesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.injuriesDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.C0,
             this.C1,
             this.Column1});
-            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle71.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.injuriesDGV.DefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle77.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.injuriesDGV.DefaultCellStyle = dataGridViewCellStyle77;
             this.injuriesDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.injuriesDGV.GridColor = System.Drawing.Color.White;
             this.injuriesDGV.Location = new System.Drawing.Point(6, 20);
@@ -2388,18 +2409,19 @@
             this.injuriesDGV.MultiSelect = false;
             this.injuriesDGV.Name = "injuriesDGV";
             this.injuriesDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle72.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.injuriesDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle78.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle78.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.injuriesDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle78;
             this.injuriesDGV.RowHeadersWidth = 30;
             this.injuriesDGV.RowTemplate.Height = 26;
             this.injuriesDGV.Size = new System.Drawing.Size(573, 131);
             this.injuriesDGV.TabIndex = 959;
+            this.injuriesDGV.TabStop = false;
             // 
             // C0
             // 
@@ -2418,20 +2440,6 @@
             this.Column1.HeaderText = "الكسور والأضرار الدائمة";
             this.Column1.Name = "Column1";
             // 
-            // addInjuryButton
-            // 
-            this.addInjuryButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addInjuryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addInjuryButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addInjuryButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addInjuryButton.Location = new System.Drawing.Point(448, 167);
-            this.addInjuryButton.Name = "addInjuryButton";
-            this.addInjuryButton.Size = new System.Drawing.Size(135, 38);
-            this.addInjuryButton.TabIndex = 966;
-            this.addInjuryButton.Text = "إضافة";
-            this.addInjuryButton.UseVisualStyleBackColor = false;
-            this.addInjuryButton.Click += new System.EventHandler(this.addInjuryButton_Click);
-            // 
             // transferredFromGB
             // 
             this.transferredFromGB.Controls.Add(this.convertedFromOthersRB);
@@ -2446,7 +2454,7 @@
             this.transferredFromGB.Name = "transferredFromGB";
             this.transferredFromGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.transferredFromGB.Size = new System.Drawing.Size(958, 63);
-            this.transferredFromGB.TabIndex = 975;
+            this.transferredFromGB.TabIndex = 3;
             this.transferredFromGB.TabStop = false;
             this.transferredFromGB.Text = "تحويل من";
             // 
@@ -2519,7 +2527,7 @@
             this.convertedFromGeneralDoctorRB.Name = "convertedFromGeneralDoctorRB";
             this.convertedFromGeneralDoctorRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.convertedFromGeneralDoctorRB.Size = new System.Drawing.Size(147, 32);
-            this.convertedFromGeneralDoctorRB.TabIndex = 90;
+            this.convertedFromGeneralDoctorRB.TabIndex = 0;
             this.convertedFromGeneralDoctorRB.TabStop = true;
             this.convertedFromGeneralDoctorRB.Text = "طبيب عام";
             this.convertedFromGeneralDoctorRB.UseVisualStyleBackColor = true;
@@ -2566,7 +2574,7 @@
             this.EducationLevelGroupBox.Name = "EducationLevelGroupBox";
             this.EducationLevelGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EducationLevelGroupBox.Size = new System.Drawing.Size(493, 298);
-            this.EducationLevelGroupBox.TabIndex = 972;
+            this.EducationLevelGroupBox.TabIndex = 1;
             this.EducationLevelGroupBox.TabStop = false;
             this.EducationLevelGroupBox.Text = "المستوى العلمي";
             // 
@@ -2578,7 +2586,7 @@
             this.leftSchoolCB.Name = "leftSchoolCB";
             this.leftSchoolCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.leftSchoolCB.Size = new System.Drawing.Size(127, 32);
-            this.leftSchoolCB.TabIndex = 948;
+            this.leftSchoolCB.TabIndex = 2;
             this.leftSchoolCB.Text = "ترك الدراسة؟";
             this.leftSchoolCB.UseVisualStyleBackColor = true;
             this.leftSchoolCB.CheckedChanged += new System.EventHandler(this.leftSchoolCB_CheckedChanged);
@@ -2596,7 +2604,7 @@
             this.EDwifeGroupBox.Name = "EDwifeGroupBox";
             this.EDwifeGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.EDwifeGroupBox.Size = new System.Drawing.Size(467, 131);
-            this.EDwifeGroupBox.TabIndex = 943;
+            this.EDwifeGroupBox.TabIndex = 4;
             this.EDwifeGroupBox.TabStop = false;
             this.EDwifeGroupBox.Text = "الزوجة / الزوج";
             // 
@@ -2610,7 +2618,7 @@
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox6.Size = new System.Drawing.Size(204, 64);
-            this.groupBox6.TabIndex = 943;
+            this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "تعمل / يعمل";
             // 
@@ -2624,7 +2632,7 @@
             this.wifeWorkingRB.Name = "wifeWorkingRB";
             this.wifeWorkingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.wifeWorkingRB.Size = new System.Drawing.Size(48, 32);
-            this.wifeWorkingRB.TabIndex = 90;
+            this.wifeWorkingRB.TabIndex = 0;
             this.wifeWorkingRB.TabStop = true;
             this.wifeWorkingRB.Text = "نعم";
             this.wifeWorkingRB.UseVisualStyleBackColor = true;
@@ -2656,7 +2664,7 @@
             this.wifeGraduationAgeTextBox.Name = "wifeGraduationAgeTextBox";
             this.wifeGraduationAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.wifeGraduationAgeTextBox.Size = new System.Drawing.Size(80, 26);
-            this.wifeGraduationAgeTextBox.TabIndex = 951;
+            this.wifeGraduationAgeTextBox.TabIndex = 1;
             // 
             // wifeEducationLevelTextBox
             // 
@@ -2670,7 +2678,7 @@
             this.wifeEducationLevelTextBox.Name = "wifeEducationLevelTextBox";
             this.wifeEducationLevelTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.wifeEducationLevelTextBox.Size = new System.Drawing.Size(200, 26);
-            this.wifeEducationLevelTextBox.TabIndex = 949;
+            this.wifeEducationLevelTextBox.TabIndex = 0;
             // 
             // label13
             // 
@@ -2709,7 +2717,7 @@
             this.leftSchoolGroupBox.Name = "leftSchoolGroupBox";
             this.leftSchoolGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.leftSchoolGroupBox.Size = new System.Drawing.Size(288, 98);
-            this.leftSchoolGroupBox.TabIndex = 942;
+            this.leftSchoolGroupBox.TabIndex = 3;
             this.leftSchoolGroupBox.TabStop = false;
             this.leftSchoolGroupBox.Text = "أسباب ترك الدراسة";
             // 
@@ -2725,7 +2733,7 @@
             this.LSothersTextBox.Name = "LSothersTextBox";
             this.LSothersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.LSothersTextBox.Size = new System.Drawing.Size(200, 26);
-            this.LSothersTextBox.TabIndex = 941;
+            this.LSothersTextBox.TabIndex = 1;
             // 
             // label12
             // 
@@ -2765,7 +2773,7 @@
             this.LSrepitiveFailreRB.Name = "LSrepitiveFailreRB";
             this.LSrepitiveFailreRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.LSrepitiveFailreRB.Size = new System.Drawing.Size(129, 32);
-            this.LSrepitiveFailreRB.TabIndex = 90;
+            this.LSrepitiveFailreRB.TabIndex = 0;
             this.LSrepitiveFailreRB.TabStop = true;
             this.LSrepitiveFailreRB.Text = "الرسوب المتكرر";
             this.LSrepitiveFailreRB.UseVisualStyleBackColor = true;
@@ -2797,7 +2805,7 @@
             this.graduationAgeTextBox.Name = "graduationAgeTextBox";
             this.graduationAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.graduationAgeTextBox.Size = new System.Drawing.Size(80, 26);
-            this.graduationAgeTextBox.TabIndex = 947;
+            this.graduationAgeTextBox.TabIndex = 1;
             // 
             // label10
             // 
@@ -2823,7 +2831,7 @@
             this.educationalLevelTextBox.Name = "educationalLevelTextBox";
             this.educationalLevelTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.educationalLevelTextBox.Size = new System.Drawing.Size(200, 26);
-            this.educationalLevelTextBox.TabIndex = 945;
+            this.educationalLevelTextBox.TabIndex = 0;
             // 
             // label9
             // 
@@ -2854,7 +2862,7 @@
             this.AttendedWithGroupBox.Name = "AttendedWithGroupBox";
             this.AttendedWithGroupBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.AttendedWithGroupBox.Size = new System.Drawing.Size(448, 135);
-            this.AttendedWithGroupBox.TabIndex = 969;
+            this.AttendedWithGroupBox.TabIndex = 0;
             this.AttendedWithGroupBox.TabStop = false;
             this.AttendedWithGroupBox.Text = "حضر برفقة";
             // 
@@ -2970,7 +2978,7 @@
             this.AtSingleRB.Name = "AtSingleRB";
             this.AtSingleRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.AtSingleRB.Size = new System.Drawing.Size(77, 32);
-            this.AtSingleRB.TabIndex = 90;
+            this.AtSingleRB.TabIndex = 0;
             this.AtSingleRB.TabStop = true;
             this.AtSingleRB.Text = "وحده";
             this.AtSingleRB.UseVisualStyleBackColor = true;
@@ -2996,7 +3004,7 @@
             this.TabPage1_0.Location = new System.Drawing.Point(4, 22);
             this.TabPage1_0.Name = "TabPage1_0";
             this.TabPage1_0.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage1_0.Size = new System.Drawing.Size(978, 827);
+            this.TabPage1_0.Size = new System.Drawing.Size(978, 1035);
             this.TabPage1_0.TabIndex = 1;
             this.TabPage1_0.Text = "تحليل الشخصية";
             // 
@@ -3050,7 +3058,7 @@
             this.professionalRelationshipsGB.Name = "professionalRelationshipsGB";
             this.professionalRelationshipsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.professionalRelationshipsGB.Size = new System.Drawing.Size(348, 220);
-            this.professionalRelationshipsGB.TabIndex = 956;
+            this.professionalRelationshipsGB.TabIndex = 2;
             this.professionalRelationshipsGB.TabStop = false;
             this.professionalRelationshipsGB.Text = "العلاقات المهنية والوظيفية";
             // 
@@ -3065,7 +3073,7 @@
             this.regularityInjobGB.Name = "regularityInjobGB";
             this.regularityInjobGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.regularityInjobGB.Size = new System.Drawing.Size(299, 60);
-            this.regularityInjobGB.TabIndex = 946;
+            this.regularityInjobGB.TabIndex = 2;
             this.regularityInjobGB.TabStop = false;
             this.regularityInjobGB.Text = "الانتظام في العمل";
             // 
@@ -3094,7 +3102,7 @@
             this.regulatedRB.Name = "regulatedRB";
             this.regulatedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.regulatedRB.Size = new System.Drawing.Size(64, 32);
-            this.regulatedRB.TabIndex = 90;
+            this.regulatedRB.TabIndex = 0;
             this.regulatedRB.TabStop = true;
             this.regulatedRB.Text = "منتظم";
             this.regulatedRB.UseVisualStyleBackColor = true;
@@ -3125,7 +3133,7 @@
             this.relationsWithHeadsGB.Location = new System.Drawing.Point(50, 26);
             this.relationsWithHeadsGB.Name = "relationsWithHeadsGB";
             this.relationsWithHeadsGB.Size = new System.Drawing.Size(258, 61);
-            this.relationsWithHeadsGB.TabIndex = 945;
+            this.relationsWithHeadsGB.TabIndex = 0;
             this.relationsWithHeadsGB.TabStop = false;
             this.relationsWithHeadsGB.Text = "العلاقة بالرؤساء";
             // 
@@ -3154,7 +3162,7 @@
             this.bossRelGoodRB.Name = "bossRelGoodRB";
             this.bossRelGoodRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.bossRelGoodRB.Size = new System.Drawing.Size(56, 32);
-            this.bossRelGoodRB.TabIndex = 90;
+            this.bossRelGoodRB.TabIndex = 0;
             this.bossRelGoodRB.TabStop = true;
             this.bossRelGoodRB.Text = "جيدة";
             this.bossRelGoodRB.UseVisualStyleBackColor = true;
@@ -3185,7 +3193,7 @@
             this.relationsWithCoworkersGB.Name = "relationsWithCoworkersGB";
             this.relationsWithCoworkersGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.relationsWithCoworkersGB.Size = new System.Drawing.Size(258, 63);
-            this.relationsWithCoworkersGB.TabIndex = 945;
+            this.relationsWithCoworkersGB.TabIndex = 1;
             this.relationsWithCoworkersGB.TabStop = false;
             this.relationsWithCoworkersGB.Text = "العلاقة بالزملاء في العمل";
             // 
@@ -3214,7 +3222,7 @@
             this.coworkersRelGoodRB.Name = "coworkersRelGoodRB";
             this.coworkersRelGoodRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.coworkersRelGoodRB.Size = new System.Drawing.Size(56, 32);
-            this.coworkersRelGoodRB.TabIndex = 93;
+            this.coworkersRelGoodRB.TabIndex = 0;
             this.coworkersRelGoodRB.TabStop = true;
             this.coworkersRelGoodRB.Text = "جيدة";
             this.coworkersRelGoodRB.UseVisualStyleBackColor = true;
@@ -3250,7 +3258,7 @@
             this.economicGB.Name = "economicGB";
             this.economicGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.economicGB.Size = new System.Drawing.Size(595, 321);
-            this.economicGB.TabIndex = 937;
+            this.economicGB.TabIndex = 1;
             this.economicGB.TabStop = false;
             this.economicGB.Text = "الوضع الاقتصادي";
             // 
@@ -3265,7 +3273,7 @@
             this.haveSingleRoomGB.Name = "haveSingleRoomGB";
             this.haveSingleRoomGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.haveSingleRoomGB.Size = new System.Drawing.Size(428, 64);
-            this.haveSingleRoomGB.TabIndex = 978;
+            this.haveSingleRoomGB.TabIndex = 6;
             this.haveSingleRoomGB.TabStop = false;
             this.haveSingleRoomGB.Text = "هل يملك غرفة منفصلة؟";
             // 
@@ -3281,7 +3289,7 @@
             this.shareRoomWithTextBox.Name = "shareRoomWithTextBox";
             this.shareRoomWithTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.shareRoomWithTextBox.Size = new System.Drawing.Size(304, 31);
-            this.shareRoomWithTextBox.TabIndex = 969;
+            this.shareRoomWithTextBox.TabIndex = 2;
             this.shareRoomWithTextBox.Text = "مع من يشارك غرفته؟";
             this.shareRoomWithTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.shareRoomWithTextBox.Enter += new System.EventHandler(this.shareRoomWithTextBox_Enter);
@@ -3297,7 +3305,7 @@
             this.loneRoomRB.Name = "loneRoomRB";
             this.loneRoomRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.loneRoomRB.Size = new System.Drawing.Size(48, 32);
-            this.loneRoomRB.TabIndex = 90;
+            this.loneRoomRB.TabIndex = 0;
             this.loneRoomRB.TabStop = true;
             this.loneRoomRB.Text = "نعم";
             this.loneRoomRB.UseVisualStyleBackColor = true;
@@ -3313,7 +3321,7 @@
             this.noLoneRoomRB.Name = "noLoneRoomRB";
             this.noLoneRoomRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noLoneRoomRB.Size = new System.Drawing.Size(40, 32);
-            this.noLoneRoomRB.TabIndex = 89;
+            this.noLoneRoomRB.TabIndex = 1;
             this.noLoneRoomRB.TabStop = true;
             this.noLoneRoomRB.Text = "لا";
             this.noLoneRoomRB.UseVisualStyleBackColor = true;
@@ -3344,7 +3352,7 @@
             this.bedroomsCountTextBox.Name = "bedroomsCountTextBox";
             this.bedroomsCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.bedroomsCountTextBox.Size = new System.Drawing.Size(102, 26);
-            this.bedroomsCountTextBox.TabIndex = 977;
+            this.bedroomsCountTextBox.TabIndex = 5;
             // 
             // homeTypeGB
             // 
@@ -3357,7 +3365,7 @@
             this.homeTypeGB.Name = "homeTypeGB";
             this.homeTypeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.homeTypeGB.Size = new System.Drawing.Size(256, 64);
-            this.homeTypeGB.TabIndex = 958;
+            this.homeTypeGB.TabIndex = 3;
             this.homeTypeGB.TabStop = false;
             this.homeTypeGB.Text = "نوع السكن";
             // 
@@ -3371,7 +3379,7 @@
             this.familyHouseRB.Name = "familyHouseRB";
             this.familyHouseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyHouseRB.Size = new System.Drawing.Size(92, 32);
-            this.familyHouseRB.TabIndex = 91;
+            this.familyHouseRB.TabIndex = 2;
             this.familyHouseRB.TabStop = true;
             this.familyHouseRB.Text = "بيت شعبي";
             this.familyHouseRB.UseVisualStyleBackColor = true;
@@ -3386,7 +3394,7 @@
             this.independentVillaRB.Name = "independentVillaRB";
             this.independentVillaRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.independentVillaRB.Size = new System.Drawing.Size(94, 32);
-            this.independentVillaRB.TabIndex = 90;
+            this.independentVillaRB.TabIndex = 0;
             this.independentVillaRB.TabStop = true;
             this.independentVillaRB.Text = "فيلا مستقلة";
             this.independentVillaRB.UseVisualStyleBackColor = true;
@@ -3401,7 +3409,7 @@
             this.apartmentRB.Name = "apartmentRB";
             this.apartmentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.apartmentRB.Size = new System.Drawing.Size(52, 32);
-            this.apartmentRB.TabIndex = 89;
+            this.apartmentRB.TabIndex = 1;
             this.apartmentRB.TabStop = true;
             this.apartmentRB.Text = "شقة";
             this.apartmentRB.UseVisualStyleBackColor = true;
@@ -3420,7 +3428,7 @@
             this.houseGB.Name = "houseGB";
             this.houseGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.houseGB.Size = new System.Drawing.Size(583, 64);
-            this.houseGB.TabIndex = 945;
+            this.houseGB.TabIndex = 2;
             this.houseGB.TabStop = false;
             this.houseGB.Text = "السكن";
             // 
@@ -3436,7 +3444,7 @@
             this.otherHomeTextBox.Name = "otherHomeTextBox";
             this.otherHomeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherHomeTextBox.Size = new System.Drawing.Size(166, 26);
-            this.otherHomeTextBox.TabIndex = 957;
+            this.otherHomeTextBox.TabIndex = 5;
             // 
             // otherHomeRB
             // 
@@ -3448,7 +3456,7 @@
             this.otherHomeRB.Name = "otherHomeRB";
             this.otherHomeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherHomeRB.Size = new System.Drawing.Size(65, 32);
-            this.otherHomeRB.TabIndex = 93;
+            this.otherHomeRB.TabIndex = 4;
             this.otherHomeRB.TabStop = true;
             this.otherHomeRB.Text = "أخرى";
             this.otherHomeRB.UseVisualStyleBackColor = true;
@@ -3464,7 +3472,7 @@
             this.givenFromStateRB.Name = "givenFromStateRB";
             this.givenFromStateRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.givenFromStateRB.Size = new System.Drawing.Size(119, 32);
-            this.givenFromStateRB.TabIndex = 92;
+            this.givenFromStateRB.TabIndex = 3;
             this.givenFromStateRB.TabStop = true;
             this.givenFromStateRB.Text = "منحة من الدولة";
             this.givenFromStateRB.UseVisualStyleBackColor = true;
@@ -3479,7 +3487,7 @@
             this.familyHomeRB.Name = "familyHomeRB";
             this.familyHomeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyHomeRB.Size = new System.Drawing.Size(106, 32);
-            this.familyHomeRB.TabIndex = 91;
+            this.familyHomeRB.TabIndex = 2;
             this.familyHomeRB.TabStop = true;
             this.familyHomeRB.Text = "بمنزل العائلة";
             this.familyHomeRB.UseVisualStyleBackColor = true;
@@ -3494,7 +3502,7 @@
             this.ownedRB.Name = "ownedRB";
             this.ownedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ownedRB.Size = new System.Drawing.Size(52, 32);
-            this.ownedRB.TabIndex = 90;
+            this.ownedRB.TabIndex = 0;
             this.ownedRB.TabStop = true;
             this.ownedRB.Text = "ملك";
             this.ownedRB.UseVisualStyleBackColor = true;
@@ -3509,7 +3517,7 @@
             this.rentRB.Name = "rentRB";
             this.rentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.rentRB.Size = new System.Drawing.Size(62, 32);
-            this.rentRB.TabIndex = 89;
+            this.rentRB.TabIndex = 1;
             this.rentRB.TabStop = true;
             this.rentRB.Text = "إيجار";
             this.rentRB.UseVisualStyleBackColor = true;
@@ -3525,7 +3533,7 @@
             this.financialProblemsGB.Name = "financialProblemsGB";
             this.financialProblemsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.financialProblemsGB.Size = new System.Drawing.Size(319, 64);
-            this.financialProblemsGB.TabIndex = 957;
+            this.financialProblemsGB.TabIndex = 4;
             this.financialProblemsGB.TabStop = false;
             this.financialProblemsGB.Text = "قرض بنكي / مشكلات مالية";
             // 
@@ -3541,7 +3549,7 @@
             this.financialProblemsTextBox.Name = "financialProblemsTextBox";
             this.financialProblemsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.financialProblemsTextBox.Size = new System.Drawing.Size(198, 26);
-            this.financialProblemsTextBox.TabIndex = 956;
+            this.financialProblemsTextBox.TabIndex = 2;
             // 
             // yesFPRB
             // 
@@ -3553,7 +3561,7 @@
             this.yesFPRB.Name = "yesFPRB";
             this.yesFPRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yesFPRB.Size = new System.Drawing.Size(48, 32);
-            this.yesFPRB.TabIndex = 90;
+            this.yesFPRB.TabIndex = 0;
             this.yesFPRB.TabStop = true;
             this.yesFPRB.Text = "نعم";
             this.yesFPRB.UseVisualStyleBackColor = true;
@@ -3569,7 +3577,7 @@
             this.noFPRB.Name = "noFPRB";
             this.noFPRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noFPRB.Size = new System.Drawing.Size(40, 32);
-            this.noFPRB.TabIndex = 89;
+            this.noFPRB.TabIndex = 1;
             this.noFPRB.TabStop = true;
             this.noFPRB.Text = "لا";
             this.noFPRB.UseVisualStyleBackColor = true;
@@ -3585,7 +3593,7 @@
             this.anotherIncomeGB.Name = "anotherIncomeGB";
             this.anotherIncomeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.anotherIncomeGB.Size = new System.Drawing.Size(319, 64);
-            this.anotherIncomeGB.TabIndex = 945;
+            this.anotherIncomeGB.TabIndex = 1;
             this.anotherIncomeGB.TabStop = false;
             this.anotherIncomeGB.Text = "مصدر دخل آخر؟";
             // 
@@ -3601,7 +3609,7 @@
             this.anotherIncomeTextBox.Name = "anotherIncomeTextBox";
             this.anotherIncomeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.anotherIncomeTextBox.Size = new System.Drawing.Size(198, 26);
-            this.anotherIncomeTextBox.TabIndex = 956;
+            this.anotherIncomeTextBox.TabIndex = 2;
             // 
             // yesAIRB
             // 
@@ -3613,7 +3621,7 @@
             this.yesAIRB.Name = "yesAIRB";
             this.yesAIRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yesAIRB.Size = new System.Drawing.Size(48, 32);
-            this.yesAIRB.TabIndex = 90;
+            this.yesAIRB.TabIndex = 0;
             this.yesAIRB.TabStop = true;
             this.yesAIRB.Text = "نعم";
             this.yesAIRB.UseVisualStyleBackColor = true;
@@ -3629,7 +3637,7 @@
             this.noAIRB.Name = "noAIRB";
             this.noAIRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noAIRB.Size = new System.Drawing.Size(40, 32);
-            this.noAIRB.TabIndex = 89;
+            this.noAIRB.TabIndex = 1;
             this.noAIRB.TabStop = true;
             this.noAIRB.Text = "لا";
             this.noAIRB.UseVisualStyleBackColor = true;
@@ -3645,7 +3653,7 @@
             this.economicStatusGB.Name = "economicStatusGB";
             this.economicStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.economicStatusGB.Size = new System.Drawing.Size(258, 64);
-            this.economicStatusGB.TabIndex = 944;
+            this.economicStatusGB.TabIndex = 0;
             this.economicStatusGB.TabStop = false;
             this.economicStatusGB.Text = "حالة الوضع الاقتصادي";
             // 
@@ -3659,7 +3667,7 @@
             this.excellentEconomicRB.Name = "excellentEconomicRB";
             this.excellentEconomicRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.excellentEconomicRB.Size = new System.Drawing.Size(62, 32);
-            this.excellentEconomicRB.TabIndex = 91;
+            this.excellentEconomicRB.TabIndex = 2;
             this.excellentEconomicRB.TabStop = true;
             this.excellentEconomicRB.Text = "ممتاز";
             this.excellentEconomicRB.UseVisualStyleBackColor = true;
@@ -3674,7 +3682,7 @@
             this.poorEconimicRB.Name = "poorEconimicRB";
             this.poorEconimicRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.poorEconimicRB.Size = new System.Drawing.Size(73, 32);
-            this.poorEconimicRB.TabIndex = 90;
+            this.poorEconimicRB.TabIndex = 0;
             this.poorEconimicRB.TabStop = true;
             this.poorEconimicRB.Text = "ضعيف";
             this.poorEconimicRB.UseVisualStyleBackColor = true;
@@ -3689,7 +3697,7 @@
             this.goodEconomicRB.Name = "goodEconomicRB";
             this.goodEconomicRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.goodEconomicRB.Size = new System.Drawing.Size(51, 32);
-            this.goodEconomicRB.TabIndex = 89;
+            this.goodEconomicRB.TabIndex = 1;
             this.goodEconomicRB.TabStop = true;
             this.goodEconomicRB.Text = "جيد";
             this.goodEconomicRB.UseVisualStyleBackColor = true;
@@ -3718,28 +3726,28 @@
             this.employersGB.Name = "employersGB";
             this.employersGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.employersGB.Size = new System.Drawing.Size(956, 344);
-            this.employersGB.TabIndex = 978;
+            this.employersGB.TabIndex = 3;
             this.employersGB.TabStop = false;
             this.employersGB.Text = "جهة العمل";
             // 
             // workDGV
             // 
             this.workDGV.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Sitka Heading", 11F);
-            dataGridViewCellStyle73.ForeColor = System.Drawing.Color.White;
-            this.workDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle79.Font = new System.Drawing.Font("Sitka Heading", 11F);
+            dataGridViewCellStyle79.ForeColor = System.Drawing.Color.White;
+            this.workDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle79;
             this.workDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.workDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.workDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.workDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle74.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.workDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle80.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle80.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle80.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle80.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle80.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.workDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle80;
             this.workDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.workDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn21,
@@ -3750,14 +3758,14 @@
             this.Column22,
             this.dataGridViewTextBoxColumn22,
             this.dataGridViewTextBoxColumn23});
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.workDGV.DefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle81.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle81.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.workDGV.DefaultCellStyle = dataGridViewCellStyle81;
             this.workDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.workDGV.GridColor = System.Drawing.Color.White;
             this.workDGV.Location = new System.Drawing.Point(6, 27);
@@ -3765,18 +3773,19 @@
             this.workDGV.MultiSelect = false;
             this.workDGV.Name = "workDGV";
             this.workDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle76.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.workDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle82.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle82.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.workDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle82;
             this.workDGV.RowHeadersWidth = 30;
             this.workDGV.RowTemplate.Height = 26;
             this.workDGV.Size = new System.Drawing.Size(573, 267);
             this.workDGV.TabIndex = 959;
+            this.workDGV.TabStop = false;
             this.workDGV.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.workDGV_RowsAdded);
             this.workDGV.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.workDGV_RowsRemoved);
             // 
@@ -3824,21 +3833,6 @@
             this.dataGridViewTextBoxColumn23.HeaderText = "إلى تاريخ";
             this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
             // 
-            // employersBrush
-            // 
-            this.employersBrush.FlatAppearance.BorderSize = 0;
-            this.employersBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.employersBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.employersBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.employersBrush.Location = new System.Drawing.Point(380, 290);
-            this.employersBrush.Name = "employersBrush";
-            this.employersBrush.Size = new System.Drawing.Size(64, 52);
-            this.employersBrush.TabIndex = 995;
-            this.employersBrush.UseVisualStyleBackColor = false;
-            this.employersBrush.Click += new System.EventHandler(this.employersBrush_Click);
-            this.employersBrush.MouseLeave += new System.EventHandler(this.employersBrush_MouseLeave);
-            this.employersBrush.MouseHover += new System.EventHandler(this.employersBrush_MouseHover);
-            // 
             // label18
             // 
             this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -3851,26 +3845,6 @@
             this.label18.Size = new System.Drawing.Size(114, 24);
             this.label18.TabIndex = 974;
             this.label18.Text = "عمر بداية العمل";
-            // 
-            // workToDate
-            // 
-            this.workToDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.workToDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workToDate.CustomFormat = "yyyy-MM-dd";
-            this.workToDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.workToDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.workToDate.Location = new System.Drawing.Point(589, 310);
-            this.workToDate.Name = "workToDate";
-            this.workToDate.Size = new System.Drawing.Size(128, 28);
-            this.workToDate.TabIndex = 971;
-            this.workToDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             // 
             // workStartAgeTextBox
             // 
@@ -3885,7 +3859,7 @@
             this.workStartAgeTextBox.Name = "workStartAgeTextBox";
             this.workStartAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.workStartAgeTextBox.Size = new System.Drawing.Size(74, 26);
-            this.workStartAgeTextBox.TabIndex = 975;
+            this.workStartAgeTextBox.TabIndex = 5;
             // 
             // label46
             // 
@@ -3912,7 +3886,7 @@
             this.miserableJobReasonTextBox.Name = "miserableJobReasonTextBox";
             this.miserableJobReasonTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.miserableJobReasonTextBox.Size = new System.Drawing.Size(355, 29);
-            this.miserableJobReasonTextBox.TabIndex = 957;
+            this.miserableJobReasonTextBox.TabIndex = 3;
             this.miserableJobReasonTextBox.Text = "التفاصيل";
             this.miserableJobReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.miserableJobReasonTextBox.Enter += new System.EventHandler(this.miserableJobReasonTextBox_Enter);
@@ -3926,7 +3900,7 @@
             this.miserableJobCB.Name = "miserableJobCB";
             this.miserableJobCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.miserableJobCB.Size = new System.Drawing.Size(190, 32);
-            this.miserableJobCB.TabIndex = 957;
+            this.miserableJobCB.TabIndex = 2;
             this.miserableJobCB.Text = "غير راضي عن العمل؟";
             this.miserableJobCB.UseVisualStyleBackColor = true;
             this.miserableJobCB.CheckedChanged += new System.EventHandler(this.miserableJobCB_CheckedChanged);
@@ -3944,26 +3918,6 @@
             this.label43.TabIndex = 969;
             this.label43.Text = "من تاريخ";
             // 
-            // workFromDate
-            // 
-            this.workFromDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.workFromDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.workFromDate.CustomFormat = "yyyy-MM-dd";
-            this.workFromDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.workFromDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.workFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.workFromDate.Location = new System.Drawing.Point(723, 310);
-            this.workFromDate.Name = "workFromDate";
-            this.workFromDate.Size = new System.Drawing.Size(123, 28);
-            this.workFromDate.TabIndex = 968;
-            this.workFromDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
             // workNatureGB
             // 
             this.workNatureGB.Controls.Add(this.shiftsRB);
@@ -3977,7 +3931,7 @@
             this.workNatureGB.Location = new System.Drawing.Point(589, 57);
             this.workNatureGB.Name = "workNatureGB";
             this.workNatureGB.Size = new System.Drawing.Size(362, 99);
-            this.workNatureGB.TabIndex = 956;
+            this.workNatureGB.TabIndex = 1;
             this.workNatureGB.TabStop = false;
             this.workNatureGB.Text = "طبيعة العمل";
             // 
@@ -3991,7 +3945,7 @@
             this.shiftsRB.Name = "shiftsRB";
             this.shiftsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.shiftsRB.Size = new System.Drawing.Size(68, 32);
-            this.shiftsRB.TabIndex = 957;
+            this.shiftsRB.TabIndex = 3;
             this.shiftsRB.TabStop = true;
             this.shiftsRB.Text = "شفتات";
             this.shiftsRB.UseVisualStyleBackColor = true;
@@ -4006,10 +3960,11 @@
             this.workingNatureOthersRB.Name = "workingNatureOthersRB";
             this.workingNatureOthersRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.workingNatureOthersRB.Size = new System.Drawing.Size(65, 32);
-            this.workingNatureOthersRB.TabIndex = 956;
+            this.workingNatureOthersRB.TabIndex = 4;
             this.workingNatureOthersRB.TabStop = true;
             this.workingNatureOthersRB.Text = "أخرى";
             this.workingNatureOthersRB.UseVisualStyleBackColor = true;
+            this.workingNatureOthersRB.CheckedChanged += new System.EventHandler(this.workingNatureOthersRB_CheckedChanged);
             // 
             // morningShiftsRB
             // 
@@ -4021,7 +3976,7 @@
             this.morningShiftsRB.Name = "morningShiftsRB";
             this.morningShiftsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.morningShiftsRB.Size = new System.Drawing.Size(129, 32);
-            this.morningShiftsRB.TabIndex = 97;
+            this.morningShiftsRB.TabIndex = 2;
             this.morningShiftsRB.TabStop = true;
             this.morningShiftsRB.Text = "مناوبات صباحية";
             this.morningShiftsRB.UseVisualStyleBackColor = true;
@@ -4038,7 +3993,7 @@
             this.workingNatureOthersTextBox.Name = "workingNatureOthersTextBox";
             this.workingNatureOthersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.workingNatureOthersTextBox.Size = new System.Drawing.Size(168, 26);
-            this.workingNatureOthersTextBox.TabIndex = 955;
+            this.workingNatureOthersTextBox.TabIndex = 5;
             this.workingNatureOthersTextBox.Leave += new System.EventHandler(this.workingNatureOthersTextBox_Leave);
             // 
             // officialHoursRB
@@ -4051,7 +4006,7 @@
             this.officialHoursRB.Name = "officialHoursRB";
             this.officialHoursRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.officialHoursRB.Size = new System.Drawing.Size(96, 32);
-            this.officialHoursRB.TabIndex = 96;
+            this.officialHoursRB.TabIndex = 0;
             this.officialHoursRB.TabStop = true;
             this.officialHoursRB.Text = "دوام رسمي";
             this.officialHoursRB.UseVisualStyleBackColor = true;
@@ -4066,7 +4021,7 @@
             this.nightShiftsRB.Name = "nightShiftsRB";
             this.nightShiftsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nightShiftsRB.Size = new System.Drawing.Size(107, 32);
-            this.nightShiftsRB.TabIndex = 95;
+            this.nightShiftsRB.TabIndex = 1;
             this.nightShiftsRB.TabStop = true;
             this.nightShiftsRB.Text = "مناوبات ليلية";
             this.nightShiftsRB.UseVisualStyleBackColor = true;
@@ -4084,21 +4039,7 @@
             this.notesWorkTextBox.Name = "notesWorkTextBox";
             this.notesWorkTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.notesWorkTextBox.Size = new System.Drawing.Size(280, 43);
-            this.notesWorkTextBox.TabIndex = 967;
-            // 
-            // addWorkDurationButton
-            // 
-            this.addWorkDurationButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addWorkDurationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addWorkDurationButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addWorkDurationButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addWorkDurationButton.Location = new System.Drawing.Point(448, 299);
-            this.addWorkDurationButton.Name = "addWorkDurationButton";
-            this.addWorkDurationButton.Size = new System.Drawing.Size(135, 38);
-            this.addWorkDurationButton.TabIndex = 966;
-            this.addWorkDurationButton.Text = "إضافة";
-            this.addWorkDurationButton.UseVisualStyleBackColor = false;
-            this.addWorkDurationButton.Click += new System.EventHandler(this.addWorkDurationButton_Click);
+            this.notesWorkTextBox.TabIndex = 4;
             // 
             // label44
             // 
@@ -4126,7 +4067,7 @@
             this.entityWorkTextBox.Name = "entityWorkTextBox";
             this.entityWorkTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.entityWorkTextBox.Size = new System.Drawing.Size(280, 26);
-            this.entityWorkTextBox.TabIndex = 961;
+            this.entityWorkTextBox.TabIndex = 0;
             // 
             // label45
             // 
@@ -4155,7 +4096,7 @@
             this.behavioralTraitsGB.Name = "behavioralTraitsGB";
             this.behavioralTraitsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.behavioralTraitsGB.Size = new System.Drawing.Size(348, 99);
-            this.behavioralTraitsGB.TabIndex = 936;
+            this.behavioralTraitsGB.TabIndex = 0;
             this.behavioralTraitsGB.TabStop = false;
             this.behavioralTraitsGB.Text = "السمات السلوكية";
             // 
@@ -4171,7 +4112,7 @@
             this.behavioralTraitsOthersTextBox.Name = "behavioralTraitsOthersTextBox";
             this.behavioralTraitsOthersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.behavioralTraitsOthersTextBox.Size = new System.Drawing.Size(129, 26);
-            this.behavioralTraitsOthersTextBox.TabIndex = 955;
+            this.behavioralTraitsOthersTextBox.TabIndex = 5;
             // 
             // othersTraitsCB
             // 
@@ -4181,7 +4122,7 @@
             this.othersTraitsCB.Name = "othersTraitsCB";
             this.othersTraitsCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.othersTraitsCB.Size = new System.Drawing.Size(70, 32);
-            this.othersTraitsCB.TabIndex = 953;
+            this.othersTraitsCB.TabIndex = 4;
             this.othersTraitsCB.Text = "أخرى";
             this.othersTraitsCB.UseVisualStyleBackColor = true;
             this.othersTraitsCB.CheckedChanged += new System.EventHandler(this.othersTraitsCB_CheckedChanged);
@@ -4194,7 +4135,7 @@
             this.doubtfullCB.Name = "doubtfullCB";
             this.doubtfullCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.doubtfullCB.Size = new System.Drawing.Size(100, 32);
-            this.doubtfullCB.TabIndex = 952;
+            this.doubtfullCB.TabIndex = 3;
             this.doubtfullCB.Text = "كثير الشك";
             this.doubtfullCB.UseVisualStyleBackColor = true;
             // 
@@ -4206,7 +4147,7 @@
             this.anixiousCB.Name = "anixiousCB";
             this.anixiousCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.anixiousCB.Size = new System.Drawing.Size(82, 32);
-            this.anixiousCB.TabIndex = 951;
+            this.anixiousCB.TabIndex = 2;
             this.anixiousCB.Text = "وسواس";
             this.anixiousCB.UseVisualStyleBackColor = true;
             // 
@@ -4218,7 +4159,7 @@
             this.depressedCB.Name = "depressedCB";
             this.depressedCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.depressedCB.Size = new System.Drawing.Size(79, 32);
-            this.depressedCB.TabIndex = 950;
+            this.depressedCB.TabIndex = 1;
             this.depressedCB.Text = "اكتئابي";
             this.depressedCB.UseVisualStyleBackColor = true;
             // 
@@ -4230,7 +4171,7 @@
             this.aggressiveCB.Name = "aggressiveCB";
             this.aggressiveCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.aggressiveCB.Size = new System.Drawing.Size(81, 32);
-            this.aggressiveCB.TabIndex = 949;
+            this.aggressiveCB.TabIndex = 0;
             this.aggressiveCB.Text = "عدواني";
             this.aggressiveCB.UseVisualStyleBackColor = true;
             // 
@@ -4262,7 +4203,7 @@
             this.previousPatientHistoryNotesTextBox.Name = "previousPatientHistoryNotesTextBox";
             this.previousPatientHistoryNotesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.previousPatientHistoryNotesTextBox.Size = new System.Drawing.Size(427, 96);
-            this.previousPatientHistoryNotesTextBox.TabIndex = 961;
+            this.previousPatientHistoryNotesTextBox.TabIndex = 5;
             this.previousPatientHistoryNotesTextBox.Text = "ملاحظات التاريخ المرضي السابق";
             this.previousPatientHistoryNotesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.previousPatientHistoryNotesTextBox.Enter += new System.EventHandler(this.previousPatientHistoryNotesTextBox_Enter);
@@ -4278,7 +4219,7 @@
             this.familyHistoryGB.Name = "familyHistoryGB";
             this.familyHistoryGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyHistoryGB.Size = new System.Drawing.Size(505, 109);
-            this.familyHistoryGB.TabIndex = 969;
+            this.familyHistoryGB.TabIndex = 4;
             this.familyHistoryGB.TabStop = false;
             this.familyHistoryGB.Text = "التاريخ المرضي للعائلة / الأسرة";
             // 
@@ -4294,7 +4235,7 @@
             this.familyIllnessDetailsTextBox.Name = "familyIllnessDetailsTextBox";
             this.familyIllnessDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyIllnessDetailsTextBox.Size = new System.Drawing.Size(298, 76);
-            this.familyIllnessDetailsTextBox.TabIndex = 960;
+            this.familyIllnessDetailsTextBox.TabIndex = 1;
             this.familyIllnessDetailsTextBox.Text = "التفاصيل";
             this.familyIllnessDetailsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.familyIllnessDetailsTextBox.Enter += new System.EventHandler(this.familyIllnessDetailsTextBox_Enter);
@@ -4308,7 +4249,7 @@
             this.familyIllnessCB.Name = "familyIllnessCB";
             this.familyIllnessCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyIllnessCB.Size = new System.Drawing.Size(185, 60);
-            this.familyIllnessCB.TabIndex = 958;
+            this.familyIllnessCB.TabIndex = 0;
             this.familyIllnessCB.Text = "أحد أفراد الأسرة يعاني\r\nمن مرض نفسي؟";
             this.familyIllnessCB.UseVisualStyleBackColor = true;
             this.familyIllnessCB.CheckedChanged += new System.EventHandler(this.familyIllnessCB_CheckedChanged);
@@ -4322,7 +4263,7 @@
             this.previousTreatmentCB.Name = "previousTreatmentCB";
             this.previousTreatmentCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.previousTreatmentCB.Size = new System.Drawing.Size(185, 32);
-            this.previousTreatmentCB.TabIndex = 965;
+            this.previousTreatmentCB.TabIndex = 2;
             this.previousTreatmentCB.Text = "هل تلقى العلاج سابقًا؟";
             this.previousTreatmentCB.UseVisualStyleBackColor = true;
             this.previousTreatmentCB.CheckedChanged += new System.EventHandler(this.previousTreatmentCB_CheckedChanged);
@@ -4334,15 +4275,15 @@
             this.treatmentPlacesGB.Controls.Add(this.doctorTreatmentTextBox);
             this.treatmentPlacesGB.Controls.Add(this.notesTreatmentTextBox);
             this.treatmentPlacesGB.Controls.Add(this.hospitalTreatmentTextBox);
-            this.treatmentPlacesGB.Controls.Add(this.treatmentPlacesBrush);
             this.treatmentPlacesGB.Controls.Add(this.addPlaceButton);
+            this.treatmentPlacesGB.Controls.Add(this.treatmentPlacesBrush);
             this.treatmentPlacesGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.treatmentPlacesGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
             this.treatmentPlacesGB.Location = new System.Drawing.Point(6, 383);
             this.treatmentPlacesGB.Name = "treatmentPlacesGB";
             this.treatmentPlacesGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.treatmentPlacesGB.Size = new System.Drawing.Size(949, 210);
-            this.treatmentPlacesGB.TabIndex = 966;
+            this.treatmentPlacesGB.TabIndex = 3;
             this.treatmentPlacesGB.TabStop = false;
             this.treatmentPlacesGB.Text = "أماكن تلقي العلاج سابقًا";
             // 
@@ -4353,28 +4294,28 @@
             this.treatmentPlacesDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.treatmentPlacesDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.treatmentPlacesDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle77.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle77.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.treatmentPlacesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle83.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle83.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.treatmentPlacesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle83;
             this.treatmentPlacesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.treatmentPlacesDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
             this.Column2});
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle78.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.treatmentPlacesDGV.DefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle84.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.treatmentPlacesDGV.DefaultCellStyle = dataGridViewCellStyle84;
             this.treatmentPlacesDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.treatmentPlacesDGV.GridColor = System.Drawing.Color.White;
             this.treatmentPlacesDGV.Location = new System.Drawing.Point(6, 21);
@@ -4382,18 +4323,19 @@
             this.treatmentPlacesDGV.MultiSelect = false;
             this.treatmentPlacesDGV.Name = "treatmentPlacesDGV";
             this.treatmentPlacesDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle79.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle79.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.treatmentPlacesDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle79;
+            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle85.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle85.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle85.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle85.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle85.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.treatmentPlacesDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle85;
             this.treatmentPlacesDGV.RowHeadersWidth = 30;
             this.treatmentPlacesDGV.RowTemplate.Height = 26;
             this.treatmentPlacesDGV.Size = new System.Drawing.Size(573, 139);
             this.treatmentPlacesDGV.TabIndex = 959;
+            this.treatmentPlacesDGV.TabStop = false;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -4432,7 +4374,7 @@
             this.fileNumberTreatmentTextBox.Name = "fileNumberTreatmentTextBox";
             this.fileNumberTreatmentTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fileNumberTreatmentTextBox.Size = new System.Drawing.Size(271, 26);
-            this.fileNumberTreatmentTextBox.TabIndex = 969;
+            this.fileNumberTreatmentTextBox.TabIndex = 2;
             this.fileNumberTreatmentTextBox.Text = "رقم الملف الطبي";
             this.fileNumberTreatmentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.fileNumberTreatmentTextBox.Enter += new System.EventHandler(this.fileNumberTreatmentTextBox_Enter);
@@ -4451,7 +4393,7 @@
             this.doctorTreatmentTextBox.Name = "doctorTreatmentTextBox";
             this.doctorTreatmentTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.doctorTreatmentTextBox.Size = new System.Drawing.Size(271, 26);
-            this.doctorTreatmentTextBox.TabIndex = 968;
+            this.doctorTreatmentTextBox.TabIndex = 1;
             this.doctorTreatmentTextBox.Text = "الطبيب المعالج";
             this.doctorTreatmentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.doctorTreatmentTextBox.Enter += new System.EventHandler(this.doctorTreatmentTextBox_Enter);
@@ -4470,7 +4412,7 @@
             this.notesTreatmentTextBox.Name = "notesTreatmentTextBox";
             this.notesTreatmentTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.notesTreatmentTextBox.Size = new System.Drawing.Size(273, 48);
-            this.notesTreatmentTextBox.TabIndex = 965;
+            this.notesTreatmentTextBox.TabIndex = 3;
             this.notesTreatmentTextBox.Text = "ملاحظات";
             this.notesTreatmentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.notesTreatmentTextBox.Enter += new System.EventHandler(this.notesTreatmentTextBox_Enter);
@@ -4489,40 +4431,11 @@
             this.hospitalTreatmentTextBox.Name = "hospitalTreatmentTextBox";
             this.hospitalTreatmentTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.hospitalTreatmentTextBox.Size = new System.Drawing.Size(271, 26);
-            this.hospitalTreatmentTextBox.TabIndex = 961;
+            this.hospitalTreatmentTextBox.TabIndex = 0;
             this.hospitalTreatmentTextBox.Text = "المستشفى";
             this.hospitalTreatmentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.hospitalTreatmentTextBox.Enter += new System.EventHandler(this.hospitalTreatmentTextBox_Enter);
             this.hospitalTreatmentTextBox.Leave += new System.EventHandler(this.hospitalTreatmentTextBox_Leave);
-            // 
-            // treatmentPlacesBrush
-            // 
-            this.treatmentPlacesBrush.FlatAppearance.BorderSize = 0;
-            this.treatmentPlacesBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.treatmentPlacesBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.treatmentPlacesBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.treatmentPlacesBrush.Location = new System.Drawing.Point(374, 156);
-            this.treatmentPlacesBrush.Name = "treatmentPlacesBrush";
-            this.treatmentPlacesBrush.Size = new System.Drawing.Size(64, 52);
-            this.treatmentPlacesBrush.TabIndex = 996;
-            this.treatmentPlacesBrush.UseVisualStyleBackColor = false;
-            this.treatmentPlacesBrush.Click += new System.EventHandler(this.treatmentPlacesBrush_Click);
-            this.treatmentPlacesBrush.MouseLeave += new System.EventHandler(this.treatmentPlacesBrush_MouseLeave);
-            this.treatmentPlacesBrush.MouseHover += new System.EventHandler(this.treatmentPlacesBrush_MouseHover);
-            // 
-            // addPlaceButton
-            // 
-            this.addPlaceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addPlaceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addPlaceButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addPlaceButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addPlaceButton.Location = new System.Drawing.Point(444, 165);
-            this.addPlaceButton.Name = "addPlaceButton";
-            this.addPlaceButton.Size = new System.Drawing.Size(135, 38);
-            this.addPlaceButton.TabIndex = 970;
-            this.addPlaceButton.Text = "إضافة";
-            this.addPlaceButton.UseVisualStyleBackColor = false;
-            this.addPlaceButton.Click += new System.EventHandler(this.addPlaceButton_Click);
             // 
             // drugsGB
             // 
@@ -4540,7 +4453,7 @@
             this.drugsGB.Name = "drugsGB";
             this.drugsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.drugsGB.Size = new System.Drawing.Size(947, 103);
-            this.drugsGB.TabIndex = 964;
+            this.drugsGB.TabIndex = 1;
             this.drugsGB.TabStop = false;
             this.drugsGB.Text = "سوء استخدام العقاقير";
             // 
@@ -4557,6 +4470,7 @@
             this.totalDurationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.totalDurationTextBox.Size = new System.Drawing.Size(142, 26);
             this.totalDurationTextBox.TabIndex = 977;
+            this.totalDurationTextBox.TabStop = false;
             this.totalDurationTextBox.Text = "المدة الإجمالية بالشهور";
             this.totalDurationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.totalDurationTextBox.Enter += new System.EventHandler(this.totalDurationTextBox_Enter);
@@ -4574,7 +4488,7 @@
             this.drugUsedDetailsTextBox.Name = "drugUsedDetailsTextBox";
             this.drugUsedDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.drugUsedDetailsTextBox.Size = new System.Drawing.Size(276, 74);
-            this.drugUsedDetailsTextBox.TabIndex = 976;
+            this.drugUsedDetailsTextBox.TabIndex = 5;
             this.drugUsedDetailsTextBox.Text = "التفاصيل";
             this.drugUsedDetailsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.drugUsedDetailsTextBox.Enter += new System.EventHandler(this.drugUsedDetailsTextBox_Enter);
@@ -4592,7 +4506,7 @@
             this.monthUsedTextBox.Name = "monthUsedTextBox";
             this.monthUsedTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.monthUsedTextBox.Size = new System.Drawing.Size(63, 26);
-            this.monthUsedTextBox.TabIndex = 975;
+            this.monthUsedTextBox.TabIndex = 3;
             this.monthUsedTextBox.Text = "شهر";
             this.monthUsedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.monthUsedTextBox.TextChanged += new System.EventHandler(this.monthUsedTextBox_TextChanged);
@@ -4611,7 +4525,7 @@
             this.yearsUsedTextBox.Name = "yearsUsedTextBox";
             this.yearsUsedTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yearsUsedTextBox.Size = new System.Drawing.Size(63, 26);
-            this.yearsUsedTextBox.TabIndex = 974;
+            this.yearsUsedTextBox.TabIndex = 4;
             this.yearsUsedTextBox.Text = "سنة";
             this.yearsUsedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.yearsUsedTextBox.TextChanged += new System.EventHandler(this.yearsUsedTextBox_TextChanged);
@@ -4643,7 +4557,7 @@
             this.startingAgeTextBox.Name = "startingAgeTextBox";
             this.startingAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.startingAgeTextBox.Size = new System.Drawing.Size(169, 26);
-            this.startingAgeTextBox.TabIndex = 972;
+            this.startingAgeTextBox.TabIndex = 1;
             this.startingAgeTextBox.Text = "سن بداية التعاطي";
             this.startingAgeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.startingAgeTextBox.Enter += new System.EventHandler(this.startingAgeTextBox_Enter);
@@ -4660,7 +4574,7 @@
             this.drugsCheckingGB.Name = "drugsCheckingGB";
             this.drugsCheckingGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.drugsCheckingGB.Size = new System.Drawing.Size(316, 66);
-            this.drugsCheckingGB.TabIndex = 971;
+            this.drugsCheckingGB.TabIndex = 0;
             this.drugsCheckingGB.TabStop = false;
             this.drugsCheckingGB.Text = "تعاطي المخدرات والخمور والمسكنات";
             // 
@@ -4674,7 +4588,7 @@
             this.previousUseRB.Name = "previousUseRB";
             this.previousUseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.previousUseRB.Size = new System.Drawing.Size(123, 32);
-            this.previousUseRB.TabIndex = 91;
+            this.previousUseRB.TabIndex = 2;
             this.previousUseRB.TabStop = true;
             this.previousUseRB.Text = "سبق له التعاطي";
             this.previousUseRB.UseVisualStyleBackColor = true;
@@ -4690,7 +4604,7 @@
             this.useRB.Name = "useRB";
             this.useRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.useRB.Size = new System.Drawing.Size(73, 32);
-            this.useRB.TabIndex = 90;
+            this.useRB.TabIndex = 1;
             this.useRB.TabStop = true;
             this.useRB.Text = "يتعاطى";
             this.useRB.UseVisualStyleBackColor = true;
@@ -4706,7 +4620,7 @@
             this.noUseRB.Name = "noUseRB";
             this.noUseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noUseRB.Size = new System.Drawing.Size(88, 32);
-            this.noUseRB.TabIndex = 89;
+            this.noUseRB.TabIndex = 0;
             this.noUseRB.TabStop = true;
             this.noUseRB.Text = "لا يتعاطى";
             this.noUseRB.UseVisualStyleBackColor = true;
@@ -4724,7 +4638,7 @@
             this.TypesUsedTextBox.Name = "TypesUsedTextBox";
             this.TypesUsedTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TypesUsedTextBox.Size = new System.Drawing.Size(169, 44);
-            this.TypesUsedTextBox.TabIndex = 970;
+            this.TypesUsedTextBox.TabIndex = 2;
             this.TypesUsedTextBox.Text = "الأنواع التي يتعاطيها";
             this.TypesUsedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TypesUsedTextBox.Enter += new System.EventHandler(this.TypesUsedTextBox_Enter);
@@ -4741,7 +4655,7 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox1.Size = new System.Drawing.Size(947, 240);
-            this.groupBox1.TabIndex = 938;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "محاولات الانتحار / العنبر / فقدان الوعي";
             // 
@@ -4756,7 +4670,7 @@
             this.blackoutGB.Name = "blackoutGB";
             this.blackoutGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.blackoutGB.Size = new System.Drawing.Size(458, 109);
-            this.blackoutGB.TabIndex = 963;
+            this.blackoutGB.TabIndex = 2;
             this.blackoutGB.TabStop = false;
             this.blackoutGB.Text = "فقدان الوعي";
             // 
@@ -4772,7 +4686,7 @@
             this.blackoutCountsTextBox.Name = "blackoutCountsTextBox";
             this.blackoutCountsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.blackoutCountsTextBox.Size = new System.Drawing.Size(133, 26);
-            this.blackoutCountsTextBox.TabIndex = 968;
+            this.blackoutCountsTextBox.TabIndex = 1;
             this.blackoutCountsTextBox.Text = "عدد مرات إصابته";
             this.blackoutCountsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.blackoutCountsTextBox.Enter += new System.EventHandler(this.blackoutCountsTextBox_Enter);
@@ -4790,7 +4704,7 @@
             this.blackoutDetailsTextBox.Name = "blackoutDetailsTextBox";
             this.blackoutDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.blackoutDetailsTextBox.Size = new System.Drawing.Size(227, 82);
-            this.blackoutDetailsTextBox.TabIndex = 960;
+            this.blackoutDetailsTextBox.TabIndex = 2;
             this.blackoutDetailsTextBox.Text = "التفاصيل";
             this.blackoutDetailsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.blackoutDetailsTextBox.Enter += new System.EventHandler(this.blackoutDetailsTextBox_Enter);
@@ -4804,7 +4718,7 @@
             this.blackoutCB.Name = "blackoutCB";
             this.blackoutCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.blackoutCB.Size = new System.Drawing.Size(207, 32);
-            this.blackoutCB.TabIndex = 958;
+            this.blackoutCB.TabIndex = 0;
             this.blackoutCB.Text = "هل أصيب بفقدان الوعي؟";
             this.blackoutCB.UseVisualStyleBackColor = true;
             this.blackoutCB.CheckedChanged += new System.EventHandler(this.blackoutCB_CheckedChanged);
@@ -4820,7 +4734,7 @@
             this.warehouseGB.Name = "warehouseGB";
             this.warehouseGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.warehouseGB.Size = new System.Drawing.Size(458, 109);
-            this.warehouseGB.TabIndex = 946;
+            this.warehouseGB.TabIndex = 1;
             this.warehouseGB.TabStop = false;
             this.warehouseGB.Text = "العنبر";
             // 
@@ -4836,7 +4750,7 @@
             this.warehouseDetailsTextBox.Name = "warehouseDetailsTextBox";
             this.warehouseDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.warehouseDetailsTextBox.Size = new System.Drawing.Size(227, 82);
-            this.warehouseDetailsTextBox.TabIndex = 969;
+            this.warehouseDetailsTextBox.TabIndex = 2;
             this.warehouseDetailsTextBox.Text = "التفاصيل";
             this.warehouseDetailsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.warehouseDetailsTextBox.Enter += new System.EventHandler(this.warehouseDetailsTextBox_Enter);
@@ -4854,7 +4768,7 @@
             this.warehouseCountsTextBox.Name = "warehouseCountsTextBox";
             this.warehouseCountsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.warehouseCountsTextBox.Size = new System.Drawing.Size(133, 26);
-            this.warehouseCountsTextBox.TabIndex = 969;
+            this.warehouseCountsTextBox.TabIndex = 1;
             this.warehouseCountsTextBox.Text = "عدد مرات دخوله";
             this.warehouseCountsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.warehouseCountsTextBox.Enter += new System.EventHandler(this.warehouseCountsTextBox_Enter);
@@ -4868,7 +4782,7 @@
             this.warehouseCB.Name = "warehouseCB";
             this.warehouseCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.warehouseCB.Size = new System.Drawing.Size(164, 32);
-            this.warehouseCB.TabIndex = 958;
+            this.warehouseCB.TabIndex = 0;
             this.warehouseCB.Text = "هل تم إدخاله العنبر";
             this.warehouseCB.UseVisualStyleBackColor = true;
             this.warehouseCB.CheckedChanged += new System.EventHandler(this.warehouseCB_CheckedChanged);
@@ -4885,7 +4799,7 @@
             this.suicideAttemptsGB.Name = "suicideAttemptsGB";
             this.suicideAttemptsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.suicideAttemptsGB.Size = new System.Drawing.Size(935, 92);
-            this.suicideAttemptsGB.TabIndex = 945;
+            this.suicideAttemptsGB.TabIndex = 0;
             this.suicideAttemptsGB.TabStop = false;
             this.suicideAttemptsGB.Text = "محاولات الانتحار";
             // 
@@ -4901,7 +4815,7 @@
             this.suicideNotesTextBox.Name = "suicideNotesTextBox";
             this.suicideNotesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.suicideNotesTextBox.Size = new System.Drawing.Size(183, 63);
-            this.suicideNotesTextBox.TabIndex = 960;
+            this.suicideNotesTextBox.TabIndex = 3;
             this.suicideNotesTextBox.Text = "ملاحظات";
             this.suicideNotesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.suicideNotesTextBox.Enter += new System.EventHandler(this.suicideNotesTextBox_Enter);
@@ -4919,7 +4833,7 @@
             this.suicideDetailsTextBox.Name = "suicideDetailsTextBox";
             this.suicideDetailsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.suicideDetailsTextBox.Size = new System.Drawing.Size(183, 63);
-            this.suicideDetailsTextBox.TabIndex = 959;
+            this.suicideDetailsTextBox.TabIndex = 2;
             this.suicideDetailsTextBox.Text = "التفاصيل";
             this.suicideDetailsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.suicideDetailsTextBox.Enter += new System.EventHandler(this.suicideDetailsTextBox_Enter);
@@ -4936,7 +4850,7 @@
             this.experiencedSuicideGB.Name = "experiencedSuicideGB";
             this.experiencedSuicideGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.experiencedSuicideGB.Size = new System.Drawing.Size(361, 64);
-            this.experiencedSuicideGB.TabIndex = 957;
+            this.experiencedSuicideGB.TabIndex = 0;
             this.experiencedSuicideGB.TabStop = false;
             this.experiencedSuicideGB.Text = "لديه محاولة انتحار أو التفكير بها؟";
             // 
@@ -4950,7 +4864,7 @@
             this.attemptRB.Name = "attemptRB";
             this.attemptRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.attemptRB.Size = new System.Drawing.Size(112, 32);
-            this.attemptRB.TabIndex = 91;
+            this.attemptRB.TabIndex = 2;
             this.attemptRB.TabStop = true;
             this.attemptRB.Text = "محاولة انتحار";
             this.attemptRB.UseVisualStyleBackColor = true;
@@ -4966,7 +4880,7 @@
             this.noAttemptsRB.Name = "noAttemptsRB";
             this.noAttemptsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noAttemptsRB.Size = new System.Drawing.Size(74, 32);
-            this.noAttemptsRB.TabIndex = 90;
+            this.noAttemptsRB.TabIndex = 0;
             this.noAttemptsRB.TabStop = true;
             this.noAttemptsRB.Text = "لا يوجد";
             this.noAttemptsRB.UseVisualStyleBackColor = true;
@@ -4982,7 +4896,7 @@
             this.thinkingRB.Name = "thinkingRB";
             this.thinkingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.thinkingRB.Size = new System.Drawing.Size(136, 32);
-            this.thinkingRB.TabIndex = 89;
+            this.thinkingRB.TabIndex = 1;
             this.thinkingRB.TabStop = true;
             this.thinkingRB.Text = "التفكير في النتحار";
             this.thinkingRB.UseVisualStyleBackColor = true;
@@ -5000,7 +4914,7 @@
             this.suicideWayTextBox.Name = "suicideWayTextBox";
             this.suicideWayTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.suicideWayTextBox.Size = new System.Drawing.Size(183, 63);
-            this.suicideWayTextBox.TabIndex = 956;
+            this.suicideWayTextBox.TabIndex = 1;
             this.suicideWayTextBox.Text = "الطريقة التي فكر فيها";
             this.suicideWayTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.suicideWayTextBox.Enter += new System.EventHandler(this.suicideWayTextBox_Enter);
@@ -5013,7 +4927,7 @@
             this.TabPage2_0.Location = new System.Drawing.Point(4, 22);
             this.TabPage2_0.Name = "TabPage2_0";
             this.TabPage2_0.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage2_0.Size = new System.Drawing.Size(978, 827);
+            this.TabPage2_0.Size = new System.Drawing.Size(978, 1035);
             this.TabPage2_0.TabIndex = 2;
             this.TabPage2_0.Text = "تحليل البيئة";
             // 
@@ -5021,6 +4935,7 @@
             // 
             this.tabControl3.Controls.Add(this.TabPage2_1);
             this.tabControl3.Controls.Add(this.TabPage2_2);
+            this.tabControl3.Controls.Add(this.TabPage2_3);
             this.tabControl3.Location = new System.Drawing.Point(-4, 0);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.RightToLeftLayout = true;
@@ -5031,7 +4946,6 @@
             // TabPage2_1
             // 
             this.TabPage2_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.TabPage2_1.Controls.Add(this.groupBox17);
             this.TabPage2_1.Controls.Add(this.maritalStausReasonsTextBox);
             this.TabPage2_1.Controls.Add(this.patientMaritalStatusGB);
             this.TabPage2_1.Controls.Add(this.InCaseOfMarriageGB);
@@ -5042,266 +4956,19 @@
             this.TabPage2_1.TabIndex = 0;
             this.TabPage2_1.Text = "الحالة الاجتماعية";
             // 
-            // groupBox17
-            // 
-            this.groupBox17.Controls.Add(this.pressureCheckBox);
-            this.groupBox17.Controls.Add(this.responsibleForDescriptionTextBox);
-            this.groupBox17.Controls.Add(this.totalMembersTextBox);
-            this.groupBox17.Controls.Add(this.responsibleForCoutTextBox);
-            this.groupBox17.Controls.Add(this.nearestFamilyMemberTextBox);
-            this.groupBox17.Controls.Add(this.familyResponsibilitiesGB);
-            this.groupBox17.Controls.Add(this.patientOrderTextBox);
-            this.groupBox17.Controls.Add(this.sistersCoutTextBox);
-            this.groupBox17.Controls.Add(this.brothersCountTextBox);
-            this.groupBox17.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            this.groupBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.groupBox17.Location = new System.Drawing.Point(4, 538);
-            this.groupBox17.Name = "groupBox17";
-            this.groupBox17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox17.Size = new System.Drawing.Size(966, 156);
-            this.groupBox17.TabIndex = 995;
-            this.groupBox17.TabStop = false;
-            this.groupBox17.Text = "الأشقاء والشقيقات";
-            // 
-            // pressureCheckBox
-            // 
-            this.pressureCheckBox.AutoSize = true;
-            this.pressureCheckBox.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.pressureCheckBox.Location = new System.Drawing.Point(486, 118);
-            this.pressureCheckBox.Name = "pressureCheckBox";
-            this.pressureCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pressureCheckBox.Size = new System.Drawing.Size(463, 32);
-            this.pressureCheckBox.TabIndex = 999;
-            this.pressureCheckBox.Text = "هل يعاني من ضعوطات نتيجة تحمل مسؤولية الأسرة المتزايدة؟";
-            this.pressureCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // responsibleForDescriptionTextBox
-            // 
-            this.responsibleForDescriptionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.responsibleForDescriptionTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.responsibleForDescriptionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.responsibleForDescriptionTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.responsibleForDescriptionTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.responsibleForDescriptionTextBox.Location = new System.Drawing.Point(4, 88);
-            this.responsibleForDescriptionTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.responsibleForDescriptionTextBox.Multiline = true;
-            this.responsibleForDescriptionTextBox.Name = "responsibleForDescriptionTextBox";
-            this.responsibleForDescriptionTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.responsibleForDescriptionTextBox.Size = new System.Drawing.Size(458, 61);
-            this.responsibleForDescriptionTextBox.TabIndex = 998;
-            this.responsibleForDescriptionTextBox.Text = "أعمار ووصف الأفراد المسؤول عنهم";
-            this.responsibleForDescriptionTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.responsibleForDescriptionTextBox.Enter += new System.EventHandler(this.responsibleForDescriptionTextBox_Enter);
-            this.responsibleForDescriptionTextBox.Leave += new System.EventHandler(this.responsibleForDescriptionTextBox_Leave);
-            // 
-            // totalMembersTextBox
-            // 
-            this.totalMembersTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.totalMembersTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.totalMembersTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalMembersTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalMembersTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.totalMembersTextBox.Location = new System.Drawing.Point(730, 91);
-            this.totalMembersTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.totalMembersTextBox.Multiline = true;
-            this.totalMembersTextBox.Name = "totalMembersTextBox";
-            this.totalMembersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.totalMembersTextBox.Size = new System.Drawing.Size(192, 26);
-            this.totalMembersTextBox.TabIndex = 993;
-            this.totalMembersTextBox.Text = "عدد الأشقاء والشقيقات الكلي";
-            this.totalMembersTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.totalMembersTextBox.Enter += new System.EventHandler(this.totalMembersTextBox_Enter);
-            this.totalMembersTextBox.Leave += new System.EventHandler(this.totalMembersTextBox_Leave);
-            // 
-            // responsibleForCoutTextBox
-            // 
-            this.responsibleForCoutTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.responsibleForCoutTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.responsibleForCoutTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.responsibleForCoutTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.responsibleForCoutTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.responsibleForCoutTextBox.Location = new System.Drawing.Point(516, 91);
-            this.responsibleForCoutTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.responsibleForCoutTextBox.Multiline = true;
-            this.responsibleForCoutTextBox.Name = "responsibleForCoutTextBox";
-            this.responsibleForCoutTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.responsibleForCoutTextBox.Size = new System.Drawing.Size(206, 26);
-            this.responsibleForCoutTextBox.TabIndex = 997;
-            this.responsibleForCoutTextBox.Text = "عدد الأفراد المسؤول عنهم";
-            this.responsibleForCoutTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.responsibleForCoutTextBox.Enter += new System.EventHandler(this.responsibleForCoutTextBox_Enter);
-            this.responsibleForCoutTextBox.Leave += new System.EventHandler(this.responsibleForCoutTextBox_Leave);
-            // 
-            // nearestFamilyMemberTextBox
-            // 
-            this.nearestFamilyMemberTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.nearestFamilyMemberTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.nearestFamilyMemberTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.nearestFamilyMemberTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nearestFamilyMemberTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.nearestFamilyMemberTextBox.Location = new System.Drawing.Point(516, 61);
-            this.nearestFamilyMemberTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.nearestFamilyMemberTextBox.Multiline = true;
-            this.nearestFamilyMemberTextBox.Name = "nearestFamilyMemberTextBox";
-            this.nearestFamilyMemberTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.nearestFamilyMemberTextBox.Size = new System.Drawing.Size(206, 26);
-            this.nearestFamilyMemberTextBox.TabIndex = 992;
-            this.nearestFamilyMemberTextBox.Text = "أقرب شخص للمفحوص من العائلة";
-            this.nearestFamilyMemberTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.nearestFamilyMemberTextBox.Enter += new System.EventHandler(this.nearestFamilyMemberTextBox_Enter);
-            this.nearestFamilyMemberTextBox.Leave += new System.EventHandler(this.nearestFamilyMemberTextBox_Leave);
-            // 
-            // familyResponsibilitiesGB
-            // 
-            this.familyResponsibilitiesGB.Controls.Add(this.otherResponsibilitiesTextBox);
-            this.familyResponsibilitiesGB.Controls.Add(this.otherResponsibilitiesRB);
-            this.familyResponsibilitiesGB.Controls.Add(this.smallFamilyRB);
-            this.familyResponsibilitiesGB.Controls.Add(this.bigFamilyRB);
-            this.familyResponsibilitiesGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            this.familyResponsibilitiesGB.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.familyResponsibilitiesGB.Location = new System.Drawing.Point(4, 21);
-            this.familyResponsibilitiesGB.Name = "familyResponsibilitiesGB";
-            this.familyResponsibilitiesGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.familyResponsibilitiesGB.Size = new System.Drawing.Size(458, 64);
-            this.familyResponsibilitiesGB.TabIndex = 996;
-            this.familyResponsibilitiesGB.TabStop = false;
-            this.familyResponsibilitiesGB.Text = "المسؤوليات تجاه؟";
-            // 
-            // otherResponsibilitiesTextBox
-            // 
-            this.otherResponsibilitiesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.otherResponsibilitiesTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.otherResponsibilitiesTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.otherResponsibilitiesTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.otherResponsibilitiesTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.otherResponsibilitiesTextBox.Location = new System.Drawing.Point(8, 26);
-            this.otherResponsibilitiesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.otherResponsibilitiesTextBox.Multiline = true;
-            this.otherResponsibilitiesTextBox.Name = "otherResponsibilitiesTextBox";
-            this.otherResponsibilitiesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.otherResponsibilitiesTextBox.Size = new System.Drawing.Size(155, 26);
-            this.otherResponsibilitiesTextBox.TabIndex = 996;
-            this.otherResponsibilitiesTextBox.Text = "آخرين";
-            this.otherResponsibilitiesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.otherResponsibilitiesTextBox.Enter += new System.EventHandler(this.otherResponsibilitiesTextBox_Enter);
-            this.otherResponsibilitiesTextBox.Leave += new System.EventHandler(this.otherResponsibilitiesTextBox_Leave);
-            // 
-            // otherResponsibilitiesRB
-            // 
-            this.otherResponsibilitiesRB.AutoSize = true;
-            this.otherResponsibilitiesRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
-            this.otherResponsibilitiesRB.ForeColor = System.Drawing.Color.White;
-            this.otherResponsibilitiesRB.Location = new System.Drawing.Point(169, 26);
-            this.otherResponsibilitiesRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.otherResponsibilitiesRB.Name = "otherResponsibilitiesRB";
-            this.otherResponsibilitiesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.otherResponsibilitiesRB.Size = new System.Drawing.Size(69, 32);
-            this.otherResponsibilitiesRB.TabIndex = 91;
-            this.otherResponsibilitiesRB.TabStop = true;
-            this.otherResponsibilitiesRB.Text = "آخرين";
-            this.otherResponsibilitiesRB.UseVisualStyleBackColor = true;
-            this.otherResponsibilitiesRB.CheckedChanged += new System.EventHandler(this.otherResponsibilitiesRB_CheckedChanged);
-            // 
-            // smallFamilyRB
-            // 
-            this.smallFamilyRB.AutoSize = true;
-            this.smallFamilyRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
-            this.smallFamilyRB.ForeColor = System.Drawing.Color.White;
-            this.smallFamilyRB.Location = new System.Drawing.Point(380, 26);
-            this.smallFamilyRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.smallFamilyRB.Name = "smallFamilyRB";
-            this.smallFamilyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.smallFamilyRB.Size = new System.Drawing.Size(65, 32);
-            this.smallFamilyRB.TabIndex = 90;
-            this.smallFamilyRB.TabStop = true;
-            this.smallFamilyRB.Text = "أسرته";
-            this.smallFamilyRB.UseVisualStyleBackColor = true;
-            // 
-            // bigFamilyRB
-            // 
-            this.bigFamilyRB.AutoSize = true;
-            this.bigFamilyRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
-            this.bigFamilyRB.ForeColor = System.Drawing.Color.White;
-            this.bigFamilyRB.Location = new System.Drawing.Point(253, 26);
-            this.bigFamilyRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bigFamilyRB.Name = "bigFamilyRB";
-            this.bigFamilyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.bigFamilyRB.Size = new System.Drawing.Size(112, 32);
-            this.bigFamilyRB.TabIndex = 89;
-            this.bigFamilyRB.TabStop = true;
-            this.bigFamilyRB.Text = "الأسرة الكبيرة";
-            this.bigFamilyRB.UseVisualStyleBackColor = true;
-            // 
-            // patientOrderTextBox
-            // 
-            this.patientOrderTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.patientOrderTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.patientOrderTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.patientOrderTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientOrderTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.patientOrderTextBox.Location = new System.Drawing.Point(516, 31);
-            this.patientOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.patientOrderTextBox.Multiline = true;
-            this.patientOrderTextBox.Name = "patientOrderTextBox";
-            this.patientOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.patientOrderTextBox.Size = new System.Drawing.Size(206, 26);
-            this.patientOrderTextBox.TabIndex = 991;
-            this.patientOrderTextBox.Text = "ترتيب المفحوص بين أشقائه وشقيقاته";
-            this.patientOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.patientOrderTextBox.Enter += new System.EventHandler(this.patientOrderTextBox_Enter);
-            this.patientOrderTextBox.Leave += new System.EventHandler(this.patientOrderTextBox_Leave);
-            // 
-            // sistersCoutTextBox
-            // 
-            this.sistersCoutTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.sistersCoutTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.sistersCoutTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.sistersCoutTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sistersCoutTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.sistersCoutTextBox.Location = new System.Drawing.Point(730, 61);
-            this.sistersCoutTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sistersCoutTextBox.Multiline = true;
-            this.sistersCoutTextBox.Name = "sistersCoutTextBox";
-            this.sistersCoutTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.sistersCoutTextBox.Size = new System.Drawing.Size(192, 26);
-            this.sistersCoutTextBox.TabIndex = 990;
-            this.sistersCoutTextBox.Text = "الشقيقات من جهة الأب والأم فقط";
-            this.sistersCoutTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.sistersCoutTextBox.Enter += new System.EventHandler(this.sistersCoutTextBox_Enter);
-            this.sistersCoutTextBox.Leave += new System.EventHandler(this.sistersCoutTextBox_Leave);
-            // 
-            // brothersCountTextBox
-            // 
-            this.brothersCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.brothersCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.brothersCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.brothersCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brothersCountTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.brothersCountTextBox.Location = new System.Drawing.Point(730, 31);
-            this.brothersCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.brothersCountTextBox.Multiline = true;
-            this.brothersCountTextBox.Name = "brothersCountTextBox";
-            this.brothersCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.brothersCountTextBox.Size = new System.Drawing.Size(192, 26);
-            this.brothersCountTextBox.TabIndex = 989;
-            this.brothersCountTextBox.Text = "الأشقاء من جهة الأب والأم فقط";
-            this.brothersCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.brothersCountTextBox.Enter += new System.EventHandler(this.brothersCountTextBox_Enter);
-            this.brothersCountTextBox.Leave += new System.EventHandler(this.brothersCountTextBox_Leave);
-            // 
             // maritalStausReasonsTextBox
             // 
             this.maritalStausReasonsTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.maritalStausReasonsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.maritalStausReasonsTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maritalStausReasonsTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.maritalStausReasonsTextBox.Location = new System.Drawing.Point(151, 18);
+            this.maritalStausReasonsTextBox.Location = new System.Drawing.Point(151, 49);
             this.maritalStausReasonsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.maritalStausReasonsTextBox.Multiline = true;
             this.maritalStausReasonsTextBox.Name = "maritalStausReasonsTextBox";
             this.maritalStausReasonsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.maritalStausReasonsTextBox.Size = new System.Drawing.Size(327, 53);
-            this.maritalStausReasonsTextBox.TabIndex = 962;
+            this.maritalStausReasonsTextBox.TabIndex = 1;
             this.maritalStausReasonsTextBox.Text = "أسباب الحالة الاجتماعية";
             this.maritalStausReasonsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maritalStausReasonsTextBox.Enter += new System.EventHandler(this.maritalStausReasonsTextBox_Enter);
@@ -5316,11 +4983,11 @@
             this.patientMaritalStatusGB.Controls.Add(this.msDivorcedRB);
             this.patientMaritalStatusGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.patientMaritalStatusGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.patientMaritalStatusGB.Location = new System.Drawing.Point(493, 7);
+            this.patientMaritalStatusGB.Location = new System.Drawing.Point(493, 38);
             this.patientMaritalStatusGB.Name = "patientMaritalStatusGB";
             this.patientMaritalStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.patientMaritalStatusGB.Size = new System.Drawing.Size(327, 64);
-            this.patientMaritalStatusGB.TabIndex = 947;
+            this.patientMaritalStatusGB.TabIndex = 0;
             this.patientMaritalStatusGB.TabStop = false;
             this.patientMaritalStatusGB.Text = "الحالة الاجتماعية";
             // 
@@ -5334,7 +5001,7 @@
             this.msSingleRB.Name = "msSingleRB";
             this.msSingleRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.msSingleRB.Size = new System.Drawing.Size(80, 32);
-            this.msSingleRB.TabIndex = 92;
+            this.msSingleRB.TabIndex = 0;
             this.msSingleRB.TabStop = true;
             this.msSingleRB.Text = "أعزب";
             this.msSingleRB.UseVisualStyleBackColor = false;
@@ -5350,7 +5017,7 @@
             this.msMarriedRB.Name = "msMarriedRB";
             this.msMarriedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.msMarriedRB.Size = new System.Drawing.Size(79, 32);
-            this.msMarriedRB.TabIndex = 91;
+            this.msMarriedRB.TabIndex = 1;
             this.msMarriedRB.TabStop = true;
             this.msMarriedRB.Text = "متزوج";
             this.msMarriedRB.UseVisualStyleBackColor = false;
@@ -5366,7 +5033,7 @@
             this.msSeperatedRB.Name = "msSeperatedRB";
             this.msSeperatedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.msSeperatedRB.Size = new System.Drawing.Size(73, 32);
-            this.msSeperatedRB.TabIndex = 90;
+            this.msSeperatedRB.TabIndex = 2;
             this.msSeperatedRB.TabStop = true;
             this.msSeperatedRB.Text = "منفصل";
             this.msSeperatedRB.UseVisualStyleBackColor = true;
@@ -5381,7 +5048,7 @@
             this.msDivorcedRB.Name = "msDivorcedRB";
             this.msDivorcedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.msDivorcedRB.Size = new System.Drawing.Size(67, 32);
-            this.msDivorcedRB.TabIndex = 89;
+            this.msDivorcedRB.TabIndex = 3;
             this.msDivorcedRB.TabStop = true;
             this.msDivorcedRB.Text = "مطلق";
             this.msDivorcedRB.UseVisualStyleBackColor = true;
@@ -5410,42 +5077,13 @@
             this.InCaseOfMarriageGB.Controls.Add(this.marriagePatientOrderTextBox);
             this.InCaseOfMarriageGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.InCaseOfMarriageGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.InCaseOfMarriageGB.Location = new System.Drawing.Point(4, 67);
+            this.InCaseOfMarriageGB.Location = new System.Drawing.Point(4, 131);
             this.InCaseOfMarriageGB.Name = "InCaseOfMarriageGB";
             this.InCaseOfMarriageGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.InCaseOfMarriageGB.Size = new System.Drawing.Size(966, 460);
-            this.InCaseOfMarriageGB.TabIndex = 965;
+            this.InCaseOfMarriageGB.TabIndex = 2;
             this.InCaseOfMarriageGB.TabStop = false;
             this.InCaseOfMarriageGB.Text = "في حالة الزواج";
-            // 
-            // InCaseOfMarriageBrush
-            // 
-            this.InCaseOfMarriageBrush.FlatAppearance.BorderSize = 0;
-            this.InCaseOfMarriageBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.InCaseOfMarriageBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.InCaseOfMarriageBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.InCaseOfMarriageBrush.Location = new System.Drawing.Point(836, 406);
-            this.InCaseOfMarriageBrush.Name = "InCaseOfMarriageBrush";
-            this.InCaseOfMarriageBrush.Size = new System.Drawing.Size(64, 52);
-            this.InCaseOfMarriageBrush.TabIndex = 996;
-            this.InCaseOfMarriageBrush.UseVisualStyleBackColor = false;
-            this.InCaseOfMarriageBrush.Click += new System.EventHandler(this.InCaseOfMarriageBrush_Click);
-            this.InCaseOfMarriageBrush.MouseLeave += new System.EventHandler(this.InCaseOfMarriageBrush_MouseLeave);
-            this.InCaseOfMarriageBrush.MouseHover += new System.EventHandler(this.InCaseOfMarriageBrush_MouseHover);
-            // 
-            // addPatientMaritalStatusButton
-            // 
-            this.addPatientMaritalStatusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addPatientMaritalStatusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addPatientMaritalStatusButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addPatientMaritalStatusButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addPatientMaritalStatusButton.Location = new System.Drawing.Point(688, 414);
-            this.addPatientMaritalStatusButton.Name = "addPatientMaritalStatusButton";
-            this.addPatientMaritalStatusButton.Size = new System.Drawing.Size(135, 38);
-            this.addPatientMaritalStatusButton.TabIndex = 982;
-            this.addPatientMaritalStatusButton.Text = "إضافة";
-            this.addPatientMaritalStatusButton.UseVisualStyleBackColor = false;
-            this.addPatientMaritalStatusButton.Click += new System.EventHandler(this.addPatientMaritalStatusButton_Click);
             // 
             // label27
             // 
@@ -5467,7 +5105,7 @@
             this.forFemaleMarriageGB.Name = "forFemaleMarriageGB";
             this.forFemaleMarriageGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.forFemaleMarriageGB.Size = new System.Drawing.Size(253, 64);
-            this.forFemaleMarriageGB.TabIndex = 948;
+            this.forFemaleMarriageGB.TabIndex = 1;
             this.forFemaleMarriageGB.TabStop = false;
             this.forFemaleMarriageGB.Text = "للإناث";
             // 
@@ -5484,7 +5122,7 @@
             this.ageAtProcreationFemaleTextBox.Name = "ageAtProcreationFemaleTextBox";
             this.ageAtProcreationFemaleTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ageAtProcreationFemaleTextBox.Size = new System.Drawing.Size(118, 26);
-            this.ageAtProcreationFemaleTextBox.TabIndex = 982;
+            this.ageAtProcreationFemaleTextBox.TabIndex = 1;
             this.ageAtProcreationFemaleTextBox.Text = "العمر عند الإنجاب";
             this.ageAtProcreationFemaleTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ageAtProcreationFemaleTextBox.Enter += new System.EventHandler(this.ageAtProcreationFemaleTextBox_Enter);
@@ -5503,7 +5141,7 @@
             this.ageAtMarriageFemaleTextBox.Name = "ageAtMarriageFemaleTextBox";
             this.ageAtMarriageFemaleTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ageAtMarriageFemaleTextBox.Size = new System.Drawing.Size(118, 26);
-            this.ageAtMarriageFemaleTextBox.TabIndex = 981;
+            this.ageAtMarriageFemaleTextBox.TabIndex = 0;
             this.ageAtMarriageFemaleTextBox.Text = "العمر عند الزواج";
             this.ageAtMarriageFemaleTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ageAtMarriageFemaleTextBox.Enter += new System.EventHandler(this.ageAtMarriageFemaleTextBox_Enter);
@@ -5557,46 +5195,6 @@
             this.label8.TabIndex = 977;
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // marriageToDate
-            // 
-            this.marriageToDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marriageToDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageToDate.CustomFormat = "yyyy-MM-dd";
-            this.marriageToDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.marriageToDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marriageToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.marriageToDate.Location = new System.Drawing.Point(700, 387);
-            this.marriageToDate.Name = "marriageToDate";
-            this.marriageToDate.Size = new System.Drawing.Size(123, 28);
-            this.marriageToDate.TabIndex = 976;
-            this.marriageToDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
-            // marriageFromDate
-            // 
-            this.marriageFromDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marriageFromDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.marriageFromDate.CustomFormat = "yyyy-MM-dd";
-            this.marriageFromDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.marriageFromDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marriageFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.marriageFromDate.Location = new System.Drawing.Point(835, 387);
-            this.marriageFromDate.Name = "marriageFromDate";
-            this.marriageFromDate.Size = new System.Drawing.Size(119, 28);
-            this.marriageFromDate.TabIndex = 975;
-            this.marriageFromDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
-            // 
             // marriageDurationTextBox
             // 
             this.marriageDurationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -5609,7 +5207,7 @@
             this.marriageDurationTextBox.Name = "marriageDurationTextBox";
             this.marriageDurationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.marriageDurationTextBox.Size = new System.Drawing.Size(103, 26);
-            this.marriageDurationTextBox.TabIndex = 974;
+            this.marriageDurationTextBox.TabIndex = 7;
             this.marriageDurationTextBox.Text = "مدة الزواج";
             this.marriageDurationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.marriageDurationTextBox.Enter += new System.EventHandler(this.marriageDurationTextBox_Enter);
@@ -5628,7 +5226,7 @@
             this.husbandNationalityTextBox.Name = "husbandNationalityTextBox";
             this.husbandNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.husbandNationalityTextBox.Size = new System.Drawing.Size(103, 26);
-            this.husbandNationalityTextBox.TabIndex = 973;
+            this.husbandNationalityTextBox.TabIndex = 6;
             this.husbandNationalityTextBox.Text = "جنسية الزوج";
             this.husbandNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.husbandNationalityTextBox.Enter += new System.EventHandler(this.husbandNationalityTextBox_Enter);
@@ -5666,7 +5264,7 @@
             this.totalPatientMarriageTextBox.Name = "totalPatientMarriageTextBox";
             this.totalPatientMarriageTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.totalPatientMarriageTextBox.Size = new System.Drawing.Size(126, 43);
-            this.totalPatientMarriageTextBox.TabIndex = 971;
+            this.totalPatientMarriageTextBox.TabIndex = 0;
             this.totalPatientMarriageTextBox.Text = "عدد مرات الزواج الكلية";
             this.totalPatientMarriageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.totalPatientMarriageTextBox.Enter += new System.EventHandler(this.totalPatientMarriageTextBox_Enter);
@@ -5679,14 +5277,14 @@
             this.patientMaritalStatusDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.patientMaritalStatusDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.patientMaritalStatusDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle80.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle80.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle80.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle80.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle80.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.patientMaritalStatusDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle80;
+            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle86.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle86.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle86.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle86.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle86.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.patientMaritalStatusDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle86;
             this.patientMaritalStatusDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.patientMaritalStatusDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn4,
@@ -5699,14 +5297,14 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle81.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle81.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.patientMaritalStatusDGV.DefaultCellStyle = dataGridViewCellStyle81;
+            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle87.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle87.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle87.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.patientMaritalStatusDGV.DefaultCellStyle = dataGridViewCellStyle87;
             this.patientMaritalStatusDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.patientMaritalStatusDGV.GridColor = System.Drawing.Color.White;
             this.patientMaritalStatusDGV.Location = new System.Drawing.Point(6, 36);
@@ -5714,18 +5312,19 @@
             this.patientMaritalStatusDGV.MultiSelect = false;
             this.patientMaritalStatusDGV.Name = "patientMaritalStatusDGV";
             this.patientMaritalStatusDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle82.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle82.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.patientMaritalStatusDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle88.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle88.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.patientMaritalStatusDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle88;
             this.patientMaritalStatusDGV.RowHeadersWidth = 30;
             this.patientMaritalStatusDGV.RowTemplate.Height = 26;
             this.patientMaritalStatusDGV.Size = new System.Drawing.Size(674, 417);
             this.patientMaritalStatusDGV.TabIndex = 959;
+            this.patientMaritalStatusDGV.TabStop = false;
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -5808,7 +5407,7 @@
             this.girlsCountPatientsTextBox.Name = "girlsCountPatientsTextBox";
             this.girlsCountPatientsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.girlsCountPatientsTextBox.Size = new System.Drawing.Size(103, 26);
-            this.girlsCountPatientsTextBox.TabIndex = 969;
+            this.girlsCountPatientsTextBox.TabIndex = 5;
             this.girlsCountPatientsTextBox.Text = "عدد البنات";
             this.girlsCountPatientsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.girlsCountPatientsTextBox.TextChanged += new System.EventHandler(this.girlsCountPatientsTextBox_TextChanged);
@@ -5828,7 +5427,7 @@
             this.boysCountPatientsTextBox.Name = "boysCountPatientsTextBox";
             this.boysCountPatientsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.boysCountPatientsTextBox.Size = new System.Drawing.Size(103, 26);
-            this.boysCountPatientsTextBox.TabIndex = 968;
+            this.boysCountPatientsTextBox.TabIndex = 4;
             this.boysCountPatientsTextBox.Text = "عدد الأبناء";
             this.boysCountPatientsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.boysCountPatientsTextBox.TextChanged += new System.EventHandler(this.boysCountPatientsTextBox_TextChanged);
@@ -5847,7 +5446,7 @@
             this.relativeMarriageGB.Name = "relativeMarriageGB";
             this.relativeMarriageGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.relativeMarriageGB.Size = new System.Drawing.Size(254, 64);
-            this.relativeMarriageGB.TabIndex = 971;
+            this.relativeMarriageGB.TabIndex = 3;
             this.relativeMarriageGB.TabStop = false;
             this.relativeMarriageGB.Text = "هل هو زواج أقارب؟";
             // 
@@ -5876,7 +5475,7 @@
             this.patientMarriageSideComboBox.Name = "patientMarriageSideComboBox";
             this.patientMarriageSideComboBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.patientMarriageSideComboBox.Size = new System.Drawing.Size(103, 27);
-            this.patientMarriageSideComboBox.TabIndex = 1001;
+            this.patientMarriageSideComboBox.TabIndex = 2;
             // 
             // noRelativeRB
             // 
@@ -5888,7 +5487,7 @@
             this.noRelativeRB.Name = "noRelativeRB";
             this.noRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noRelativeRB.Size = new System.Drawing.Size(40, 32);
-            this.noRelativeRB.TabIndex = 90;
+            this.noRelativeRB.TabIndex = 1;
             this.noRelativeRB.TabStop = true;
             this.noRelativeRB.Text = "لا";
             this.noRelativeRB.UseVisualStyleBackColor = true;
@@ -5904,7 +5503,7 @@
             this.yesRelativeRB.Name = "yesRelativeRB";
             this.yesRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yesRelativeRB.Size = new System.Drawing.Size(48, 32);
-            this.yesRelativeRB.TabIndex = 89;
+            this.yesRelativeRB.TabIndex = 0;
             this.yesRelativeRB.TabStop = true;
             this.yesRelativeRB.Text = "نعم";
             this.yesRelativeRB.UseVisualStyleBackColor = true;
@@ -5922,7 +5521,7 @@
             this.marriagePatientOrderTextBox.Name = "marriagePatientOrderTextBox";
             this.marriagePatientOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.marriagePatientOrderTextBox.Size = new System.Drawing.Size(192, 26);
-            this.marriagePatientOrderTextBox.TabIndex = 961;
+            this.marriagePatientOrderTextBox.TabIndex = 2;
             this.marriagePatientOrderTextBox.Text = "ترتيب الزواج بين زيجاته الأخرى";
             this.marriagePatientOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.marriagePatientOrderTextBox.Enter += new System.EventHandler(this.marriagePatientOrderTextBox_Enter);
@@ -5938,7 +5537,7 @@
             this.TabPage2_2.Padding = new System.Windows.Forms.Padding(3);
             this.TabPage2_2.Size = new System.Drawing.Size(976, 763);
             this.TabPage2_2.TabIndex = 1;
-            this.TabPage2_2.Text = "العائلة الكبيرة";
+            this.TabPage2_2.Text = "العائلة الكبيرة(الوالدين)";
             // 
             // motherBigFamilyGB
             // 
@@ -5955,15 +5554,16 @@
             this.motherBigFamilyGB.Controls.Add(this.motherBoysCountTextBox);
             this.motherBigFamilyGB.Controls.Add(this.label29);
             this.motherBigFamilyGB.Controls.Add(this.totalMotherMarriageTextBox);
-            this.motherBigFamilyGB.Controls.Add(this.motherBigFamilyRB);
+            this.motherBigFamilyGB.Controls.Add(this.motherDeadGB);
             this.motherBigFamilyGB.Controls.Add(this.motherMarriageDetailsAddButton);
+            this.motherBigFamilyGB.Controls.Add(this.motherBigFamilyRB);
             this.motherBigFamilyGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.motherBigFamilyGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
             this.motherBigFamilyGB.Location = new System.Drawing.Point(1, 340);
             this.motherBigFamilyGB.Name = "motherBigFamilyGB";
             this.motherBigFamilyGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherBigFamilyGB.Size = new System.Drawing.Size(967, 355);
-            this.motherBigFamilyGB.TabIndex = 989;
+            this.motherBigFamilyGB.TabIndex = 1;
             this.motherBigFamilyGB.TabStop = false;
             this.motherBigFamilyGB.Text = "الأم (الأسرة الكبيرة)";
             // 
@@ -5974,14 +5574,14 @@
             this.motherDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.motherDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.motherDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle83.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle83.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.motherDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle83;
+            dataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle89.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle89.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle89.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle89.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle89.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.motherDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle89;
             this.motherDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.motherDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn9,
@@ -5992,33 +5592,34 @@
             this.dataGridViewTextBoxColumn17,
             this.dataGridViewTextBoxColumn18,
             this.dataGridViewTextBoxColumn19});
-            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle84.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.motherDGV.DefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle90.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.motherDGV.DefaultCellStyle = dataGridViewCellStyle90;
             this.motherDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.motherDGV.GridColor = System.Drawing.Color.White;
-            this.motherDGV.Location = new System.Drawing.Point(7, 24);
+            this.motherDGV.Location = new System.Drawing.Point(9, 24);
             this.motherDGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motherDGV.MultiSelect = false;
             this.motherDGV.Name = "motherDGV";
             this.motherDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle85.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle85.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle85.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle85.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle85.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.motherDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle91.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle91.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle91.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle91.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle91.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.motherDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle91;
             this.motherDGV.RowHeadersWidth = 30;
             this.motherDGV.RowTemplate.Height = 26;
             this.motherDGV.Size = new System.Drawing.Size(673, 282);
             this.motherDGV.TabIndex = 986;
+            this.motherDGV.TabStop = false;
             // 
             // dataGridViewTextBoxColumn9
             // 
@@ -6080,7 +5681,7 @@
             this.motherStatusGB.Name = "motherStatusGB";
             this.motherStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherStatusGB.Size = new System.Drawing.Size(277, 92);
-            this.motherStatusGB.TabIndex = 957;
+            this.motherStatusGB.TabIndex = 0;
             this.motherStatusGB.TabStop = false;
             this.motherStatusGB.Text = "حالة الأم";
             // 
@@ -6094,7 +5695,7 @@
             this.houseWifeRB.Name = "houseWifeRB";
             this.houseWifeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.houseWifeRB.Size = new System.Drawing.Size(87, 32);
-            this.houseWifeRB.TabIndex = 92;
+            this.houseWifeRB.TabIndex = 2;
             this.houseWifeRB.TabStop = true;
             this.houseWifeRB.Text = "ربة منزل";
             this.houseWifeRB.UseVisualStyleBackColor = true;
@@ -6109,10 +5710,11 @@
             this.motherDeadRB.Name = "motherDeadRB";
             this.motherDeadRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherDeadRB.Size = new System.Drawing.Size(67, 32);
-            this.motherDeadRB.TabIndex = 91;
+            this.motherDeadRB.TabIndex = 3;
             this.motherDeadRB.TabStop = true;
             this.motherDeadRB.Text = "متوفية";
             this.motherDeadRB.UseVisualStyleBackColor = true;
+            this.motherDeadRB.CheckedChanged += new System.EventHandler(this.motherDeadRB_CheckedChanged);
             // 
             // motherRetiredRB
             // 
@@ -6124,7 +5726,7 @@
             this.motherRetiredRB.Name = "motherRetiredRB";
             this.motherRetiredRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherRetiredRB.Size = new System.Drawing.Size(72, 32);
-            this.motherRetiredRB.TabIndex = 89;
+            this.motherRetiredRB.TabIndex = 1;
             this.motherRetiredRB.TabStop = true;
             this.motherRetiredRB.Text = "متقاعدة";
             this.motherRetiredRB.UseVisualStyleBackColor = true;
@@ -6139,7 +5741,7 @@
             this.motherWorkingRB.Name = "motherWorkingRB";
             this.motherWorkingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherWorkingRB.Size = new System.Drawing.Size(126, 32);
-            this.motherWorkingRB.TabIndex = 90;
+            this.motherWorkingRB.TabIndex = 0;
             this.motherWorkingRB.TabStop = true;
             this.motherWorkingRB.Text = "على رأس عملها";
             this.motherWorkingRB.UseVisualStyleBackColor = true;
@@ -6151,13 +5753,13 @@
             this.motherMariiageOrderTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.motherMariiageOrderTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.motherMariiageOrderTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.motherMariiageOrderTextBox.Location = new System.Drawing.Point(770, 207);
+            this.motherMariiageOrderTextBox.Location = new System.Drawing.Point(842, 207);
             this.motherMariiageOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motherMariiageOrderTextBox.Multiline = true;
             this.motherMariiageOrderTextBox.Name = "motherMariiageOrderTextBox";
             this.motherMariiageOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.motherMariiageOrderTextBox.Size = new System.Drawing.Size(192, 26);
-            this.motherMariiageOrderTextBox.TabIndex = 979;
+            this.motherMariiageOrderTextBox.Size = new System.Drawing.Size(120, 26);
+            this.motherMariiageOrderTextBox.TabIndex = 5;
             this.motherMariiageOrderTextBox.Text = "ترتيب الزواج بين زيجاتها الأخرى";
             this.motherMariiageOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherMariiageOrderTextBox.Enter += new System.EventHandler(this.motherMariiageOrderTextBox_Enter);
@@ -6171,11 +5773,11 @@
             this.groupBox16.Controls.Add(this.yesMotherRelativeRB);
             this.groupBox16.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Bold);
             this.groupBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.groupBox16.Location = new System.Drawing.Point(698, 234);
+            this.groupBox16.Location = new System.Drawing.Point(688, 234);
             this.groupBox16.Name = "groupBox16";
             this.groupBox16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox16.Size = new System.Drawing.Size(263, 55);
-            this.groupBox16.TabIndex = 999;
+            this.groupBox16.Size = new System.Drawing.Size(273, 55);
+            this.groupBox16.TabIndex = 6;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "هل هو زواج أقارب؟";
             // 
@@ -6186,7 +5788,7 @@
             this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.label69.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label69.Location = new System.Drawing.Point(98, 17);
+            this.label69.Location = new System.Drawing.Point(108, 21);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(36, 28);
             this.label69.TabIndex = 1001;
@@ -6200,23 +5802,23 @@
             this.motherMarriageSideComboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.motherMarriageSideComboBox.ForeColor = System.Drawing.Color.White;
             this.motherMarriageSideComboBox.FormattingEnabled = true;
-            this.motherMarriageSideComboBox.Location = new System.Drawing.Point(6, 19);
+            this.motherMarriageSideComboBox.Location = new System.Drawing.Point(6, 22);
             this.motherMarriageSideComboBox.Name = "motherMarriageSideComboBox";
             this.motherMarriageSideComboBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.motherMarriageSideComboBox.Size = new System.Drawing.Size(93, 27);
-            this.motherMarriageSideComboBox.TabIndex = 1000;
+            this.motherMarriageSideComboBox.Size = new System.Drawing.Size(103, 27);
+            this.motherMarriageSideComboBox.TabIndex = 2;
             // 
             // noMotherRelativeRB
             // 
             this.noMotherRelativeRB.AutoSize = true;
             this.noMotherRelativeRB.Font = new System.Drawing.Font("Sitka Heading", 13F);
             this.noMotherRelativeRB.ForeColor = System.Drawing.Color.White;
-            this.noMotherRelativeRB.Location = new System.Drawing.Point(161, 20);
+            this.noMotherRelativeRB.Location = new System.Drawing.Point(170, 20);
             this.noMotherRelativeRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.noMotherRelativeRB.Name = "noMotherRelativeRB";
             this.noMotherRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noMotherRelativeRB.Size = new System.Drawing.Size(40, 30);
-            this.noMotherRelativeRB.TabIndex = 90;
+            this.noMotherRelativeRB.TabIndex = 1;
             this.noMotherRelativeRB.TabStop = true;
             this.noMotherRelativeRB.Text = "لا";
             this.noMotherRelativeRB.UseVisualStyleBackColor = true;
@@ -6227,12 +5829,12 @@
             this.yesMotherRelativeRB.AutoSize = true;
             this.yesMotherRelativeRB.Font = new System.Drawing.Font("Sitka Heading", 13F);
             this.yesMotherRelativeRB.ForeColor = System.Drawing.Color.White;
-            this.yesMotherRelativeRB.Location = new System.Drawing.Point(214, 20);
+            this.yesMotherRelativeRB.Location = new System.Drawing.Point(224, 20);
             this.yesMotherRelativeRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.yesMotherRelativeRB.Name = "yesMotherRelativeRB";
             this.yesMotherRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yesMotherRelativeRB.Size = new System.Drawing.Size(47, 30);
-            this.yesMotherRelativeRB.TabIndex = 89;
+            this.yesMotherRelativeRB.TabIndex = 0;
             this.yesMotherRelativeRB.TabStop = true;
             this.yesMotherRelativeRB.Text = "نعم";
             this.yesMotherRelativeRB.UseVisualStyleBackColor = true;
@@ -6244,13 +5846,13 @@
             this.motherEducationLevelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.motherEducationLevelTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.motherEducationLevelTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.motherEducationLevelTextBox.Location = new System.Drawing.Point(688, 151);
+            this.motherEducationLevelTextBox.Location = new System.Drawing.Point(842, 151);
             this.motherEducationLevelTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motherEducationLevelTextBox.Multiline = true;
             this.motherEducationLevelTextBox.Name = "motherEducationLevelTextBox";
             this.motherEducationLevelTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.motherEducationLevelTextBox.Size = new System.Drawing.Size(145, 26);
-            this.motherEducationLevelTextBox.TabIndex = 988;
+            this.motherEducationLevelTextBox.Size = new System.Drawing.Size(121, 26);
+            this.motherEducationLevelTextBox.TabIndex = 3;
             this.motherEducationLevelTextBox.Text = "مستوى التعليم";
             this.motherEducationLevelTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherEducationLevelTextBox.Enter += new System.EventHandler(this.motherEducationLevelTextBox_Enter);
@@ -6268,8 +5870,8 @@
             this.motherNationalityTextBox.Multiline = true;
             this.motherNationalityTextBox.Name = "motherNationalityTextBox";
             this.motherNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.motherNationalityTextBox.Size = new System.Drawing.Size(145, 26);
-            this.motherNationalityTextBox.TabIndex = 987;
+            this.motherNationalityTextBox.Size = new System.Drawing.Size(147, 26);
+            this.motherNationalityTextBox.TabIndex = 2;
             this.motherNationalityTextBox.Text = "الجنسية";
             this.motherNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherNationalityTextBox.Enter += new System.EventHandler(this.motherNationalityTextBox_Enter);
@@ -6282,13 +5884,13 @@
             this.motherMarriageDurationTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.motherMarriageDurationTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.motherMarriageDurationTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.motherMarriageDurationTextBox.Location = new System.Drawing.Point(697, 324);
+            this.motherMarriageDurationTextBox.Location = new System.Drawing.Point(688, 323);
             this.motherMarriageDurationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motherMarriageDurationTextBox.Multiline = true;
             this.motherMarriageDurationTextBox.Name = "motherMarriageDurationTextBox";
             this.motherMarriageDurationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.motherMarriageDurationTextBox.Size = new System.Drawing.Size(156, 26);
-            this.motherMarriageDurationTextBox.TabIndex = 985;
+            this.motherMarriageDurationTextBox.Size = new System.Drawing.Size(165, 26);
+            this.motherMarriageDurationTextBox.TabIndex = 10;
             this.motherMarriageDurationTextBox.Text = "مدة الزواج بالأعوام";
             this.motherMarriageDurationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherMarriageDurationTextBox.Enter += new System.EventHandler(this.motherMarriageDurationTextBox_Enter);
@@ -6307,7 +5909,7 @@
             this.husbandMotherTextBox.Name = "husbandMotherTextBox";
             this.husbandMotherTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.husbandMotherTextBox.Size = new System.Drawing.Size(103, 26);
-            this.husbandMotherTextBox.TabIndex = 984;
+            this.husbandMotherTextBox.TabIndex = 9;
             this.husbandMotherTextBox.Text = "جنسية الزوج";
             this.husbandMotherTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.husbandMotherTextBox.Enter += new System.EventHandler(this.husbandMotherTextBox_Enter);
@@ -6320,13 +5922,14 @@
             this.motherTotalKidsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.motherTotalKidsTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.motherTotalKidsTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.motherTotalKidsTextBox.Location = new System.Drawing.Point(697, 294);
+            this.motherTotalKidsTextBox.Location = new System.Drawing.Point(688, 294);
             this.motherTotalKidsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motherTotalKidsTextBox.Multiline = true;
             this.motherTotalKidsTextBox.Name = "motherTotalKidsTextBox";
             this.motherTotalKidsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.motherTotalKidsTextBox.Size = new System.Drawing.Size(47, 26);
+            this.motherTotalKidsTextBox.Size = new System.Drawing.Size(56, 26);
             this.motherTotalKidsTextBox.TabIndex = 983;
+            this.motherTotalKidsTextBox.TabStop = false;
             this.motherTotalKidsTextBox.Text = "العدد";
             this.motherTotalKidsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherTotalKidsTextBox.Enter += new System.EventHandler(this.motherTotalKidsTextBox_Enter);
@@ -6345,7 +5948,7 @@
             this.motherGirlsCountTextBox.Name = "motherGirlsCountTextBox";
             this.motherGirlsCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherGirlsCountTextBox.Size = new System.Drawing.Size(103, 26);
-            this.motherGirlsCountTextBox.TabIndex = 982;
+            this.motherGirlsCountTextBox.TabIndex = 8;
             this.motherGirlsCountTextBox.Text = "عدد البنات";
             this.motherGirlsCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherGirlsCountTextBox.TextChanged += new System.EventHandler(this.motherGirlsCountTextBox_TextChanged);
@@ -6365,7 +5968,7 @@
             this.motherBoysCountTextBox.Name = "motherBoysCountTextBox";
             this.motherBoysCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motherBoysCountTextBox.Size = new System.Drawing.Size(103, 26);
-            this.motherBoysCountTextBox.TabIndex = 981;
+            this.motherBoysCountTextBox.TabIndex = 7;
             this.motherBoysCountTextBox.Text = "عدد الأبناء";
             this.motherBoysCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motherBoysCountTextBox.TextChanged += new System.EventHandler(this.motherBoysCountTextBox_TextChanged);
@@ -6392,51 +5995,92 @@
             this.totalMotherMarriageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.totalMotherMarriageTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalMotherMarriageTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.totalMotherMarriageTextBox.Location = new System.Drawing.Point(839, 121);
+            this.totalMotherMarriageTextBox.Location = new System.Drawing.Point(842, 121);
             this.totalMotherMarriageTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.totalMotherMarriageTextBox.Multiline = true;
             this.totalMotherMarriageTextBox.Name = "totalMotherMarriageTextBox";
             this.totalMotherMarriageTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.totalMotherMarriageTextBox.Size = new System.Drawing.Size(126, 56);
-            this.totalMotherMarriageTextBox.TabIndex = 972;
-            this.totalMotherMarriageTextBox.Text = "عدد مرات الزواج الكلية";
+            this.totalMotherMarriageTextBox.Size = new System.Drawing.Size(121, 26);
+            this.totalMotherMarriageTextBox.TabIndex = 1;
+            this.totalMotherMarriageTextBox.Text = "عدد مرات الزواج";
             this.totalMotherMarriageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.totalMotherMarriageTextBox.Enter += new System.EventHandler(this.totalMotherMarriageTextBox_Enter);
             this.totalMotherMarriageTextBox.Leave += new System.EventHandler(this.totalMotherMarriageTextBox_Leave);
             // 
-            // motherBigFamilyRB
+            // motherDeadGB
             // 
-            this.motherBigFamilyRB.FlatAppearance.BorderSize = 0;
-            this.motherBigFamilyRB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.motherBigFamilyRB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.motherBigFamilyRB.Image = ((System.Drawing.Image)(resources.GetObject("motherBigFamilyRB.Image")));
-            this.motherBigFamilyRB.Location = new System.Drawing.Point(480, 301);
-            this.motherBigFamilyRB.Name = "motherBigFamilyRB";
-            this.motherBigFamilyRB.Size = new System.Drawing.Size(64, 52);
-            this.motherBigFamilyRB.TabIndex = 1000;
-            this.motherBigFamilyRB.UseVisualStyleBackColor = false;
-            this.motherBigFamilyRB.Click += new System.EventHandler(this.motherBigFamilyRB_Click);
-            this.motherBigFamilyRB.MouseLeave += new System.EventHandler(this.motherBigFamilyRB_MouseLeave);
-            this.motherBigFamilyRB.MouseHover += new System.EventHandler(this.motherBigFamilyRB_MouseHover);
+            this.motherDeadGB.Controls.Add(this.motherDeathPatientInfluenceTextBox);
+            this.motherDeadGB.Controls.Add(this.motherDeathPatientAgeTextBox);
+            this.motherDeadGB.Controls.Add(this.motherDeathReasonTextBox);
+            this.motherDeadGB.Font = new System.Drawing.Font("Sitka Heading", 14F, System.Drawing.FontStyle.Bold);
+            this.motherDeadGB.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.motherDeadGB.Location = new System.Drawing.Point(688, 140);
+            this.motherDeadGB.Name = "motherDeadGB";
+            this.motherDeadGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.motherDeadGB.Size = new System.Drawing.Size(148, 95);
+            this.motherDeadGB.TabIndex = 4;
+            this.motherDeadGB.TabStop = false;
             // 
-            // motherMarriageDetailsAddButton
+            // motherDeathPatientInfluenceTextBox
             // 
-            this.motherMarriageDetailsAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.motherMarriageDetailsAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motherMarriageDetailsAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.motherMarriageDetailsAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.motherMarriageDetailsAddButton.Location = new System.Drawing.Point(547, 311);
-            this.motherMarriageDetailsAddButton.Name = "motherMarriageDetailsAddButton";
-            this.motherMarriageDetailsAddButton.Size = new System.Drawing.Size(135, 38);
-            this.motherMarriageDetailsAddButton.TabIndex = 996;
-            this.motherMarriageDetailsAddButton.Text = "إضافة";
-            this.motherMarriageDetailsAddButton.UseVisualStyleBackColor = false;
-            this.motherMarriageDetailsAddButton.Click += new System.EventHandler(this.motherMarriageDetailsAddButton_Click);
+            this.motherDeathPatientInfluenceTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.motherDeathPatientInfluenceTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.motherDeathPatientInfluenceTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.motherDeathPatientInfluenceTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motherDeathPatientInfluenceTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.motherDeathPatientInfluenceTextBox.Location = new System.Drawing.Point(5, 52);
+            this.motherDeathPatientInfluenceTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.motherDeathPatientInfluenceTextBox.Multiline = true;
+            this.motherDeathPatientInfluenceTextBox.Name = "motherDeathPatientInfluenceTextBox";
+            this.motherDeathPatientInfluenceTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.motherDeathPatientInfluenceTextBox.Size = new System.Drawing.Size(139, 39);
+            this.motherDeathPatientInfluenceTextBox.TabIndex = 2;
+            this.motherDeathPatientInfluenceTextBox.Text = "مدى تأثير الوفاة على المفحوص";
+            this.motherDeathPatientInfluenceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.motherDeathPatientInfluenceTextBox.Enter += new System.EventHandler(this.motherDeathPatientInfluenceTextBox_Enter);
+            this.motherDeathPatientInfluenceTextBox.Leave += new System.EventHandler(this.motherDeathPatientInfluenceTextBox_Leave);
+            // 
+            // motherDeathPatientAgeTextBox
+            // 
+            this.motherDeathPatientAgeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.motherDeathPatientAgeTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.motherDeathPatientAgeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.motherDeathPatientAgeTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motherDeathPatientAgeTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.motherDeathPatientAgeTextBox.Location = new System.Drawing.Point(5, 15);
+            this.motherDeathPatientAgeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.motherDeathPatientAgeTextBox.Multiline = true;
+            this.motherDeathPatientAgeTextBox.Name = "motherDeathPatientAgeTextBox";
+            this.motherDeathPatientAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.motherDeathPatientAgeTextBox.Size = new System.Drawing.Size(73, 35);
+            this.motherDeathPatientAgeTextBox.TabIndex = 1;
+            this.motherDeathPatientAgeTextBox.Text = "عمر المفحوص عند الوفاة";
+            this.motherDeathPatientAgeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.motherDeathPatientAgeTextBox.Enter += new System.EventHandler(this.motherDeathPatientAgeTextBox_Enter);
+            this.motherDeathPatientAgeTextBox.Leave += new System.EventHandler(this.motherDeathPatientAgeTextBox_Leave);
+            // 
+            // motherDeathReasonTextBox
+            // 
+            this.motherDeathReasonTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.motherDeathReasonTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.motherDeathReasonTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.motherDeathReasonTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motherDeathReasonTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.motherDeathReasonTextBox.Location = new System.Drawing.Point(79, 15);
+            this.motherDeathReasonTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.motherDeathReasonTextBox.Multiline = true;
+            this.motherDeathReasonTextBox.Name = "motherDeathReasonTextBox";
+            this.motherDeathReasonTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.motherDeathReasonTextBox.Size = new System.Drawing.Size(65, 35);
+            this.motherDeathReasonTextBox.TabIndex = 0;
+            this.motherDeathReasonTextBox.Text = "سبب الوفاة";
+            this.motherDeathReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.motherDeathReasonTextBox.Enter += new System.EventHandler(this.motherDeathReasonTextBox_Enter);
+            this.motherDeathReasonTextBox.Leave += new System.EventHandler(this.motherDeathReasonTextBox_Leave);
             // 
             // fatherBigFamilyGB
             // 
             this.fatherBigFamilyGB.Controls.Add(this.fatherDGV);
-            this.fatherBigFamilyGB.Controls.Add(this.groupBox15);
             this.fatherBigFamilyGB.Controls.Add(this.fatherEducationLevelTextBox);
             this.fatherBigFamilyGB.Controls.Add(this.fatherNationalityTextBox);
             this.fatherBigFamilyGB.Controls.Add(this.fatherMarriageDurationTextBox);
@@ -6448,15 +6092,17 @@
             this.fatherBigFamilyGB.Controls.Add(this.totalFatherMarriageTextBox);
             this.fatherBigFamilyGB.Controls.Add(this.fatherStatusGB);
             this.fatherBigFamilyGB.Controls.Add(this.label28);
-            this.fatherBigFamilyGB.Controls.Add(this.fatherBigFamilyBrush);
+            this.fatherBigFamilyGB.Controls.Add(this.fatherDeadGB);
+            this.fatherBigFamilyGB.Controls.Add(this.groupBox15);
             this.fatherBigFamilyGB.Controls.Add(this.fatherMarriageDetailsAddButton);
+            this.fatherBigFamilyGB.Controls.Add(this.fatherBigFamilyBrush);
             this.fatherBigFamilyGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.fatherBigFamilyGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
             this.fatherBigFamilyGB.Location = new System.Drawing.Point(3, 8);
             this.fatherBigFamilyGB.Name = "fatherBigFamilyGB";
             this.fatherBigFamilyGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fatherBigFamilyGB.Size = new System.Drawing.Size(967, 317);
-            this.fatherBigFamilyGB.TabIndex = 945;
+            this.fatherBigFamilyGB.TabIndex = 0;
             this.fatherBigFamilyGB.TabStop = false;
             this.fatherBigFamilyGB.Text = "الأب (الأسرة الكبيرة)";
             // 
@@ -6467,14 +6113,14 @@
             this.fatherDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.fatherDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.fatherDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle86.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle86.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle86.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle86.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle86.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.fatherDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle86;
+            dataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle92.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle92.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle92.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle92.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle92.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.fatherDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle92;
             this.fatherDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.fatherDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn8,
@@ -6485,33 +6131,34 @@
             this.dataGridViewTextBoxColumn12,
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14});
-            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle87.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            dataGridViewCellStyle87.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle87.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.fatherDGV.DefaultCellStyle = dataGridViewCellStyle87;
+            dataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle93.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            dataGridViewCellStyle93.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle93.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle93.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.fatherDGV.DefaultCellStyle = dataGridViewCellStyle93;
             this.fatherDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.fatherDGV.GridColor = System.Drawing.Color.White;
-            this.fatherDGV.Location = new System.Drawing.Point(7, 26);
+            this.fatherDGV.Location = new System.Drawing.Point(7, 29);
             this.fatherDGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fatherDGV.MultiSelect = false;
             this.fatherDGV.Name = "fatherDGV";
             this.fatherDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle88.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle88.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.fatherDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle88;
+            dataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle94.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle94.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle94.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle94.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle94.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.fatherDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle94;
             this.fatherDGV.RowHeadersWidth = 30;
             this.fatherDGV.RowTemplate.Height = 26;
-            this.fatherDGV.Size = new System.Drawing.Size(673, 242);
+            this.fatherDGV.Size = new System.Drawing.Size(673, 239);
             this.fatherDGV.TabIndex = 986;
+            this.fatherDGV.TabStop = false;
             // 
             // dataGridViewTextBoxColumn8
             // 
@@ -6561,6 +6208,325 @@
             this.dataGridViewTextBoxColumn14.HeaderText = "مدة الزواج";
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             // 
+            // fatherEducationLevelTextBox
+            // 
+            this.fatherEducationLevelTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherEducationLevelTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherEducationLevelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherEducationLevelTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherEducationLevelTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherEducationLevelTextBox.Location = new System.Drawing.Point(839, 117);
+            this.fatherEducationLevelTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherEducationLevelTextBox.Multiline = true;
+            this.fatherEducationLevelTextBox.Name = "fatherEducationLevelTextBox";
+            this.fatherEducationLevelTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherEducationLevelTextBox.Size = new System.Drawing.Size(126, 26);
+            this.fatherEducationLevelTextBox.TabIndex = 3;
+            this.fatherEducationLevelTextBox.Text = "مستوى التعليم";
+            this.fatherEducationLevelTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherEducationLevelTextBox.Enter += new System.EventHandler(this.fatherEducationLevelTextBox_Enter);
+            this.fatherEducationLevelTextBox.Leave += new System.EventHandler(this.fatherEducationLevelTextBox_Leave);
+            // 
+            // fatherNationalityTextBox
+            // 
+            this.fatherNationalityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherNationalityTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherNationalityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherNationalityTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherNationalityTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherNationalityTextBox.Location = new System.Drawing.Point(686, 87);
+            this.fatherNationalityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherNationalityTextBox.Multiline = true;
+            this.fatherNationalityTextBox.Name = "fatherNationalityTextBox";
+            this.fatherNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherNationalityTextBox.Size = new System.Drawing.Size(147, 26);
+            this.fatherNationalityTextBox.TabIndex = 2;
+            this.fatherNationalityTextBox.Text = "الجنسية";
+            this.fatherNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherNationalityTextBox.Enter += new System.EventHandler(this.fatherNationalityTextBox_Enter);
+            this.fatherNationalityTextBox.Leave += new System.EventHandler(this.fatherNationalityTextBox_Leave);
+            // 
+            // fatherMarriageDurationTextBox
+            // 
+            this.fatherMarriageDurationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherMarriageDurationTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherMarriageDurationTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherMarriageDurationTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherMarriageDurationTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherMarriageDurationTextBox.Location = new System.Drawing.Point(686, 286);
+            this.fatherMarriageDurationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherMarriageDurationTextBox.Multiline = true;
+            this.fatherMarriageDurationTextBox.Name = "fatherMarriageDurationTextBox";
+            this.fatherMarriageDurationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherMarriageDurationTextBox.Size = new System.Drawing.Size(165, 26);
+            this.fatherMarriageDurationTextBox.TabIndex = 10;
+            this.fatherMarriageDurationTextBox.Text = "مدة الزواج بالأعوام";
+            this.fatherMarriageDurationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherMarriageDurationTextBox.Enter += new System.EventHandler(this.fatherMarriageDurationTextBox_Enter);
+            this.fatherMarriageDurationTextBox.Leave += new System.EventHandler(this.fatherMarriageDurationTextBox_Leave);
+            // 
+            // wifeFatherNationalityTextBox
+            // 
+            this.wifeFatherNationalityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.wifeFatherNationalityTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.wifeFatherNationalityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.wifeFatherNationalityTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wifeFatherNationalityTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.wifeFatherNationalityTextBox.Location = new System.Drawing.Point(857, 286);
+            this.wifeFatherNationalityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wifeFatherNationalityTextBox.Multiline = true;
+            this.wifeFatherNationalityTextBox.Name = "wifeFatherNationalityTextBox";
+            this.wifeFatherNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.wifeFatherNationalityTextBox.Size = new System.Drawing.Size(103, 26);
+            this.wifeFatherNationalityTextBox.TabIndex = 9;
+            this.wifeFatherNationalityTextBox.Text = "جنسية الزوجة";
+            this.wifeFatherNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.wifeFatherNationalityTextBox.Enter += new System.EventHandler(this.wifeFatherNationalityTextBox_Enter);
+            this.wifeFatherNationalityTextBox.Leave += new System.EventHandler(this.wifeFatherNationalityTextBox_Leave);
+            // 
+            // fatherTotalKidsTextBox
+            // 
+            this.fatherTotalKidsTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherTotalKidsTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherTotalKidsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherTotalKidsTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherTotalKidsTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherTotalKidsTextBox.Location = new System.Drawing.Point(686, 256);
+            this.fatherTotalKidsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherTotalKidsTextBox.Multiline = true;
+            this.fatherTotalKidsTextBox.Name = "fatherTotalKidsTextBox";
+            this.fatherTotalKidsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherTotalKidsTextBox.Size = new System.Drawing.Size(56, 26);
+            this.fatherTotalKidsTextBox.TabIndex = 983;
+            this.fatherTotalKidsTextBox.TabStop = false;
+            this.fatherTotalKidsTextBox.Text = "العدد";
+            this.fatherTotalKidsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherTotalKidsTextBox.Enter += new System.EventHandler(this.fatherTotalKidsTextBox_Enter);
+            this.fatherTotalKidsTextBox.Leave += new System.EventHandler(this.fatherTotalKidsTextBox_Leave);
+            // 
+            // fatherGirlsCountTextBox
+            // 
+            this.fatherGirlsCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherGirlsCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherGirlsCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherGirlsCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherGirlsCountTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherGirlsCountTextBox.Location = new System.Drawing.Point(748, 256);
+            this.fatherGirlsCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherGirlsCountTextBox.Multiline = true;
+            this.fatherGirlsCountTextBox.Name = "fatherGirlsCountTextBox";
+            this.fatherGirlsCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherGirlsCountTextBox.Size = new System.Drawing.Size(103, 26);
+            this.fatherGirlsCountTextBox.TabIndex = 8;
+            this.fatherGirlsCountTextBox.Text = "عدد البنات";
+            this.fatherGirlsCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherGirlsCountTextBox.TextChanged += new System.EventHandler(this.fatherGirlsCountTextBox_TextChanged);
+            this.fatherGirlsCountTextBox.Enter += new System.EventHandler(this.fatherGirlsCountTextBox_Enter);
+            this.fatherGirlsCountTextBox.Leave += new System.EventHandler(this.fatherGirlsCountTextBox_Leave);
+            // 
+            // fatherBoysCountTextBox
+            // 
+            this.fatherBoysCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherBoysCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherBoysCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherBoysCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherBoysCountTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherBoysCountTextBox.Location = new System.Drawing.Point(857, 256);
+            this.fatherBoysCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherBoysCountTextBox.Multiline = true;
+            this.fatherBoysCountTextBox.Name = "fatherBoysCountTextBox";
+            this.fatherBoysCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherBoysCountTextBox.Size = new System.Drawing.Size(103, 26);
+            this.fatherBoysCountTextBox.TabIndex = 7;
+            this.fatherBoysCountTextBox.Text = "عدد الأبناء";
+            this.fatherBoysCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherBoysCountTextBox.TextChanged += new System.EventHandler(this.fatherBoysCountTextBox_TextChanged);
+            this.fatherBoysCountTextBox.Enter += new System.EventHandler(this.fatherBoysCountTextBox_Enter);
+            this.fatherBoysCountTextBox.Leave += new System.EventHandler(this.fatherBoysCountTextBox_Leave);
+            // 
+            // fatherMariiageOrderTextBox
+            // 
+            this.fatherMariiageOrderTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherMariiageOrderTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherMariiageOrderTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherMariiageOrderTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherMariiageOrderTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherMariiageOrderTextBox.Location = new System.Drawing.Point(840, 170);
+            this.fatherMariiageOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherMariiageOrderTextBox.Multiline = true;
+            this.fatherMariiageOrderTextBox.Name = "fatherMariiageOrderTextBox";
+            this.fatherMariiageOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherMariiageOrderTextBox.Size = new System.Drawing.Size(122, 26);
+            this.fatherMariiageOrderTextBox.TabIndex = 4;
+            this.fatherMariiageOrderTextBox.Text = "ترتيب الزواج بين زيجاته الأخرى";
+            this.fatherMariiageOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherMariiageOrderTextBox.Enter += new System.EventHandler(this.fatherMariiageOrderTextBox_Enter);
+            this.fatherMariiageOrderTextBox.Leave += new System.EventHandler(this.fatherMariiageOrderTextBox_Leave);
+            // 
+            // totalFatherMarriageTextBox
+            // 
+            this.totalFatherMarriageTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.totalFatherMarriageTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.totalFatherMarriageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.totalFatherMarriageTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalFatherMarriageTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.totalFatherMarriageTextBox.Location = new System.Drawing.Point(839, 87);
+            this.totalFatherMarriageTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.totalFatherMarriageTextBox.Multiline = true;
+            this.totalFatherMarriageTextBox.Name = "totalFatherMarriageTextBox";
+            this.totalFatherMarriageTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.totalFatherMarriageTextBox.Size = new System.Drawing.Size(126, 26);
+            this.totalFatherMarriageTextBox.TabIndex = 1;
+            this.totalFatherMarriageTextBox.Text = "عدد مرات الزواج";
+            this.totalFatherMarriageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.totalFatherMarriageTextBox.Enter += new System.EventHandler(this.totalFatherMarriageTextBox_Enter);
+            this.totalFatherMarriageTextBox.Leave += new System.EventHandler(this.totalFatherMarriageTextBox_Leave);
+            // 
+            // fatherStatusGB
+            // 
+            this.fatherStatusGB.Controls.Add(this.fatherDeadRB);
+            this.fatherStatusGB.Controls.Add(this.fatherWorkingRB);
+            this.fatherStatusGB.Controls.Add(this.fatherRetiredRB);
+            this.fatherStatusGB.Font = new System.Drawing.Font("Sitka Heading", 14F, System.Drawing.FontStyle.Bold);
+            this.fatherStatusGB.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.fatherStatusGB.Location = new System.Drawing.Point(686, 24);
+            this.fatherStatusGB.Name = "fatherStatusGB";
+            this.fatherStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherStatusGB.Size = new System.Drawing.Size(279, 60);
+            this.fatherStatusGB.TabIndex = 0;
+            this.fatherStatusGB.TabStop = false;
+            this.fatherStatusGB.Text = "حالة الأب";
+            // 
+            // fatherDeadRB
+            // 
+            this.fatherDeadRB.AutoSize = true;
+            this.fatherDeadRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
+            this.fatherDeadRB.ForeColor = System.Drawing.Color.White;
+            this.fatherDeadRB.Location = new System.Drawing.Point(3, 24);
+            this.fatherDeadRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherDeadRB.Name = "fatherDeadRB";
+            this.fatherDeadRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherDeadRB.Size = new System.Drawing.Size(66, 32);
+            this.fatherDeadRB.TabIndex = 2;
+            this.fatherDeadRB.TabStop = true;
+            this.fatherDeadRB.Text = "متوفي";
+            this.fatherDeadRB.UseVisualStyleBackColor = true;
+            this.fatherDeadRB.CheckedChanged += new System.EventHandler(this.fatherDeadRB_CheckedChanged);
+            // 
+            // fatherWorkingRB
+            // 
+            this.fatherWorkingRB.AutoSize = true;
+            this.fatherWorkingRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
+            this.fatherWorkingRB.ForeColor = System.Drawing.Color.White;
+            this.fatherWorkingRB.Location = new System.Drawing.Point(142, 24);
+            this.fatherWorkingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherWorkingRB.Name = "fatherWorkingRB";
+            this.fatherWorkingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherWorkingRB.Size = new System.Drawing.Size(122, 32);
+            this.fatherWorkingRB.TabIndex = 0;
+            this.fatherWorkingRB.TabStop = true;
+            this.fatherWorkingRB.Text = "على رأس عمله";
+            this.fatherWorkingRB.UseVisualStyleBackColor = true;
+            // 
+            // fatherRetiredRB
+            // 
+            this.fatherRetiredRB.AutoSize = true;
+            this.fatherRetiredRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
+            this.fatherRetiredRB.ForeColor = System.Drawing.Color.White;
+            this.fatherRetiredRB.Location = new System.Drawing.Point(72, 24);
+            this.fatherRetiredRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherRetiredRB.Name = "fatherRetiredRB";
+            this.fatherRetiredRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherRetiredRB.Size = new System.Drawing.Size(67, 32);
+            this.fatherRetiredRB.TabIndex = 1;
+            this.fatherRetiredRB.TabStop = true;
+            this.fatherRetiredRB.Text = "متقاعد";
+            this.fatherRetiredRB.UseVisualStyleBackColor = true;
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.label28.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
+            this.label28.Location = new System.Drawing.Point(850, 140);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(115, 28);
+            this.label28.TabIndex = 980;
+            this.label28.Text = "تفاصيل كل زيجة";
+            // 
+            // fatherDeadGB
+            // 
+            this.fatherDeadGB.Controls.Add(this.fatherDeathPatientInfluenceTextBox);
+            this.fatherDeadGB.Controls.Add(this.fatherDeathPatientAgeTextBox);
+            this.fatherDeadGB.Controls.Add(this.fatherDeathReasonTextBox);
+            this.fatherDeadGB.Font = new System.Drawing.Font("Sitka Heading", 14F, System.Drawing.FontStyle.Bold);
+            this.fatherDeadGB.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.fatherDeadGB.Location = new System.Drawing.Point(686, 104);
+            this.fatherDeadGB.Name = "fatherDeadGB";
+            this.fatherDeadGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherDeadGB.Size = new System.Drawing.Size(148, 95);
+            this.fatherDeadGB.TabIndex = 5;
+            this.fatherDeadGB.TabStop = false;
+            // 
+            // fatherDeathPatientInfluenceTextBox
+            // 
+            this.fatherDeathPatientInfluenceTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherDeathPatientInfluenceTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherDeathPatientInfluenceTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherDeathPatientInfluenceTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherDeathPatientInfluenceTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherDeathPatientInfluenceTextBox.Location = new System.Drawing.Point(5, 52);
+            this.fatherDeathPatientInfluenceTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherDeathPatientInfluenceTextBox.Multiline = true;
+            this.fatherDeathPatientInfluenceTextBox.Name = "fatherDeathPatientInfluenceTextBox";
+            this.fatherDeathPatientInfluenceTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherDeathPatientInfluenceTextBox.Size = new System.Drawing.Size(139, 39);
+            this.fatherDeathPatientInfluenceTextBox.TabIndex = 2;
+            this.fatherDeathPatientInfluenceTextBox.Text = "مدى تأثير الوفاة على المفحوص";
+            this.fatherDeathPatientInfluenceTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherDeathPatientInfluenceTextBox.Enter += new System.EventHandler(this.fatherDeathPatientInfluenceTextBox_Enter);
+            this.fatherDeathPatientInfluenceTextBox.Leave += new System.EventHandler(this.fatherDeathPatientInfluenceTextBox_Leave);
+            // 
+            // fatherDeathPatientAgeTextBox
+            // 
+            this.fatherDeathPatientAgeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherDeathPatientAgeTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherDeathPatientAgeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherDeathPatientAgeTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherDeathPatientAgeTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherDeathPatientAgeTextBox.Location = new System.Drawing.Point(5, 15);
+            this.fatherDeathPatientAgeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherDeathPatientAgeTextBox.Multiline = true;
+            this.fatherDeathPatientAgeTextBox.Name = "fatherDeathPatientAgeTextBox";
+            this.fatherDeathPatientAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherDeathPatientAgeTextBox.Size = new System.Drawing.Size(73, 35);
+            this.fatherDeathPatientAgeTextBox.TabIndex = 1;
+            this.fatherDeathPatientAgeTextBox.Text = "عمر المفحوص عند الوفاة";
+            this.fatherDeathPatientAgeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherDeathPatientAgeTextBox.Enter += new System.EventHandler(this.fatherDeathPatientAgeTextBox_Enter);
+            this.fatherDeathPatientAgeTextBox.Leave += new System.EventHandler(this.fatherDeathPatientAgeTextBox_Leave);
+            // 
+            // fatherDeathReasonTextBox
+            // 
+            this.fatherDeathReasonTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.fatherDeathReasonTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherDeathReasonTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fatherDeathReasonTextBox.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fatherDeathReasonTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.fatherDeathReasonTextBox.Location = new System.Drawing.Point(79, 15);
+            this.fatherDeathReasonTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.fatherDeathReasonTextBox.Multiline = true;
+            this.fatherDeathReasonTextBox.Name = "fatherDeathReasonTextBox";
+            this.fatherDeathReasonTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.fatherDeathReasonTextBox.Size = new System.Drawing.Size(65, 35);
+            this.fatherDeathReasonTextBox.TabIndex = 0;
+            this.fatherDeathReasonTextBox.Text = "سبب الوفاة";
+            this.fatherDeathReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.fatherDeathReasonTextBox.Enter += new System.EventHandler(this.fatherDeathReasonTextBox_Enter);
+            this.fatherDeathReasonTextBox.Leave += new System.EventHandler(this.fatherDeathReasonTextBox_Leave);
+            // 
             // groupBox15
             // 
             this.groupBox15.Controls.Add(this.label68);
@@ -6573,7 +6539,7 @@
             this.groupBox15.Name = "groupBox15";
             this.groupBox15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox15.Size = new System.Drawing.Size(276, 55);
-            this.groupBox15.TabIndex = 998;
+            this.groupBox15.TabIndex = 6;
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "هل هو زواج أقارب؟";
             // 
@@ -6600,7 +6566,7 @@
             this.noFatherRelativeRB.Name = "noFatherRelativeRB";
             this.noFatherRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.noFatherRelativeRB.Size = new System.Drawing.Size(40, 30);
-            this.noFatherRelativeRB.TabIndex = 90;
+            this.noFatherRelativeRB.TabIndex = 1;
             this.noFatherRelativeRB.TabStop = true;
             this.noFatherRelativeRB.Text = "لا";
             this.noFatherRelativeRB.UseVisualStyleBackColor = true;
@@ -6618,7 +6584,7 @@
             this.fatherMarriageSideComboBox.Name = "fatherMarriageSideComboBox";
             this.fatherMarriageSideComboBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.fatherMarriageSideComboBox.Size = new System.Drawing.Size(103, 27);
-            this.fatherMarriageSideComboBox.TabIndex = 999;
+            this.fatherMarriageSideComboBox.TabIndex = 2;
             // 
             // yesFatherRelativeRB
             // 
@@ -6630,285 +6596,715 @@
             this.yesFatherRelativeRB.Name = "yesFatherRelativeRB";
             this.yesFatherRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.yesFatherRelativeRB.Size = new System.Drawing.Size(47, 30);
-            this.yesFatherRelativeRB.TabIndex = 89;
+            this.yesFatherRelativeRB.TabIndex = 0;
             this.yesFatherRelativeRB.TabStop = true;
             this.yesFatherRelativeRB.Text = "نعم";
             this.yesFatherRelativeRB.UseVisualStyleBackColor = true;
             // 
-            // fatherEducationLevelTextBox
+            // TabPage2_3
             // 
-            this.fatherEducationLevelTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherEducationLevelTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherEducationLevelTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherEducationLevelTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherEducationLevelTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherEducationLevelTextBox.Location = new System.Drawing.Point(686, 117);
-            this.fatherEducationLevelTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherEducationLevelTextBox.Multiline = true;
-            this.fatherEducationLevelTextBox.Name = "fatherEducationLevelTextBox";
-            this.fatherEducationLevelTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherEducationLevelTextBox.Size = new System.Drawing.Size(147, 26);
-            this.fatherEducationLevelTextBox.TabIndex = 988;
-            this.fatherEducationLevelTextBox.Text = "مستوى التعليم";
-            this.fatherEducationLevelTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherEducationLevelTextBox.Enter += new System.EventHandler(this.fatherEducationLevelTextBox_Enter);
-            this.fatherEducationLevelTextBox.Leave += new System.EventHandler(this.fatherEducationLevelTextBox_Leave);
+            this.TabPage2_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.TabPage2_3.Controls.Add(this.additionalSiblingsInfoCheckbox);
+            this.TabPage2_3.Controls.Add(this.siblingsTreeGB);
+            this.TabPage2_3.Controls.Add(this.groupBox17);
+            this.TabPage2_3.Location = new System.Drawing.Point(4, 22);
+            this.TabPage2_3.Name = "TabPage2_3";
+            this.TabPage2_3.Size = new System.Drawing.Size(976, 763);
+            this.TabPage2_3.TabIndex = 2;
+            this.TabPage2_3.Text = "العائلة الكبيرة (الأخوة)";
             // 
-            // fatherNationalityTextBox
+            // additionalSiblingsInfoCheckbox
             // 
-            this.fatherNationalityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherNationalityTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherNationalityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherNationalityTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherNationalityTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherNationalityTextBox.Location = new System.Drawing.Point(686, 87);
-            this.fatherNationalityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherNationalityTextBox.Multiline = true;
-            this.fatherNationalityTextBox.Name = "fatherNationalityTextBox";
-            this.fatherNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherNationalityTextBox.Size = new System.Drawing.Size(147, 26);
-            this.fatherNationalityTextBox.TabIndex = 987;
-            this.fatherNationalityTextBox.Text = "الجنسية";
-            this.fatherNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherNationalityTextBox.Enter += new System.EventHandler(this.fatherNationalityTextBox_Enter);
-            this.fatherNationalityTextBox.Leave += new System.EventHandler(this.fatherNationalityTextBox_Leave);
+            this.additionalSiblingsInfoCheckbox.AutoSize = true;
+            this.additionalSiblingsInfoCheckbox.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.additionalSiblingsInfoCheckbox.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.additionalSiblingsInfoCheckbox.Location = new System.Drawing.Point(695, 223);
+            this.additionalSiblingsInfoCheckbox.Name = "additionalSiblingsInfoCheckbox";
+            this.additionalSiblingsInfoCheckbox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.additionalSiblingsInfoCheckbox.Size = new System.Drawing.Size(261, 32);
+            this.additionalSiblingsInfoCheckbox.TabIndex = 1;
+            this.additionalSiblingsInfoCheckbox.Text = "هل توجد تفاصيل إضافية للإخوة؟";
+            this.additionalSiblingsInfoCheckbox.UseVisualStyleBackColor = true;
+            this.additionalSiblingsInfoCheckbox.CheckedChanged += new System.EventHandler(this.additionalSiblingsInfoCheckbox_CheckedChanged);
             // 
-            // fatherMarriageDurationTextBox
+            // siblingsTreeGB
             // 
-            this.fatherMarriageDurationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherMarriageDurationTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherMarriageDurationTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherMarriageDurationTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherMarriageDurationTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherMarriageDurationTextBox.Location = new System.Drawing.Point(686, 286);
-            this.fatherMarriageDurationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherMarriageDurationTextBox.Multiline = true;
-            this.fatherMarriageDurationTextBox.Name = "fatherMarriageDurationTextBox";
-            this.fatherMarriageDurationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherMarriageDurationTextBox.Size = new System.Drawing.Size(165, 26);
-            this.fatherMarriageDurationTextBox.TabIndex = 985;
-            this.fatherMarriageDurationTextBox.Text = "مدة الزواج بالأعوام";
-            this.fatherMarriageDurationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherMarriageDurationTextBox.Enter += new System.EventHandler(this.fatherMarriageDurationTextBox_Enter);
-            this.fatherMarriageDurationTextBox.Leave += new System.EventHandler(this.fatherMarriageDurationTextBox_Leave);
+            this.siblingsTreeGB.Controls.Add(this.additionalNotes);
+            this.siblingsTreeGB.Controls.Add(this.deadSiblingGB);
+            this.siblingsTreeGB.Controls.Add(this.maritalStatusSiblingsGB);
+            this.siblingsTreeGB.Controls.Add(this.siblingEducationTextBox);
+            this.siblingsTreeGB.Controls.Add(this.sexSiblingGB);
+            this.siblingsTreeGB.Controls.Add(this.siblingAgeTextBox);
+            this.siblingsTreeGB.Controls.Add(this.siblingsDGV);
+            this.siblingsTreeGB.Controls.Add(this.addSiblingsButton);
+            this.siblingsTreeGB.Controls.Add(this.siblingRushButton);
+            this.siblingsTreeGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.siblingsTreeGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.siblingsTreeGB.Location = new System.Drawing.Point(3, 261);
+            this.siblingsTreeGB.Name = "siblingsTreeGB";
+            this.siblingsTreeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingsTreeGB.Size = new System.Drawing.Size(966, 373);
+            this.siblingsTreeGB.TabIndex = 2;
+            this.siblingsTreeGB.TabStop = false;
+            this.siblingsTreeGB.Text = "شجرة الإخوة";
             // 
-            // wifeFatherNationalityTextBox
+            // additionalNotes
             // 
-            this.wifeFatherNationalityTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.wifeFatherNationalityTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.wifeFatherNationalityTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.wifeFatherNationalityTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wifeFatherNationalityTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.wifeFatherNationalityTextBox.Location = new System.Drawing.Point(857, 286);
-            this.wifeFatherNationalityTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wifeFatherNationalityTextBox.Multiline = true;
-            this.wifeFatherNationalityTextBox.Name = "wifeFatherNationalityTextBox";
-            this.wifeFatherNationalityTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.wifeFatherNationalityTextBox.Size = new System.Drawing.Size(103, 26);
-            this.wifeFatherNationalityTextBox.TabIndex = 984;
-            this.wifeFatherNationalityTextBox.Text = "جنسية الزوجة";
-            this.wifeFatherNationalityTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.wifeFatherNationalityTextBox.Enter += new System.EventHandler(this.wifeFatherNationalityTextBox_Enter);
-            this.wifeFatherNationalityTextBox.Leave += new System.EventHandler(this.wifeFatherNationalityTextBox_Leave);
+            this.additionalNotes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.additionalNotes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.additionalNotes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.additionalNotes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.additionalNotes.ForeColor = System.Drawing.Color.Gray;
+            this.additionalNotes.Location = new System.Drawing.Point(610, 284);
+            this.additionalNotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.additionalNotes.Multiline = true;
+            this.additionalNotes.Name = "additionalNotes";
+            this.additionalNotes.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.additionalNotes.Size = new System.Drawing.Size(352, 32);
+            this.additionalNotes.TabIndex = 5;
+            this.additionalNotes.Text = "ملاحظات إضافية";
+            this.additionalNotes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.additionalNotes.Enter += new System.EventHandler(this.additionalNotes_Enter);
+            this.additionalNotes.Leave += new System.EventHandler(this.additionalNotes_Leave);
             // 
-            // fatherTotalKidsTextBox
+            // deadSiblingGB
             // 
-            this.fatherTotalKidsTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherTotalKidsTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherTotalKidsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherTotalKidsTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherTotalKidsTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherTotalKidsTextBox.Location = new System.Drawing.Point(686, 256);
-            this.fatherTotalKidsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherTotalKidsTextBox.Multiline = true;
-            this.fatherTotalKidsTextBox.Name = "fatherTotalKidsTextBox";
-            this.fatherTotalKidsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherTotalKidsTextBox.Size = new System.Drawing.Size(56, 26);
-            this.fatherTotalKidsTextBox.TabIndex = 983;
-            this.fatherTotalKidsTextBox.Text = "العدد";
-            this.fatherTotalKidsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherTotalKidsTextBox.Enter += new System.EventHandler(this.fatherTotalKidsTextBox_Enter);
-            this.fatherTotalKidsTextBox.Leave += new System.EventHandler(this.fatherTotalKidsTextBox_Leave);
+            this.deadSiblingGB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.deadSiblingGB.Controls.Add(this.siblingDeadAgePatientTextBox);
+            this.deadSiblingGB.Controls.Add(this.siblingDeadMissingTextBox);
+            this.deadSiblingGB.Controls.Add(this.siblingDeadAgeTextBox);
+            this.deadSiblingGB.Controls.Add(this.siblingDeadReasonTextBox);
+            this.deadSiblingGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.deadSiblingGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.deadSiblingGB.Location = new System.Drawing.Point(610, 169);
+            this.deadSiblingGB.Name = "deadSiblingGB";
+            this.deadSiblingGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.deadSiblingGB.Size = new System.Drawing.Size(352, 110);
+            this.deadSiblingGB.TabIndex = 4;
+            this.deadSiblingGB.TabStop = false;
+            this.deadSiblingGB.Text = "في حالة الوفاة";
             // 
-            // fatherGirlsCountTextBox
+            // siblingDeadAgePatientTextBox
             // 
-            this.fatherGirlsCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherGirlsCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherGirlsCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherGirlsCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherGirlsCountTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherGirlsCountTextBox.Location = new System.Drawing.Point(748, 256);
-            this.fatherGirlsCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherGirlsCountTextBox.Multiline = true;
-            this.fatherGirlsCountTextBox.Name = "fatherGirlsCountTextBox";
-            this.fatherGirlsCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherGirlsCountTextBox.Size = new System.Drawing.Size(103, 26);
-            this.fatherGirlsCountTextBox.TabIndex = 982;
-            this.fatherGirlsCountTextBox.Text = "عدد البنات";
-            this.fatherGirlsCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherGirlsCountTextBox.TextChanged += new System.EventHandler(this.fatherGirlsCountTextBox_TextChanged);
-            this.fatherGirlsCountTextBox.Enter += new System.EventHandler(this.fatherGirlsCountTextBox_Enter);
-            this.fatherGirlsCountTextBox.Leave += new System.EventHandler(this.fatherGirlsCountTextBox_Leave);
+            this.siblingDeadAgePatientTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingDeadAgePatientTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingDeadAgePatientTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingDeadAgePatientTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingDeadAgePatientTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingDeadAgePatientTextBox.Location = new System.Drawing.Point(8, 32);
+            this.siblingDeadAgePatientTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingDeadAgePatientTextBox.Multiline = true;
+            this.siblingDeadAgePatientTextBox.Name = "siblingDeadAgePatientTextBox";
+            this.siblingDeadAgePatientTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingDeadAgePatientTextBox.Size = new System.Drawing.Size(100, 26);
+            this.siblingDeadAgePatientTextBox.TabIndex = 2;
+            this.siblingDeadAgePatientTextBox.Text = "عمر المفحوص";
+            this.siblingDeadAgePatientTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingDeadAgePatientTextBox.Enter += new System.EventHandler(this.siblingDeadAgePatientTextBox_Enter);
+            this.siblingDeadAgePatientTextBox.Leave += new System.EventHandler(this.siblingDeadAgePatientTextBox_Leave);
             // 
-            // fatherBoysCountTextBox
+            // siblingDeadMissingTextBox
             // 
-            this.fatherBoysCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherBoysCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherBoysCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherBoysCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherBoysCountTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherBoysCountTextBox.Location = new System.Drawing.Point(857, 256);
-            this.fatherBoysCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherBoysCountTextBox.Multiline = true;
-            this.fatherBoysCountTextBox.Name = "fatherBoysCountTextBox";
-            this.fatherBoysCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherBoysCountTextBox.Size = new System.Drawing.Size(103, 26);
-            this.fatherBoysCountTextBox.TabIndex = 981;
-            this.fatherBoysCountTextBox.Text = "عدد الأبناء";
-            this.fatherBoysCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherBoysCountTextBox.TextChanged += new System.EventHandler(this.fatherBoysCountTextBox_TextChanged);
-            this.fatherBoysCountTextBox.Enter += new System.EventHandler(this.fatherBoysCountTextBox_Enter);
-            this.fatherBoysCountTextBox.Leave += new System.EventHandler(this.fatherBoysCountTextBox_Leave);
+            this.siblingDeadMissingTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingDeadMissingTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingDeadMissingTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingDeadMissingTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingDeadMissingTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingDeadMissingTextBox.Location = new System.Drawing.Point(8, 62);
+            this.siblingDeadMissingTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingDeadMissingTextBox.Multiline = true;
+            this.siblingDeadMissingTextBox.Name = "siblingDeadMissingTextBox";
+            this.siblingDeadMissingTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingDeadMissingTextBox.Size = new System.Drawing.Size(338, 32);
+            this.siblingDeadMissingTextBox.TabIndex = 3;
+            this.siblingDeadMissingTextBox.Text = "مدى تأثير الفقدان";
+            this.siblingDeadMissingTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingDeadMissingTextBox.Enter += new System.EventHandler(this.siblingDeadMissingTextBox_Enter);
+            this.siblingDeadMissingTextBox.Leave += new System.EventHandler(this.siblingDeadMissingTextBox_Leave);
             // 
-            // fatherMariiageOrderTextBox
+            // siblingDeadAgeTextBox
             // 
-            this.fatherMariiageOrderTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.fatherMariiageOrderTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherMariiageOrderTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fatherMariiageOrderTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fatherMariiageOrderTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.fatherMariiageOrderTextBox.Location = new System.Drawing.Point(770, 170);
-            this.fatherMariiageOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherMariiageOrderTextBox.Multiline = true;
-            this.fatherMariiageOrderTextBox.Name = "fatherMariiageOrderTextBox";
-            this.fatherMariiageOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherMariiageOrderTextBox.Size = new System.Drawing.Size(192, 26);
-            this.fatherMariiageOrderTextBox.TabIndex = 979;
-            this.fatherMariiageOrderTextBox.Text = "ترتيب الزواج بين زيجاته الأخرى";
-            this.fatherMariiageOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.fatherMariiageOrderTextBox.Enter += new System.EventHandler(this.fatherMariiageOrderTextBox_Enter);
-            this.fatherMariiageOrderTextBox.Leave += new System.EventHandler(this.fatherMariiageOrderTextBox_Leave);
+            this.siblingDeadAgeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingDeadAgeTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingDeadAgeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingDeadAgeTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingDeadAgeTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingDeadAgeTextBox.Location = new System.Drawing.Point(116, 32);
+            this.siblingDeadAgeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingDeadAgeTextBox.Multiline = true;
+            this.siblingDeadAgeTextBox.Name = "siblingDeadAgeTextBox";
+            this.siblingDeadAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingDeadAgeTextBox.Size = new System.Drawing.Size(100, 26);
+            this.siblingDeadAgeTextBox.TabIndex = 1;
+            this.siblingDeadAgeTextBox.Text = "عمر الوفاة";
+            this.siblingDeadAgeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingDeadAgeTextBox.Enter += new System.EventHandler(this.siblingDeadAgeTextBox_Enter);
+            this.siblingDeadAgeTextBox.Leave += new System.EventHandler(this.siblingDeadAgeTextBox_Leave);
             // 
-            // totalFatherMarriageTextBox
+            // siblingDeadReasonTextBox
             // 
-            this.totalFatherMarriageTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.totalFatherMarriageTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.totalFatherMarriageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.totalFatherMarriageTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalFatherMarriageTextBox.ForeColor = System.Drawing.Color.Gray;
-            this.totalFatherMarriageTextBox.Location = new System.Drawing.Point(839, 87);
-            this.totalFatherMarriageTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.totalFatherMarriageTextBox.Multiline = true;
-            this.totalFatherMarriageTextBox.Name = "totalFatherMarriageTextBox";
-            this.totalFatherMarriageTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.totalFatherMarriageTextBox.Size = new System.Drawing.Size(126, 56);
-            this.totalFatherMarriageTextBox.TabIndex = 972;
-            this.totalFatherMarriageTextBox.Text = "عدد مرات الزواج الكلية";
-            this.totalFatherMarriageTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.totalFatherMarriageTextBox.Enter += new System.EventHandler(this.totalFatherMarriageTextBox_Enter);
-            this.totalFatherMarriageTextBox.Leave += new System.EventHandler(this.totalFatherMarriageTextBox_Leave);
+            this.siblingDeadReasonTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingDeadReasonTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingDeadReasonTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingDeadReasonTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingDeadReasonTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingDeadReasonTextBox.Location = new System.Drawing.Point(224, 33);
+            this.siblingDeadReasonTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingDeadReasonTextBox.Multiline = true;
+            this.siblingDeadReasonTextBox.Name = "siblingDeadReasonTextBox";
+            this.siblingDeadReasonTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingDeadReasonTextBox.Size = new System.Drawing.Size(121, 26);
+            this.siblingDeadReasonTextBox.TabIndex = 0;
+            this.siblingDeadReasonTextBox.Text = "سبب الوفاة";
+            this.siblingDeadReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingDeadReasonTextBox.UseSystemPasswordChar = true;
+            this.siblingDeadReasonTextBox.Enter += new System.EventHandler(this.siblingDeadReasonTextBox_Enter);
+            this.siblingDeadReasonTextBox.Leave += new System.EventHandler(this.siblingDeadReasonTextBox_Leave);
             // 
-            // fatherStatusGB
+            // maritalStatusSiblingsGB
             // 
-            this.fatherStatusGB.Controls.Add(this.fatherDeadRB);
-            this.fatherStatusGB.Controls.Add(this.fatherWorkingRB);
-            this.fatherStatusGB.Controls.Add(this.fatherRetiredRB);
-            this.fatherStatusGB.Font = new System.Drawing.Font("Sitka Heading", 14F, System.Drawing.FontStyle.Bold);
-            this.fatherStatusGB.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.fatherStatusGB.Location = new System.Drawing.Point(686, 24);
-            this.fatherStatusGB.Name = "fatherStatusGB";
-            this.fatherStatusGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherStatusGB.Size = new System.Drawing.Size(279, 60);
-            this.fatherStatusGB.TabIndex = 957;
-            this.fatherStatusGB.TabStop = false;
-            this.fatherStatusGB.Text = "حالة الأب";
+            this.maritalStatusSiblingsGB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.maritalStatusSiblingsGB.Controls.Add(this.deadSiblingRB);
+            this.maritalStatusSiblingsGB.Controls.Add(this.singleSiblingRB);
+            this.maritalStatusSiblingsGB.Controls.Add(this.marriedSiblingRB);
+            this.maritalStatusSiblingsGB.Controls.Add(this.seperatedSiblingRB);
+            this.maritalStatusSiblingsGB.Controls.Add(this.divorceSiblingRB);
+            this.maritalStatusSiblingsGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.maritalStatusSiblingsGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.maritalStatusSiblingsGB.Location = new System.Drawing.Point(610, 99);
+            this.maritalStatusSiblingsGB.Name = "maritalStatusSiblingsGB";
+            this.maritalStatusSiblingsGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.maritalStatusSiblingsGB.Size = new System.Drawing.Size(350, 64);
+            this.maritalStatusSiblingsGB.TabIndex = 3;
+            this.maritalStatusSiblingsGB.TabStop = false;
+            this.maritalStatusSiblingsGB.Text = "الحالة الاجتماعية";
             // 
-            // fatherDeadRB
+            // deadSiblingRB
             // 
-            this.fatherDeadRB.AutoSize = true;
-            this.fatherDeadRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
-            this.fatherDeadRB.ForeColor = System.Drawing.Color.White;
-            this.fatherDeadRB.Location = new System.Drawing.Point(3, 24);
-            this.fatherDeadRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherDeadRB.Name = "fatherDeadRB";
-            this.fatherDeadRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherDeadRB.Size = new System.Drawing.Size(66, 32);
-            this.fatherDeadRB.TabIndex = 91;
-            this.fatherDeadRB.TabStop = true;
-            this.fatherDeadRB.Text = "متوفي";
-            this.fatherDeadRB.UseVisualStyleBackColor = true;
+            this.deadSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.deadSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.deadSiblingRB.Location = new System.Drawing.Point(1, 27);
+            this.deadSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.deadSiblingRB.Name = "deadSiblingRB";
+            this.deadSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.deadSiblingRB.Size = new System.Drawing.Size(67, 32);
+            this.deadSiblingRB.TabIndex = 4;
+            this.deadSiblingRB.TabStop = true;
+            this.deadSiblingRB.Text = "متوفي";
+            this.deadSiblingRB.UseVisualStyleBackColor = true;
+            this.deadSiblingRB.CheckedChanged += new System.EventHandler(this.deadSiblingRB_CheckedChanged);
             // 
-            // fatherWorkingRB
+            // singleSiblingRB
             // 
-            this.fatherWorkingRB.AutoSize = true;
-            this.fatherWorkingRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
-            this.fatherWorkingRB.ForeColor = System.Drawing.Color.White;
-            this.fatherWorkingRB.Location = new System.Drawing.Point(142, 24);
-            this.fatherWorkingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherWorkingRB.Name = "fatherWorkingRB";
-            this.fatherWorkingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherWorkingRB.Size = new System.Drawing.Size(122, 32);
-            this.fatherWorkingRB.TabIndex = 90;
-            this.fatherWorkingRB.TabStop = true;
-            this.fatherWorkingRB.Text = "على رأس عمله";
-            this.fatherWorkingRB.UseVisualStyleBackColor = true;
+            this.singleSiblingRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.singleSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.singleSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.singleSiblingRB.Location = new System.Drawing.Point(276, 27);
+            this.singleSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.singleSiblingRB.Name = "singleSiblingRB";
+            this.singleSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.singleSiblingRB.Size = new System.Drawing.Size(67, 32);
+            this.singleSiblingRB.TabIndex = 0;
+            this.singleSiblingRB.TabStop = true;
+            this.singleSiblingRB.Text = "أعزب";
+            this.singleSiblingRB.UseVisualStyleBackColor = false;
             // 
-            // fatherRetiredRB
+            // marriedSiblingRB
             // 
-            this.fatherRetiredRB.AutoSize = true;
-            this.fatherRetiredRB.Font = new System.Drawing.Font("Sitka Heading", 14F);
-            this.fatherRetiredRB.ForeColor = System.Drawing.Color.White;
-            this.fatherRetiredRB.Location = new System.Drawing.Point(72, 24);
-            this.fatherRetiredRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.fatherRetiredRB.Name = "fatherRetiredRB";
-            this.fatherRetiredRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.fatherRetiredRB.Size = new System.Drawing.Size(67, 32);
-            this.fatherRetiredRB.TabIndex = 89;
-            this.fatherRetiredRB.TabStop = true;
-            this.fatherRetiredRB.Text = "متقاعد";
-            this.fatherRetiredRB.UseVisualStyleBackColor = true;
+            this.marriedSiblingRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.marriedSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.marriedSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.marriedSiblingRB.Location = new System.Drawing.Point(204, 27);
+            this.marriedSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.marriedSiblingRB.Name = "marriedSiblingRB";
+            this.marriedSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.marriedSiblingRB.Size = new System.Drawing.Size(70, 32);
+            this.marriedSiblingRB.TabIndex = 1;
+            this.marriedSiblingRB.TabStop = true;
+            this.marriedSiblingRB.Text = "متزوج";
+            this.marriedSiblingRB.UseVisualStyleBackColor = false;
             // 
-            // label28
+            // seperatedSiblingRB
             // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.label28.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
-            this.label28.Location = new System.Drawing.Point(850, 140);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(115, 28);
-            this.label28.TabIndex = 980;
-            this.label28.Text = "تفاصيل كل زيجة";
+            this.seperatedSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.seperatedSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.seperatedSiblingRB.Location = new System.Drawing.Point(127, 27);
+            this.seperatedSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.seperatedSiblingRB.Name = "seperatedSiblingRB";
+            this.seperatedSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.seperatedSiblingRB.Size = new System.Drawing.Size(77, 32);
+            this.seperatedSiblingRB.TabIndex = 2;
+            this.seperatedSiblingRB.TabStop = true;
+            this.seperatedSiblingRB.Text = "منفصل";
+            this.seperatedSiblingRB.UseVisualStyleBackColor = true;
             // 
-            // fatherBigFamilyBrush
+            // divorceSiblingRB
             // 
-            this.fatherBigFamilyBrush.FlatAppearance.BorderSize = 0;
-            this.fatherBigFamilyBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.fatherBigFamilyBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.fatherBigFamilyBrush.Image = ((System.Drawing.Image)(resources.GetObject("fatherBigFamilyBrush.Image")));
-            this.fatherBigFamilyBrush.Location = new System.Drawing.Point(478, 263);
-            this.fatherBigFamilyBrush.Name = "fatherBigFamilyBrush";
-            this.fatherBigFamilyBrush.Size = new System.Drawing.Size(64, 52);
-            this.fatherBigFamilyBrush.TabIndex = 999;
-            this.fatherBigFamilyBrush.UseVisualStyleBackColor = false;
-            this.fatherBigFamilyBrush.Click += new System.EventHandler(this.fatherBigFamilyBrush_Click);
-            this.fatherBigFamilyBrush.MouseLeave += new System.EventHandler(this.fatherBigFamilyBrush_MouseLeave);
-            this.fatherBigFamilyBrush.MouseHover += new System.EventHandler(this.fatherBigFamilyBrush_MouseHover);
+            this.divorceSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.divorceSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.divorceSiblingRB.Location = new System.Drawing.Point(61, 27);
+            this.divorceSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.divorceSiblingRB.Name = "divorceSiblingRB";
+            this.divorceSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.divorceSiblingRB.Size = new System.Drawing.Size(67, 32);
+            this.divorceSiblingRB.TabIndex = 3;
+            this.divorceSiblingRB.TabStop = true;
+            this.divorceSiblingRB.Text = "مطلق";
+            this.divorceSiblingRB.UseVisualStyleBackColor = true;
             // 
-            // fatherMarriageDetailsAddButton
+            // siblingEducationTextBox
             // 
-            this.fatherMarriageDetailsAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.fatherMarriageDetailsAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.fatherMarriageDetailsAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.fatherMarriageDetailsAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.fatherMarriageDetailsAddButton.Location = new System.Drawing.Point(545, 273);
-            this.fatherMarriageDetailsAddButton.Name = "fatherMarriageDetailsAddButton";
-            this.fatherMarriageDetailsAddButton.Size = new System.Drawing.Size(135, 38);
-            this.fatherMarriageDetailsAddButton.TabIndex = 997;
-            this.fatherMarriageDetailsAddButton.Text = "إضافة";
-            this.fatherMarriageDetailsAddButton.UseVisualStyleBackColor = false;
-            this.fatherMarriageDetailsAddButton.Click += new System.EventHandler(this.fatherMarriageDetailsAddButton_Click);
+            this.siblingEducationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingEducationTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingEducationTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingEducationTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingEducationTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingEducationTextBox.Location = new System.Drawing.Point(610, 66);
+            this.siblingEducationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingEducationTextBox.Multiline = true;
+            this.siblingEducationTextBox.Name = "siblingEducationTextBox";
+            this.siblingEducationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingEducationTextBox.Size = new System.Drawing.Size(187, 26);
+            this.siblingEducationTextBox.TabIndex = 2;
+            this.siblingEducationTextBox.Text = "المؤهل العلمي";
+            this.siblingEducationTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingEducationTextBox.Enter += new System.EventHandler(this.siblingEducationTextBox_Enter);
+            this.siblingEducationTextBox.Leave += new System.EventHandler(this.siblingEducationTextBox_Leave);
+            // 
+            // sexSiblingGB
+            // 
+            this.sexSiblingGB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.sexSiblingGB.Controls.Add(this.maleSiblingRB);
+            this.sexSiblingGB.Controls.Add(this.femaleSiblingRB);
+            this.sexSiblingGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.sexSiblingGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.sexSiblingGB.Location = new System.Drawing.Point(803, 28);
+            this.sexSiblingGB.Name = "sexSiblingGB";
+            this.sexSiblingGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.sexSiblingGB.Size = new System.Drawing.Size(157, 64);
+            this.sexSiblingGB.TabIndex = 0;
+            this.sexSiblingGB.TabStop = false;
+            this.sexSiblingGB.Text = "الجنس";
+            // 
+            // maleSiblingRB
+            // 
+            this.maleSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.maleSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.maleSiblingRB.Location = new System.Drawing.Point(95, 29);
+            this.maleSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.maleSiblingRB.Name = "maleSiblingRB";
+            this.maleSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.maleSiblingRB.Size = new System.Drawing.Size(52, 32);
+            this.maleSiblingRB.TabIndex = 0;
+            this.maleSiblingRB.TabStop = true;
+            this.maleSiblingRB.Text = "ذكر";
+            this.maleSiblingRB.UseVisualStyleBackColor = true;
+            // 
+            // femaleSiblingRB
+            // 
+            this.femaleSiblingRB.AutoSize = true;
+            this.femaleSiblingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.femaleSiblingRB.ForeColor = System.Drawing.Color.White;
+            this.femaleSiblingRB.Location = new System.Drawing.Point(16, 29);
+            this.femaleSiblingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.femaleSiblingRB.Name = "femaleSiblingRB";
+            this.femaleSiblingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.femaleSiblingRB.Size = new System.Drawing.Size(55, 32);
+            this.femaleSiblingRB.TabIndex = 1;
+            this.femaleSiblingRB.TabStop = true;
+            this.femaleSiblingRB.Text = "أنثى";
+            this.femaleSiblingRB.UseVisualStyleBackColor = true;
+            // 
+            // siblingAgeTextBox
+            // 
+            this.siblingAgeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.siblingAgeTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingAgeTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.siblingAgeTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siblingAgeTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.siblingAgeTextBox.Location = new System.Drawing.Point(610, 36);
+            this.siblingAgeTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingAgeTextBox.Multiline = true;
+            this.siblingAgeTextBox.Name = "siblingAgeTextBox";
+            this.siblingAgeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.siblingAgeTextBox.Size = new System.Drawing.Size(187, 26);
+            this.siblingAgeTextBox.TabIndex = 1;
+            this.siblingAgeTextBox.Text = "العمر";
+            this.siblingAgeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.siblingAgeTextBox.Enter += new System.EventHandler(this.siblingAgeTextBox_Enter);
+            this.siblingAgeTextBox.Leave += new System.EventHandler(this.siblingAgeTextBox_Leave);
+            // 
+            // siblingsDGV
+            // 
+            this.siblingsDGV.AllowUserToOrderColumns = true;
+            this.siblingsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.siblingsDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingsDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.siblingsDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle95.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle95.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle95.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle95.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siblingsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle95;
+            this.siblingsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.siblingsDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn30,
+            this.Column10,
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35,
+            this.Column9});
+            dataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle96.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle96.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle96.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle96.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.siblingsDGV.DefaultCellStyle = dataGridViewCellStyle96;
+            this.siblingsDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
+            this.siblingsDGV.GridColor = System.Drawing.Color.White;
+            this.siblingsDGV.Location = new System.Drawing.Point(6, 25);
+            this.siblingsDGV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.siblingsDGV.MultiSelect = false;
+            this.siblingsDGV.Name = "siblingsDGV";
+            this.siblingsDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            dataGridViewCellStyle97.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle97.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle97.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle97.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle97.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle97.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.siblingsDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle97;
+            this.siblingsDGV.RowHeadersWidth = 30;
+            this.siblingsDGV.RowTemplate.Height = 26;
+            this.siblingsDGV.Size = new System.Drawing.Size(599, 342);
+            this.siblingsDGV.TabIndex = 959;
+            this.siblingsDGV.TabStop = false;
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            this.dataGridViewTextBoxColumn20.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn20.FillWeight = 0.677977F;
+            this.dataGridViewTextBoxColumn20.HeaderText = "الجنس";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn30.FillWeight = 70F;
+            this.dataGridViewTextBoxColumn30.HeaderText = "العمر";
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.Width = 50;
+            // 
+            // Column10
+            // 
+            this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column10.HeaderText = "المؤهل العلمي";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 70;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn31.HeaderText = "الحالة الاجتماعي";
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn32.FillWeight = 3.61205F;
+            this.dataGridViewTextBoxColumn32.HeaderText = "سبب الوفاة";
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn33.FillWeight = 1.001115F;
+            this.dataGridViewTextBoxColumn33.HeaderText = "عمر الوفاة";
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn34.FillWeight = 1.668524F;
+            this.dataGridViewTextBoxColumn34.HeaderText = "عمر المفحوص";
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            this.dataGridViewTextBoxColumn34.Width = 73;
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn35.FillWeight = 0.9039696F;
+            this.dataGridViewTextBoxColumn35.HeaderText = "مدى تأثير الفقدان";
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.Width = 55;
+            // 
+            // Column9
+            // 
+            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column9.FillWeight = 6.375921F;
+            this.Column9.HeaderText = "ملحوظات";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 70;
+            // 
+            // groupBox17
+            // 
+            this.groupBox17.Controls.Add(this.pressureCheckBox);
+            this.groupBox17.Controls.Add(this.responsibleForDescriptionTextBox);
+            this.groupBox17.Controls.Add(this.totalMembersTextBox);
+            this.groupBox17.Controls.Add(this.responsibleForCoutTextBox);
+            this.groupBox17.Controls.Add(this.nearestFamilyMemberTextBox);
+            this.groupBox17.Controls.Add(this.familyResponsibilitiesGB);
+            this.groupBox17.Controls.Add(this.patientOrderTextBox);
+            this.groupBox17.Controls.Add(this.sistersCoutTextBox);
+            this.groupBox17.Controls.Add(this.brothersCountTextBox);
+            this.groupBox17.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupBox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.groupBox17.Location = new System.Drawing.Point(3, 50);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.groupBox17.Size = new System.Drawing.Size(966, 156);
+            this.groupBox17.TabIndex = 0;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "الأشقاء والشقيقات";
+            // 
+            // pressureCheckBox
+            // 
+            this.pressureCheckBox.AutoSize = true;
+            this.pressureCheckBox.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.pressureCheckBox.Location = new System.Drawing.Point(486, 118);
+            this.pressureCheckBox.Name = "pressureCheckBox";
+            this.pressureCheckBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.pressureCheckBox.Size = new System.Drawing.Size(463, 32);
+            this.pressureCheckBox.TabIndex = 6;
+            this.pressureCheckBox.Text = "هل يعاني من ضعوطات نتيجة تحمل مسؤولية الأسرة المتزايدة؟";
+            this.pressureCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // responsibleForDescriptionTextBox
+            // 
+            this.responsibleForDescriptionTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.responsibleForDescriptionTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.responsibleForDescriptionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.responsibleForDescriptionTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.responsibleForDescriptionTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.responsibleForDescriptionTextBox.Location = new System.Drawing.Point(4, 88);
+            this.responsibleForDescriptionTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.responsibleForDescriptionTextBox.Multiline = true;
+            this.responsibleForDescriptionTextBox.Name = "responsibleForDescriptionTextBox";
+            this.responsibleForDescriptionTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.responsibleForDescriptionTextBox.Size = new System.Drawing.Size(458, 61);
+            this.responsibleForDescriptionTextBox.TabIndex = 8;
+            this.responsibleForDescriptionTextBox.Text = "أعمار ووصف الأفراد المسؤول عنهم";
+            this.responsibleForDescriptionTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.responsibleForDescriptionTextBox.Enter += new System.EventHandler(this.responsibleForDescriptionTextBox_Enter);
+            this.responsibleForDescriptionTextBox.Leave += new System.EventHandler(this.responsibleForDescriptionTextBox_Leave);
+            // 
+            // totalMembersTextBox
+            // 
+            this.totalMembersTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.totalMembersTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.totalMembersTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.totalMembersTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalMembersTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.totalMembersTextBox.Location = new System.Drawing.Point(730, 91);
+            this.totalMembersTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.totalMembersTextBox.Multiline = true;
+            this.totalMembersTextBox.Name = "totalMembersTextBox";
+            this.totalMembersTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.totalMembersTextBox.Size = new System.Drawing.Size(192, 26);
+            this.totalMembersTextBox.TabIndex = 4;
+            this.totalMembersTextBox.Text = "عدد الأشقاء والشقيقات الكلي";
+            this.totalMembersTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.totalMembersTextBox.Enter += new System.EventHandler(this.totalMembersTextBox_Enter);
+            this.totalMembersTextBox.Leave += new System.EventHandler(this.totalMembersTextBox_Leave);
+            // 
+            // responsibleForCoutTextBox
+            // 
+            this.responsibleForCoutTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.responsibleForCoutTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.responsibleForCoutTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.responsibleForCoutTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.responsibleForCoutTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.responsibleForCoutTextBox.Location = new System.Drawing.Point(516, 91);
+            this.responsibleForCoutTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.responsibleForCoutTextBox.Multiline = true;
+            this.responsibleForCoutTextBox.Name = "responsibleForCoutTextBox";
+            this.responsibleForCoutTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.responsibleForCoutTextBox.Size = new System.Drawing.Size(206, 26);
+            this.responsibleForCoutTextBox.TabIndex = 5;
+            this.responsibleForCoutTextBox.Text = "عدد الأفراد المسؤول عنهم";
+            this.responsibleForCoutTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.responsibleForCoutTextBox.Enter += new System.EventHandler(this.responsibleForCoutTextBox_Enter);
+            this.responsibleForCoutTextBox.Leave += new System.EventHandler(this.responsibleForCoutTextBox_Leave);
+            // 
+            // nearestFamilyMemberTextBox
+            // 
+            this.nearestFamilyMemberTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.nearestFamilyMemberTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.nearestFamilyMemberTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.nearestFamilyMemberTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nearestFamilyMemberTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.nearestFamilyMemberTextBox.Location = new System.Drawing.Point(516, 61);
+            this.nearestFamilyMemberTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nearestFamilyMemberTextBox.Multiline = true;
+            this.nearestFamilyMemberTextBox.Name = "nearestFamilyMemberTextBox";
+            this.nearestFamilyMemberTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.nearestFamilyMemberTextBox.Size = new System.Drawing.Size(206, 26);
+            this.nearestFamilyMemberTextBox.TabIndex = 3;
+            this.nearestFamilyMemberTextBox.Text = "أقرب شخص للمفحوص من العائلة";
+            this.nearestFamilyMemberTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nearestFamilyMemberTextBox.Enter += new System.EventHandler(this.nearestFamilyMemberTextBox_Enter);
+            this.nearestFamilyMemberTextBox.Leave += new System.EventHandler(this.nearestFamilyMemberTextBox_Leave);
+            // 
+            // familyResponsibilitiesGB
+            // 
+            this.familyResponsibilitiesGB.Controls.Add(this.otherResponsibilitiesTextBox);
+            this.familyResponsibilitiesGB.Controls.Add(this.otherResponsibilitiesRB);
+            this.familyResponsibilitiesGB.Controls.Add(this.smallFamilyRB);
+            this.familyResponsibilitiesGB.Controls.Add(this.bigFamilyRB);
+            this.familyResponsibilitiesGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            this.familyResponsibilitiesGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.familyResponsibilitiesGB.Location = new System.Drawing.Point(4, 21);
+            this.familyResponsibilitiesGB.Name = "familyResponsibilitiesGB";
+            this.familyResponsibilitiesGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.familyResponsibilitiesGB.Size = new System.Drawing.Size(458, 64);
+            this.familyResponsibilitiesGB.TabIndex = 7;
+            this.familyResponsibilitiesGB.TabStop = false;
+            this.familyResponsibilitiesGB.Text = "المسؤوليات تجاه؟";
+            // 
+            // otherResponsibilitiesTextBox
+            // 
+            this.otherResponsibilitiesTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.otherResponsibilitiesTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.otherResponsibilitiesTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.otherResponsibilitiesTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.otherResponsibilitiesTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.otherResponsibilitiesTextBox.Location = new System.Drawing.Point(8, 26);
+            this.otherResponsibilitiesTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.otherResponsibilitiesTextBox.Multiline = true;
+            this.otherResponsibilitiesTextBox.Name = "otherResponsibilitiesTextBox";
+            this.otherResponsibilitiesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.otherResponsibilitiesTextBox.Size = new System.Drawing.Size(155, 26);
+            this.otherResponsibilitiesTextBox.TabIndex = 3;
+            this.otherResponsibilitiesTextBox.Text = "آخرين";
+            this.otherResponsibilitiesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.otherResponsibilitiesTextBox.Enter += new System.EventHandler(this.otherResponsibilitiesTextBox_Enter);
+            this.otherResponsibilitiesTextBox.Leave += new System.EventHandler(this.otherResponsibilitiesTextBox_Leave);
+            // 
+            // otherResponsibilitiesRB
+            // 
+            this.otherResponsibilitiesRB.AutoSize = true;
+            this.otherResponsibilitiesRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.otherResponsibilitiesRB.ForeColor = System.Drawing.Color.White;
+            this.otherResponsibilitiesRB.Location = new System.Drawing.Point(169, 26);
+            this.otherResponsibilitiesRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.otherResponsibilitiesRB.Name = "otherResponsibilitiesRB";
+            this.otherResponsibilitiesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.otherResponsibilitiesRB.Size = new System.Drawing.Size(69, 32);
+            this.otherResponsibilitiesRB.TabIndex = 2;
+            this.otherResponsibilitiesRB.TabStop = true;
+            this.otherResponsibilitiesRB.Text = "آخرين";
+            this.otherResponsibilitiesRB.UseVisualStyleBackColor = true;
+            this.otherResponsibilitiesRB.CheckedChanged += new System.EventHandler(this.otherResponsibilitiesRB_CheckedChanged);
+            // 
+            // smallFamilyRB
+            // 
+            this.smallFamilyRB.AutoSize = true;
+            this.smallFamilyRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.smallFamilyRB.ForeColor = System.Drawing.Color.White;
+            this.smallFamilyRB.Location = new System.Drawing.Point(380, 26);
+            this.smallFamilyRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.smallFamilyRB.Name = "smallFamilyRB";
+            this.smallFamilyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.smallFamilyRB.Size = new System.Drawing.Size(65, 32);
+            this.smallFamilyRB.TabIndex = 0;
+            this.smallFamilyRB.TabStop = true;
+            this.smallFamilyRB.Text = "أسرته";
+            this.smallFamilyRB.UseVisualStyleBackColor = true;
+            // 
+            // bigFamilyRB
+            // 
+            this.bigFamilyRB.AutoSize = true;
+            this.bigFamilyRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.bigFamilyRB.ForeColor = System.Drawing.Color.White;
+            this.bigFamilyRB.Location = new System.Drawing.Point(253, 26);
+            this.bigFamilyRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.bigFamilyRB.Name = "bigFamilyRB";
+            this.bigFamilyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.bigFamilyRB.Size = new System.Drawing.Size(112, 32);
+            this.bigFamilyRB.TabIndex = 1;
+            this.bigFamilyRB.TabStop = true;
+            this.bigFamilyRB.Text = "الأسرة الكبيرة";
+            this.bigFamilyRB.UseVisualStyleBackColor = true;
+            // 
+            // patientOrderTextBox
+            // 
+            this.patientOrderTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.patientOrderTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.patientOrderTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.patientOrderTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientOrderTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.patientOrderTextBox.Location = new System.Drawing.Point(516, 31);
+            this.patientOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.patientOrderTextBox.Multiline = true;
+            this.patientOrderTextBox.Name = "patientOrderTextBox";
+            this.patientOrderTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.patientOrderTextBox.Size = new System.Drawing.Size(206, 26);
+            this.patientOrderTextBox.TabIndex = 1;
+            this.patientOrderTextBox.Text = "ترتيب المفحوص بين أشقائه وشقيقاته";
+            this.patientOrderTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.patientOrderTextBox.Enter += new System.EventHandler(this.patientOrderTextBox_Enter);
+            this.patientOrderTextBox.Leave += new System.EventHandler(this.patientOrderTextBox_Leave);
+            // 
+            // sistersCoutTextBox
+            // 
+            this.sistersCoutTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.sistersCoutTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.sistersCoutTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.sistersCoutTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sistersCoutTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.sistersCoutTextBox.Location = new System.Drawing.Point(730, 61);
+            this.sistersCoutTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sistersCoutTextBox.Multiline = true;
+            this.sistersCoutTextBox.Name = "sistersCoutTextBox";
+            this.sistersCoutTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.sistersCoutTextBox.Size = new System.Drawing.Size(192, 26);
+            this.sistersCoutTextBox.TabIndex = 2;
+            this.sistersCoutTextBox.Text = "الشقيقات من جهة الأب والأم فقط";
+            this.sistersCoutTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.sistersCoutTextBox.Enter += new System.EventHandler(this.sistersCoutTextBox_Enter);
+            this.sistersCoutTextBox.Leave += new System.EventHandler(this.sistersCoutTextBox_Leave);
+            // 
+            // brothersCountTextBox
+            // 
+            this.brothersCountTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.brothersCountTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.brothersCountTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.brothersCountTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.brothersCountTextBox.ForeColor = System.Drawing.Color.Gray;
+            this.brothersCountTextBox.Location = new System.Drawing.Point(730, 31);
+            this.brothersCountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.brothersCountTextBox.Multiline = true;
+            this.brothersCountTextBox.Name = "brothersCountTextBox";
+            this.brothersCountTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.brothersCountTextBox.Size = new System.Drawing.Size(192, 26);
+            this.brothersCountTextBox.TabIndex = 0;
+            this.brothersCountTextBox.Text = "الأشقاء من جهة الأب والأم فقط";
+            this.brothersCountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.brothersCountTextBox.Enter += new System.EventHandler(this.brothersCountTextBox_Enter);
+            this.brothersCountTextBox.Leave += new System.EventHandler(this.brothersCountTextBox_Leave);
             // 
             // TabPage3_0
             // 
@@ -6916,7 +7312,7 @@
             this.TabPage3_0.Controls.Add(this.tabControl5);
             this.TabPage3_0.Location = new System.Drawing.Point(4, 22);
             this.TabPage3_0.Name = "TabPage3_0";
-            this.TabPage3_0.Size = new System.Drawing.Size(978, 827);
+            this.TabPage3_0.Size = new System.Drawing.Size(978, 1035);
             this.TabPage3_0.TabIndex = 3;
             this.TabPage3_0.Text = "الأحداث والقاصرات";
             // 
@@ -6964,7 +7360,7 @@
             this.badRelationsWithTeachersGB.Name = "badRelationsWithTeachersGB";
             this.badRelationsWithTeachersGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.badRelationsWithTeachersGB.Size = new System.Drawing.Size(625, 98);
-            this.badRelationsWithTeachersGB.TabIndex = 1008;
+            this.badRelationsWithTeachersGB.TabIndex = 6;
             this.badRelationsWithTeachersGB.TabStop = false;
             this.badRelationsWithTeachersGB.Text = "الأسباب";
             // 
@@ -6980,7 +7376,7 @@
             this.otherReaonsBadTeacherRelationTextBox.Name = "otherReaonsBadTeacherRelationTextBox";
             this.otherReaonsBadTeacherRelationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherReaonsBadTeacherRelationTextBox.Size = new System.Drawing.Size(294, 32);
-            this.otherReaonsBadTeacherRelationTextBox.TabIndex = 961;
+            this.otherReaonsBadTeacherRelationTextBox.TabIndex = 5;
             // 
             // otherReaonsBadTeacherRelationRB
             // 
@@ -6992,7 +7388,7 @@
             this.otherReaonsBadTeacherRelationRB.Name = "otherReaonsBadTeacherRelationRB";
             this.otherReaonsBadTeacherRelationRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherReaonsBadTeacherRelationRB.Size = new System.Drawing.Size(65, 32);
-            this.otherReaonsBadTeacherRelationRB.TabIndex = 960;
+            this.otherReaonsBadTeacherRelationRB.TabIndex = 4;
             this.otherReaonsBadTeacherRelationRB.TabStop = true;
             this.otherReaonsBadTeacherRelationRB.Text = "أخرى";
             this.otherReaonsBadTeacherRelationRB.UseVisualStyleBackColor = true;
@@ -7008,7 +7404,7 @@
             this.muchAbscenceRB.Name = "muchAbscenceRB";
             this.muchAbscenceRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.muchAbscenceRB.Size = new System.Drawing.Size(176, 32);
-            this.muchAbscenceRB.TabIndex = 958;
+            this.muchAbscenceRB.TabIndex = 2;
             this.muchAbscenceRB.TabStop = true;
             this.muchAbscenceRB.Text = "كثرة الغياب عن المدرسة";
             this.muchAbscenceRB.UseVisualStyleBackColor = true;
@@ -7023,7 +7419,7 @@
             this.teacherMissbehaveRB.Name = "teacherMissbehaveRB";
             this.teacherMissbehaveRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.teacherMissbehaveRB.Size = new System.Drawing.Size(148, 32);
-            this.teacherMissbehaveRB.TabIndex = 957;
+            this.teacherMissbehaveRB.TabIndex = 1;
             this.teacherMissbehaveRB.TabStop = true;
             this.teacherMissbehaveRB.Text = "سوء معاملة المدرس";
             this.teacherMissbehaveRB.UseVisualStyleBackColor = true;
@@ -7038,7 +7434,7 @@
             this.naughtyAtClassRB.Name = "naughtyAtClassRB";
             this.naughtyAtClassRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.naughtyAtClassRB.Size = new System.Drawing.Size(172, 32);
-            this.naughtyAtClassRB.TabIndex = 90;
+            this.naughtyAtClassRB.TabIndex = 3;
             this.naughtyAtClassRB.TabStop = true;
             this.naughtyAtClassRB.Text = "كثر المشاغبة في الفصل";
             this.naughtyAtClassRB.UseVisualStyleBackColor = true;
@@ -7053,7 +7449,7 @@
             this.notCompehendRB.Name = "notCompehendRB";
             this.notCompehendRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.notCompehendRB.Size = new System.Drawing.Size(209, 32);
-            this.notCompehendRB.TabIndex = 89;
+            this.notCompehendRB.TabIndex = 0;
             this.notCompehendRB.TabStop = true;
             this.notCompehendRB.Text = "عدم القدرة على استيعاب المادة";
             this.notCompehendRB.UseVisualStyleBackColor = true;
@@ -7067,7 +7463,7 @@
             this.badRelationWithTeachersCB.Name = "badRelationWithTeachersCB";
             this.badRelationWithTeachersCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.badRelationWithTeachersCB.Size = new System.Drawing.Size(319, 29);
-            this.badRelationWithTeachersCB.TabIndex = 1007;
+            this.badRelationWithTeachersCB.TabIndex = 5;
             this.badRelationWithTeachersCB.Text = "هل كانت علاقتك مع مدرس أو أكثر سيئة؟";
             this.badRelationWithTeachersCB.UseVisualStyleBackColor = true;
             this.badRelationWithTeachersCB.CheckedChanged += new System.EventHandler(this.badRelationWithTeachersCB_CheckedChanged);
@@ -7083,7 +7479,7 @@
             this.educationLevelGB.Name = "educationLevelGB";
             this.educationLevelGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.educationLevelGB.Size = new System.Drawing.Size(257, 64);
-            this.educationLevelGB.TabIndex = 1006;
+            this.educationLevelGB.TabIndex = 4;
             this.educationLevelGB.TabStop = false;
             this.educationLevelGB.Text = "مستواك الدراسي كان؟";
             // 
@@ -7097,7 +7493,7 @@
             this.badStudentRB.Name = "badStudentRB";
             this.badStudentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.badStudentRB.Size = new System.Drawing.Size(73, 32);
-            this.badStudentRB.TabIndex = 91;
+            this.badStudentRB.TabIndex = 2;
             this.badStudentRB.TabStop = true;
             this.badStudentRB.Text = "ضعيف";
             this.badStudentRB.UseVisualStyleBackColor = true;
@@ -7112,7 +7508,7 @@
             this.mediumStudentRB.Name = "mediumStudentRB";
             this.mediumStudentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mediumStudentRB.Size = new System.Drawing.Size(71, 32);
-            this.mediumStudentRB.TabIndex = 90;
+            this.mediumStudentRB.TabIndex = 1;
             this.mediumStudentRB.TabStop = true;
             this.mediumStudentRB.Text = "متوسط";
             this.mediumStudentRB.UseVisualStyleBackColor = true;
@@ -7127,7 +7523,7 @@
             this.excellentStudentRB.Name = "excellentStudentRB";
             this.excellentStudentRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.excellentStudentRB.Size = new System.Drawing.Size(66, 32);
-            this.excellentStudentRB.TabIndex = 89;
+            this.excellentStudentRB.TabIndex = 0;
             this.excellentStudentRB.TabStop = true;
             this.excellentStudentRB.Text = "متفوق";
             this.excellentStudentRB.UseVisualStyleBackColor = true;
@@ -7143,7 +7539,7 @@
             this.groupBox22.Name = "groupBox22";
             this.groupBox22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox22.Size = new System.Drawing.Size(357, 64);
-            this.groupBox22.TabIndex = 1005;
+            this.groupBox22.TabIndex = 3;
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "كيف تصف علاقتك مع التلاميذ؟";
             // 
@@ -7160,7 +7556,7 @@
             this.badRelationWithStudentsReasonTextBox.Name = "badRelationWithStudentsReasonTextBox";
             this.badRelationWithStudentsReasonTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.badRelationWithStudentsReasonTextBox.Size = new System.Drawing.Size(232, 26);
-            this.badRelationWithStudentsReasonTextBox.TabIndex = 982;
+            this.badRelationWithStudentsReasonTextBox.TabIndex = 2;
             this.badRelationWithStudentsReasonTextBox.Text = "الأسباب";
             this.badRelationWithStudentsReasonTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.badRelationWithStudentsReasonTextBox.Enter += new System.EventHandler(this.badRelationWithStudentsReasonTextBox_Enter);
@@ -7176,7 +7572,7 @@
             this.badRelationWithStudentsRB.Name = "badRelationWithStudentsRB";
             this.badRelationWithStudentsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.badRelationWithStudentsRB.Size = new System.Drawing.Size(57, 32);
-            this.badRelationWithStudentsRB.TabIndex = 90;
+            this.badRelationWithStudentsRB.TabIndex = 1;
             this.badRelationWithStudentsRB.TabStop = true;
             this.badRelationWithStudentsRB.Text = "سيئة";
             this.badRelationWithStudentsRB.UseVisualStyleBackColor = true;
@@ -7191,7 +7587,7 @@
             this.goodRelationWithStudentsRB.Name = "goodRelationWithStudentsRB";
             this.goodRelationWithStudentsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.goodRelationWithStudentsRB.Size = new System.Drawing.Size(62, 32);
-            this.goodRelationWithStudentsRB.TabIndex = 89;
+            this.goodRelationWithStudentsRB.TabIndex = 0;
             this.goodRelationWithStudentsRB.TabStop = true;
             this.goodRelationWithStudentsRB.Text = "حسنة";
             this.goodRelationWithStudentsRB.UseVisualStyleBackColor = true;
@@ -7208,7 +7604,7 @@
             this.groupBox21.Name = "groupBox21";
             this.groupBox21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox21.Size = new System.Drawing.Size(329, 64);
-            this.groupBox21.TabIndex = 1004;
+            this.groupBox21.TabIndex = 2;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "كنت تحب الذهاب إلى المدرسة من صغرك؟";
             // 
@@ -7225,7 +7621,7 @@
             this.hatedSchoolTextBox.Name = "hatedSchoolTextBox";
             this.hatedSchoolTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.hatedSchoolTextBox.Size = new System.Drawing.Size(194, 26);
-            this.hatedSchoolTextBox.TabIndex = 982;
+            this.hatedSchoolTextBox.TabIndex = 2;
             this.hatedSchoolTextBox.Text = "الأسباب";
             this.hatedSchoolTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.hatedSchoolTextBox.Enter += new System.EventHandler(this.hatedSchoolTextBox_Enter);
@@ -7241,7 +7637,7 @@
             this.hatedSchoolRB.Name = "hatedSchoolRB";
             this.hatedSchoolRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.hatedSchoolRB.Size = new System.Drawing.Size(40, 32);
-            this.hatedSchoolRB.TabIndex = 90;
+            this.hatedSchoolRB.TabIndex = 1;
             this.hatedSchoolRB.TabStop = true;
             this.hatedSchoolRB.Text = "لا";
             this.hatedSchoolRB.UseVisualStyleBackColor = true;
@@ -7256,7 +7652,7 @@
             this.lovedSchoolRB.Name = "lovedSchoolRB";
             this.lovedSchoolRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lovedSchoolRB.Size = new System.Drawing.Size(48, 32);
-            this.lovedSchoolRB.TabIndex = 89;
+            this.lovedSchoolRB.TabIndex = 0;
             this.lovedSchoolRB.TabStop = true;
             this.lovedSchoolRB.Text = "نعم";
             this.lovedSchoolRB.UseVisualStyleBackColor = true;
@@ -7286,7 +7682,7 @@
             this.patientSocialStatusTextBox.Name = "patientSocialStatusTextBox";
             this.patientSocialStatusTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.patientSocialStatusTextBox.Size = new System.Drawing.Size(550, 250);
-            this.patientSocialStatusTextBox.TabIndex = 979;
+            this.patientSocialStatusTextBox.TabIndex = 1;
             this.patientSocialStatusTextBox.Text = "النظر في عمر أصدقائه ومن هم وكيفية العلاقة بينه وبين أصدقاءه والنظر في القدرة على" +
     " بناء علاقات والمحافظة عليها وإذا كان هنالك دليل على التعرض لاستغلال الأصدقاء في" +
     " الوقت أو في الماضي.";
@@ -7320,35 +7716,35 @@
             // schoolStageDGV
             // 
             this.schoolStageDGV.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle89.Font = new System.Drawing.Font("Sitka Heading", 11F);
-            dataGridViewCellStyle89.ForeColor = System.Drawing.Color.White;
-            this.schoolStageDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle89;
+            dataGridViewCellStyle98.Font = new System.Drawing.Font("Sitka Heading", 11F);
+            dataGridViewCellStyle98.ForeColor = System.Drawing.Color.White;
+            this.schoolStageDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle98;
             this.schoolStageDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.schoolStageDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.schoolStageDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.schoolStageDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle90.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.schoolStageDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle90;
+            dataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle99.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle99.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle99.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle99.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle99.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.schoolStageDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle99;
             this.schoolStageDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.schoolStageDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn24,
             this.dataGridViewTextBoxColumn25,
             this.dataGridViewTextBoxColumn26,
             this.Column19});
-            dataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle91.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle91.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle91.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle91.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.schoolStageDGV.DefaultCellStyle = dataGridViewCellStyle91;
+            dataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle100.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle100.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle100.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle100.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.schoolStageDGV.DefaultCellStyle = dataGridViewCellStyle100;
             this.schoolStageDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.schoolStageDGV.GridColor = System.Drawing.Color.White;
             this.schoolStageDGV.Location = new System.Drawing.Point(6, 20);
@@ -7356,14 +7752,14 @@
             this.schoolStageDGV.MultiSelect = false;
             this.schoolStageDGV.Name = "schoolStageDGV";
             this.schoolStageDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle92.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle92.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle92.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle92.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle92.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.schoolStageDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle92;
+            dataGridViewCellStyle101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle101.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle101.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle101.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle101.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle101.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.schoolStageDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle101;
             this.schoolStageDGV.RowHeadersWidth = 30;
             this.schoolStageDGV.RowTemplate.Height = 26;
             this.schoolStageDGV.Size = new System.Drawing.Size(579, 161);
@@ -7391,21 +7787,6 @@
             this.Column19.HeaderText = "الملاحظات";
             this.Column19.Name = "Column19";
             // 
-            // studyingPhaseBrush
-            // 
-            this.studyingPhaseBrush.FlatAppearance.BorderSize = 0;
-            this.studyingPhaseBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.studyingPhaseBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.studyingPhaseBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.studyingPhaseBrush.Location = new System.Drawing.Point(389, 177);
-            this.studyingPhaseBrush.Name = "studyingPhaseBrush";
-            this.studyingPhaseBrush.Size = new System.Drawing.Size(64, 52);
-            this.studyingPhaseBrush.TabIndex = 997;
-            this.studyingPhaseBrush.UseVisualStyleBackColor = false;
-            this.studyingPhaseBrush.Click += new System.EventHandler(this.studyingPhaseBrush_Click);
-            this.studyingPhaseBrush.MouseLeave += new System.EventHandler(this.studyingPhaseBrush_MouseLeave);
-            this.studyingPhaseBrush.MouseHover += new System.EventHandler(this.studyingPhaseBrush_MouseHover);
-            // 
             // schoolStageComboBox
             // 
             this.schoolStageComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
@@ -7418,7 +7799,7 @@
             this.schoolStageComboBox.Name = "schoolStageComboBox";
             this.schoolStageComboBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.schoolStageComboBox.Size = new System.Drawing.Size(251, 27);
-            this.schoolStageComboBox.TabIndex = 980;
+            this.schoolStageComboBox.TabIndex = 0;
             // 
             // label48
             // 
@@ -7446,7 +7827,7 @@
             this.schoolNotesTextBox.Name = "schoolNotesTextBox";
             this.schoolNotesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.schoolNotesTextBox.Size = new System.Drawing.Size(251, 89);
-            this.schoolNotesTextBox.TabIndex = 968;
+            this.schoolNotesTextBox.TabIndex = 3;
             // 
             // schoolNameTextBox
             // 
@@ -7461,21 +7842,7 @@
             this.schoolNameTextBox.Name = "schoolNameTextBox";
             this.schoolNameTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.schoolNameTextBox.Size = new System.Drawing.Size(251, 28);
-            this.schoolNameTextBox.TabIndex = 967;
-            // 
-            // schoolAddButton
-            // 
-            this.schoolAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.schoolAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.schoolAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.schoolAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.schoolAddButton.Location = new System.Drawing.Point(450, 186);
-            this.schoolAddButton.Name = "schoolAddButton";
-            this.schoolAddButton.Size = new System.Drawing.Size(135, 38);
-            this.schoolAddButton.TabIndex = 966;
-            this.schoolAddButton.Text = "إضافة";
-            this.schoolAddButton.UseVisualStyleBackColor = false;
-            this.schoolAddButton.Click += new System.EventHandler(this.schoolAddButton_Click);
+            this.schoolNameTextBox.TabIndex = 1;
             // 
             // label37
             // 
@@ -7503,7 +7870,7 @@
             this.schoolFailureYearsTextBox.Name = "schoolFailureYearsTextBox";
             this.schoolFailureYearsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.schoolFailureYearsTextBox.Size = new System.Drawing.Size(251, 28);
-            this.schoolFailureYearsTextBox.TabIndex = 965;
+            this.schoolFailureYearsTextBox.TabIndex = 2;
             // 
             // label39
             // 
@@ -7542,7 +7909,7 @@
             this.groupBox18.Name = "groupBox18";
             this.groupBox18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox18.Size = new System.Drawing.Size(409, 280);
-            this.groupBox18.TabIndex = 938;
+            this.groupBox18.TabIndex = 0;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "الوضع الاقتصادي";
             // 
@@ -7561,7 +7928,7 @@
             this.shortcomingSourceGB.Name = "shortcomingSourceGB";
             this.shortcomingSourceGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.shortcomingSourceGB.Size = new System.Drawing.Size(395, 144);
-            this.shortcomingSourceGB.TabIndex = 1001;
+            this.shortcomingSourceGB.TabIndex = 2;
             this.shortcomingSourceGB.TabStop = false;
             this.shortcomingSourceGB.Text = "ما مصدر تغطية العجز؟";
             // 
@@ -7577,7 +7944,7 @@
             this.otherSourceTextBox.Name = "otherSourceTextBox";
             this.otherSourceTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherSourceTextBox.Size = new System.Drawing.Size(142, 34);
-            this.otherSourceTextBox.TabIndex = 961;
+            this.otherSourceTextBox.TabIndex = 6;
             // 
             // otherSourceRB
             // 
@@ -7589,7 +7956,7 @@
             this.otherSourceRB.Name = "otherSourceRB";
             this.otherSourceRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.otherSourceRB.Size = new System.Drawing.Size(65, 32);
-            this.otherSourceRB.TabIndex = 960;
+            this.otherSourceRB.TabIndex = 5;
             this.otherSourceRB.TabStop = true;
             this.otherSourceRB.Text = "أخرى";
             this.otherSourceRB.UseVisualStyleBackColor = true;
@@ -7605,7 +7972,7 @@
             this.fromWorkRB.Name = "fromWorkRB";
             this.fromWorkRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fromWorkRB.Size = new System.Drawing.Size(62, 32);
-            this.fromWorkRB.TabIndex = 959;
+            this.fromWorkRB.TabIndex = 4;
             this.fromWorkRB.TabStop = true;
             this.fromWorkRB.Text = "العمل";
             this.fromWorkRB.UseVisualStyleBackColor = true;
@@ -7620,7 +7987,7 @@
             this.dependOnFriendsRB.Name = "dependOnFriendsRB";
             this.dependOnFriendsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dependOnFriendsRB.Size = new System.Drawing.Size(164, 32);
-            this.dependOnFriendsRB.TabIndex = 958;
+            this.dependOnFriendsRB.TabIndex = 1;
             this.dependOnFriendsRB.TabStop = true;
             this.dependOnFriendsRB.Text = "الاعتماد على الأصدقاء";
             this.dependOnFriendsRB.UseVisualStyleBackColor = true;
@@ -7635,7 +8002,7 @@
             this.fromMotherRB.Name = "fromMotherRB";
             this.fromMotherRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fromMotherRB.Size = new System.Drawing.Size(137, 32);
-            this.fromMotherRB.TabIndex = 957;
+            this.fromMotherRB.TabIndex = 2;
             this.fromMotherRB.TabStop = true;
             this.fromMotherRB.Text = "الأم دون علم الأب";
             this.fromMotherRB.UseVisualStyleBackColor = true;
@@ -7650,7 +8017,7 @@
             this.fromRelativeRB.Name = "fromRelativeRB";
             this.fromRelativeRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fromRelativeRB.Size = new System.Drawing.Size(123, 32);
-            this.fromRelativeRB.TabIndex = 90;
+            this.fromRelativeRB.TabIndex = 3;
             this.fromRelativeRB.TabStop = true;
             this.fromRelativeRB.Text = "مساعدة الأقارب";
             this.fromRelativeRB.UseVisualStyleBackColor = true;
@@ -7665,7 +8032,7 @@
             this.fromFriendsRB.Name = "fromFriendsRB";
             this.fromFriendsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fromFriendsRB.Size = new System.Drawing.Size(161, 32);
-            this.fromFriendsRB.TabIndex = 89;
+            this.fromFriendsRB.TabIndex = 0;
             this.fromFriendsRB.TabStop = true;
             this.fromFriendsRB.Text = "الاستدانة من الأصدقاء";
             this.fromFriendsRB.UseVisualStyleBackColor = true;
@@ -7678,7 +8045,7 @@
             this.pocketMoneyIsEnoughCB.Name = "pocketMoneyIsEnoughCB";
             this.pocketMoneyIsEnoughCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.pocketMoneyIsEnoughCB.Size = new System.Drawing.Size(395, 32);
-            this.pocketMoneyIsEnoughCB.TabIndex = 1000;
+            this.pocketMoneyIsEnoughCB.TabIndex = 1;
             this.pocketMoneyIsEnoughCB.Text = "هل كان المبلغ المخصص كافيًا للمصاريف الشخصية؟";
             this.pocketMoneyIsEnoughCB.UseVisualStyleBackColor = true;
             this.pocketMoneyIsEnoughCB.CheckedChanged += new System.EventHandler(this.pocketMoneyIsEnoughCB_CheckedChanged);
@@ -7696,7 +8063,7 @@
             this.groupBox23.Name = "groupBox23";
             this.groupBox23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox23.Size = new System.Drawing.Size(394, 64);
-            this.groupBox23.TabIndex = 945;
+            this.groupBox23.TabIndex = 0;
             this.groupBox23.TabStop = false;
             this.groupBox23.Text = "كم المصروف المخصص تقريبًا؟";
             // 
@@ -7713,7 +8080,7 @@
             this.pocketMoneyTextBox.Name = "pocketMoneyTextBox";
             this.pocketMoneyTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.pocketMoneyTextBox.Size = new System.Drawing.Size(81, 26);
-            this.pocketMoneyTextBox.TabIndex = 983;
+            this.pocketMoneyTextBox.TabIndex = 0;
             this.pocketMoneyTextBox.Text = "بالدرهم";
             this.pocketMoneyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.pocketMoneyTextBox.Enter += new System.EventHandler(this.pocketMoneyTextBox_Enter);
@@ -7729,7 +8096,7 @@
             this.atOrderPocketMoneyRB.Name = "atOrderPocketMoneyRB";
             this.atOrderPocketMoneyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.atOrderPocketMoneyRB.Size = new System.Drawing.Size(93, 32);
-            this.atOrderPocketMoneyRB.TabIndex = 958;
+            this.atOrderPocketMoneyRB.TabIndex = 4;
             this.atOrderPocketMoneyRB.TabStop = true;
             this.atOrderPocketMoneyRB.Text = "عند الطلب";
             this.atOrderPocketMoneyRB.UseVisualStyleBackColor = true;
@@ -7744,7 +8111,7 @@
             this.monthlyPocketMoneyRB.Name = "monthlyPocketMoneyRB";
             this.monthlyPocketMoneyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.monthlyPocketMoneyRB.Size = new System.Drawing.Size(68, 32);
-            this.monthlyPocketMoneyRB.TabIndex = 957;
+            this.monthlyPocketMoneyRB.TabIndex = 3;
             this.monthlyPocketMoneyRB.TabStop = true;
             this.monthlyPocketMoneyRB.Text = "شهري";
             this.monthlyPocketMoneyRB.UseVisualStyleBackColor = true;
@@ -7759,7 +8126,7 @@
             this.weeklyPocketMoneyRB.Name = "weeklyPocketMoneyRB";
             this.weeklyPocketMoneyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.weeklyPocketMoneyRB.Size = new System.Drawing.Size(78, 32);
-            this.weeklyPocketMoneyRB.TabIndex = 90;
+            this.weeklyPocketMoneyRB.TabIndex = 2;
             this.weeklyPocketMoneyRB.TabStop = true;
             this.weeklyPocketMoneyRB.Text = "أسبوعي";
             this.weeklyPocketMoneyRB.UseVisualStyleBackColor = true;
@@ -7774,7 +8141,7 @@
             this.dailyPocketMoneyRB.Name = "dailyPocketMoneyRB";
             this.dailyPocketMoneyRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dailyPocketMoneyRB.Size = new System.Drawing.Size(61, 32);
-            this.dailyPocketMoneyRB.TabIndex = 89;
+            this.dailyPocketMoneyRB.TabIndex = 1;
             this.dailyPocketMoneyRB.TabStop = true;
             this.dailyPocketMoneyRB.Text = "يومي";
             this.dailyPocketMoneyRB.UseVisualStyleBackColor = true;
@@ -7812,7 +8179,7 @@
             this.motivationsTextBox.Name = "motivationsTextBox";
             this.motivationsTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.motivationsTextBox.Size = new System.Drawing.Size(317, 165);
-            this.motivationsTextBox.TabIndex = 1012;
+            this.motivationsTextBox.TabIndex = 3;
             this.motivationsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.motivationsTextBox.Enter += new System.EventHandler(this.motivationsTextBox_Enter);
             this.motivationsTextBox.Leave += new System.EventHandler(this.motivationsTextBox_Leave);
@@ -7942,7 +8309,7 @@
             this.familyTextBox.Name = "familyTextBox";
             this.familyTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyTextBox.Size = new System.Drawing.Size(317, 165);
-            this.familyTextBox.TabIndex = 1011;
+            this.familyTextBox.TabIndex = 2;
             this.familyTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.familyTextBox.Enter += new System.EventHandler(this.familyTextBox_Enter);
             this.familyTextBox.Leave += new System.EventHandler(this.familyTextBox_Leave);
@@ -8036,7 +8403,7 @@
             this.socialStatusAbstractRB.Name = "socialStatusAbstractRB";
             this.socialStatusAbstractRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.socialStatusAbstractRB.Size = new System.Drawing.Size(317, 165);
-            this.socialStatusAbstractRB.TabIndex = 1013;
+            this.socialStatusAbstractRB.TabIndex = 4;
             this.socialStatusAbstractRB.Text = "تشخيص حالة الحدث ويجب أن تشمل المخاطر الأساسية وعوامل الجنوح والتوصيات.";
             this.socialStatusAbstractRB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.socialStatusAbstractRB.Enter += new System.EventHandler(this.socialStatusAbstractRB_Enter);
@@ -8056,7 +8423,7 @@
             this.groupBox28.Name = "groupBox28";
             this.groupBox28.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox28.Size = new System.Drawing.Size(965, 192);
-            this.groupBox28.TabIndex = 980;
+            this.groupBox28.TabIndex = 1;
             this.groupBox28.TabStop = false;
             this.groupBox28.Text = "قضاء وقت الفراغ";
             // 
@@ -8073,7 +8440,7 @@
             this.freeTimeTextBox.Name = "freeTimeTextBox";
             this.freeTimeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.freeTimeTextBox.Size = new System.Drawing.Size(244, 145);
-            this.freeTimeTextBox.TabIndex = 1010;
+            this.freeTimeTextBox.TabIndex = 0;
             this.freeTimeTextBox.Text = "كيف تقضي وقت الفراغ";
             this.freeTimeTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.freeTimeTextBox.Enter += new System.EventHandler(this.freeTimeTextBox_Enter);
@@ -8092,7 +8459,7 @@
             this.whichCountriesTextBox.Name = "whichCountriesTextBox";
             this.whichCountriesTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.whichCountriesTextBox.Size = new System.Drawing.Size(434, 42);
-            this.whichCountriesTextBox.TabIndex = 1009;
+            this.whichCountriesTextBox.TabIndex = 5;
             this.whichCountriesTextBox.Text = "ما الدول وتفاصيل السفر";
             this.whichCountriesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.whichCountriesTextBox.Enter += new System.EventHandler(this.whichCountriesTextBox_Enter);
@@ -8106,7 +8473,7 @@
             this.travelledCB.Name = "travelledCB";
             this.travelledCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.travelledCB.Size = new System.Drawing.Size(256, 32);
-            this.travelledCB.TabIndex = 1008;
+            this.travelledCB.TabIndex = 4;
             this.travelledCB.Text = "هل سبق وأن سافر خارج الدولة؟";
             this.travelledCB.UseVisualStyleBackColor = true;
             this.travelledCB.CheckedChanged += new System.EventHandler(this.travelledCB_CheckedChanged);
@@ -8125,7 +8492,7 @@
             this.mostVisitedGB.Name = "mostVisitedGB";
             this.mostVisitedGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mostVisitedGB.Size = new System.Drawing.Size(706, 61);
-            this.mostVisitedGB.TabIndex = 1007;
+            this.mostVisitedGB.TabIndex = 3;
             this.mostVisitedGB.TabStop = false;
             this.mostVisitedGB.Text = "ما هي أكثر المواقع زيارةً؟";
             // 
@@ -8139,7 +8506,7 @@
             this.pornSitesRB.Name = "pornSitesRB";
             this.pornSitesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.pornSitesRB.Size = new System.Drawing.Size(69, 32);
-            this.pornSitesRB.TabIndex = 97;
+            this.pornSitesRB.TabIndex = 5;
             this.pornSitesRB.TabStop = true;
             this.pornSitesRB.Text = "الجنس";
             this.pornSitesRB.UseVisualStyleBackColor = true;
@@ -8154,7 +8521,7 @@
             this.scientificSitesRB.Name = "scientificSitesRB";
             this.scientificSitesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.scientificSitesRB.Size = new System.Drawing.Size(68, 32);
-            this.scientificSitesRB.TabIndex = 95;
+            this.scientificSitesRB.TabIndex = 1;
             this.scientificSitesRB.TabStop = true;
             this.scientificSitesRB.Text = "العلمية";
             this.scientificSitesRB.UseVisualStyleBackColor = true;
@@ -8169,7 +8536,7 @@
             this.politicalSitesRB.Name = "politicalSitesRB";
             this.politicalSitesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.politicalSitesRB.Size = new System.Drawing.Size(79, 32);
-            this.politicalSitesRB.TabIndex = 94;
+            this.politicalSitesRB.TabIndex = 2;
             this.politicalSitesRB.TabStop = true;
             this.politicalSitesRB.Text = "السياسية";
             this.politicalSitesRB.UseVisualStyleBackColor = true;
@@ -8184,7 +8551,7 @@
             this.entertainingStesRB.Name = "entertainingStesRB";
             this.entertainingStesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.entertainingStesRB.Size = new System.Drawing.Size(81, 32);
-            this.entertainingStesRB.TabIndex = 93;
+            this.entertainingStesRB.TabIndex = 4;
             this.entertainingStesRB.TabStop = true;
             this.entertainingStesRB.Text = "الترفيهية";
             this.entertainingStesRB.UseVisualStyleBackColor = true;
@@ -8199,7 +8566,7 @@
             this.religiousSitesRB.Name = "religiousSitesRB";
             this.religiousSitesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.religiousSitesRB.Size = new System.Drawing.Size(66, 32);
-            this.religiousSitesRB.TabIndex = 92;
+            this.religiousSitesRB.TabIndex = 3;
             this.religiousSitesRB.TabStop = true;
             this.religiousSitesRB.Text = "الدينية";
             this.religiousSitesRB.UseVisualStyleBackColor = true;
@@ -8214,7 +8581,7 @@
             this.socialSitesRB.Name = "socialSitesRB";
             this.socialSitesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.socialSitesRB.Size = new System.Drawing.Size(92, 32);
-            this.socialSitesRB.TabIndex = 91;
+            this.socialSitesRB.TabIndex = 0;
             this.socialSitesRB.TabStop = true;
             this.socialSitesRB.Text = "الاجتماعية";
             this.socialSitesRB.UseVisualStyleBackColor = true;
@@ -8230,7 +8597,7 @@
             this.emailPurposeGB.Name = "emailPurposeGB";
             this.emailPurposeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.emailPurposeGB.Size = new System.Drawing.Size(478, 65);
-            this.emailPurposeGB.TabIndex = 1006;
+            this.emailPurposeGB.TabIndex = 2;
             this.emailPurposeGB.TabStop = false;
             this.emailPurposeGB.Text = "الهدف من البريد الإلكتروني؟";
             // 
@@ -8244,7 +8611,7 @@
             this.downloadProgramsRB.Name = "downloadProgramsRB";
             this.downloadProgramsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.downloadProgramsRB.Size = new System.Drawing.Size(107, 32);
-            this.downloadProgramsRB.TabIndex = 92;
+            this.downloadProgramsRB.TabIndex = 2;
             this.downloadProgramsRB.TabStop = true;
             this.downloadProgramsRB.Text = "تحميل برامج";
             this.downloadProgramsRB.UseVisualStyleBackColor = true;
@@ -8259,7 +8626,7 @@
             this.joinChatRoomsRB.Name = "joinChatRoomsRB";
             this.joinChatRoomsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.joinChatRoomsRB.Size = new System.Drawing.Size(200, 32);
-            this.joinChatRoomsRB.TabIndex = 91;
+            this.joinChatRoomsRB.TabIndex = 0;
             this.joinChatRoomsRB.TabStop = true;
             this.joinChatRoomsRB.Text = "المشاركة في غرف الأحاديث";
             this.joinChatRoomsRB.UseVisualStyleBackColor = true;
@@ -8274,7 +8641,7 @@
             this.contactWithFriendsRB.Name = "contactWithFriendsRB";
             this.contactWithFriendsRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.contactWithFriendsRB.Size = new System.Drawing.Size(160, 32);
-            this.contactWithFriendsRB.TabIndex = 90;
+            this.contactWithFriendsRB.TabIndex = 1;
             this.contactWithFriendsRB.TabStop = true;
             this.contactWithFriendsRB.Text = "التواصل مع الأصدقاء";
             this.contactWithFriendsRB.UseVisualStyleBackColor = true;
@@ -8287,7 +8654,7 @@
             this.haveEmailCB.Name = "haveEmailCB";
             this.haveEmailCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.haveEmailCB.Size = new System.Drawing.Size(197, 32);
-            this.haveEmailCB.TabIndex = 1002;
+            this.haveEmailCB.TabIndex = 1;
             this.haveEmailCB.Text = "هل لديه بريد إلكتروني؟";
             this.haveEmailCB.UseVisualStyleBackColor = true;
             this.haveEmailCB.CheckedChanged += new System.EventHandler(this.haveEmailCB_CheckedChanged);
@@ -8304,7 +8671,7 @@
             this.groupBox26.Name = "groupBox26";
             this.groupBox26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox26.Size = new System.Drawing.Size(965, 245);
-            this.groupBox26.TabIndex = 979;
+            this.groupBox26.TabIndex = 0;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "عادات وسلوكيات أفراد الأسرة";
             // 
@@ -8318,7 +8685,7 @@
             this.convictedFamilyMemberGB.Name = "convictedFamilyMemberGB";
             this.convictedFamilyMemberGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.convictedFamilyMemberGB.Size = new System.Drawing.Size(688, 105);
-            this.convictedFamilyMemberGB.TabIndex = 1004;
+            this.convictedFamilyMemberGB.TabIndex = 2;
             this.convictedFamilyMemberGB.TabStop = false;
             this.convictedFamilyMemberGB.Text = "التفاصيل";
             // 
@@ -8335,7 +8702,7 @@
             this.familyMemberConvictedTextBox.Name = "familyMemberConvictedTextBox";
             this.familyMemberConvictedTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.familyMemberConvictedTextBox.Size = new System.Drawing.Size(359, 53);
-            this.familyMemberConvictedTextBox.TabIndex = 984;
+            this.familyMemberConvictedTextBox.TabIndex = 1;
             this.familyMemberConvictedTextBox.Text = "ما نوع الجريمة وتفاصيلها";
             this.familyMemberConvictedTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.familyMemberConvictedTextBox.Enter += new System.EventHandler(this.familyMemberConvictedTextBox_Enter);
@@ -8353,7 +8720,7 @@
             this.convictedMemberGB.Name = "convictedMemberGB";
             this.convictedMemberGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.convictedMemberGB.Size = new System.Drawing.Size(305, 65);
-            this.convictedMemberGB.TabIndex = 983;
+            this.convictedMemberGB.TabIndex = 0;
             this.convictedMemberGB.TabStop = false;
             this.convictedMemberGB.Text = "من هو؟";
             // 
@@ -8367,7 +8734,7 @@
             this.relativesConvictedRB.Name = "relativesConvictedRB";
             this.relativesConvictedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.relativesConvictedRB.Size = new System.Drawing.Size(76, 32);
-            this.relativesConvictedRB.TabIndex = 92;
+            this.relativesConvictedRB.TabIndex = 3;
             this.relativesConvictedRB.TabStop = true;
             this.relativesConvictedRB.Text = "الاقارب";
             this.relativesConvictedRB.UseVisualStyleBackColor = true;
@@ -8382,7 +8749,7 @@
             this.siblingsConvictedRB.Name = "siblingsConvictedRB";
             this.siblingsConvictedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.siblingsConvictedRB.Size = new System.Drawing.Size(67, 32);
-            this.siblingsConvictedRB.TabIndex = 91;
+            this.siblingsConvictedRB.TabIndex = 2;
             this.siblingsConvictedRB.TabStop = true;
             this.siblingsConvictedRB.Text = "الأخوة";
             this.siblingsConvictedRB.UseVisualStyleBackColor = true;
@@ -8397,7 +8764,7 @@
             this.momConvictedRB.Name = "momConvictedRB";
             this.momConvictedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.momConvictedRB.Size = new System.Drawing.Size(50, 32);
-            this.momConvictedRB.TabIndex = 90;
+            this.momConvictedRB.TabIndex = 1;
             this.momConvictedRB.TabStop = true;
             this.momConvictedRB.Text = "الأم";
             this.momConvictedRB.UseVisualStyleBackColor = true;
@@ -8412,7 +8779,7 @@
             this.dadConvictedRB.Name = "dadConvictedRB";
             this.dadConvictedRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dadConvictedRB.Size = new System.Drawing.Size(58, 32);
-            this.dadConvictedRB.TabIndex = 89;
+            this.dadConvictedRB.TabIndex = 0;
             this.dadConvictedRB.TabStop = true;
             this.dadConvictedRB.Text = "الأب";
             this.dadConvictedRB.UseVisualStyleBackColor = true;
@@ -8427,7 +8794,7 @@
             this.groupBox27.Name = "groupBox27";
             this.groupBox27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox27.Size = new System.Drawing.Size(688, 78);
-            this.groupBox27.TabIndex = 1005;
+            this.groupBox27.TabIndex = 3;
             this.groupBox27.TabStop = false;
             // 
             // drugAbuseFamilyMemberCB
@@ -8438,7 +8805,7 @@
             this.drugAbuseFamilyMemberCB.Name = "drugAbuseFamilyMemberCB";
             this.drugAbuseFamilyMemberCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.drugAbuseFamilyMemberCB.Size = new System.Drawing.Size(308, 32);
-            this.drugAbuseFamilyMemberCB.TabIndex = 1005;
+            this.drugAbuseFamilyMemberCB.TabIndex = 0;
             this.drugAbuseFamilyMemberCB.Text = "هل يتعاطى أحد أفراد الأسرة المسكرات؟";
             this.drugAbuseFamilyMemberCB.UseVisualStyleBackColor = true;
             this.drugAbuseFamilyMemberCB.CheckedChanged += new System.EventHandler(this.drugAbuseFamilyMemberCB_CheckedChanged);
@@ -8455,7 +8822,7 @@
             this.drugAbuseFamilyMemberGB.Name = "drugAbuseFamilyMemberGB";
             this.drugAbuseFamilyMemberGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.drugAbuseFamilyMemberGB.Size = new System.Drawing.Size(361, 65);
-            this.drugAbuseFamilyMemberGB.TabIndex = 1006;
+            this.drugAbuseFamilyMemberGB.TabIndex = 1;
             this.drugAbuseFamilyMemberGB.TabStop = false;
             this.drugAbuseFamilyMemberGB.Text = "من هو؟";
             // 
@@ -8469,7 +8836,7 @@
             this.relativesDrugAbuseRB.Name = "relativesDrugAbuseRB";
             this.relativesDrugAbuseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.relativesDrugAbuseRB.Size = new System.Drawing.Size(76, 32);
-            this.relativesDrugAbuseRB.TabIndex = 92;
+            this.relativesDrugAbuseRB.TabIndex = 3;
             this.relativesDrugAbuseRB.TabStop = true;
             this.relativesDrugAbuseRB.Text = "الاقارب";
             this.relativesDrugAbuseRB.UseVisualStyleBackColor = true;
@@ -8484,7 +8851,7 @@
             this.siblingsDrugAbuseRB.Name = "siblingsDrugAbuseRB";
             this.siblingsDrugAbuseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.siblingsDrugAbuseRB.Size = new System.Drawing.Size(67, 32);
-            this.siblingsDrugAbuseRB.TabIndex = 91;
+            this.siblingsDrugAbuseRB.TabIndex = 2;
             this.siblingsDrugAbuseRB.TabStop = true;
             this.siblingsDrugAbuseRB.Text = "الأخوة";
             this.siblingsDrugAbuseRB.UseVisualStyleBackColor = true;
@@ -8499,7 +8866,7 @@
             this.momDrugAbuseRB.Name = "momDrugAbuseRB";
             this.momDrugAbuseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.momDrugAbuseRB.Size = new System.Drawing.Size(50, 32);
-            this.momDrugAbuseRB.TabIndex = 90;
+            this.momDrugAbuseRB.TabIndex = 1;
             this.momDrugAbuseRB.TabStop = true;
             this.momDrugAbuseRB.Text = "الأم";
             this.momDrugAbuseRB.UseVisualStyleBackColor = true;
@@ -8514,7 +8881,7 @@
             this.dadDrugAbuseRB.Name = "dadDrugAbuseRB";
             this.dadDrugAbuseRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.dadDrugAbuseRB.Size = new System.Drawing.Size(58, 32);
-            this.dadDrugAbuseRB.TabIndex = 89;
+            this.dadDrugAbuseRB.TabIndex = 0;
             this.dadDrugAbuseRB.TabStop = true;
             this.dadDrugAbuseRB.Text = "الأب";
             this.dadDrugAbuseRB.UseVisualStyleBackColor = true;
@@ -8530,7 +8897,7 @@
             this.groupBox31.Name = "groupBox31";
             this.groupBox31.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox31.Size = new System.Drawing.Size(250, 209);
-            this.groupBox31.TabIndex = 983;
+            this.groupBox31.TabIndex = 0;
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "هل أنت ملتزم في أداء العبادات؟";
             // 
@@ -8545,7 +8912,7 @@
             this.ramadanGB.Name = "ramadanGB";
             this.ramadanGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ramadanGB.Size = new System.Drawing.Size(235, 58);
-            this.ramadanGB.TabIndex = 985;
+            this.ramadanGB.TabIndex = 2;
             this.ramadanGB.TabStop = false;
             this.ramadanGB.Text = "صوم رمضان";
             // 
@@ -8559,7 +8926,7 @@
             this.fastingNeverRB.Name = "fastingNeverRB";
             this.fastingNeverRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fastingNeverRB.Size = new System.Drawing.Size(49, 32);
-            this.fastingNeverRB.TabIndex = 91;
+            this.fastingNeverRB.TabIndex = 2;
             this.fastingNeverRB.TabStop = true;
             this.fastingNeverRB.Text = "أبدًا";
             this.fastingNeverRB.UseVisualStyleBackColor = true;
@@ -8574,7 +8941,7 @@
             this.fastingSometimesRB.Name = "fastingSometimesRB";
             this.fastingSometimesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fastingSometimesRB.Size = new System.Drawing.Size(62, 32);
-            this.fastingSometimesRB.TabIndex = 90;
+            this.fastingSometimesRB.TabIndex = 1;
             this.fastingSometimesRB.TabStop = true;
             this.fastingSometimesRB.Text = "أحيانًا";
             this.fastingSometimesRB.UseVisualStyleBackColor = true;
@@ -8589,7 +8956,7 @@
             this.fastingAlwaysRB.Name = "fastingAlwaysRB";
             this.fastingAlwaysRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.fastingAlwaysRB.Size = new System.Drawing.Size(56, 32);
-            this.fastingAlwaysRB.TabIndex = 89;
+            this.fastingAlwaysRB.TabIndex = 0;
             this.fastingAlwaysRB.TabStop = true;
             this.fastingAlwaysRB.Text = "دائمًا";
             this.fastingAlwaysRB.UseVisualStyleBackColor = true;
@@ -8605,7 +8972,7 @@
             this.quranGB.Name = "quranGB";
             this.quranGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.quranGB.Size = new System.Drawing.Size(235, 58);
-            this.quranGB.TabIndex = 984;
+            this.quranGB.TabIndex = 1;
             this.quranGB.TabStop = false;
             this.quranGB.Text = "قراءة القرآن";
             // 
@@ -8619,7 +8986,7 @@
             this.quranNeverRB.Name = "quranNeverRB";
             this.quranNeverRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.quranNeverRB.Size = new System.Drawing.Size(49, 32);
-            this.quranNeverRB.TabIndex = 91;
+            this.quranNeverRB.TabIndex = 2;
             this.quranNeverRB.TabStop = true;
             this.quranNeverRB.Text = "أبدًا";
             this.quranNeverRB.UseVisualStyleBackColor = true;
@@ -8634,7 +9001,7 @@
             this.quranSometimesRB.Name = "quranSometimesRB";
             this.quranSometimesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.quranSometimesRB.Size = new System.Drawing.Size(62, 32);
-            this.quranSometimesRB.TabIndex = 90;
+            this.quranSometimesRB.TabIndex = 1;
             this.quranSometimesRB.TabStop = true;
             this.quranSometimesRB.Text = "أحيانًا";
             this.quranSometimesRB.UseVisualStyleBackColor = true;
@@ -8649,7 +9016,7 @@
             this.quranAlwaysRB.Name = "quranAlwaysRB";
             this.quranAlwaysRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.quranAlwaysRB.Size = new System.Drawing.Size(56, 32);
-            this.quranAlwaysRB.TabIndex = 89;
+            this.quranAlwaysRB.TabIndex = 0;
             this.quranAlwaysRB.TabStop = true;
             this.quranAlwaysRB.Text = "دائمًا";
             this.quranAlwaysRB.UseVisualStyleBackColor = true;
@@ -8665,7 +9032,7 @@
             this.prayerGB.Name = "prayerGB";
             this.prayerGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.prayerGB.Size = new System.Drawing.Size(235, 58);
-            this.prayerGB.TabIndex = 983;
+            this.prayerGB.TabIndex = 0;
             this.prayerGB.TabStop = false;
             this.prayerGB.Text = "الصلاة";
             // 
@@ -8679,7 +9046,7 @@
             this.prayerNeverRB.Name = "prayerNeverRB";
             this.prayerNeverRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.prayerNeverRB.Size = new System.Drawing.Size(49, 32);
-            this.prayerNeverRB.TabIndex = 91;
+            this.prayerNeverRB.TabIndex = 2;
             this.prayerNeverRB.TabStop = true;
             this.prayerNeverRB.Text = "أبدًا";
             this.prayerNeverRB.UseVisualStyleBackColor = true;
@@ -8694,7 +9061,7 @@
             this.prayerSometimesRB.Name = "prayerSometimesRB";
             this.prayerSometimesRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.prayerSometimesRB.Size = new System.Drawing.Size(62, 32);
-            this.prayerSometimesRB.TabIndex = 90;
+            this.prayerSometimesRB.TabIndex = 1;
             this.prayerSometimesRB.TabStop = true;
             this.prayerSometimesRB.Text = "أحيانًا";
             this.prayerSometimesRB.UseVisualStyleBackColor = true;
@@ -8709,7 +9076,7 @@
             this.prayerAlwaysRB.Name = "prayerAlwaysRB";
             this.prayerAlwaysRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.prayerAlwaysRB.Size = new System.Drawing.Size(56, 32);
-            this.prayerAlwaysRB.TabIndex = 89;
+            this.prayerAlwaysRB.TabIndex = 0;
             this.prayerAlwaysRB.TabStop = true;
             this.prayerAlwaysRB.Text = "دائمًا";
             this.prayerAlwaysRB.UseVisualStyleBackColor = true;
@@ -8722,7 +9089,7 @@
             this.convictedFamilyMemberCB.Name = "convictedFamilyMemberCB";
             this.convictedFamilyMemberCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.convictedFamilyMemberCB.Size = new System.Drawing.Size(500, 32);
-            this.convictedFamilyMemberCB.TabIndex = 1002;
+            this.convictedFamilyMemberCB.TabIndex = 1;
             this.convictedFamilyMemberCB.Text = "هل سبق وأدين أحد أفراد الأسرة بارتكاب فعل إجرامي وعوقب عليه؟";
             this.convictedFamilyMemberCB.UseVisualStyleBackColor = true;
             this.convictedFamilyMemberCB.CheckedChanged += new System.EventHandler(this.convictedFamilyMemberCB_CheckedChanged);
@@ -8732,7 +9099,6 @@
             this.TabPage4_0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.TabPage4_0.Controls.Add(this.label75);
             this.TabPage4_0.Controls.Add(this.meetingTitleComboBox);
-            this.TabPage4_0.Controls.Add(this.deleteMeetingButton);
             this.TabPage4_0.Controls.Add(this.button3);
             this.TabPage4_0.Controls.Add(this.groupBox2);
             this.TabPage4_0.Controls.Add(this.targetMeetingsGB);
@@ -8748,12 +9114,13 @@
             this.TabPage4_0.Controls.Add(this.meetingPurposeTextBox);
             this.TabPage4_0.Controls.Add(this.groupBox40);
             this.TabPage4_0.Controls.Add(this.meetingTypeGB);
+            this.TabPage4_0.Controls.Add(this.deleteMeetingButton);
             this.TabPage4_0.Controls.Add(this.meetingToogleButton);
             this.TabPage4_0.Controls.Add(this.meetingDate);
             this.TabPage4_0.Controls.Add(this.registeringDate);
             this.TabPage4_0.Location = new System.Drawing.Point(4, 22);
             this.TabPage4_0.Name = "TabPage4_0";
-            this.TabPage4_0.Size = new System.Drawing.Size(978, 827);
+            this.TabPage4_0.Size = new System.Drawing.Size(978, 1035);
             this.TabPage4_0.TabIndex = 4;
             this.TabPage4_0.Text = "المقابلات الدورية";
             this.TabPage4_0.Enter += new System.EventHandler(this.TabPage4_0_Enter);
@@ -8785,23 +9152,6 @@
             this.meetingTitleComboBox.TabIndex = 1033;
             this.meetingTitleComboBox.SelectedIndexChanged += new System.EventHandler(this.meetingTitleComboBox_SelectedIndexChanged);
             // 
-            // deleteMeetingButton
-            // 
-            this.deleteMeetingButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.deleteMeetingButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.deleteMeetingButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.deleteMeetingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.deleteMeetingButton.ImageIndex = 0;
-            this.deleteMeetingButton.ImageList = this.imageList1;
-            this.deleteMeetingButton.Location = new System.Drawing.Point(541, 244);
-            this.deleteMeetingButton.Name = "deleteMeetingButton";
-            this.deleteMeetingButton.Size = new System.Drawing.Size(35, 35);
-            this.deleteMeetingButton.TabIndex = 1032;
-            this.deleteMeetingButton.UseVisualStyleBackColor = true;
-            this.deleteMeetingButton.Click += new System.EventHandler(this.deleteMeetingButton_Click);
-            this.deleteMeetingButton.MouseLeave += new System.EventHandler(this.deleteMeetingButton_MouseLeave);
-            this.deleteMeetingButton.MouseHover += new System.EventHandler(this.deleteMeetingButton_MouseHover);
-            // 
             // button3
             // 
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
@@ -8827,8 +9177,8 @@
             this.groupBox2.Location = new System.Drawing.Point(190, 132);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(593, 64);
-            this.groupBox2.TabIndex = 1029;
+            this.groupBox2.Size = new System.Drawing.Size(606, 64);
+            this.groupBox2.TabIndex = 500;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "وصف حالة البيانات الحالية";
             // 
@@ -8842,7 +9192,6 @@
             this.editMeetingTitle.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.editMeetingTitle.Size = new System.Drawing.Size(143, 32);
             this.editMeetingTitle.TabIndex = 93;
-            this.editMeetingTitle.TabStop = true;
             this.editMeetingTitle.Text = "تعديل عنوان مقابلة سابقة";
             this.editMeetingTitle.UseVisualStyleBackColor = true;
             this.editMeetingTitle.CheckedChanged += new System.EventHandler(this.editMeetingTitle_CheckedChanged_1);
@@ -8852,13 +9201,12 @@
             this.newMeetingRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.newMeetingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.newMeetingRB.ForeColor = System.Drawing.Color.White;
-            this.newMeetingRB.Location = new System.Drawing.Point(480, 28);
+            this.newMeetingRB.Location = new System.Drawing.Point(492, 28);
             this.newMeetingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.newMeetingRB.Name = "newMeetingRB";
             this.newMeetingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.newMeetingRB.Size = new System.Drawing.Size(106, 32);
             this.newMeetingRB.TabIndex = 92;
-            this.newMeetingRB.TabStop = true;
             this.newMeetingRB.Text = "مقابلة جديدة";
             this.newMeetingRB.UseVisualStyleBackColor = false;
             this.newMeetingRB.CheckedChanged += new System.EventHandler(this.newMeetingRB_CheckedChanged);
@@ -8867,13 +9215,12 @@
             // 
             this.deleteMeetingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.deleteMeetingRB.ForeColor = System.Drawing.Color.White;
-            this.deleteMeetingRB.Location = new System.Drawing.Point(152, 28);
+            this.deleteMeetingRB.Location = new System.Drawing.Point(156, 28);
             this.deleteMeetingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.deleteMeetingRB.Name = "deleteMeetingRB";
             this.deleteMeetingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.deleteMeetingRB.Size = new System.Drawing.Size(134, 32);
             this.deleteMeetingRB.TabIndex = 89;
-            this.deleteMeetingRB.TabStop = true;
             this.deleteMeetingRB.Text = "حذف مقابلة سابقة";
             this.deleteMeetingRB.UseVisualStyleBackColor = true;
             this.deleteMeetingRB.CheckedChanged += new System.EventHandler(this.deleteMeetingRB_CheckedChanged);
@@ -8883,13 +9230,12 @@
             this.editMeetingRB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.editMeetingRB.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.editMeetingRB.ForeColor = System.Drawing.Color.White;
-            this.editMeetingRB.Location = new System.Drawing.Point(294, 28);
+            this.editMeetingRB.Location = new System.Drawing.Point(302, 28);
             this.editMeetingRB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.editMeetingRB.Name = "editMeetingRB";
             this.editMeetingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.editMeetingRB.Size = new System.Drawing.Size(178, 32);
             this.editMeetingRB.TabIndex = 91;
-            this.editMeetingRB.TabStop = true;
             this.editMeetingRB.Text = "تعديل بيانات مقابلة سابقة";
             this.editMeetingRB.UseVisualStyleBackColor = false;
             this.editMeetingRB.CheckedChanged += new System.EventHandler(this.editMeetingRB_CheckedChanged);
@@ -8907,8 +9253,8 @@
             this.targetMeetingsGB.Controls.Add(this.label63);
             this.targetMeetingsGB.Controls.Add(this.ssnNumberTargetTextBox);
             this.targetMeetingsGB.Controls.Add(this.label64);
-            this.targetMeetingsGB.Controls.Add(this.targetMeetingsBrush);
             this.targetMeetingsGB.Controls.Add(this.addTargetButton);
+            this.targetMeetingsGB.Controls.Add(this.targetMeetingsBrush);
             this.targetMeetingsGB.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
             this.targetMeetingsGB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
             this.targetMeetingsGB.Location = new System.Drawing.Point(11, 517);
@@ -8922,21 +9268,21 @@
             // targetDGV
             // 
             this.targetDGV.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle93.Font = new System.Drawing.Font("Sitka Heading", 11F);
-            dataGridViewCellStyle93.ForeColor = System.Drawing.Color.White;
-            this.targetDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle93;
+            dataGridViewCellStyle102.Font = new System.Drawing.Font("Sitka Heading", 11F);
+            dataGridViewCellStyle102.ForeColor = System.Drawing.Color.White;
+            this.targetDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle102;
             this.targetDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.targetDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.targetDGV.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.targetDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle94.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle94.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle94.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle94.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle94.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.targetDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle94;
+            dataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle103.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle103.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle103.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle103.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle103.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle103.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.targetDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle103;
             this.targetDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.targetDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn27,
@@ -8944,14 +9290,14 @@
             this.dataGridViewTextBoxColumn29,
             this.Column13,
             this.القضية});
-            dataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle95.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle95.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            dataGridViewCellStyle95.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle95.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.targetDGV.DefaultCellStyle = dataGridViewCellStyle95;
+            dataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle104.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle104.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            dataGridViewCellStyle104.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle104.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle104.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.targetDGV.DefaultCellStyle = dataGridViewCellStyle104;
             this.targetDGV.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnF2;
             this.targetDGV.GridColor = System.Drawing.Color.White;
             this.targetDGV.Location = new System.Drawing.Point(6, 27);
@@ -8959,18 +9305,19 @@
             this.targetDGV.MultiSelect = false;
             this.targetDGV.Name = "targetDGV";
             this.targetDGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            dataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            dataGridViewCellStyle96.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle96.ForeColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle96.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle96.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle96.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.targetDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle96;
+            dataGridViewCellStyle105.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle105.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle105.ForeColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle105.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle105.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle105.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.targetDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle105;
             this.targetDGV.RowHeadersWidth = 30;
             this.targetDGV.RowTemplate.Height = 26;
             this.targetDGV.Size = new System.Drawing.Size(559, 131);
             this.targetDGV.TabIndex = 959;
+            this.targetDGV.TabStop = false;
             this.targetDGV.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.targetDGV_RowsRemoved);
             // 
             // dataGridViewTextBoxColumn27
@@ -9013,7 +9360,7 @@
             this.ageTargetTextBox.Name = "ageTargetTextBox";
             this.ageTargetTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ageTargetTextBox.Size = new System.Drawing.Size(92, 28);
-            this.ageTargetTextBox.TabIndex = 973;
+            this.ageTargetTextBox.TabIndex = 3;
             // 
             // label65
             // 
@@ -9041,7 +9388,7 @@
             this.nationalityTargetTextBox.Name = "nationalityTargetTextBox";
             this.nationalityTargetTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nationalityTargetTextBox.Size = new System.Drawing.Size(92, 28);
-            this.nationalityTargetTextBox.TabIndex = 971;
+            this.nationalityTargetTextBox.TabIndex = 2;
             // 
             // label62
             // 
@@ -9069,7 +9416,7 @@
             this.caseTargetTextBox.Name = "caseTargetTextBox";
             this.caseTargetTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.caseTargetTextBox.Size = new System.Drawing.Size(273, 28);
-            this.caseTargetTextBox.TabIndex = 969;
+            this.caseTargetTextBox.TabIndex = 4;
             // 
             // label61
             // 
@@ -9097,7 +9444,7 @@
             this.nameTargetTextBox.Name = "nameTargetTextBox";
             this.nameTargetTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nameTargetTextBox.Size = new System.Drawing.Size(273, 28);
-            this.nameTargetTextBox.TabIndex = 967;
+            this.nameTargetTextBox.TabIndex = 1;
             // 
             // label63
             // 
@@ -9125,7 +9472,7 @@
             this.ssnNumberTargetTextBox.Name = "ssnNumberTargetTextBox";
             this.ssnNumberTargetTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ssnNumberTargetTextBox.Size = new System.Drawing.Size(273, 26);
-            this.ssnNumberTargetTextBox.TabIndex = 961;
+            this.ssnNumberTargetTextBox.TabIndex = 0;
             this.ssnNumberTargetTextBox.TextChanged += new System.EventHandler(this.ssnNumberTargetTextBox_TextChanged);
             // 
             // label64
@@ -9140,35 +9487,6 @@
             this.label64.Size = new System.Drawing.Size(42, 28);
             this.label64.TabIndex = 962;
             this.label64.Text = "الاسم";
-            // 
-            // targetMeetingsBrush
-            // 
-            this.targetMeetingsBrush.FlatAppearance.BorderSize = 0;
-            this.targetMeetingsBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.targetMeetingsBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.targetMeetingsBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
-            this.targetMeetingsBrush.Location = new System.Drawing.Point(366, 156);
-            this.targetMeetingsBrush.Name = "targetMeetingsBrush";
-            this.targetMeetingsBrush.Size = new System.Drawing.Size(64, 52);
-            this.targetMeetingsBrush.TabIndex = 997;
-            this.targetMeetingsBrush.UseVisualStyleBackColor = false;
-            this.targetMeetingsBrush.Click += new System.EventHandler(this.targetMeetingsBrush_Click);
-            this.targetMeetingsBrush.MouseLeave += new System.EventHandler(this.targetMeetingsBrush_MouseLeave);
-            this.targetMeetingsBrush.MouseHover += new System.EventHandler(this.targetMeetingsBrush_MouseHover);
-            // 
-            // addTargetButton
-            // 
-            this.addTargetButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.addTargetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addTargetButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.addTargetButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.addTargetButton.Location = new System.Drawing.Point(430, 163);
-            this.addTargetButton.Name = "addTargetButton";
-            this.addTargetButton.Size = new System.Drawing.Size(135, 38);
-            this.addTargetButton.TabIndex = 966;
-            this.addTargetButton.Text = "إضافة";
-            this.addTargetButton.UseVisualStyleBackColor = false;
-            this.addTargetButton.Click += new System.EventHandler(this.addTargetButton_Click);
             // 
             // label60
             // 
@@ -9217,7 +9535,7 @@
             this.meetingTitleTextBox.Name = "meetingTitleTextBox";
             this.meetingTitleTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.meetingTitleTextBox.Size = new System.Drawing.Size(308, 58);
-            this.meetingTitleTextBox.TabIndex = 1022;
+            this.meetingTitleTextBox.TabIndex = 2;
             // 
             // label57
             // 
@@ -9244,7 +9562,7 @@
             this.recommendationTextBox.Name = "recommendationTextBox";
             this.recommendationTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.recommendationTextBox.Size = new System.Drawing.Size(308, 165);
-            this.recommendationTextBox.TabIndex = 1020;
+            this.recommendationTextBox.TabIndex = 5;
             // 
             // label56
             // 
@@ -9271,7 +9589,7 @@
             this.meetingContentTextBox.Name = "meetingContentTextBox";
             this.meetingContentTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.meetingContentTextBox.Size = new System.Drawing.Size(308, 165);
-            this.meetingContentTextBox.TabIndex = 1018;
+            this.meetingContentTextBox.TabIndex = 4;
             // 
             // label55
             // 
@@ -9298,7 +9616,7 @@
             this.meetingPurposeTextBox.Name = "meetingPurposeTextBox";
             this.meetingPurposeTextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.meetingPurposeTextBox.Size = new System.Drawing.Size(308, 165);
-            this.meetingPurposeTextBox.TabIndex = 1016;
+            this.meetingPurposeTextBox.TabIndex = 3;
             // 
             // groupBox40
             // 
@@ -9317,7 +9635,7 @@
             this.groupBox40.Name = "groupBox40";
             this.groupBox40.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox40.Size = new System.Drawing.Size(785, 99);
-            this.groupBox40.TabIndex = 985;
+            this.groupBox40.TabIndex = 1;
             this.groupBox40.TabStop = false;
             this.groupBox40.Text = "السمات السلوكية";
             // 
@@ -9329,7 +9647,7 @@
             this.religiousSideCB.Name = "religiousSideCB";
             this.religiousSideCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.religiousSideCB.Size = new System.Drawing.Size(125, 32);
-            this.religiousSideCB.TabIndex = 961;
+            this.religiousSideCB.TabIndex = 6;
             this.religiousSideCB.Text = "الجانب الديني";
             this.religiousSideCB.UseVisualStyleBackColor = true;
             // 
@@ -9349,7 +9667,7 @@
             this.mainProgramPsychologicalCB.Name = "mainProgramPsychologicalCB";
             this.mainProgramPsychologicalCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mainProgramPsychologicalCB.Size = new System.Drawing.Size(106, 32);
-            this.mainProgramPsychologicalCB.TabIndex = 959;
+            this.mainProgramPsychologicalCB.TabIndex = 4;
             this.mainProgramPsychologicalCB.Text = "برنامج عام";
             this.mainProgramPsychologicalCB.UseVisualStyleBackColor = true;
             // 
@@ -9361,7 +9679,7 @@
             this.alterBehaviorPsychologicalCB.Name = "alterBehaviorPsychologicalCB";
             this.alterBehaviorPsychologicalCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.alterBehaviorPsychologicalCB.Size = new System.Drawing.Size(174, 32);
-            this.alterBehaviorPsychologicalCB.TabIndex = 958;
+            this.alterBehaviorPsychologicalCB.TabIndex = 5;
             this.alterBehaviorPsychologicalCB.Text = "برنامج تعديل السلوك";
             this.alterBehaviorPsychologicalCB.UseVisualStyleBackColor = true;
             // 
@@ -9373,7 +9691,7 @@
             this.psychologicalSideCB.Name = "psychologicalSideCB";
             this.psychologicalSideCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.psychologicalSideCB.Size = new System.Drawing.Size(82, 60);
-            this.psychologicalSideCB.TabIndex = 957;
+            this.psychologicalSideCB.TabIndex = 3;
             this.psychologicalSideCB.Text = "الجانب\r\n النفسي";
             this.psychologicalSideCB.UseVisualStyleBackColor = true;
             // 
@@ -9393,7 +9711,7 @@
             this.mainProgramSocialCB.Name = "mainProgramSocialCB";
             this.mainProgramSocialCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.mainProgramSocialCB.Size = new System.Drawing.Size(106, 32);
-            this.mainProgramSocialCB.TabIndex = 952;
+            this.mainProgramSocialCB.TabIndex = 1;
             this.mainProgramSocialCB.Text = "برنامج عام";
             this.mainProgramSocialCB.UseVisualStyleBackColor = true;
             // 
@@ -9405,7 +9723,7 @@
             this.alterBehaviorSocialCB.Name = "alterBehaviorSocialCB";
             this.alterBehaviorSocialCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.alterBehaviorSocialCB.Size = new System.Drawing.Size(174, 32);
-            this.alterBehaviorSocialCB.TabIndex = 950;
+            this.alterBehaviorSocialCB.TabIndex = 2;
             this.alterBehaviorSocialCB.Text = "برنامج تعديل السلوك";
             this.alterBehaviorSocialCB.UseVisualStyleBackColor = true;
             // 
@@ -9417,7 +9735,7 @@
             this.socialSideCB.Name = "socialSideCB";
             this.socialSideCB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.socialSideCB.Size = new System.Drawing.Size(100, 60);
-            this.socialSideCB.TabIndex = 949;
+            this.socialSideCB.TabIndex = 0;
             this.socialSideCB.Text = "الجانب \r\nالاحتماعي";
             this.socialSideCB.UseVisualStyleBackColor = true;
             // 
@@ -9431,7 +9749,7 @@
             this.meetingTypeGB.Name = "meetingTypeGB";
             this.meetingTypeGB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.meetingTypeGB.Size = new System.Drawing.Size(151, 58);
-            this.meetingTypeGB.TabIndex = 984;
+            this.meetingTypeGB.TabIndex = 0;
             this.meetingTypeGB.TabStop = false;
             this.meetingTypeGB.Text = "نوع المقابلة";
             // 
@@ -9445,7 +9763,7 @@
             this.individualMeetingRB.Name = "individualMeetingRB";
             this.individualMeetingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.individualMeetingRB.Size = new System.Drawing.Size(62, 32);
-            this.individualMeetingRB.TabIndex = 90;
+            this.individualMeetingRB.TabIndex = 1;
             this.individualMeetingRB.TabStop = true;
             this.individualMeetingRB.Text = "فردية";
             this.individualMeetingRB.UseVisualStyleBackColor = true;
@@ -9460,66 +9778,28 @@
             this.groupMeetingRB.Name = "groupMeetingRB";
             this.groupMeetingRB.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupMeetingRB.Size = new System.Drawing.Size(73, 32);
-            this.groupMeetingRB.TabIndex = 89;
+            this.groupMeetingRB.TabIndex = 0;
             this.groupMeetingRB.TabStop = true;
             this.groupMeetingRB.Text = "جماعية";
             this.groupMeetingRB.UseVisualStyleBackColor = true;
             // 
-            // meetingToogleButton
+            // deleteMeetingButton
             // 
-            this.meetingToogleButton.BorderColor = System.Drawing.Color.LightGray;
-            this.meetingToogleButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.meetingToogleButton.ForeColor = System.Drawing.Color.White;
-            this.meetingToogleButton.IsOn = true;
-            this.meetingToogleButton.Location = new System.Drawing.Point(584, 245);
-            this.meetingToogleButton.Name = "meetingToogleButton";
-            this.meetingToogleButton.OffColor = System.Drawing.Color.DarkGray;
-            this.meetingToogleButton.OffText = "تعديل";
-            this.meetingToogleButton.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.meetingToogleButton.OnText = "جديد";
-            this.meetingToogleButton.Size = new System.Drawing.Size(62, 33);
-            this.meetingToogleButton.TabIndex = 1030;
-            this.meetingToogleButton.Text = "ceLearningToggle1";
-            this.meetingToogleButton.TextEnabled = true;
-            this.meetingToogleButton.Click += new System.EventHandler(this.meetingToogleButton_Click);
-            // 
-            // meetingDate
-            // 
-            this.meetingDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.meetingDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.meetingDate.CustomFormat = "yyyy-MM-dd";
-            this.meetingDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.meetingDate.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
-            this.meetingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.meetingDate.Location = new System.Drawing.Point(194, 237);
-            this.meetingDate.Name = "meetingDate";
-            this.meetingDate.Size = new System.Drawing.Size(158, 39);
-            this.meetingDate.TabIndex = 1027;
-            // 
-            // registeringDate
-            // 
-            this.registeringDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
-            this.registeringDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.registeringDate.CustomFormat = "yyyy-MM-dd";
-            this.registeringDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.registeringDate.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
-            this.registeringDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.registeringDate.Location = new System.Drawing.Point(11, 237);
-            this.registeringDate.Name = "registeringDate";
-            this.registeringDate.Size = new System.Drawing.Size(158, 39);
-            this.registeringDate.TabIndex = 1025;
+            this.deleteMeetingButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.deleteMeetingButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.deleteMeetingButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.deleteMeetingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteMeetingButton.ImageIndex = 0;
+            this.deleteMeetingButton.ImageList = this.imageList1;
+            this.deleteMeetingButton.Location = new System.Drawing.Point(542, 233);
+            this.deleteMeetingButton.Name = "deleteMeetingButton";
+            this.deleteMeetingButton.Size = new System.Drawing.Size(35, 53);
+            this.deleteMeetingButton.TabIndex = 1032;
+            this.deleteMeetingButton.TabStop = false;
+            this.deleteMeetingButton.UseVisualStyleBackColor = true;
+            this.deleteMeetingButton.Click += new System.EventHandler(this.deleteMeetingButton_Click);
+            this.deleteMeetingButton.MouseLeave += new System.EventHandler(this.deleteMeetingButton_MouseLeave);
+            this.deleteMeetingButton.MouseHover += new System.EventHandler(this.deleteMeetingButton_MouseHover);
             // 
             // panel1
             // 
@@ -9540,7 +9820,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(984, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(238, 853);
+            this.panel1.Size = new System.Drawing.Size(238, 761);
             this.panel1.TabIndex = 4;
             // 
             // editMeetingTitlePanel
@@ -9551,7 +9831,7 @@
             this.editMeetingTitlePanel.Controls.Add(this.label74);
             this.editMeetingTitlePanel.Controls.Add(this.label73);
             this.editMeetingTitlePanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.editMeetingTitlePanel.Location = new System.Drawing.Point(0, 995);
+            this.editMeetingTitlePanel.Location = new System.Drawing.Point(0, 1040);
             this.editMeetingTitlePanel.Name = "editMeetingTitlePanel";
             this.editMeetingTitlePanel.Size = new System.Drawing.Size(238, 176);
             this.editMeetingTitlePanel.TabIndex = 12;
@@ -9570,20 +9850,6 @@
             this.editTitleOldComboBox.Size = new System.Drawing.Size(227, 27);
             this.editTitleOldComboBox.TabIndex = 1034;
             this.editTitleOldComboBox.SelectedIndexChanged += new System.EventHandler(this.editTitleOldComboBox_SelectedIndexChanged);
-            // 
-            // editTitleButton
-            // 
-            this.editTitleButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.editTitleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editTitleButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.editTitleButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.editTitleButton.Location = new System.Drawing.Point(11, 127);
-            this.editTitleButton.Name = "editTitleButton";
-            this.editTitleButton.Size = new System.Drawing.Size(61, 38);
-            this.editTitleButton.TabIndex = 994;
-            this.editTitleButton.Text = "حفظ";
-            this.editTitleButton.UseVisualStyleBackColor = false;
-            this.editTitleButton.Click += new System.EventHandler(this.editTitleButton_Click);
             // 
             // editTitleNewTextBox
             // 
@@ -9634,24 +9900,10 @@
             this.editSSNPanel.Controls.Add(this.label72);
             this.editSSNPanel.Controls.Add(this.oldSSN);
             this.editSSNPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.editSSNPanel.Location = new System.Drawing.Point(0, 871);
+            this.editSSNPanel.Location = new System.Drawing.Point(0, 916);
             this.editSSNPanel.Name = "editSSNPanel";
             this.editSSNPanel.Size = new System.Drawing.Size(238, 124);
             this.editSSNPanel.TabIndex = 11;
-            // 
-            // editSSN
-            // 
-            this.editSSN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
-            this.editSSN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editSSN.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
-            this.editSSN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
-            this.editSSN.Location = new System.Drawing.Point(11, 80);
-            this.editSSN.Name = "editSSN";
-            this.editSSN.Size = new System.Drawing.Size(61, 38);
-            this.editSSN.TabIndex = 994;
-            this.editSSN.Text = "حفظ";
-            this.editSSN.UseVisualStyleBackColor = false;
-            this.editSSN.Click += new System.EventHandler(this.editSSN_Click);
             // 
             // newSSN
             // 
@@ -9711,6 +9963,8 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.backupButton);
+            this.panel3.Controls.Add(this.pdfButton);
             this.panel3.Controls.Add(this.meetingsReportButton);
             this.panel3.Controls.Add(this.roundedButton1);
             this.panel3.Controls.Add(this.clearPageDataButton);
@@ -9718,99 +9972,18 @@
             this.panel3.Controls.Add(this.saveButton);
             this.panel3.Controls.Add(this.nextPageButton);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 705);
+            this.panel3.Location = new System.Drawing.Point(0, 750);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(238, 166);
-            this.panel3.TabIndex = 10;
+            this.panel3.TabIndex = 1000;
             // 
-            // meetingsReportButton
+            // imageList2
             // 
-            this.meetingsReportButton.BackColor = System.Drawing.Color.Black;
-            this.meetingsReportButton.FlatAppearance.BorderSize = 0;
-            this.meetingsReportButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.meetingsReportButton.Image = global::phsycologyForm.Properties.Resources.reportMeetingWhite;
-            this.meetingsReportButton.Location = new System.Drawing.Point(183, 89);
-            this.meetingsReportButton.Name = "meetingsReportButton";
-            this.meetingsReportButton.Size = new System.Drawing.Size(55, 55);
-            this.meetingsReportButton.TabIndex = 997;
-            this.meetingsReportButton.UseVisualStyleBackColor = false;
-            this.meetingsReportButton.MouseLeave += new System.EventHandler(this.roundedButton3_MouseLeave);
-            this.meetingsReportButton.MouseHover += new System.EventHandler(this.roundedButton3_MouseHover);
-            // 
-            // roundedButton1
-            // 
-            this.roundedButton1.BackColor = System.Drawing.Color.Black;
-            this.roundedButton1.FlatAppearance.BorderSize = 0;
-            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.roundedButton1.Image = global::phsycologyForm.Properties.Resources.TideWhite;
-            this.roundedButton1.Location = new System.Drawing.Point(93, 89);
-            this.roundedButton1.Name = "roundedButton1";
-            this.roundedButton1.Size = new System.Drawing.Size(55, 55);
-            this.roundedButton1.TabIndex = 996;
-            this.roundedButton1.UseVisualStyleBackColor = false;
-            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
-            this.roundedButton1.MouseLeave += new System.EventHandler(this.roundedButton1_MouseLeave_1);
-            this.roundedButton1.MouseHover += new System.EventHandler(this.roundedButton1_MouseHover_1);
-            // 
-            // clearPageDataButton
-            // 
-            this.clearPageDataButton.BackColor = System.Drawing.Color.Black;
-            this.clearPageDataButton.FlatAppearance.BorderSize = 0;
-            this.clearPageDataButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.clearPageDataButton.Image = global::phsycologyForm.Properties.Resources.WWWhite;
-            this.clearPageDataButton.Location = new System.Drawing.Point(3, 89);
-            this.clearPageDataButton.Name = "clearPageDataButton";
-            this.clearPageDataButton.Size = new System.Drawing.Size(55, 55);
-            this.clearPageDataButton.TabIndex = 995;
-            this.clearPageDataButton.UseVisualStyleBackColor = false;
-            this.clearPageDataButton.Click += new System.EventHandler(this.clearPageDataButton_Click);
-            this.clearPageDataButton.MouseLeave += new System.EventHandler(this.clearPageDataButton_MouseLeave);
-            this.clearPageDataButton.MouseHover += new System.EventHandler(this.clearPageDataButton_MouseHover);
-            // 
-            // patientReportButton
-            // 
-            this.patientReportButton.BackColor = System.Drawing.Color.Black;
-            this.patientReportButton.FlatAppearance.BorderSize = 0;
-            this.patientReportButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.patientReportButton.Image = global::phsycologyForm.Properties.Resources.WR;
-            this.patientReportButton.Location = new System.Drawing.Point(179, 28);
-            this.patientReportButton.Name = "patientReportButton";
-            this.patientReportButton.Size = new System.Drawing.Size(55, 55);
-            this.patientReportButton.TabIndex = 994;
-            this.patientReportButton.UseVisualStyleBackColor = false;
-            this.patientReportButton.Click += new System.EventHandler(this.patientReportButton_Click);
-            this.patientReportButton.MouseLeave += new System.EventHandler(this.roundedButton2_MouseLeave);
-            this.patientReportButton.MouseHover += new System.EventHandler(this.roundedButton2_MouseHover);
-            // 
-            // saveButton
-            // 
-            this.saveButton.BackColor = System.Drawing.Color.Black;
-            this.saveButton.FlatAppearance.BorderSize = 0;
-            this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.saveButton.Image = global::phsycologyForm.Properties.Resources.fds;
-            this.saveButton.Location = new System.Drawing.Point(91, 28);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(55, 55);
-            this.saveButton.TabIndex = 993;
-            this.saveButton.UseVisualStyleBackColor = false;
-            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
-            this.saveButton.MouseLeave += new System.EventHandler(this.roundedButton1_MouseLeave);
-            this.saveButton.MouseHover += new System.EventHandler(this.roundedButton1_MouseHover);
-            // 
-            // nextPageButton
-            // 
-            this.nextPageButton.BackColor = System.Drawing.SystemColors.ControlText;
-            this.nextPageButton.FlatAppearance.BorderSize = 0;
-            this.nextPageButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.nextPageButton.Image = global::phsycologyForm.Properties.Resources.d;
-            this.nextPageButton.Location = new System.Drawing.Point(3, 28);
-            this.nextPageButton.Name = "nextPageButton";
-            this.nextPageButton.Size = new System.Drawing.Size(55, 55);
-            this.nextPageButton.TabIndex = 992;
-            this.nextPageButton.UseVisualStyleBackColor = false;
-            this.nextPageButton.Click += new System.EventHandler(this.nextPageButton_Click);
-            this.nextPageButton.MouseLeave += new System.EventHandler(this.nextPageButton_MouseLeave);
-            this.nextPageButton.MouseHover += new System.EventHandler(this.nextPageButton_MouseHover);
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "ds_open.png");
+            this.imageList2.Images.SetKeyName(1, "backupWhite.png");
+            this.imageList2.Images.SetKeyName(2, "backup.png");
             // 
             // meetingsButton
             // 
@@ -9821,11 +9994,12 @@
             this.meetingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.meetingsButton.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.meetingsButton.ForeColor = System.Drawing.Color.Gainsboro;
-            this.meetingsButton.Location = new System.Drawing.Point(0, 660);
+            this.meetingsButton.Location = new System.Drawing.Point(0, 705);
             this.meetingsButton.Name = "meetingsButton";
             this.meetingsButton.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.meetingsButton.Size = new System.Drawing.Size(238, 45);
             this.meetingsButton.TabIndex = 9;
+            this.meetingsButton.TabStop = false;
             this.meetingsButton.Text = "المقابلات الدورية";
             this.meetingsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.meetingsButton.UseVisualStyleBackColor = false;
@@ -9839,7 +10013,7 @@
             this.teensPanel.Controls.Add(this.socialDetailsButton);
             this.teensPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.teensPanel.ForeColor = System.Drawing.Color.Gainsboro;
-            this.teensPanel.Location = new System.Drawing.Point(0, 565);
+            this.teensPanel.Location = new System.Drawing.Point(0, 610);
             this.teensPanel.Name = "teensPanel";
             this.teensPanel.Size = new System.Drawing.Size(238, 95);
             this.teensPanel.TabIndex = 8;
@@ -9904,6 +10078,7 @@
             this.individualBehaviorButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.individualBehaviorButton.Size = new System.Drawing.Size(238, 45);
             this.individualBehaviorButton.TabIndex = 3;
+            this.individualBehaviorButton.TabStop = false;
             this.individualBehaviorButton.Text = "سلوك الفرد";
             this.individualBehaviorButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.individualBehaviorButton.UseVisualStyleBackColor = true;
@@ -9923,6 +10098,7 @@
             this.socialDetailsButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.socialDetailsButton.Size = new System.Drawing.Size(238, 45);
             this.socialDetailsButton.TabIndex = 2;
+            this.socialDetailsButton.TabStop = false;
             this.socialDetailsButton.Text = "التفاصيل الاجتماعية";
             this.socialDetailsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.socialDetailsButton.UseVisualStyleBackColor = true;
@@ -9937,11 +10113,12 @@
             this.teensButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.teensButton.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
             this.teensButton.ForeColor = System.Drawing.Color.Gainsboro;
-            this.teensButton.Location = new System.Drawing.Point(0, 520);
+            this.teensButton.Location = new System.Drawing.Point(0, 565);
             this.teensButton.Name = "teensButton";
             this.teensButton.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.teensButton.Size = new System.Drawing.Size(238, 45);
             this.teensButton.TabIndex = 7;
+            this.teensButton.TabStop = false;
             this.teensButton.Text = "الأحداث والقاصرات";
             this.teensButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.teensButton.UseVisualStyleBackColor = false;
@@ -9950,13 +10127,34 @@
             // enviromentAnalysisPanel
             // 
             this.enviromentAnalysisPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.enviromentAnalysisPanel.Controls.Add(this.siblingsBigFamilyButton);
             this.enviromentAnalysisPanel.Controls.Add(this.bigFamilyButton);
             this.enviromentAnalysisPanel.Controls.Add(this.socialStatusButton);
             this.enviromentAnalysisPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.enviromentAnalysisPanel.Location = new System.Drawing.Point(0, 425);
             this.enviromentAnalysisPanel.Name = "enviromentAnalysisPanel";
-            this.enviromentAnalysisPanel.Size = new System.Drawing.Size(238, 95);
+            this.enviromentAnalysisPanel.Size = new System.Drawing.Size(238, 140);
             this.enviromentAnalysisPanel.TabIndex = 6;
+            // 
+            // siblingsBigFamilyButton
+            // 
+            this.siblingsBigFamilyButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.siblingsBigFamilyButton.FlatAppearance.BorderSize = 0;
+            this.siblingsBigFamilyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
+            this.siblingsBigFamilyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(51)))), ((int)(((byte)(77)))));
+            this.siblingsBigFamilyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.siblingsBigFamilyButton.Font = new System.Drawing.Font("Sitka Heading", 14.25F);
+            this.siblingsBigFamilyButton.ForeColor = System.Drawing.Color.Gainsboro;
+            this.siblingsBigFamilyButton.Location = new System.Drawing.Point(0, 90);
+            this.siblingsBigFamilyButton.Name = "siblingsBigFamilyButton";
+            this.siblingsBigFamilyButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
+            this.siblingsBigFamilyButton.Size = new System.Drawing.Size(238, 45);
+            this.siblingsBigFamilyButton.TabIndex = 5;
+            this.siblingsBigFamilyButton.TabStop = false;
+            this.siblingsBigFamilyButton.Text = "العائلة الكبيرة (الأخوة)";
+            this.siblingsBigFamilyButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.siblingsBigFamilyButton.UseVisualStyleBackColor = true;
+            this.siblingsBigFamilyButton.Click += new System.EventHandler(this.siblingsBigFamilyButton_Click);
             // 
             // bigFamilyButton
             // 
@@ -9972,7 +10170,8 @@
             this.bigFamilyButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.bigFamilyButton.Size = new System.Drawing.Size(238, 45);
             this.bigFamilyButton.TabIndex = 3;
-            this.bigFamilyButton.Text = "العائلة الكبيرة";
+            this.bigFamilyButton.TabStop = false;
+            this.bigFamilyButton.Text = "العائلة الكبيرة (الوالدين)";
             this.bigFamilyButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bigFamilyButton.UseVisualStyleBackColor = true;
             this.bigFamilyButton.Click += new System.EventHandler(this.bigFamilyButton_Click);
@@ -9991,6 +10190,7 @@
             this.socialStatusButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.socialStatusButton.Size = new System.Drawing.Size(238, 45);
             this.socialStatusButton.TabIndex = 2;
+            this.socialStatusButton.TabStop = false;
             this.socialStatusButton.Text = "الحالة الاجتماعية";
             this.socialStatusButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.socialStatusButton.UseVisualStyleBackColor = true;
@@ -10010,6 +10210,7 @@
             this.enviromentAnalysisButton.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.enviromentAnalysisButton.Size = new System.Drawing.Size(238, 45);
             this.enviromentAnalysisButton.TabIndex = 5;
+            this.enviromentAnalysisButton.TabStop = false;
             this.enviromentAnalysisButton.Text = "تحليل البيئة";
             this.enviromentAnalysisButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.enviromentAnalysisButton.UseVisualStyleBackColor = false;
@@ -10040,6 +10241,7 @@
             this.illnessProblemsButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.illnessProblemsButton.Size = new System.Drawing.Size(238, 45);
             this.illnessProblemsButton.TabIndex = 3;
+            this.illnessProblemsButton.TabStop = false;
             this.illnessProblemsButton.Text = "المشكلات المرضية";
             this.illnessProblemsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.illnessProblemsButton.UseVisualStyleBackColor = true;
@@ -10059,6 +10261,7 @@
             this.socialCharacteristicsButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.socialCharacteristicsButton.Size = new System.Drawing.Size(238, 45);
             this.socialCharacteristicsButton.TabIndex = 2;
+            this.socialCharacteristicsButton.TabStop = false;
             this.socialCharacteristicsButton.Text = "الصفات الاجتماعية";
             this.socialCharacteristicsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.socialCharacteristicsButton.UseVisualStyleBackColor = true;
@@ -10078,6 +10281,7 @@
             this.characterAnalysisButton.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.characterAnalysisButton.Size = new System.Drawing.Size(238, 45);
             this.characterAnalysisButton.TabIndex = 3;
+            this.characterAnalysisButton.TabStop = false;
             this.characterAnalysisButton.Text = "تحليل الشخصية";
             this.characterAnalysisButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.characterAnalysisButton.UseVisualStyleBackColor = false;
@@ -10108,6 +10312,7 @@
             this.generalInformationButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.generalInformationButton.Size = new System.Drawing.Size(238, 45);
             this.generalInformationButton.TabIndex = 3;
+            this.generalInformationButton.TabStop = false;
             this.generalInformationButton.Text = "معلومات عامة";
             this.generalInformationButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.generalInformationButton.UseVisualStyleBackColor = true;
@@ -10127,6 +10332,7 @@
             this.personalCharactersticcsButton.Padding = new System.Windows.Forms.Padding(0, 0, 35, 0);
             this.personalCharactersticcsButton.Size = new System.Drawing.Size(238, 45);
             this.personalCharactersticcsButton.TabIndex = 2;
+            this.personalCharactersticcsButton.TabStop = false;
             this.personalCharactersticcsButton.Text = "الصفات الشخصية";
             this.personalCharactersticcsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.personalCharactersticcsButton.UseVisualStyleBackColor = true;
@@ -10146,6 +10352,7 @@
             this.generalInformationsButton.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
             this.generalInformationsButton.Size = new System.Drawing.Size(238, 45);
             this.generalInformationsButton.TabIndex = 1;
+            this.generalInformationsButton.TabStop = false;
             this.generalInformationsButton.Text = "معلومات أساسية";
             this.generalInformationsButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.generalInformationsButton.UseVisualStyleBackColor = false;
@@ -10171,26 +10378,720 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // imageList2
+            // editTitleButton
             // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "ds_open.png");
+            this.editTitleButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.editTitleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editTitleButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.editTitleButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.editTitleButton.Location = new System.Drawing.Point(11, 127);
+            this.editTitleButton.Name = "editTitleButton";
+            this.editTitleButton.Size = new System.Drawing.Size(61, 38);
+            this.editTitleButton.TabIndex = 994;
+            this.editTitleButton.Text = "حفظ";
+            this.editTitleButton.UseVisualStyleBackColor = false;
+            this.editTitleButton.Click += new System.EventHandler(this.editTitleButton_Click);
+            // 
+            // editSSN
+            // 
+            this.editSSN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.editSSN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editSSN.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.editSSN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.editSSN.Location = new System.Drawing.Point(11, 80);
+            this.editSSN.Name = "editSSN";
+            this.editSSN.Size = new System.Drawing.Size(61, 38);
+            this.editSSN.TabIndex = 994;
+            this.editSSN.Text = "حفظ";
+            this.editSSN.UseVisualStyleBackColor = false;
+            this.editSSN.Click += new System.EventHandler(this.editSSN_Click);
+            // 
+            // backupButton
+            // 
+            this.backupButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.backupButton.FlatAppearance.BorderSize = 0;
+            this.backupButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.backupButton.ImageIndex = 1;
+            this.backupButton.ImageList = this.imageList2;
+            this.backupButton.Location = new System.Drawing.Point(183, 81);
+            this.backupButton.Name = "backupButton";
+            this.backupButton.Size = new System.Drawing.Size(55, 45);
+            this.backupButton.TabIndex = 999;
+            this.backupButton.TabStop = false;
+            this.backupButton.UseVisualStyleBackColor = false;
+            this.backupButton.Click += new System.EventHandler(this.backupButton_Click);
+            this.backupButton.MouseLeave += new System.EventHandler(this.backupButton_MouseLeave);
+            this.backupButton.MouseHover += new System.EventHandler(this.backupButton_MouseHover);
+            // 
+            // pdfButton
+            // 
+            this.pdfButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.pdfButton.FlatAppearance.BorderSize = 0;
+            this.pdfButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.pdfButton.Image = ((System.Drawing.Image)(resources.GetObject("pdfButton.Image")));
+            this.pdfButton.Location = new System.Drawing.Point(122, 83);
+            this.pdfButton.Name = "pdfButton";
+            this.pdfButton.Size = new System.Drawing.Size(55, 45);
+            this.pdfButton.TabIndex = 998;
+            this.pdfButton.TabStop = false;
+            this.pdfButton.UseVisualStyleBackColor = false;
+            this.pdfButton.Click += new System.EventHandler(this.pdfButton_Click);
+            this.pdfButton.MouseLeave += new System.EventHandler(this.pdfButton_MouseLeave);
+            this.pdfButton.MouseHover += new System.EventHandler(this.pdfButton_MouseHover);
+            // 
+            // meetingsReportButton
+            // 
+            this.meetingsReportButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.meetingsReportButton.FlatAppearance.BorderSize = 0;
+            this.meetingsReportButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.meetingsReportButton.Image = global::phsycologyForm.Properties.Resources.reportMeetingWhite;
+            this.meetingsReportButton.Location = new System.Drawing.Point(61, 83);
+            this.meetingsReportButton.Name = "meetingsReportButton";
+            this.meetingsReportButton.Size = new System.Drawing.Size(55, 45);
+            this.meetingsReportButton.TabIndex = 997;
+            this.meetingsReportButton.TabStop = false;
+            this.meetingsReportButton.UseVisualStyleBackColor = false;
+            this.meetingsReportButton.Click += new System.EventHandler(this.meetingsReportButton_Click);
+            this.meetingsReportButton.MouseLeave += new System.EventHandler(this.roundedButton3_MouseLeave);
+            this.meetingsReportButton.MouseHover += new System.EventHandler(this.roundedButton3_MouseHover);
+            // 
+            // roundedButton1
+            // 
+            this.roundedButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.roundedButton1.FlatAppearance.BorderSize = 0;
+            this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.roundedButton1.Image = global::phsycologyForm.Properties.Resources.TideWhite;
+            this.roundedButton1.Location = new System.Drawing.Point(183, 20);
+            this.roundedButton1.Name = "roundedButton1";
+            this.roundedButton1.Size = new System.Drawing.Size(55, 45);
+            this.roundedButton1.TabIndex = 996;
+            this.roundedButton1.TabStop = false;
+            this.roundedButton1.UseVisualStyleBackColor = false;
+            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
+            this.roundedButton1.MouseLeave += new System.EventHandler(this.roundedButton1_MouseLeave_1);
+            this.roundedButton1.MouseHover += new System.EventHandler(this.roundedButton1_MouseHover_1);
+            // 
+            // clearPageDataButton
+            // 
+            this.clearPageDataButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.clearPageDataButton.FlatAppearance.BorderSize = 0;
+            this.clearPageDataButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.clearPageDataButton.Image = global::phsycologyForm.Properties.Resources.WWWhite;
+            this.clearPageDataButton.Location = new System.Drawing.Point(122, 20);
+            this.clearPageDataButton.Name = "clearPageDataButton";
+            this.clearPageDataButton.Size = new System.Drawing.Size(55, 45);
+            this.clearPageDataButton.TabIndex = 995;
+            this.clearPageDataButton.TabStop = false;
+            this.clearPageDataButton.UseVisualStyleBackColor = false;
+            this.clearPageDataButton.Click += new System.EventHandler(this.clearPageDataButton_Click);
+            this.clearPageDataButton.MouseLeave += new System.EventHandler(this.clearPageDataButton_MouseLeave);
+            this.clearPageDataButton.MouseHover += new System.EventHandler(this.clearPageDataButton_MouseHover);
+            // 
+            // patientReportButton
+            // 
+            this.patientReportButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.patientReportButton.FlatAppearance.BorderSize = 0;
+            this.patientReportButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.patientReportButton.Image = global::phsycologyForm.Properties.Resources.WR;
+            this.patientReportButton.Location = new System.Drawing.Point(0, 83);
+            this.patientReportButton.Name = "patientReportButton";
+            this.patientReportButton.Size = new System.Drawing.Size(55, 45);
+            this.patientReportButton.TabIndex = 994;
+            this.patientReportButton.TabStop = false;
+            this.patientReportButton.UseVisualStyleBackColor = false;
+            this.patientReportButton.Click += new System.EventHandler(this.patientReportButton_Click);
+            this.patientReportButton.MouseLeave += new System.EventHandler(this.roundedButton2_MouseLeave);
+            this.patientReportButton.MouseHover += new System.EventHandler(this.roundedButton2_MouseHover);
+            // 
+            // saveButton
+            // 
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.saveButton.FlatAppearance.BorderSize = 0;
+            this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.saveButton.Image = global::phsycologyForm.Properties.Resources.fds;
+            this.saveButton.Location = new System.Drawing.Point(61, 20);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(55, 45);
+            this.saveButton.TabIndex = 993;
+            this.saveButton.TabStop = false;
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
+            this.saveButton.MouseLeave += new System.EventHandler(this.roundedButton1_MouseLeave);
+            this.saveButton.MouseHover += new System.EventHandler(this.roundedButton1_MouseHover);
+            // 
+            // nextPageButton
+            // 
+            this.nextPageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(7)))), ((int)(((byte)(17)))));
+            this.nextPageButton.FlatAppearance.BorderSize = 0;
+            this.nextPageButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.nextPageButton.Image = global::phsycologyForm.Properties.Resources.d;
+            this.nextPageButton.Location = new System.Drawing.Point(0, 17);
+            this.nextPageButton.Name = "nextPageButton";
+            this.nextPageButton.Size = new System.Drawing.Size(55, 45);
+            this.nextPageButton.TabIndex = 992;
+            this.nextPageButton.TabStop = false;
+            this.nextPageButton.UseVisualStyleBackColor = false;
+            this.nextPageButton.Click += new System.EventHandler(this.nextPageButton_Click);
+            this.nextPageButton.MouseLeave += new System.EventHandler(this.nextPageButton_MouseLeave);
+            this.nextPageButton.MouseHover += new System.EventHandler(this.nextPageButton_MouseHover);
+            // 
+            // interedInstituteBrush
+            // 
+            this.interedInstituteBrush.FlatAppearance.BorderSize = 0;
+            this.interedInstituteBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.interedInstituteBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.interedInstituteBrush.Location = new System.Drawing.Point(498, 158);
+            this.interedInstituteBrush.Name = "interedInstituteBrush";
+            this.interedInstituteBrush.Size = new System.Drawing.Size(59, 57);
+            this.interedInstituteBrush.TabIndex = 994;
+            this.interedInstituteBrush.TabStop = false;
+            this.interedInstituteBrush.UseVisualStyleBackColor = false;
+            this.interedInstituteBrush.Click += new System.EventHandler(this.interedInstituteBrush_Click);
+            this.interedInstituteBrush.MouseLeave += new System.EventHandler(this.interedInstituteBrush_MouseLeave);
+            this.interedInstituteBrush.MouseHover += new System.EventHandler(this.interedInstituteBrush_MouseHover);
+            // 
+            // addEnteredInstituteButton
+            // 
+            this.addEnteredInstituteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addEnteredInstituteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addEnteredInstituteButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addEnteredInstituteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addEnteredInstituteButton.Location = new System.Drawing.Point(563, 170);
+            this.addEnteredInstituteButton.Name = "addEnteredInstituteButton";
+            this.addEnteredInstituteButton.Size = new System.Drawing.Size(135, 38);
+            this.addEnteredInstituteButton.TabIndex = 5;
+            this.addEnteredInstituteButton.Text = "إضافة";
+            this.addEnteredInstituteButton.UseVisualStyleBackColor = false;
+            this.addEnteredInstituteButton.Click += new System.EventHandler(this.addEnteredInstituteButton_Click);
+            // 
+            // uploadButton
+            // 
+            this.uploadButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.uploadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.uploadButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.uploadButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.uploadButton.Image = global::phsycologyForm.Properties.Resources.uploadImg1;
+            this.uploadButton.Location = new System.Drawing.Point(231, 29);
+            this.uploadButton.Name = "uploadButton";
+            this.uploadButton.Size = new System.Drawing.Size(67, 60);
+            this.uploadButton.TabIndex = 995;
+            this.uploadButton.TabStop = false;
+            this.uploadButton.UseVisualStyleBackColor = false;
+            this.uploadButton.Click += new System.EventHandler(this.uploadButton_Click);
+            // 
+            // ToggleConditionButton
+            // 
+            this.ToggleConditionButton.BorderColor = System.Drawing.Color.LightGray;
+            this.ToggleConditionButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ToggleConditionButton.ForeColor = System.Drawing.Color.White;
+            this.ToggleConditionButton.IsOn = true;
+            this.ToggleConditionButton.Location = new System.Drawing.Point(565, 25);
+            this.ToggleConditionButton.Name = "ToggleConditionButton";
+            this.ToggleConditionButton.OffColor = System.Drawing.Color.DarkGray;
+            this.ToggleConditionButton.OffText = "تعديل";
+            this.ToggleConditionButton.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.ToggleConditionButton.OnText = "جديد";
+            this.ToggleConditionButton.Size = new System.Drawing.Size(62, 33);
+            this.ToggleConditionButton.TabIndex = 990;
+            this.ToggleConditionButton.TabStop = false;
+            this.ToggleConditionButton.Text = "ceLearningToggle1";
+            this.ToggleConditionButton.TextEnabled = true;
+            this.ToggleConditionButton.Click += new System.EventHandler(this.ToggleConditionButton_Click);
+            // 
+            // birthDayTP
+            // 
+            this.birthDayTP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.birthDayTP.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.birthDayTP.CustomFormat = "yyyy-MM-dd";
+            this.birthDayTP.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.birthDayTP.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
+            this.birthDayTP.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.birthDayTP.Location = new System.Drawing.Point(10, 133);
+            this.birthDayTP.Name = "birthDayTP";
+            this.birthDayTP.Size = new System.Drawing.Size(158, 39);
+            this.birthDayTP.TabIndex = 949;
+            this.birthDayTP.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.birthDayTP.ValueChanged += new System.EventHandler(this.birthDayTP_ValueChanged);
+            // 
+            // dateDTP
+            // 
+            this.dateDTP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.dateDTP.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.dateDTP.CustomFormat = "yyyy-MM-dd";
+            this.dateDTP.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.dateDTP.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
+            this.dateDTP.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateDTP.Location = new System.Drawing.Point(10, 56);
+            this.dateDTP.Name = "dateDTP";
+            this.dateDTP.Size = new System.Drawing.Size(158, 39);
+            this.dateDTP.TabIndex = 947;
+            // 
+            // accidentsBrush
+            // 
+            this.accidentsBrush.FlatAppearance.BorderSize = 0;
+            this.accidentsBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.accidentsBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.accidentsBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.accidentsBrush.Location = new System.Drawing.Point(386, 161);
+            this.accidentsBrush.Name = "accidentsBrush";
+            this.accidentsBrush.Size = new System.Drawing.Size(55, 55);
+            this.accidentsBrush.TabIndex = 993;
+            this.accidentsBrush.TabStop = false;
+            this.accidentsBrush.UseVisualStyleBackColor = false;
+            this.accidentsBrush.Click += new System.EventHandler(this.accidentsBrush_Click);
+            this.accidentsBrush.MouseLeave += new System.EventHandler(this.accidentsBrush_MouseLeave);
+            this.accidentsBrush.MouseHover += new System.EventHandler(this.accidentsBrush_MouseHover);
+            // 
+            // addInjuryButton
+            // 
+            this.addInjuryButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addInjuryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addInjuryButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addInjuryButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addInjuryButton.Location = new System.Drawing.Point(448, 167);
+            this.addInjuryButton.Name = "addInjuryButton";
+            this.addInjuryButton.Size = new System.Drawing.Size(135, 38);
+            this.addInjuryButton.TabIndex = 3;
+            this.addInjuryButton.Text = "إضافة";
+            this.addInjuryButton.UseVisualStyleBackColor = false;
+            this.addInjuryButton.Click += new System.EventHandler(this.addInjuryButton_Click);
+            // 
+            // employersBrush
+            // 
+            this.employersBrush.FlatAppearance.BorderSize = 0;
+            this.employersBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.employersBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.employersBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.employersBrush.Location = new System.Drawing.Point(380, 290);
+            this.employersBrush.Name = "employersBrush";
+            this.employersBrush.Size = new System.Drawing.Size(64, 52);
+            this.employersBrush.TabIndex = 995;
+            this.employersBrush.TabStop = false;
+            this.employersBrush.UseVisualStyleBackColor = false;
+            this.employersBrush.Click += new System.EventHandler(this.employersBrush_Click);
+            this.employersBrush.MouseLeave += new System.EventHandler(this.employersBrush_MouseLeave);
+            this.employersBrush.MouseHover += new System.EventHandler(this.employersBrush_MouseHover);
+            // 
+            // workToDate
+            // 
+            this.workToDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.workToDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workToDate.CustomFormat = "yyyy-MM-dd";
+            this.workToDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.workToDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.workToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.workToDate.Location = new System.Drawing.Point(589, 310);
+            this.workToDate.Name = "workToDate";
+            this.workToDate.Size = new System.Drawing.Size(128, 28);
+            this.workToDate.TabIndex = 971;
+            this.workToDate.TabStop = false;
+            this.workToDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            // 
+            // workFromDate
+            // 
+            this.workFromDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.workFromDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.workFromDate.CustomFormat = "yyyy-MM-dd";
+            this.workFromDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.workFromDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.workFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.workFromDate.Location = new System.Drawing.Point(723, 310);
+            this.workFromDate.Name = "workFromDate";
+            this.workFromDate.Size = new System.Drawing.Size(123, 28);
+            this.workFromDate.TabIndex = 968;
+            this.workFromDate.TabStop = false;
+            this.workFromDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            // 
+            // addWorkDurationButton
+            // 
+            this.addWorkDurationButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addWorkDurationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addWorkDurationButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addWorkDurationButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addWorkDurationButton.Location = new System.Drawing.Point(448, 299);
+            this.addWorkDurationButton.Name = "addWorkDurationButton";
+            this.addWorkDurationButton.Size = new System.Drawing.Size(135, 38);
+            this.addWorkDurationButton.TabIndex = 6;
+            this.addWorkDurationButton.Text = "إضافة";
+            this.addWorkDurationButton.UseVisualStyleBackColor = false;
+            this.addWorkDurationButton.Click += new System.EventHandler(this.addWorkDurationButton_Click);
+            // 
+            // addPlaceButton
+            // 
+            this.addPlaceButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addPlaceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addPlaceButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addPlaceButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addPlaceButton.Location = new System.Drawing.Point(444, 165);
+            this.addPlaceButton.Name = "addPlaceButton";
+            this.addPlaceButton.Size = new System.Drawing.Size(135, 38);
+            this.addPlaceButton.TabIndex = 4;
+            this.addPlaceButton.Text = "إضافة";
+            this.addPlaceButton.UseVisualStyleBackColor = false;
+            this.addPlaceButton.Click += new System.EventHandler(this.addPlaceButton_Click);
+            // 
+            // treatmentPlacesBrush
+            // 
+            this.treatmentPlacesBrush.FlatAppearance.BorderSize = 0;
+            this.treatmentPlacesBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.treatmentPlacesBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.treatmentPlacesBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.treatmentPlacesBrush.Location = new System.Drawing.Point(374, 156);
+            this.treatmentPlacesBrush.Name = "treatmentPlacesBrush";
+            this.treatmentPlacesBrush.Size = new System.Drawing.Size(64, 52);
+            this.treatmentPlacesBrush.TabIndex = 996;
+            this.treatmentPlacesBrush.TabStop = false;
+            this.treatmentPlacesBrush.UseVisualStyleBackColor = false;
+            this.treatmentPlacesBrush.Click += new System.EventHandler(this.treatmentPlacesBrush_Click);
+            this.treatmentPlacesBrush.MouseLeave += new System.EventHandler(this.treatmentPlacesBrush_MouseLeave);
+            this.treatmentPlacesBrush.MouseHover += new System.EventHandler(this.treatmentPlacesBrush_MouseHover);
+            // 
+            // InCaseOfMarriageBrush
+            // 
+            this.InCaseOfMarriageBrush.FlatAppearance.BorderSize = 0;
+            this.InCaseOfMarriageBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.InCaseOfMarriageBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.InCaseOfMarriageBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.InCaseOfMarriageBrush.Location = new System.Drawing.Point(836, 406);
+            this.InCaseOfMarriageBrush.Name = "InCaseOfMarriageBrush";
+            this.InCaseOfMarriageBrush.Size = new System.Drawing.Size(64, 52);
+            this.InCaseOfMarriageBrush.TabIndex = 996;
+            this.InCaseOfMarriageBrush.TabStop = false;
+            this.InCaseOfMarriageBrush.UseVisualStyleBackColor = false;
+            this.InCaseOfMarriageBrush.Click += new System.EventHandler(this.InCaseOfMarriageBrush_Click);
+            this.InCaseOfMarriageBrush.MouseLeave += new System.EventHandler(this.InCaseOfMarriageBrush_MouseLeave);
+            this.InCaseOfMarriageBrush.MouseHover += new System.EventHandler(this.InCaseOfMarriageBrush_MouseHover);
+            // 
+            // addPatientMaritalStatusButton
+            // 
+            this.addPatientMaritalStatusButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addPatientMaritalStatusButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addPatientMaritalStatusButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addPatientMaritalStatusButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addPatientMaritalStatusButton.Location = new System.Drawing.Point(688, 414);
+            this.addPatientMaritalStatusButton.Name = "addPatientMaritalStatusButton";
+            this.addPatientMaritalStatusButton.Size = new System.Drawing.Size(135, 38);
+            this.addPatientMaritalStatusButton.TabIndex = 8;
+            this.addPatientMaritalStatusButton.Text = "إضافة";
+            this.addPatientMaritalStatusButton.UseVisualStyleBackColor = false;
+            this.addPatientMaritalStatusButton.Click += new System.EventHandler(this.addPatientMaritalStatusButton_Click);
+            // 
+            // marriageToDate
+            // 
+            this.marriageToDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marriageToDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageToDate.CustomFormat = "yyyy-MM-dd";
+            this.marriageToDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.marriageToDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marriageToDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.marriageToDate.Location = new System.Drawing.Point(700, 387);
+            this.marriageToDate.Name = "marriageToDate";
+            this.marriageToDate.Size = new System.Drawing.Size(123, 28);
+            this.marriageToDate.TabIndex = 976;
+            this.marriageToDate.TabStop = false;
+            this.marriageToDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            // 
+            // marriageFromDate
+            // 
+            this.marriageFromDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marriageFromDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.marriageFromDate.CustomFormat = "yyyy-MM-dd";
+            this.marriageFromDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.marriageFromDate.Font = new System.Drawing.Font("Tempus Sans ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marriageFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.marriageFromDate.Location = new System.Drawing.Point(835, 387);
+            this.marriageFromDate.Name = "marriageFromDate";
+            this.marriageFromDate.Size = new System.Drawing.Size(119, 28);
+            this.marriageFromDate.TabIndex = 975;
+            this.marriageFromDate.TabStop = false;
+            this.marriageFromDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            // 
+            // motherMarriageDetailsAddButton
+            // 
+            this.motherMarriageDetailsAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.motherMarriageDetailsAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.motherMarriageDetailsAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.motherMarriageDetailsAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.motherMarriageDetailsAddButton.Location = new System.Drawing.Point(547, 311);
+            this.motherMarriageDetailsAddButton.Name = "motherMarriageDetailsAddButton";
+            this.motherMarriageDetailsAddButton.Size = new System.Drawing.Size(135, 38);
+            this.motherMarriageDetailsAddButton.TabIndex = 11;
+            this.motherMarriageDetailsAddButton.Text = "إضافة";
+            this.motherMarriageDetailsAddButton.UseVisualStyleBackColor = false;
+            this.motherMarriageDetailsAddButton.Click += new System.EventHandler(this.motherMarriageDetailsAddButton_Click);
+            // 
+            // motherBigFamilyRB
+            // 
+            this.motherBigFamilyRB.FlatAppearance.BorderSize = 0;
+            this.motherBigFamilyRB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.motherBigFamilyRB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.motherBigFamilyRB.Image = ((System.Drawing.Image)(resources.GetObject("motherBigFamilyRB.Image")));
+            this.motherBigFamilyRB.Location = new System.Drawing.Point(480, 301);
+            this.motherBigFamilyRB.Name = "motherBigFamilyRB";
+            this.motherBigFamilyRB.Size = new System.Drawing.Size(64, 52);
+            this.motherBigFamilyRB.TabIndex = 1000;
+            this.motherBigFamilyRB.TabStop = false;
+            this.motherBigFamilyRB.UseVisualStyleBackColor = false;
+            this.motherBigFamilyRB.Click += new System.EventHandler(this.motherBigFamilyRB_Click);
+            this.motherBigFamilyRB.MouseLeave += new System.EventHandler(this.motherBigFamilyRB_MouseLeave);
+            this.motherBigFamilyRB.MouseHover += new System.EventHandler(this.motherBigFamilyRB_MouseHover);
+            // 
+            // fatherMarriageDetailsAddButton
+            // 
+            this.fatherMarriageDetailsAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.fatherMarriageDetailsAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fatherMarriageDetailsAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.fatherMarriageDetailsAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.fatherMarriageDetailsAddButton.Location = new System.Drawing.Point(545, 273);
+            this.fatherMarriageDetailsAddButton.Name = "fatherMarriageDetailsAddButton";
+            this.fatherMarriageDetailsAddButton.Size = new System.Drawing.Size(135, 38);
+            this.fatherMarriageDetailsAddButton.TabIndex = 11;
+            this.fatherMarriageDetailsAddButton.Text = "إضافة";
+            this.fatherMarriageDetailsAddButton.UseVisualStyleBackColor = false;
+            this.fatherMarriageDetailsAddButton.Click += new System.EventHandler(this.fatherMarriageDetailsAddButton_Click);
+            // 
+            // fatherBigFamilyBrush
+            // 
+            this.fatherBigFamilyBrush.FlatAppearance.BorderSize = 0;
+            this.fatherBigFamilyBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.fatherBigFamilyBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.fatherBigFamilyBrush.Image = ((System.Drawing.Image)(resources.GetObject("fatherBigFamilyBrush.Image")));
+            this.fatherBigFamilyBrush.Location = new System.Drawing.Point(478, 263);
+            this.fatherBigFamilyBrush.Name = "fatherBigFamilyBrush";
+            this.fatherBigFamilyBrush.Size = new System.Drawing.Size(64, 52);
+            this.fatherBigFamilyBrush.TabIndex = 999;
+            this.fatherBigFamilyBrush.TabStop = false;
+            this.fatherBigFamilyBrush.UseVisualStyleBackColor = false;
+            this.fatherBigFamilyBrush.Click += new System.EventHandler(this.fatherBigFamilyBrush_Click);
+            this.fatherBigFamilyBrush.MouseLeave += new System.EventHandler(this.fatherBigFamilyBrush_MouseLeave);
+            this.fatherBigFamilyBrush.MouseHover += new System.EventHandler(this.fatherBigFamilyBrush_MouseHover);
+            // 
+            // addSiblingsButton
+            // 
+            this.addSiblingsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addSiblingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addSiblingsButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addSiblingsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addSiblingsButton.Location = new System.Drawing.Point(612, 322);
+            this.addSiblingsButton.Name = "addSiblingsButton";
+            this.addSiblingsButton.Size = new System.Drawing.Size(135, 38);
+            this.addSiblingsButton.TabIndex = 6;
+            this.addSiblingsButton.Text = "إضافة";
+            this.addSiblingsButton.UseVisualStyleBackColor = false;
+            this.addSiblingsButton.Click += new System.EventHandler(this.addSiblingsButton_Click);
+            // 
+            // siblingRushButton
+            // 
+            this.siblingRushButton.FlatAppearance.BorderSize = 0;
+            this.siblingRushButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.siblingRushButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.siblingRushButton.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.siblingRushButton.Location = new System.Drawing.Point(750, 318);
+            this.siblingRushButton.Name = "siblingRushButton";
+            this.siblingRushButton.Size = new System.Drawing.Size(64, 52);
+            this.siblingRushButton.TabIndex = 996;
+            this.siblingRushButton.TabStop = false;
+            this.siblingRushButton.UseVisualStyleBackColor = false;
+            this.siblingRushButton.Click += new System.EventHandler(this.siblingRushButton_Click);
+            this.siblingRushButton.MouseLeave += new System.EventHandler(this.siblingRushButton_MouseLeave);
+            this.siblingRushButton.MouseHover += new System.EventHandler(this.siblingRushButton_MouseHover);
+            // 
+            // studyingPhaseBrush
+            // 
+            this.studyingPhaseBrush.FlatAppearance.BorderSize = 0;
+            this.studyingPhaseBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.studyingPhaseBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.studyingPhaseBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.studyingPhaseBrush.Location = new System.Drawing.Point(389, 177);
+            this.studyingPhaseBrush.Name = "studyingPhaseBrush";
+            this.studyingPhaseBrush.Size = new System.Drawing.Size(64, 52);
+            this.studyingPhaseBrush.TabIndex = 997;
+            this.studyingPhaseBrush.UseVisualStyleBackColor = false;
+            this.studyingPhaseBrush.Click += new System.EventHandler(this.studyingPhaseBrush_Click);
+            this.studyingPhaseBrush.MouseLeave += new System.EventHandler(this.studyingPhaseBrush_MouseLeave);
+            this.studyingPhaseBrush.MouseHover += new System.EventHandler(this.studyingPhaseBrush_MouseHover);
+            // 
+            // schoolAddButton
+            // 
+            this.schoolAddButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.schoolAddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.schoolAddButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.schoolAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.schoolAddButton.Location = new System.Drawing.Point(450, 186);
+            this.schoolAddButton.Name = "schoolAddButton";
+            this.schoolAddButton.Size = new System.Drawing.Size(135, 38);
+            this.schoolAddButton.TabIndex = 4;
+            this.schoolAddButton.Text = "إضافة";
+            this.schoolAddButton.UseVisualStyleBackColor = false;
+            this.schoolAddButton.Click += new System.EventHandler(this.schoolAddButton_Click);
+            // 
+            // addTargetButton
+            // 
+            this.addTargetButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(204)))), ((int)(((byte)(142)))));
+            this.addTargetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addTargetButton.Font = new System.Drawing.Font("Tempus Sans ITC", 13.8F, System.Drawing.FontStyle.Bold);
+            this.addTargetButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.addTargetButton.Location = new System.Drawing.Point(430, 163);
+            this.addTargetButton.Name = "addTargetButton";
+            this.addTargetButton.Size = new System.Drawing.Size(135, 38);
+            this.addTargetButton.TabIndex = 5;
+            this.addTargetButton.Text = "إضافة";
+            this.addTargetButton.UseVisualStyleBackColor = false;
+            this.addTargetButton.Click += new System.EventHandler(this.addTargetButton_Click);
+            // 
+            // targetMeetingsBrush
+            // 
+            this.targetMeetingsBrush.FlatAppearance.BorderSize = 0;
+            this.targetMeetingsBrush.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.targetMeetingsBrush.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.targetMeetingsBrush.Image = global::phsycologyForm.Properties.Resources.brushWhite;
+            this.targetMeetingsBrush.Location = new System.Drawing.Point(366, 156);
+            this.targetMeetingsBrush.Name = "targetMeetingsBrush";
+            this.targetMeetingsBrush.Size = new System.Drawing.Size(64, 52);
+            this.targetMeetingsBrush.TabIndex = 997;
+            this.targetMeetingsBrush.TabStop = false;
+            this.targetMeetingsBrush.UseVisualStyleBackColor = false;
+            this.targetMeetingsBrush.Click += new System.EventHandler(this.targetMeetingsBrush_Click);
+            this.targetMeetingsBrush.MouseLeave += new System.EventHandler(this.targetMeetingsBrush_MouseLeave);
+            this.targetMeetingsBrush.MouseHover += new System.EventHandler(this.targetMeetingsBrush_MouseHover);
+            // 
+            // meetingToogleButton
+            // 
+            this.meetingToogleButton.BorderColor = System.Drawing.Color.LightGray;
+            this.meetingToogleButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.meetingToogleButton.ForeColor = System.Drawing.Color.White;
+            this.meetingToogleButton.IsOn = true;
+            this.meetingToogleButton.Location = new System.Drawing.Point(584, 245);
+            this.meetingToogleButton.Name = "meetingToogleButton";
+            this.meetingToogleButton.OffColor = System.Drawing.Color.DarkGray;
+            this.meetingToogleButton.OffText = "تعديل";
+            this.meetingToogleButton.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(57)))), ((int)(((byte)(33)))));
+            this.meetingToogleButton.OnText = "جديد";
+            this.meetingToogleButton.Size = new System.Drawing.Size(62, 33);
+            this.meetingToogleButton.TabIndex = 1030;
+            this.meetingToogleButton.TabStop = false;
+            this.meetingToogleButton.Text = "ceLearningToggle1";
+            this.meetingToogleButton.TextEnabled = true;
+            this.meetingToogleButton.Click += new System.EventHandler(this.meetingToogleButton_Click);
+            // 
+            // meetingDate
+            // 
+            this.meetingDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.meetingDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.meetingDate.CustomFormat = "yyyy-MM-dd";
+            this.meetingDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.meetingDate.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
+            this.meetingDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.meetingDate.Location = new System.Drawing.Point(194, 237);
+            this.meetingDate.Name = "meetingDate";
+            this.meetingDate.Size = new System.Drawing.Size(158, 39);
+            this.meetingDate.TabIndex = 1027;
+            this.meetingDate.TabStop = false;
+            // 
+            // registeringDate
+            // 
+            this.registeringDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.BackDisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CalendarFont = new System.Drawing.Font("Tempus Sans ITC", 16F);
+            this.registeringDate.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.registeringDate.CustomFormat = "yyyy-MM-dd";
+            this.registeringDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.registeringDate.Font = new System.Drawing.Font("Tempus Sans ITC", 18F);
+            this.registeringDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.registeringDate.Location = new System.Drawing.Point(11, 237);
+            this.registeringDate.Name = "registeringDate";
+            this.registeringDate.Size = new System.Drawing.Size(158, 39);
+            this.registeringDate.TabIndex = 1025;
+            this.registeringDate.TabStop = false;
+            // 
+            // label76
+            // 
+            this.label76.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label76.AutoSize = true;
+            this.label76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.label76.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(242)))), ((int)(((byte)(234)))));
+            this.label76.Location = new System.Drawing.Point(855, 124);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(93, 28);
+            this.label76.TabIndex = 993;
+            this.label76.Text = "المتبقي للبلوغ";
+            // 
+            // till18TextBox
+            // 
+            this.till18TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.till18TextBox.BackColor = System.Drawing.Color.Gray;
+            this.till18TextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.till18TextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.till18TextBox.ForeColor = System.Drawing.Color.White;
+            this.till18TextBox.Location = new System.Drawing.Point(638, 126);
+            this.till18TextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.till18TextBox.Multiline = true;
+            this.till18TextBox.Name = "till18TextBox";
+            this.till18TextBox.ReadOnly = true;
+            this.till18TextBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.till18TextBox.Size = new System.Drawing.Size(200, 26);
+            this.till18TextBox.TabIndex = 992;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1222, 853);
+            this.ClientSize = new System.Drawing.Size(1222, 761);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1000, 800);
+            this.MinimumSize = new System.Drawing.Size(1238, 800);
             this.Name = "Form1";
-            this.Text = "Psychology Assessment Form";
+            this.Text = "Softer Psychology Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.TabPage0_0.ResumeLayout(false);
@@ -10202,6 +11103,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.enteredInstituteDGV)).EndInit();
             this.GEneralInformationGroupBox.ResumeLayout(false);
             this.GEneralInformationGroupBox.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.adultTypeGB.ResumeLayout(false);
             this.linguisticGB.ResumeLayout(false);
@@ -10286,10 +11189,6 @@
             this.tabControl3.ResumeLayout(false);
             this.TabPage2_1.ResumeLayout(false);
             this.TabPage2_1.PerformLayout();
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox17.PerformLayout();
-            this.familyResponsibilitiesGB.ResumeLayout(false);
-            this.familyResponsibilitiesGB.PerformLayout();
             this.patientMaritalStatusGB.ResumeLayout(false);
             this.patientMaritalStatusGB.PerformLayout();
             this.InCaseOfMarriageGB.ResumeLayout(false);
@@ -10307,13 +11206,31 @@
             this.motherStatusGB.PerformLayout();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
+            this.motherDeadGB.ResumeLayout(false);
+            this.motherDeadGB.PerformLayout();
             this.fatherBigFamilyGB.ResumeLayout(false);
             this.fatherBigFamilyGB.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fatherDGV)).EndInit();
-            this.groupBox15.ResumeLayout(false);
-            this.groupBox15.PerformLayout();
             this.fatherStatusGB.ResumeLayout(false);
             this.fatherStatusGB.PerformLayout();
+            this.fatherDeadGB.ResumeLayout(false);
+            this.fatherDeadGB.PerformLayout();
+            this.groupBox15.ResumeLayout(false);
+            this.groupBox15.PerformLayout();
+            this.TabPage2_3.ResumeLayout(false);
+            this.TabPage2_3.PerformLayout();
+            this.siblingsTreeGB.ResumeLayout(false);
+            this.siblingsTreeGB.PerformLayout();
+            this.deadSiblingGB.ResumeLayout(false);
+            this.deadSiblingGB.PerformLayout();
+            this.maritalStatusSiblingsGB.ResumeLayout(false);
+            this.sexSiblingGB.ResumeLayout(false);
+            this.sexSiblingGB.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siblingsDGV)).EndInit();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
+            this.familyResponsibilitiesGB.ResumeLayout(false);
+            this.familyResponsibilitiesGB.PerformLayout();
             this.TabPage3_0.ResumeLayout(false);
             this.tabControl5.ResumeLayout(false);
             this.TabPage3_1.ResumeLayout(false);
@@ -10699,20 +11616,6 @@
         private System.Windows.Forms.GroupBox haveSingleRoomGB;
         private System.Windows.Forms.RadioButton noLoneRoomRB;
         private System.Windows.Forms.TextBox suicideNotesTextBox;
-        private System.Windows.Forms.GroupBox groupBox17;
-        private System.Windows.Forms.CheckBox pressureCheckBox;
-        private System.Windows.Forms.TextBox responsibleForDescriptionTextBox;
-        private System.Windows.Forms.TextBox totalMembersTextBox;
-        private System.Windows.Forms.TextBox responsibleForCoutTextBox;
-        private System.Windows.Forms.TextBox nearestFamilyMemberTextBox;
-        private System.Windows.Forms.GroupBox familyResponsibilitiesGB;
-        private System.Windows.Forms.TextBox otherResponsibilitiesTextBox;
-        private System.Windows.Forms.RadioButton otherResponsibilitiesRB;
-        private System.Windows.Forms.RadioButton smallFamilyRB;
-        private System.Windows.Forms.RadioButton bigFamilyRB;
-        private System.Windows.Forms.TextBox patientOrderTextBox;
-        private System.Windows.Forms.TextBox sistersCoutTextBox;
-        private System.Windows.Forms.TextBox brothersCountTextBox;
         private System.Windows.Forms.GroupBox purposeGB;
         private System.Windows.Forms.TextBox purposeOtherTextBox;
         private System.Windows.Forms.RadioButton purposeOtherRB;
@@ -11012,6 +11915,70 @@
         private System.Windows.Forms.ComboBox editTitleOldComboBox;
         private System.Windows.Forms.Label label75;
         private roundedButton meetingsReportButton;
+        private System.Windows.Forms.TextBox fatherDeathPatientInfluenceTextBox;
+        private System.Windows.Forms.TextBox fatherDeathReasonTextBox;
+        private System.Windows.Forms.TextBox fatherDeathPatientAgeTextBox;
+        private System.Windows.Forms.GroupBox fatherDeadGB;
+        private System.Windows.Forms.GroupBox motherDeadGB;
+        private System.Windows.Forms.TextBox motherDeathPatientInfluenceTextBox;
+        private System.Windows.Forms.TextBox motherDeathPatientAgeTextBox;
+        private System.Windows.Forms.TextBox motherDeathReasonTextBox;
+        private System.Windows.Forms.TabPage TabPage2_3;
+        private System.Windows.Forms.GroupBox groupBox17;
+        private System.Windows.Forms.CheckBox pressureCheckBox;
+        private System.Windows.Forms.TextBox responsibleForDescriptionTextBox;
+        private System.Windows.Forms.TextBox totalMembersTextBox;
+        private System.Windows.Forms.TextBox responsibleForCoutTextBox;
+        private System.Windows.Forms.TextBox nearestFamilyMemberTextBox;
+        private System.Windows.Forms.GroupBox familyResponsibilitiesGB;
+        private System.Windows.Forms.TextBox otherResponsibilitiesTextBox;
+        private System.Windows.Forms.RadioButton otherResponsibilitiesRB;
+        private System.Windows.Forms.RadioButton smallFamilyRB;
+        private System.Windows.Forms.RadioButton bigFamilyRB;
+        private System.Windows.Forms.TextBox patientOrderTextBox;
+        private System.Windows.Forms.TextBox sistersCoutTextBox;
+        private System.Windows.Forms.TextBox brothersCountTextBox;
+        private System.Windows.Forms.GroupBox siblingsTreeGB;
+        private roundedButton siblingRushButton;
+        private circularButtton addSiblingsButton;
+        private System.Windows.Forms.TextBox siblingAgeTextBox;
+        private System.Windows.Forms.DataGridView siblingsDGV;
+        private System.Windows.Forms.GroupBox deadSiblingGB;
+        private System.Windows.Forms.TextBox siblingDeadMissingTextBox;
+        private System.Windows.Forms.TextBox siblingDeadAgeTextBox;
+        private System.Windows.Forms.TextBox siblingDeadReasonTextBox;
+        private System.Windows.Forms.GroupBox maritalStatusSiblingsGB;
+        private System.Windows.Forms.RadioButton deadSiblingRB;
+        private System.Windows.Forms.RadioButton singleSiblingRB;
+        private System.Windows.Forms.RadioButton marriedSiblingRB;
+        private System.Windows.Forms.RadioButton seperatedSiblingRB;
+        private System.Windows.Forms.RadioButton divorceSiblingRB;
+        private System.Windows.Forms.TextBox siblingEducationTextBox;
+        private System.Windows.Forms.GroupBox sexSiblingGB;
+        private System.Windows.Forms.RadioButton maleSiblingRB;
+        private System.Windows.Forms.RadioButton femaleSiblingRB;
+        private System.Windows.Forms.Button siblingsBigFamilyButton;
+        private System.Windows.Forms.TextBox siblingDeadAgePatientTextBox;
+        private System.Windows.Forms.TextBox additionalNotes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.CheckBox additionalSiblingsInfoCheckbox;
+        private circularButtton uploadButton;
+        private System.Windows.Forms.Label uploadLocation;
+        private roundedButton pdfButton;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.ComboBox pdfFilesComboBox;
+        private System.Windows.Forms.Label PdfInfoLabel;
+        private roundedButton backupButton;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.TextBox till18TextBox;
     }
 }
 

@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using DevExpress.XtraReports.UI;
+using System;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Microsoft.SqlServer;
-using Microsoft.SqlServer.Server;
 using System.Data.SqlClient;
-using System.Configuration;
-using DevExpress.XtraReports.UI;
-using DevExpress.LookAndFeel;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 //TODO Finish the reports: rebuild them from scratch like the first detailed Reports 
 //TODO Finish the meeting page, saving >> editing >> deleting >> Reports 
@@ -26,6 +19,8 @@ namespace phsycologyForm
             InitializeComponent();
         }
 
+        Bitmap orangeTide = new Bitmap(phsycologyForm.Properties.Resources.TideOrange);
+        Bitmap whiteTide = new Bitmap(phsycologyForm.Properties.Resources.TideWhite);
         Bitmap orangeSave = new Bitmap(phsycologyForm.Properties.Resources.daf_orange);
         Bitmap whiteSave = new Bitmap(phsycologyForm.Properties.Resources.fds);
         Bitmap orangeNext = new Bitmap(phsycologyForm.Properties.Resources.fdff);
@@ -36,16 +31,17 @@ namespace phsycologyForm
         Bitmap orangeBrush = new Bitmap(phsycologyForm.Properties.Resources.brushOrange);
         Bitmap whiteWW = new Bitmap(phsycologyForm.Properties.Resources.WWWhite);
         Bitmap orangeWW = new Bitmap(phsycologyForm.Properties.Resources.WWOrange);
-        Bitmap whiteTide = new Bitmap(phsycologyForm.Properties.Resources.TideWhite);
-        Bitmap orangeTide = new Bitmap(phsycologyForm.Properties.Resources.TideOrange);
         Bitmap meetingWhite = new Bitmap(phsycologyForm.Properties.Resources.reportMeetingWhite);
         Bitmap meetingOrange = new Bitmap(phsycologyForm.Properties.Resources.reportMeetingOrange);
+        Bitmap pdfWhite = new Bitmap(phsycologyForm.Properties.Resources.pdfWhite);
+        Bitmap pdfOrange = new Bitmap(phsycologyForm.Properties.Resources.pdfOrange);
+
 
         private void roundedButton1_MouseHover_1(object sender, EventArgs e)
         {
             roundedButton1.Image = orangeTide;
         }
-        
+
         private void roundedButton1_MouseLeave_1(object sender, EventArgs e)
         {
             roundedButton1.Image = whiteTide;
@@ -101,6 +97,28 @@ namespace phsycologyForm
             clearPageDataButton.Image = whiteWW;
         }
 
+        private void pdfButton_MouseHover(object sender, EventArgs e)
+        {
+            pdfButton.Image = pdfOrange;
+        }
+
+        private void pdfButton_MouseLeave(object sender, EventArgs e)
+        {
+            pdfButton.Image = pdfWhite;
+        }
+
+
+        private void backupButton_MouseHover(object sender, EventArgs e)
+        {
+            backupButton.ImageIndex = 2;
+        }
+
+        private void backupButton_MouseLeave(object sender, EventArgs e)
+        {
+            backupButton.ImageIndex = 1;
+        }
+
+
         string constring = System.Configuration.ConfigurationManager.ConnectionStrings["psychologyDBConnectionString"].ConnectionString;
 
         //====> Static to be used across the application <====
@@ -109,9 +127,9 @@ namespace phsycologyForm
         string patientType;
         string patientStatus;
         string patientWorkNature;
-        string reasonsToQuitSchool = "";
-        string SuicideAttempts = "";
-        string drugAbuse = "";
+        string reasonsToQuitSchool = string.Empty;
+        string SuicideAttempts = string.Empty;
+        string drugAbuse = string.Empty;
 
 
         void dynamicChildrenCalculator(TextBox first, TextBox second, TextBox TotalTextBox)
@@ -218,6 +236,15 @@ namespace phsycologyForm
             selectedTabButton(bigFamilyButton, enviromentAnalysisButton);
         }
 
+        private void siblingsBigFamilyButton_Click(object sender, EventArgs e)
+        {
+            nextPageButton.Visible = true;
+            tabControl1.SelectedTab = TabPage2_0;
+            tabControl3.SelectedTab = TabPage2_3;
+            normalizeButtonColorStatus();
+            selectedTabButton(siblingsBigFamilyButton, enviromentAnalysisButton);
+        }
+
         private void socialDetailsButton_Click(object sender, EventArgs e)
         {
             nextPageButton.Visible = true;
@@ -310,6 +337,7 @@ namespace phsycologyForm
             enviromentAnalysisButton.BackColor = Color.FromArgb(11, 7, 17);
             socialStatusButton.BackColor = Color.FromArgb(41, 44, 51);
             bigFamilyButton.BackColor = Color.FromArgb(41, 44, 51);
+            siblingsBigFamilyButton.BackColor = Color.FromArgb(41, 44, 51);
             teensButton.BackColor = Color.FromArgb(11, 7, 17);
             socialDetailsButton.BackColor = Color.FromArgb(41, 44, 51);
             individualBehaviorButton.BackColor = Color.FromArgb(41, 44, 51);
@@ -338,7 +366,7 @@ namespace phsycologyForm
             tabControl1.SizeMode = TabSizeMode.Fixed;
             foreach (TabPage tab in tabControl1.TabPages)
             {
-                tab.Text = "";
+                tab.Text = string.Empty;
             }
 
             tabControl4.Appearance = TabAppearance.FlatButtons;
@@ -346,7 +374,7 @@ namespace phsycologyForm
             tabControl4.SizeMode = TabSizeMode.Fixed;
             foreach (TabPage tab in tabControl4.TabPages)
             {
-                tab.Text = "";
+                tab.Text = string.Empty;
             }
 
             tabControl2.Appearance = TabAppearance.FlatButtons;
@@ -354,7 +382,7 @@ namespace phsycologyForm
             tabControl2.SizeMode = TabSizeMode.Fixed;
             foreach (TabPage tab in tabControl2.TabPages)
             {
-                tab.Text = "";
+                tab.Text = string.Empty;
             }
 
             tabControl3.Appearance = TabAppearance.FlatButtons;
@@ -362,7 +390,7 @@ namespace phsycologyForm
             tabControl3.SizeMode = TabSizeMode.Fixed;
             foreach (TabPage tab in tabControl3.TabPages)
             {
-                tab.Text = "";
+                tab.Text = string.Empty;
             }
 
             tabControl5.Appearance = TabAppearance.FlatButtons;
@@ -370,7 +398,7 @@ namespace phsycologyForm
             tabControl5.SizeMode = TabSizeMode.Fixed;
             foreach (TabPage tab in tabControl5.TabPages)
             {
-                tab.Text = "";
+                tab.Text = string.Empty;
             }
 
             //==> 1s General Information Initialization
@@ -396,7 +424,10 @@ namespace phsycologyForm
             toolTip1.SetToolTip(meetingsReportButton, "تقارير المقابلات");
             toolTip1.SetToolTip(clearPageDataButton, "إزالة اليانات للصفحة الحالية فقط");
             toolTip1.SetToolTip(roundedButton1, "إزالة اليانات لجميع الصفحات ");
-
+            toolTip1.SetToolTip(pdfButton, "عرض ملف PDF للتقارير المرضى المسجلة ");
+            toolTip1.SetToolTip(backupButton, "إنشاء أو استرجاع نسخة احتياطية");
+            pdfFilesComboBox.Visible = false;
+            PdfInfoLabel.Visible = false;
             //deactivating the others group at the start
             deactivateOthersTextBoxAndLabelGroup(AtterndeOthersTextBox, label11);
             deactivateOthersTextBoxAndLabelGroup(LSothersTextBox, label12);
@@ -454,14 +485,23 @@ namespace phsycologyForm
             fatherMarriageSideComboBox.Items.Add("الأم");
             motherMarriageSideComboBox.Items.Add("الأب");
             motherMarriageSideComboBox.Items.Add("الأم");
-            smallFamilyRB.Checked = true;
-            deactivateTextBox(otherResponsibilitiesTextBox);
 
             // 5s ==>  Big Family Environmental Analysis Initialization
             fatherWorkingRB.Checked = true;
             noFatherRelativeRB.Checked = true;
             motherWorkingRB.Checked = true;
             noMotherRelativeRB.Checked = true;
+            fatherDeadGB.Visible = false;
+            motherDeadGB.Visible = false;
+
+
+            //5s_2 Siblings Page Initialization
+            smallFamilyRB.Checked = true;
+            deactivateTextBox(otherResponsibilitiesTextBox);
+            maleSiblingRB.Checked = true;
+            singleSiblingRB.Checked = true;
+            deadSiblingGB.Enabled = false;
+            siblingsTreeGB.Enabled = false;
 
             // 6s ==>  Teen Analysis Initialization First Page
             schoolStageComboBox.Items.Add("الابتدائية");
@@ -792,7 +832,7 @@ namespace phsycologyForm
 
                 editSSNPanel.Visible = true;
                 oldSSN.Text = SSNTextBox.Text;
-                newSSN.Text = "";
+                newSSN.Text = string.Empty;
                 ToggleConditionButton.IsOn = false;
                 MessageBox.Show("ظهر مربع على يمين الشاشة .. يرجى إدخال الرقم المراد تغييره والرقم الجديد والضغط على حفظ", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -861,7 +901,7 @@ namespace phsycologyForm
         {
             if (t.Text == str)
             {
-                t.Text = "";
+                t.Text = string.Empty;
 
                 t.ForeColor = Color.White;
                 t.TextAlign = HorizontalAlignment.Left;
@@ -869,7 +909,7 @@ namespace phsycologyForm
         }
         void leaveTextBox(TextBox t, string str)
         {
-            if (t.Text == "")
+            if (t.Text == string.Empty)
             {
                 t.Text = str;
 
@@ -1272,7 +1312,7 @@ namespace phsycologyForm
 
         bool firstPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (String.IsNullOrEmpty(SSNTextBox.Text))
@@ -1350,7 +1390,7 @@ namespace phsycologyForm
                 }
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 5)
                 {
@@ -1368,7 +1408,7 @@ namespace phsycologyForm
 
         bool firstPageSecondHalfValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -1453,7 +1493,7 @@ namespace phsycologyForm
 
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 5)
                 {
@@ -1470,7 +1510,7 @@ namespace phsycologyForm
 
         bool previousInstitutionHistoryDGVValidatin_firstPAge()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -1511,7 +1551,7 @@ namespace phsycologyForm
 
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1528,7 +1568,7 @@ namespace phsycologyForm
 
         bool previousInjuriesHistoryDGVValidatin_firstPAge()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -1552,7 +1592,7 @@ namespace phsycologyForm
             }
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1569,7 +1609,7 @@ namespace phsycologyForm
 
         bool secondPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (othersTraitsCB.Checked)
@@ -1641,7 +1681,7 @@ namespace phsycologyForm
             }
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1658,7 +1698,7 @@ namespace phsycologyForm
 
         bool employerDGVValidation_secondPage()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -1697,7 +1737,7 @@ namespace phsycologyForm
 
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1714,7 +1754,7 @@ namespace phsycologyForm
 
         bool thirdPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (!noAttemptsRB.Checked)
@@ -1812,7 +1852,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1829,7 +1869,7 @@ namespace phsycologyForm
 
         bool previousTreatmentDGVVAlidation_thirdPage()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -1851,7 +1891,7 @@ namespace phsycologyForm
 
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1869,7 +1909,7 @@ namespace phsycologyForm
         //4s Validations
         bool patientMarriageDGVValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (marriagePatientOrderTextBox.Text == "ترتيب الزواج بين زيجاته الأخرى")
@@ -1929,7 +1969,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -1947,7 +1987,7 @@ namespace phsycologyForm
         bool fourthPageTextBoxValidation()
         {
 
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (maritalStausReasonsTextBox.Text == "أسباب الحالة الاجتماعية")
@@ -2000,6 +2040,88 @@ namespace phsycologyForm
                 }
             }
 
+            if (errorMessage != string.Empty)
+            {
+                if (counter <= 3)
+                {
+                    MessageBox.Show("الرجاء إدخال " + errorMessage, "أكمل الحالة الاجتماعية في تحليل البيئة", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("الرجاء إكمال البيانات", "أكمل الحالة الاجتماعية في تحليل البيئة", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                return false;
+            }
+            return true;
+        }
+
+        bool siblingsDGVValidation()
+        {
+            string errorMessage = string.Empty;
+            int counter = 0;
+
+            if (siblingAgeTextBox.Text == "العمر")
+            {
+                errorMessage += "العمر, ";
+                counter++;
+            }
+
+            if (siblingEducationTextBox.Text == "المؤهل العلمي")
+            {
+                errorMessage += "المؤهل العلمي, ";
+                counter++;
+            }
+
+            if (deadSiblingRB.Checked)
+            {
+                if (siblingDeadReasonTextBox.Text == "سبب الوفاة")
+                {
+                    errorMessage += "سبب الوفاة, ";
+                    counter++;
+                }
+
+                if (siblingDeadAgeTextBox.Text == "عمر الوفاة")
+                {
+                    errorMessage += "عمر الوفاة, ";
+                    counter++;
+                }
+
+                if (siblingDeadAgePatientTextBox.Text == "عمر المفحوص")
+                {
+                    errorMessage += "عمر المفحوص, ";
+                    counter++;
+                }
+
+                if (siblingDeadMissingTextBox.Text == "مدى تأثير الفقدان")
+                {
+                    errorMessage += "مدى تأثير الفقدان, ";
+                    counter++;
+                }
+            }
+
+
+
+            if (errorMessage != string.Empty)
+            {
+                if (counter <= 3)
+                {
+                    MessageBox.Show("الرجاء إدخال " + errorMessage, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    MessageBox.Show("الرجاء إكمال البيانات", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                return false;
+            }
+            return true;
+        }
+
+        bool fourthPageTextBoxValidation_ForBrother_bigFamilyPart2()
+        {
+
+            string errorMessage = string.Empty;
+            int counter = 0;
+
             if (brothersCountTextBox.Text == "الأشقاء من جهة الأب والأم فقط")
             {
                 errorMessage += "الأشقاء من جهة الأب والأم فقط, ";
@@ -2049,10 +2171,18 @@ namespace phsycologyForm
                     errorMessage += "مسؤوليات الشخص اتجاه من؟ أكمل الآخرين, ";
                     counter++;
                 }
-
             }
 
-            if (errorMessage != "")
+            if (additionalSiblingsInfoCheckbox.Checked)
+            {
+                if (siblingsDGV.Rows.Count <= 1)
+                {
+                    errorMessage += "شجرة الإخوة, ";
+                    counter++;
+                }
+            }
+
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2070,7 +2200,7 @@ namespace phsycologyForm
         //5s Validations
         bool fatherMarriageDGVValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (fatherMariiageOrderTextBox.Text == "ترتيب الزواج بين زيجاته الأخرى")
@@ -2130,7 +2260,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2147,7 +2277,7 @@ namespace phsycologyForm
 
         bool motherMarriageDGVValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (motherMariiageOrderTextBox.Text == "ترتيب الزواج بين زيجاتها الأخرى")
@@ -2208,7 +2338,7 @@ namespace phsycologyForm
             }
 
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2225,7 +2355,7 @@ namespace phsycologyForm
 
         bool fifthPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             int parsedValue;
@@ -2243,6 +2373,45 @@ namespace phsycologyForm
                 counter++;
             }
 
+            if (totalFatherMarriageTextBox.Text == "عدد مرات الزواج")
+            {
+                errorMessage += "عدد مرات زواج الأب, ";
+                counter++;
+            }
+
+            if (fatherNationalityTextBox.Text == "الجنسية")
+            {
+                errorMessage += "جنسية الأب, ";
+                counter++;
+            }
+
+            if (fatherEducationLevelTextBox.Text == "مستوى التعليم")
+            {
+                errorMessage += "مستوى تعليم الأب, ";
+                counter++;
+            }
+
+            if (fatherDeadRB.Checked)
+            {
+                if (fatherDeathReasonTextBox.Text == "سبب الوفاة")
+                {
+                    errorMessage += "سبب وفاة الأب, ";
+                    counter++;
+                }
+
+                if (fatherDeathPatientAgeTextBox.Text == "عمر المفحوص عند الوفاة")
+                {
+                    errorMessage += "عمر المفحوص عند وفاة الأب, ";
+                    counter++;
+                }
+
+                if (fatherDeathPatientInfluenceTextBox.Text == "مدى تأثير الوفاة على المفحوص")
+                {
+                    errorMessage += "مدى تأثير وفاة الأب على المفحوص , ";
+                    counter++;
+                }
+            }
+
             if (int.TryParse(totalMotherMarriageTextBox.Text, out parsedValue))
             {
                 if ((motherDGV.Rows.Count - 1) != (parsedValue))
@@ -2257,7 +2426,47 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+
+            if (totalMotherMarriageTextBox.Text == "عدد مرات الزواج")
+            {
+                errorMessage += "عدد مرات زواج الأم, ";
+                counter++;
+            }
+
+            if (motherNationalityTextBox.Text == "الجنسية")
+            {
+                errorMessage += "جنسية الأم, ";
+                counter++;
+            }
+
+            if (motherEducationLevelTextBox.Text == "مستوى التعليم")
+            {
+                errorMessage += "مستوى تعليم الأم, ";
+                counter++;
+            }
+
+            if (motherDeadRB.Checked)
+            {
+                if (motherDeathReasonTextBox.Text == "سبب الوفاة")
+                {
+                    errorMessage += "سبب وفاة الأم, ";
+                    counter++;
+                }
+
+                if (motherDeathPatientAgeTextBox.Text == "عمر المفحوص عند الوفاة")
+                {
+                    errorMessage += "عمر المفحوص عند وفاة الأم, ";
+                    counter++;
+                }
+
+                if (motherDeathPatientInfluenceTextBox.Text == "مدى تأثير الوفاة على المفحوص")
+                {
+                    errorMessage += "مدى تأثير وفاة الأم على المفحوص , ";
+                    counter++;
+                }
+            }
+
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2274,7 +2483,7 @@ namespace phsycologyForm
 
         bool schoolStageValidation_sixthPage()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (String.IsNullOrEmpty(schoolStageComboBox.Text))
@@ -2289,7 +2498,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2306,7 +2515,7 @@ namespace phsycologyForm
 
         bool sixthPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
 
@@ -2350,7 +2559,7 @@ namespace phsycologyForm
                 }
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2367,7 +2576,7 @@ namespace phsycologyForm
 
         bool seventhPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (convictedFamilyMemberCB.Checked)
@@ -2406,7 +2615,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2423,7 +2632,7 @@ namespace phsycologyForm
 
         bool eigthPageTextBoxValidation()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
             if (newMeetingRB.Checked)
             {
@@ -2460,7 +2669,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2477,7 +2686,7 @@ namespace phsycologyForm
 
         bool targetOfMeeting_eightPage()
         {
-            string errorMessage = "";
+            string errorMessage = string.Empty;
             int counter = 0;
 
             if (String.IsNullOrEmpty(ssnNumberTargetTextBox.Text))
@@ -2510,7 +2719,7 @@ namespace phsycologyForm
                 counter++;
             }
 
-            if (errorMessage != "")
+            if (errorMessage != string.Empty)
             {
                 if (counter <= 3)
                 {
@@ -2612,6 +2821,18 @@ namespace phsycologyForm
             if (workingNatureOthersRB.Checked)
             {
                 patientWorkNature = workingNatureOthersTextBox.Text;
+            }
+        }
+
+        private void workingNatureOthersRB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (workingNatureOthersRB.Checked)
+            {
+                reactivateTextBox(workingNatureOthersTextBox);
+            }
+            else
+            {
+                deactivateTextBox(workingNatureOthersTextBox);
             }
         }
 
@@ -3170,7 +3391,30 @@ namespace phsycologyForm
             {
                 reactivateComboBox(motherMarriageSideComboBox);
             }
+        }
 
+        private void fatherDeadRB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (fatherDeadRB.Checked)
+            {
+                fatherDeadGB.Visible = true;
+            }
+            else
+            {
+                fatherDeadGB.Visible = false;
+            }
+        }
+
+        private void motherDeadRB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (motherDeadRB.Checked)
+            {
+                motherDeadGB.Visible = true;
+            }
+            else
+            {
+                motherDeadGB.Visible = false;
+            }
         }
 
         private void totalFatherMarriageTextBox_Enter(object sender, EventArgs e)
@@ -3201,6 +3445,36 @@ namespace phsycologyForm
         private void fatherEducationLevelTextBox_Leave(object sender, EventArgs e)
         {
             leaveTextBox(fatherEducationLevelTextBox, "مستوى التعليم");
+        }
+
+        private void fatherDeathReasonTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(fatherDeathReasonTextBox, "سبب الوفاة");
+        }
+
+        private void fatherDeathReasonTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(fatherDeathReasonTextBox, "سبب الوفاة");
+        }
+
+        private void fatherDeathPatientAgeTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(fatherDeathPatientAgeTextBox, "عمر المفحوص عند الوفاة");
+        }
+
+        private void fatherDeathPatientAgeTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(fatherDeathPatientAgeTextBox, "عمر المفحوص عند الوفاة");
+        }
+
+        private void fatherDeathPatientInfluenceTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(fatherDeathPatientInfluenceTextBox, "مدى تأثير الوفاة على المفحوص");
+        }
+
+        private void fatherDeathPatientInfluenceTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(fatherDeathPatientInfluenceTextBox, "مدى تأثير الوفاة على المفحوص");
         }
 
         private void fatherMariiageOrderTextBox_Enter(object sender, EventArgs e)
@@ -3291,6 +3565,36 @@ namespace phsycologyForm
         private void motherEducationLevelTextBox_Leave(object sender, EventArgs e)
         {
             leaveTextBox(motherEducationLevelTextBox, "مستوى التعليم");
+        }
+
+        private void motherDeathReasonTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(motherDeathReasonTextBox, "سبب الوفاة");
+        }
+
+        private void motherDeathReasonTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(motherDeathReasonTextBox, "سبب الوفاة");
+        }
+
+        private void motherDeathPatientAgeTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(motherDeathPatientAgeTextBox, "عمر المفحوص عند الوفاة");
+        }
+
+        private void motherDeathPatientAgeTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(motherDeathPatientAgeTextBox, "عمر المفحوص عند الوفاة");
+        }
+
+        private void motherDeathPatientInfluenceTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(motherDeathPatientInfluenceTextBox, "مدى تأثير الوفاة على المفحوص");
+        }
+
+        private void motherDeathPatientInfluenceTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(motherDeathPatientInfluenceTextBox, "مدى تأثير الوفاة على المفحوص");
         }
 
         private void motherMariiageOrderTextBox_Enter(object sender, EventArgs e)
@@ -3433,6 +3737,93 @@ namespace phsycologyForm
             leaveTextBox(otherResponsibilitiesTextBox, "آخرين");
         }
 
+
+        private void siblingAgeTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingAgeTextBox, "العمر");
+        }
+
+        private void siblingAgeTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingAgeTextBox, "العمر");
+        }
+
+
+        private void siblingEducationTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingEducationTextBox, "المؤهل العلمي");
+        }
+
+        private void siblingEducationTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingEducationTextBox, "المؤهل العلمي");
+        }
+
+
+        private void siblingDeadReasonTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingDeadReasonTextBox, "سبب الوفاة");
+        }
+
+        private void siblingDeadReasonTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingDeadReasonTextBox, "سبب الوفاة");
+        }
+
+
+        private void siblingDeadAgeTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingDeadAgeTextBox, "عمر الوفاة");
+        }
+
+        private void siblingDeadAgeTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingDeadAgeTextBox, "عمر الوفاة");
+        }
+
+
+        private void siblingDeadAgePatientTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingDeadAgePatientTextBox, "عمر المفحوص");
+        }
+
+        private void siblingDeadAgePatientTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingDeadAgePatientTextBox, "عمر المفحوص");
+        }
+
+
+        private void siblingDeadMissingTextBox_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(siblingDeadMissingTextBox, "مدى تأثير الفقدان");
+        }
+
+        private void siblingDeadMissingTextBox_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(siblingDeadMissingTextBox, "مدى تأثير الفقدان");
+        }
+
+        private void additionalNotes_Enter(object sender, EventArgs e)
+        {
+            enterTextBox(additionalNotes, "ملاحظات إضافية");
+        }
+
+        private void additionalNotes_Leave(object sender, EventArgs e)
+        {
+            leaveTextBox(additionalNotes, "ملاحظات إضافية");
+        }
+
+        private void additionalSiblingsInfoCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (additionalSiblingsInfoCheckbox.Checked)
+            {
+                siblingsTreeGB.Enabled = true;
+            }
+            else
+            {
+                siblingsTreeGB.Enabled = false;
+            }
+        }
 
         // Dynamic children calcuation 
         private void fatherBoysCountTextBox_TextChanged(object sender, EventArgs e)
@@ -3721,10 +4112,10 @@ namespace phsycologyForm
                     string linguistic = (linguisticGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     string adultType = (adultTypeGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
 
-                    string Query = "IF NOT EXISTS (select 1 FROM patientInfo where ssn=N'" + this.SSNTextBox.Text + "') BEGIN INSERT INTO patientInfo(ssn,name,age,nationality,phoneNumber,residencePlace,length,weight,waist,languistics,walking,muscles,caseFile,judge,birthDay,maritalStatus,sex,type,adultType,canBeCalledAgain,signDate,previousTreatment,accidents)" +
+                    string Query = "IF NOT EXISTS (select 1 FROM patientInfo where ssn=N'" + this.SSNTextBox.Text + "') BEGIN INSERT INTO patientInfo(ssn,name,age,nationality,phoneNumber,residencePlace,length,weight,waist,languistics,walking,muscles,caseFile,judge,birthDay,maritalStatus,sex,type,adultType,canBeCalledAgain,signDate,previousTreatment,accidents,enteredInstitute)" +
                         " VALUES (N'" + this.SSNTextBox.Text + "',N'" + this.nameTextBox.Text + "',N'" + this.ageTextBox.Text + "',N'" + this.nationalityTextBox.Text + "',N'" + this.phoneNumberTextBox.Text + "',N'" + this.residencePlaceTextBox.Text + "',N'" + this.heightTextBox.Text + "',N'" + this.weightTextBox.Text + "',N'" + this.waistTextBox.Text + "'" +
                         ",N'" + linguistic + "',N'" + this.walkingTexBox.Text + "',N'" + this.musclesTextBox.Text + "',N'" + this.caseTextBox.Text + "',N'" + this.judgementTextBox.Text + "'" +
-                        ",N'" + this.birthDayTP.Value.ToString("MM/dd/yyyy") + "',N'" + patientStatus + "',N'" + patientSex + "',N'" + patientType + "',N'" + adultType + "',N'" + this.canBeCalledAgainCB.Checked + "',N'" + this.dateDTP.Value.ToString("MM/dd/yyyy") + "', 'FALSE',N'" + this.anyInjuriesCB.Checked + "') END ";
+                        ",N'" + this.birthDayTP.Value.ToString("MM/dd/yyyy") + "',N'" + patientStatus + "',N'" + patientSex + "',N'" + patientType + "',N'" + adultType + "',N'" + this.canBeCalledAgainCB.Checked + "',N'" + this.dateDTP.Value.ToString("MM/dd/yyyy") + "', 'FALSE',N'" + this.anyInjuriesCB.Checked + "',N'" + this.enteredInstituteCB.Checked + "') END ";
 
                     SqlConnection conDataBase = new SqlConnection(constring);
                     SqlDataAdapter adapter = new SqlDataAdapter();
@@ -3862,9 +4253,9 @@ namespace phsycologyForm
                     SqlConnection conDataBase;
                     SqlDataAdapter adapter;
                     SqlCommand command;
-                    string anotherIncome = "";
-                    string loanProblems = "";
-                    string jobSatisfacton = "";
+                    string anotherIncome = string.Empty;
+                    string loanProblems = string.Empty;
+                    string jobSatisfacton = string.Empty;
                     if (yesAIRB.Checked)
                     {
                         anotherIncome = anotherIncomeTextBox.Text;
@@ -3879,15 +4270,15 @@ namespace phsycologyForm
                         jobSatisfacton = miserableJobReasonTextBox.Text;
                     }
 
-                    string othersString = "";
+                    string othersString = string.Empty;
                     if (othersTraitsCB.Checked)
                     {
                         othersString = behavioralTraitsOthersTextBox.Text;
                     }
 
-                    string patientBossRelation = "";
-                    string patientCoworkerRelation = "";
-                    string patientWorkRegularity = "";
+                    string patientBossRelation = string.Empty;
+                    string patientCoworkerRelation = string.Empty;
+                    string patientWorkRegularity = string.Empty;
                     string patientEconomicStatus = (economicStatusGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     string patientHome = (houseGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     string patientHomeType = (homeTypeGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
@@ -3897,20 +4288,16 @@ namespace phsycologyForm
                     }
 
                     bool hasOwnRoom;
-                    string shareRoomWith = "";
+                    string shareRoomWith = string.Empty;
                     if (loneRoomRB.Checked)
                     {
                         hasOwnRoom = true;
-                        shareRoomWith = "";
+                        shareRoomWith = string.Empty;
                     }
                     else
                     {
                         hasOwnRoom = false;
                         shareRoomWith = shareRoomWithTextBox.Text;
-                    }
-                    if ((singleRB.Checked && adultRB.Checked) || (!adultRB.Checked))
-                    {
-                        shareRoomWith = "";
                     }
 
                     // if (adultRB.Checked)
@@ -4078,7 +4465,7 @@ namespace phsycologyForm
                         command.Dispose();
                         conDataBase.Close();
                     }
-                    string previousTreatmentHistory = "";
+                    string previousTreatmentHistory = string.Empty;
                     if (previousPatientHistoryNotesTextBox.Text != "ملاحظات التاريخ المرضي السابق")
                     {
                         previousTreatmentHistory = previousPatientHistoryNotesTextBox.Text;
@@ -4208,12 +4595,32 @@ namespace phsycologyForm
                             conDataBase.Close();
                         }
                     }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
+
+        void saveSiblingsPage()
+        {
+            if (fourthPageTextBoxValidation_ForBrother_bigFamilyPart2())
+            {
+                try
+                {
+                    string Query;
+                    SqlConnection conDataBase;
+                    SqlDataAdapter adapter;
+                    SqlCommand command;
+
                     // Siblings Query
                     string patientResponisibilityTowards = (familyResponsibilitiesGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     if (patientResponisibilityTowards == "آخرين")
                     {
                         patientResponisibilityTowards = otherResponsibilitiesTextBox.Text;
                     }
+
                     Query = "IF NOT EXISTS (select 1 FROM siblingsDetails where ssnPatient=N'" + this.SSNTextBox.Text + "') BEGIN INSERT INTO " +
                                    "siblingsDetails(ssnPatient,brothers,sisters,totalSiblings,patientOrder,nearestPerson,responsibleForCount,responsibleForDescription,responsiblitiesToward,pressuredFromResponsibility) " +
                                    "VALUES(N'" + this.SSNTextBox.Text + "',N'" + this.brothersCountTextBox.Text + "',N'" + this.sistersCoutTextBox.Text + "'" +
@@ -4228,6 +4635,25 @@ namespace phsycologyForm
                     adapter.InsertCommand.ExecuteNonQuery();
                     command.Dispose();
                     conDataBase.Close();
+
+                    if (additionalSiblingsInfoCheckbox.Checked)
+                    {
+                        //Patient Marriage Details Table for all not sngle adults
+                        for (int i = 0; i < siblingsDGV.Rows.Count - 1; i++)
+                        {
+                            Query = "INSERT INTO siblingsTreeDetail(ssnPatient,additionalInfo,sex,age,education,maritalStatus,deathReason,deathAge,patientAgeAtDeath,deathInfeluence,notes) VALUES (N'" + this.SSNTextBox.Text + "',N'" + this.additionalSiblingsInfoCheckbox.Checked + "',N'" + this.siblingsDGV.Rows[i].Cells[0].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[1].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[2].Value.ToString() + "'" +
+                                ",N'" + this.siblingsDGV.Rows[i].Cells[3].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[4].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[5].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[6].Value.ToString() + "',N'" + this.siblingsDGV.Rows[i].Cells[7].Value.ToString() + "'" +
+                                ",N'" + this.siblingsDGV.Rows[i].Cells[8].Value.ToString() + "')";
+                            conDataBase = new SqlConnection(constring);
+                            adapter = new SqlDataAdapter();
+                            command = new SqlCommand(Query, conDataBase);
+                            conDataBase.Open();
+                            adapter.InsertCommand = new SqlCommand(Query, conDataBase);
+                            adapter.InsertCommand.ExecuteNonQuery();
+                            command.Dispose();
+                            conDataBase.Close();
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -4235,6 +4661,7 @@ namespace phsycologyForm
                 }
             }
         }
+
         void saveFifthPage()
         {
             if (fifthPageTextBoxValidation())
@@ -4249,10 +4676,21 @@ namespace phsycologyForm
                     string fatherStatus = (fatherStatusGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     string motherStatus = (motherStatusGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
 
+                    string fatherDeathReason = string.Empty;
+                    string fatherDeathPatientAge = string.Empty;
+                    string fatherDeathInfluence = string.Empty;
+
+                    if (fatherDeadRB.Checked)
+                    {
+                        fatherDeathReason = fatherDeathReasonTextBox.Text;
+                        fatherDeathPatientAge = fatherDeathPatientAgeTextBox.Text;
+                        fatherDeathInfluence = fatherDeathPatientInfluenceTextBox.Text;
+                    }
+
                     Query = "IF NOT EXISTS (select 1 FROM fatherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "') BEGIN INSERT INTO " +
-                                    "fatherMaritalStatus(ssnPatient,fatherStatus,totalMarriages,nationality,education) " +
+                                    "fatherMaritalStatus(ssnPatient,fatherStatus,totalMarriages,nationality,education,fatherDeathReason,fatherDeathPatientAge,fatherDeathInfluence) " +
                                     "VALUES(N'" + this.SSNTextBox.Text + "',N'" + fatherStatus + "',N'" + this.totalFatherMarriageTextBox.Text + "'" +
-                                    ",N'" + this.fatherNationalityTextBox.Text + "',N'" + this.fatherEducationLevelTextBox.Text + "') END ";
+                                    ",N'" + this.fatherNationalityTextBox.Text + "',N'" + this.fatherEducationLevelTextBox.Text + "',N'" + fatherDeathReason + "',N'" + fatherDeathPatientAge + "',N'" + fatherDeathInfluence + "') END ";
 
                     conDataBase = new SqlConnection(constring);
                     adapter = new SqlDataAdapter();
@@ -4279,10 +4717,21 @@ namespace phsycologyForm
                         conDataBase.Close();
                     }
 
+                    string motherDeathReason = string.Empty;
+                    string motherDeathPatientAge = string.Empty;
+                    string motherDeathInfluence = string.Empty;
+
+                    if (motherDeadRB.Checked)
+                    {
+                        motherDeathReason = motherDeathReasonTextBox.Text;
+                        motherDeathPatientAge = motherDeathPatientAgeTextBox.Text;
+                        motherDeathInfluence = motherDeathPatientInfluenceTextBox.Text;
+                    }
+
                     Query = "IF NOT EXISTS (select 1 FROM motherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "') BEGIN INSERT INTO " +
-                                    "motherMaritalStatus(ssnPatient,motherStatus,totalMarriages,nationality,education) " +
+                                    "motherMaritalStatus(ssnPatient,motherStatus,totalMarriages,nationality,education,motherDeathReason,motherDeathPatientAge,motherDeathInfluence) " +
                                     "VALUES(N'" + this.SSNTextBox.Text + "',N'" + motherStatus + "',N'" + this.totalMotherMarriageTextBox.Text + "'" +
-                                    ",N'" + this.motherNationalityTextBox.Text + "',N'" + this.motherEducationLevelTextBox.Text + "') END ";
+                                    ",N'" + this.motherNationalityTextBox.Text + "',N'" + this.motherEducationLevelTextBox.Text + "',N'" + motherDeathReason + "',N'" + motherDeathPatientAge + "',N'" + motherDeathInfluence + "') END ";
 
                     conDataBase = new SqlConnection(constring);
                     adapter = new SqlDataAdapter();
@@ -4315,6 +4764,7 @@ namespace phsycologyForm
                 }
             }
         }
+
         void saveSixthPage()
         {
             if (sixthPageTextBoxValidation())
@@ -4322,10 +4772,14 @@ namespace phsycologyForm
                 try
                 {
                     string duration = (groupBox23.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
-                    string shortcomingCoverage = (shortcomingSourceGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
-                    if (shortcomingCoverage == "أخرى")
+                    string shortcomingCoverage = string.Empty;
+                    if (!pocketMoneyIsEnoughCB.Checked)
                     {
-                        shortcomingCoverage = otherSourceTextBox.Text;
+                        shortcomingCoverage = (shortcomingSourceGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
+                        if (shortcomingCoverage == "أخرى")
+                        {
+                            shortcomingCoverage = otherSourceTextBox.Text;
+                        }
                     }
 
                     string Query;
@@ -4362,8 +4816,8 @@ namespace phsycologyForm
                         command.Dispose();
                         conDataBase.Close();
                     }
-                    string hatedSchoolReason = "";
-                    string badStudentsRelationsReason = "";
+                    string hatedSchoolReason = string.Empty;
+                    string badStudentsRelationsReason = string.Empty;
                     string grades = (educationLevelGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                     string badTeachersRelationsReasondes = (badRelationsWithTeachersGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
 
@@ -4399,6 +4853,7 @@ namespace phsycologyForm
                 }
             }
         }
+
         void saveSeventhPage()
         {
             if (seventhPageTextBoxValidation())
@@ -4406,8 +4861,8 @@ namespace phsycologyForm
                 string prayerValdation = (prayerGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                 string quranValidation = (quranGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                 string ramadanValidation = (ramadanGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
-                string convictedMember = "";
-                string convictionDetails = "";
+                string convictedMember = string.Empty;
+                string convictionDetails = string.Empty;
                 if (convictedFamilyMemberCB.Checked)
                 {
                     convictedMember = (convictedMemberGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
@@ -4415,40 +4870,40 @@ namespace phsycologyForm
                 }
                 else
                 {
-                    convictedMember = "";
-                    convictionDetails = "";
+                    convictedMember = string.Empty;
+                    convictionDetails = string.Empty;
                 }
 
-                string drugAbuseMember = "";
+                string drugAbuseMember = string.Empty;
                 if (drugAbuseFamilyMemberCB.Checked)
                 {
                     drugAbuseMember = (drugAbuseFamilyMemberGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                 }
                 else
                 {
-                    drugAbuseMember = "";
+                    drugAbuseMember = string.Empty;
                 }
 
-                string emailPurpose = "";
+                string emailPurpose = string.Empty;
                 if (haveEmailCB.Checked)
                 {
                     emailPurpose = (emailPurposeGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
                 }
                 else
                 {
-                    emailPurpose = "";
+                    emailPurpose = string.Empty;
                 }
 
                 string mostVisitedSites = (mostVisitedGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
 
-                string travelledOutside = "";
+                string travelledOutside = string.Empty;
                 if (travelledCB.Checked)
                 {
                     travelledOutside = whichCountriesTextBox.Text;
                 }
                 else
                 {
-                    travelledOutside = "";
+                    travelledOutside = string.Empty;
                 }
 
                 string socialRelationsValidation = (socialRelationsValidationGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
@@ -4509,6 +4964,7 @@ namespace phsycologyForm
                 }
             }
         }
+
         bool saveEigthPage()
         {
             if (eigthPageTextBoxValidation())
@@ -4606,7 +5062,7 @@ namespace phsycologyForm
             if (employerDGVValidation_secondPage())
             {
                 patientWorkNature = (workNatureGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
-                string miserableJobDetails = "";
+                string miserableJobDetails = string.Empty;
                 if (patientWorkNature == "أخرى")
                 {
                     patientWorkNature = workingNatureOthersTextBox.Text;
@@ -4643,7 +5099,7 @@ namespace phsycologyForm
         {
             if (fatherMarriageDGVValidation())
             {
-                string relativeSide = "";
+                string relativeSide = string.Empty;
                 if (yesFatherRelativeRB.Checked)
                 {
                     relativeSide = fatherMarriageSideComboBox.Text;
@@ -4658,7 +5114,7 @@ namespace phsycologyForm
         {
             if (motherMarriageDGVValidation())
             {
-                string relativeSide = "";
+                string relativeSide = string.Empty;
                 if (yesMotherRelativeRB.Checked)
                 {
                     relativeSide = motherMarriageSideComboBox.Text;
@@ -4670,6 +5126,35 @@ namespace phsycologyForm
         }
 
 
+        private void addSiblingsButton_Click(object sender, EventArgs e)
+        {
+            if (siblingsDGVValidation())
+            {
+                string sex = (sexSiblingGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
+                string maritalStatus = (maritalStatusSiblingsGB.Controls.OfType<RadioButton>().FirstOrDefault(a => a.Checked)).Text;
+
+                string deathReason = string.Empty;
+                string deathAge = string.Empty;
+                string deathPatientAge = string.Empty;
+                string deathInfluence = string.Empty;
+                if (deadSiblingRB.Checked)
+                {
+                    deathReason = siblingDeadReasonTextBox.Text;
+                    deathAge = siblingDeadAgeTextBox.Text;
+                    deathPatientAge = siblingDeadAgePatientTextBox.Text;
+                    deathInfluence = siblingDeadMissingTextBox.Text;
+                }
+                string additionalNotesString = string.Empty;
+                if (additionalNotes.Text != "ملاحظات إضافية")
+                {
+                    additionalNotesString = additionalNotes.Text;
+                }
+
+                string[] row = { sex, siblingAgeTextBox.Text, siblingEducationTextBox.Text, maritalStatus, deathReason, deathAge, deathPatientAge, deathInfluence, additionalNotesString };
+                siblingsDGV.Rows.Add(row);
+                clearingSiblingsDGV();
+            }
+        }
 
 
         private void schoolAddButton_Click(object sender, EventArgs e)
@@ -4846,8 +5331,6 @@ namespace phsycologyForm
 
         void loadingFrstPage()
         {
-
-
             SqlDataReader rdr;
             SqlConnection con;
             SqlCommand cmd;
@@ -4923,6 +5406,7 @@ namespace phsycologyForm
                     {
                         rb.Checked = true;
                     }
+
                 }
             }
             con.Close();
@@ -4953,6 +5437,23 @@ namespace phsycologyForm
                     }
 
                     con.Close();
+                }
+
+                string directory = $"C:\\Softer\\Patient\'s Documents\\{this.SSNTextBox.Text}\\";
+                if (Directory.Exists(directory))
+                {
+                    pdfFilesComboBox.Items.Clear();
+                    string[] files = Directory.GetFiles(directory);
+                    foreach (var file in files)
+                    {
+                        var fileName = Path.GetFileName(file);
+                        pdfFilesComboBox.Items.Add(fileName);
+                    }
+                    uploadLocation.Visible = false;
+                    pdfFilesComboBox.Visible = true;
+                    PdfInfoLabel.Visible = true;
+                    pdfFilesComboBox.Text = pdfFilesComboBox.Items[0].ToString();
+
                 }
             }
             catch (Exception ex)
@@ -5122,7 +5623,7 @@ namespace phsycologyForm
                     else
                     {
                         othersTraitsCB.Checked = false;
-                        this.behavioralTraitsOthersTextBox.Text = "";
+                        this.behavioralTraitsOthersTextBox.Text = string.Empty;
                     }
 
                     string bossRelation = rdr["bossRelation"].ToString();
@@ -5173,7 +5674,7 @@ namespace phsycologyForm
                     else
                     {
                         noAIRB.Checked = true;
-                        this.anotherIncomeTextBox.Text = "";
+                        this.anotherIncomeTextBox.Text = string.Empty;
                     }
 
                     string home = rdr["home"].ToString();
@@ -5212,8 +5713,8 @@ namespace phsycologyForm
                     }
                     else
                     {
-                        noFPRB.Checked = false;
-                        this.financialProblemsTextBox.Text = "";
+                        noFPRB.Checked = true;
+                        this.financialProblemsTextBox.Text = string.Empty;
                     }
 
                     this.loneRoomRB.Checked = (Boolean)(rdr["haveOwnRoom"]);
@@ -5609,6 +6110,37 @@ namespace phsycologyForm
                 }
 
                 con.Close();
+
+                con.Open();
+                name = new SqlCommand("IF EXISTS(Select 1 from siblingsTreeDetail where ssnPatient=N'" + this.SSNTextBox.Text + "' ) BEGIN Select 1 from siblingsTreeDetail where ssnPatient=N'" + this.SSNTextBox.Text + "'  END ELSE BEGIN SELECT 0 END", con).ExecuteScalar().ToString();
+                siblingsDGV.Rows.Clear();
+                siblingsDGV.Refresh();
+
+                if (name != "0")
+                {
+                    additionalSiblingsInfoCheckbox.Checked = bool.Parse(new SqlCommand("BEGIN Select additionalInfo from siblingsTreeDetail where ssnPatient=N'" + this.SSNTextBox.Text + "'  END", con).ExecuteScalar().ToString());
+
+
+                    string Query = "IF EXISTS(Select 1 from siblingsTreeDetail where ssnPatient=N'" + this.SSNTextBox.Text + "' ) BEGIN Select " +
+                        " sex,age, education, maritalStatus, deathReason, deathAge, patientAgeAtDeath, deathInfeluence, notes from siblingsTreeDetail where ssnPatient=N'" + this.SSNTextBox.Text + "' END ElSE SELECT 0;";
+
+                    cmd = new SqlCommand(Query, con);
+                    rdr = cmd.ExecuteReader();
+                    while (rdr.Read())
+                    {
+                        var sex = rdr["sex"].ToString();
+                        var age = rdr["age"].ToString();
+                        var education = rdr["education"].ToString();
+                        var maritalStatus = rdr["maritalStatus"].ToString();
+                        var deathReason = rdr["deathReason"].ToString();
+                        var deathAge = rdr["deathAge"].ToString();
+                        var patientAgeAtDeath = rdr["patientAgeAtDeath"].ToString();
+                        var deathInfeluence = rdr["deathInfeluence"].ToString();
+                        var notes = rdr["notes"].ToString();
+                        siblingsDGV.Rows.Add(sex, age, education, maritalStatus, deathReason, deathAge, patientAgeAtDeath, deathInfeluence, notes);
+                    }
+                }
+                con.Close();
             }
             catch (Exception ex)
             {
@@ -5656,7 +6188,7 @@ namespace phsycologyForm
                 con.Open();
                 // fatherMaritalStatus(ssnPatient, fatherStatus, totalMarriages, nationality, education)
                 string CommandText = "IF EXISTS(Select 1 from fatherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "') BEGIN SELECT " +
-                     "fatherStatus, totalMarriages, nationality, education FROM fatherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "' END";
+                     "fatherStatus, totalMarriages, nationality, education,fatherDeathReason,fatherDeathPatientAge,fatherDeathInfluence FROM fatherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "' END";
                 cmd = new SqlCommand(CommandText);
                 cmd.Connection = con;
                 rdr = cmd.ExecuteReader();
@@ -5678,12 +6210,17 @@ namespace phsycologyForm
                     this.fatherNationalityTextBox.Text = rdr["nationality"].ToString();
                     textBoxFocusOn(fatherEducationLevelTextBox);
                     this.fatherEducationLevelTextBox.Text = rdr["education"].ToString();
+                    if (fatherStatus == "متوفي")
+                    {
+                        textBoxFocusOn(fatherDeathReasonTextBox);
+                        this.fatherDeathReasonTextBox.Text = rdr["fatherDeathReason"].ToString();
+                        textBoxFocusOn(fatherDeathPatientAgeTextBox);
+                        this.fatherDeathPatientAgeTextBox.Text = rdr["fatherDeathPatientAge"].ToString();
+                        textBoxFocusOn(fatherDeathPatientInfluenceTextBox);
+                        this.fatherDeathPatientInfluenceTextBox.Text = rdr["fatherDeathInfluence"].ToString();
+                    }
                 }
                 con.Close();
-
-
-
-
 
                 con.Open();
                 name = new SqlCommand("IF EXISTS(Select 1 from motherMarriageDetails where ssnPatient=N'" + this.SSNTextBox.Text + "' ) BEGIN Select 1 from motherMarriageDetails where ssnPatient=N'" + this.SSNTextBox.Text + "'  END ELSE BEGIN SELECT 0 END", con).ExecuteScalar().ToString();
@@ -5716,7 +6253,7 @@ namespace phsycologyForm
                 con.Open();
                 //motherMaritalStatus(ssnPatient, motherStatus, totalMarriages, nationality, education)
                 CommandText = "IF EXISTS(Select 1 from motherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "') BEGIN SELECT " +
-                    "motherStatus, totalMarriages, nationality, education FROM motherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "' END";
+                    "motherStatus, totalMarriages, nationality, education,motherDeathReason,motherDeathPatientAge,motherDeathInfluence FROM motherMaritalStatus where ssnPatient=N'" + this.SSNTextBox.Text + "' END";
                 cmd = new SqlCommand(CommandText);
                 cmd.Connection = con;
                 rdr = cmd.ExecuteReader();
@@ -5738,6 +6275,15 @@ namespace phsycologyForm
                     this.motherNationalityTextBox.Text = rdr["nationality"].ToString();
                     textBoxFocusOn(motherEducationLevelTextBox);
                     this.motherEducationLevelTextBox.Text = rdr["education"].ToString();
+                    if (motherStatus == "متوفية")
+                    {
+                        textBoxFocusOn(motherDeathReasonTextBox);
+                        this.motherDeathReasonTextBox.Text = rdr["motherDeathReason"].ToString();
+                        textBoxFocusOn(motherDeathPatientAgeTextBox);
+                        this.motherDeathPatientAgeTextBox.Text = rdr["motherDeathPatientAge"].ToString();
+                        textBoxFocusOn(motherDeathPatientInfluenceTextBox);
+                        this.motherDeathPatientInfluenceTextBox.Text = rdr["motherDeathInfluence"].ToString();
+                    }
                 }
                 con.Close();
             }
@@ -6029,7 +6575,6 @@ namespace phsycologyForm
                 rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-
                     textBoxFocusOn(patientSocialStatusTextBox);
                     this.patientSocialStatusTextBox.Text = rdr["socialRelations"].ToString();
 
@@ -6166,26 +6711,27 @@ namespace phsycologyForm
             clearingFourthPage();
             clearingFifthPage();
             clearingSixthPage();
+            clearingSixthPage_Siblings();
             clearingSeventhPage();
             clearingEigthPage();
         }
 
         void clearingFirstPage()
         {
-            SSNTextBox.Text = "";
-            nameTextBox.Text = "";
-            ageTextBox.Text = "";
-            nationalityTextBox.Text = "";
-            residencePlaceTextBox.Text = "";
-            phoneNumberTextBox.Text = "";
-            caseTextBox.Text = "";
-            judgementTextBox.Text = "";
-            heightTextBox.Text = "";
-            weightTextBox.Text = "";
-            waistTextBox.Text = "";
+            SSNTextBox.Text = string.Empty;
+            nameTextBox.Text = string.Empty;
+            ageTextBox.Text = string.Empty;
+            nationalityTextBox.Text = string.Empty;
+            residencePlaceTextBox.Text = string.Empty;
+            phoneNumberTextBox.Text = string.Empty;
+            caseTextBox.Text = string.Empty;
+            judgementTextBox.Text = string.Empty;
+            heightTextBox.Text = string.Empty;
+            weightTextBox.Text = string.Empty;
+            waistTextBox.Text = string.Empty;
             tactfulRB.Checked = true;
-            walkingTexBox.Text = "";
-            musclesTextBox.Text = "";
+            walkingTexBox.Text = string.Empty;
+            musclesTextBox.Text = string.Empty;
             maleRB.Checked = true;
             newCaseRB.Checked = true;
             adultRB.Checked = true;
@@ -6196,27 +6742,31 @@ namespace phsycologyForm
             enteredInstituteDGV.Refresh();
             clearingRehabilationDGV_1stPage();
             ToggleConditionButton.IsOn = true;
+            uploadLocation.Visible = true;
+            pdfFilesComboBox.Visible = false;
+            PdfInfoLabel.Visible = false;
+            pdfFilesComboBox.Items.Clear();
         }
         void clearingRehabilationDGV_1stPage()
         {
-            enteredInstituteYearTextBox.Text = "";
-            enteredInstituteCaseTextBox.Text = "";
-            enteredInstituteJudgementTextBox.Text = "";
-            enteredInstituteAgeTextBox.Text = "";
-            enteredInstituteNotesTextBox.Text = "";
+            enteredInstituteYearTextBox.Text = string.Empty;
+            enteredInstituteCaseTextBox.Text = string.Empty;
+            enteredInstituteJudgementTextBox.Text = string.Empty;
+            enteredInstituteAgeTextBox.Text = string.Empty;
+            enteredInstituteNotesTextBox.Text = string.Empty;
         }
 
         void clearingSecondPage()
         {
             AtSingleRB.Checked = true;
-            AtterndeOthersTextBox.Text = "";
-            currentComplainTextBox.Text = "";
-            educationalLevelTextBox.Text = "";
-            graduationAgeTextBox.Text = "";
+            AtterndeOthersTextBox.Text = string.Empty;
+            currentComplainTextBox.Text = string.Empty;
+            educationalLevelTextBox.Text = string.Empty;
+            graduationAgeTextBox.Text = string.Empty;
             leftSchoolCB.Checked = true;
             LSrepitiveFailreRB.Checked = true;
-            wifeEducationLevelTextBox.Text = "";
-            wifeGraduationAgeTextBox.Text = "";
+            wifeEducationLevelTextBox.Text = string.Empty;
+            wifeGraduationAgeTextBox.Text = string.Empty;
             wifeWorkingRB.Checked = true;
             convertedFromGeneralDoctorRB.Checked = true;
             purposeFamilyRB.Checked = true;
@@ -6227,9 +6777,9 @@ namespace phsycologyForm
         }
         void clearingInjuriesDGV_2ndPage()
         {
-            yearInjuredCB.Text = "";
-            injuryDetailsTextBox.Text = "";
-            fracturesTextBox.Text = "";
+            yearInjuredCB.Text = string.Empty;
+            injuryDetailsTextBox.Text = string.Empty;
+            fracturesTextBox.Text = string.Empty;
         }
 
         void clearingThirdPage()
@@ -6239,22 +6789,21 @@ namespace phsycologyForm
             anixiousCB.Checked = false;
             doubtfullCB.Checked = false;
             othersTraitsCB.Checked = false;
-            behavioralTraitsOthersTextBox.Text = "";
+            behavioralTraitsOthersTextBox.Text = string.Empty;
             bossRelGoodRB.Checked = true;
             coworkersRelGoodRB.Checked = true;
             regulatedRB.Checked = true;
             poorEconimicRB.Checked = true;
             noAIRB.Checked = true;
-            anotherIncomeTextBox.Text = "";
+            anotherIncomeTextBox.Text = string.Empty;
             ownedRB.Checked = true;
-            otherHomeTextBox.Text = "";
+            otherHomeTextBox.Text = string.Empty;
             independentVillaRB.Checked = true;
             noFPRB.Checked = true;
-            financialProblemsTextBox.Text = "";
-            bedroomsCountTextBox.Text = "";
-            loneRoomRB.Text = "";
+            financialProblemsTextBox.Text = string.Empty;
+            bedroomsCountTextBox.Text = string.Empty;
             loneRoomRB.Checked = true;
-            shareRoomWithTextBox.Text = "";
+            shareRoomWithTextBox.Text = string.Empty;
             leaveTextBox(shareRoomWithTextBox, "مع من يشارك غرفته؟");
 
             workDGV.Rows.Clear();
@@ -6263,13 +6812,13 @@ namespace phsycologyForm
         }
         void clearingEmployersDGV_3rdPage()
         {
-            entityWorkTextBox.Text = "";
+            entityWorkTextBox.Text = string.Empty;
             officialHoursRB.Checked = true;
             miserableJobCB.Checked = false;
-            miserableJobReasonTextBox.Text = "";
+            miserableJobReasonTextBox.Text = string.Empty;
             leaveTextBox(miserableJobReasonTextBox, "التفاصيل");
-            notesWorkTextBox.Text = "";
-            workStartAgeTextBox.Text = "";
+            notesWorkTextBox.Text = string.Empty;
+            workStartAgeTextBox.Text = string.Empty;
             workFromDate.Text = workToDate.Text;
             workToDate.Text = DateTime.Now.ToShortDateString();
         }
@@ -6277,34 +6826,34 @@ namespace phsycologyForm
         void clearingFourthPage()
         {
             noAttemptsRB.Checked = true;
-            suicideWayTextBox.Text = "";
+            suicideWayTextBox.Text = string.Empty;
             leaveTextBox(suicideWayTextBox, "الطريقة التي فكر فيها");
-            suicideDetailsTextBox.Text = "";
+            suicideDetailsTextBox.Text = string.Empty;
             leaveTextBox(suicideDetailsTextBox, "التفاصيل");
-            suicideNotesTextBox.Text = "";
+            suicideNotesTextBox.Text = string.Empty;
             leaveTextBox(suicideNotesTextBox, "ملاحظات");
             warehouseCB.Checked = false;
-            warehouseCountsTextBox.Text = "";
+            warehouseCountsTextBox.Text = string.Empty;
             leaveTextBox(warehouseCountsTextBox, "عدد مرات دخوله");
-            warehouseDetailsTextBox.Text = "";
+            warehouseDetailsTextBox.Text = string.Empty;
             leaveTextBox(warehouseDetailsTextBox, "التفاصيل");
             blackoutCB.Checked = false;
-            blackoutCountsTextBox.Text = "";
+            blackoutCountsTextBox.Text = string.Empty;
             leaveTextBox(blackoutCountsTextBox, "عدد مرات إصابته");
-            blackoutDetailsTextBox.Text = "";
+            blackoutDetailsTextBox.Text = string.Empty;
             leaveTextBox(blackoutDetailsTextBox, "التفاصيل");
             noUseRB.Checked = true;
-            startingAgeTextBox.Text = "";
+            startingAgeTextBox.Text = string.Empty;
             leaveTextBox(startingAgeTextBox, "سن بداية التعاطي");
-            TypesUsedTextBox.Text = "";
+            TypesUsedTextBox.Text = string.Empty;
             leaveTextBox(TypesUsedTextBox, "الأنواع التي يتعاطيها");
-            monthUsedTextBox.Text = "";
+            monthUsedTextBox.Text = string.Empty;
             leaveTextBox(monthUsedTextBox, "شهر");
-            yearsUsedTextBox.Text = "";
+            yearsUsedTextBox.Text = string.Empty;
             leaveTextBox(yearsUsedTextBox, "سنة");
-            totalDurationTextBox.Text = "";
+            totalDurationTextBox.Text = string.Empty;
             leaveTextBox(totalDurationTextBox, "المدة الإجمالية بالشهور");
-            drugUsedDetailsTextBox.Text = "";
+            drugUsedDetailsTextBox.Text = string.Empty;
             leaveTextBox(drugUsedDetailsTextBox, "التفاصيل");
             previousTreatmentCB.Checked = false;
 
@@ -6313,52 +6862,34 @@ namespace phsycologyForm
             clearingTreatmentPlacesDGVDGV_4thPage();
 
             familyIllnessCB.Checked = false;
-            familyIllnessDetailsTextBox.Text = "";
+            familyIllnessDetailsTextBox.Text = string.Empty;
             leaveTextBox(familyIllnessDetailsTextBox, "التفاصيل");
-            previousPatientHistoryNotesTextBox.Text = "";
+            previousPatientHistoryNotesTextBox.Text = string.Empty;
             leaveTextBox(previousPatientHistoryNotesTextBox, "ملاحظات التاريخ المرضي السابق");
         }
         void clearingTreatmentPlacesDGVDGV_4thPage()
         {
-            hospitalTreatmentTextBox.Text = "";
+            hospitalTreatmentTextBox.Text = string.Empty;
             leaveTextBox(hospitalTreatmentTextBox, "المستشفى");
-            doctorTreatmentTextBox.Text = "";
+            doctorTreatmentTextBox.Text = string.Empty;
             leaveTextBox(doctorTreatmentTextBox, "الطبيب المعالج");
-            fileNumberTreatmentTextBox.Text = "";
+            fileNumberTreatmentTextBox.Text = string.Empty;
             leaveTextBox(fileNumberTreatmentTextBox, "رقم الملف الطبي");
-            notesTreatmentTextBox.Text = "";
+            notesTreatmentTextBox.Text = string.Empty;
             leaveTextBox(notesTreatmentTextBox, "ملاحظات");
         }
 
         void clearingFifthPage()
         {
             msSingleRB.Checked = true;
-            maritalStausReasonsTextBox.Text = "";
+            maritalStausReasonsTextBox.Text = string.Empty;
             leaveTextBox(maritalStausReasonsTextBox, "أسباب الحالة الاجتماعية");
-            totalPatientMarriageTextBox.Text = "";
+            totalPatientMarriageTextBox.Text = string.Empty;
             leaveTextBox(totalPatientMarriageTextBox, "عدد مرات الزواج الكلية");
-            ageAtMarriageFemaleTextBox.Text = "";
+            ageAtMarriageFemaleTextBox.Text = string.Empty;
             leaveTextBox(ageAtMarriageFemaleTextBox, "العمر عند الزواج");
-            ageAtProcreationFemaleTextBox.Text = "";
+            ageAtProcreationFemaleTextBox.Text = string.Empty;
             leaveTextBox(ageAtProcreationFemaleTextBox, "العمر عند الإنجاب");
-            brothersCountTextBox.Text = "";
-            leaveTextBox(brothersCountTextBox, "الأشقاء من جهة الأب والأم فقط");
-            sistersCoutTextBox.Text = "";
-            leaveTextBox(sistersCoutTextBox, "الشقيقات من جهة الأب والأم فقط");
-            totalMembersTextBox.Text = "";
-            leaveTextBox(totalMembersTextBox, "عدد الأشقاء والشقيقات الكلي");
-            patientOrderTextBox.Text = "";
-            leaveTextBox(patientOrderTextBox, "ترتيب المفحوص بين أشقائه وشقيقاته");
-            nearestFamilyMemberTextBox.Text = "";
-            leaveTextBox(nearestFamilyMemberTextBox, "أقرب شخص للمفحوص من العائلة");
-            responsibleForCoutTextBox.Text = "";
-            leaveTextBox(responsibleForCoutTextBox, "عدد الأفراد المسؤول عنهم");
-            responsibleForDescriptionTextBox.Text = "";
-            leaveTextBox(responsibleForDescriptionTextBox, "أعمار ووصف الأفراد المسؤول عنهم");
-            pressureCheckBox.Checked = false;
-            smallFamilyRB.Checked = true;
-            otherResponsibilitiesTextBox.Text = "";
-            leaveTextBox(otherResponsibilitiesTextBox, "آخرين");
 
             patientMaritalStatusDGV.Rows.Clear();
             patientMaritalStatusDGV.Refresh();
@@ -6366,40 +6897,87 @@ namespace phsycologyForm
         }
         void clearingpatientMaritalStatusDGV_5thPage()
         {
-            marriagePatientOrderTextBox.Text = "";
+            marriagePatientOrderTextBox.Text = string.Empty;
             leaveTextBox(marriagePatientOrderTextBox, "ترتيب الزواج بين زيجاته الأخرى");
             noRelativeRB.Checked = true;
-            patientMarriageSideComboBox.Text = "";
-            boysCountPatientsTextBox.Text = "";
+            patientMarriageSideComboBox.Text = string.Empty;
+            boysCountPatientsTextBox.Text = string.Empty;
             leaveTextBox(boysCountPatientsTextBox, "عدد الأبناء");
-            girlsCountPatientsTextBox.Text = "";
+            girlsCountPatientsTextBox.Text = string.Empty;
             leaveTextBox(girlsCountPatientsTextBox, "عدد البنات");
-            totalSonsTextBox.Text = "";
+            totalSonsTextBox.Text = string.Empty;
             leaveTextBox(totalSonsTextBox, "العدد");
-            husbandNationalityTextBox.Text = "";
+            husbandNationalityTextBox.Text = string.Empty;
             leaveTextBox(husbandNationalityTextBox, "جنسية الزوج");
-            marriageDurationTextBox.Text = "";
+            marriageDurationTextBox.Text = string.Empty;
             leaveTextBox(marriageDurationTextBox, "مدة الزواج");
             marriageFromDate.Text = marriageToDate.Text;
             marriageToDate.Text = DateTime.Now.ToShortDateString();
         }
 
+
+        void clearingSiblingsDGV()
+        {
+            maleSiblingRB.Checked = true;
+            siblingAgeTextBox.Text = string.Empty;
+            leaveTextBox(siblingAgeTextBox, "العمر");
+            siblingEducationTextBox.Text = string.Empty;
+            leaveTextBox(siblingEducationTextBox, "المؤهل العلمي");
+            singleSiblingRB.Checked = true;
+            siblingDeadReasonTextBox.Text = string.Empty;
+            leaveTextBox(siblingDeadReasonTextBox, "سبب الوفاة");
+            siblingDeadAgeTextBox.Text = string.Empty;
+            leaveTextBox(siblingDeadAgeTextBox, "عمر الوفاة");
+            siblingDeadAgePatientTextBox.Text = string.Empty;
+            leaveTextBox(siblingDeadAgePatientTextBox, "عمر المفحوص");
+            siblingDeadMissingTextBox.Text = string.Empty;
+            leaveTextBox(siblingDeadMissingTextBox, "مدى تأثير الفقدان");
+            additionalNotes.Text = string.Empty;
+            leaveTextBox(additionalNotes, "ملاحظات إضافية");
+        }
+        void clearingSixthPage_Siblings()
+        {
+            brothersCountTextBox.Text = string.Empty;
+            leaveTextBox(brothersCountTextBox, "الأشقاء من جهة الأب والأم فقط");
+            sistersCoutTextBox.Text = string.Empty;
+            leaveTextBox(sistersCoutTextBox, "الشقيقات من جهة الأب والأم فقط");
+            totalMembersTextBox.Text = string.Empty;
+            leaveTextBox(totalMembersTextBox, "عدد الأشقاء والشقيقات الكلي");
+            patientOrderTextBox.Text = string.Empty;
+            leaveTextBox(patientOrderTextBox, "ترتيب المفحوص بين أشقائه وشقيقاته");
+            nearestFamilyMemberTextBox.Text = string.Empty;
+            leaveTextBox(nearestFamilyMemberTextBox, "أقرب شخص للمفحوص من العائلة");
+            responsibleForCoutTextBox.Text = string.Empty;
+            leaveTextBox(responsibleForCoutTextBox, "عدد الأفراد المسؤول عنهم");
+            responsibleForDescriptionTextBox.Text = string.Empty;
+            leaveTextBox(responsibleForDescriptionTextBox, "أعمار ووصف الأفراد المسؤول عنهم");
+            pressureCheckBox.Checked = false;
+            smallFamilyRB.Checked = true;
+            additionalSiblingsInfoCheckbox.Checked = false;
+            otherResponsibilitiesTextBox.Text = string.Empty;
+            leaveTextBox(otherResponsibilitiesTextBox, "آخرين");
+
+            siblingsDGV.Rows.Clear();
+            siblingsDGV.Refresh();
+            clearingSiblingsDGV();
+        }
+
         void clearingSixthPage()
         {
             fatherWorkingRB.Checked = true;
-            totalFatherMarriageTextBox.Text = "";
+            totalFatherMarriageTextBox.Text = string.Empty;
             leaveTextBox(totalFatherMarriageTextBox, "عدد مرات الزواج الكلية");
-            fatherNationalityTextBox.Text = "";
+            fatherNationalityTextBox.Text = string.Empty;
             leaveTextBox(fatherNationalityTextBox, "الجنسية");
-            fatherEducationLevelTextBox.Text = "";
+            fatherEducationLevelTextBox.Text = string.Empty;
             leaveTextBox(fatherEducationLevelTextBox, "مستوى التعليم");
 
             motherWorkingRB.Checked = true;
-            totalMotherMarriageTextBox.Text = "";
+            totalMotherMarriageTextBox.Text = string.Empty;
             leaveTextBox(totalMotherMarriageTextBox, "عدد مرات الزواج الكلية");
-            motherNationalityTextBox.Text = "";
+            motherNationalityTextBox.Text = string.Empty;
             leaveTextBox(motherNationalityTextBox, "الجنسية");
-            motherEducationLevelTextBox.Text = "";
+            motherEducationLevelTextBox.Text = string.Empty;
             leaveTextBox(motherEducationLevelTextBox, "مستوى التعليم");
 
             fatherDGV.Rows.Clear();
@@ -6410,69 +6988,73 @@ namespace phsycologyForm
             motherDGV.Refresh();
             clearingMotherMariageDGV_6thPage();
         }
+
         void clearingFatherMariageDGV_6thPage()
         {
-            fatherMariiageOrderTextBox.Text = "";
+            fatherMariiageOrderTextBox.Text = string.Empty;
             leaveTextBox(fatherMariiageOrderTextBox, "ترتيب الزواج بين زيجاته الأخرى");
             noFatherRelativeRB.Checked = true;
-            fatherMarriageSideComboBox.Text = "";
-            fatherBoysCountTextBox.Text = "";
+            fatherMarriageSideComboBox.Text = string.Empty;
+            fatherBoysCountTextBox.Text = string.Empty;
             leaveTextBox(fatherBoysCountTextBox, "عدد الأبناء");
-            fatherGirlsCountTextBox.Text = "";
+            fatherGirlsCountTextBox.Text = string.Empty;
             leaveTextBox(fatherGirlsCountTextBox, "عدد البنات");
-            fatherTotalKidsTextBox.Text = "";
+            fatherTotalKidsTextBox.Text = string.Empty;
             leaveTextBox(fatherTotalKidsTextBox, "العدد");
-            wifeFatherNationalityTextBox.Text = "";
+            wifeFatherNationalityTextBox.Text = string.Empty;
             leaveTextBox(wifeFatherNationalityTextBox, "جنسية الزوجة");
-            fatherMarriageDurationTextBox.Text = "";
+            fatherMarriageDurationTextBox.Text = string.Empty;
             leaveTextBox(fatherMarriageDurationTextBox, "مدة الزواج بالأعوام");
         }
         void clearingMotherMariageDGV_6thPage()
         {
-            motherMariiageOrderTextBox.Text = "";
+            motherMariiageOrderTextBox.Text = string.Empty;
             leaveTextBox(motherMariiageOrderTextBox, "ترتيب الزواج بين زيجاتها الأخرى");
             noMotherRelativeRB.Checked = true;
-            motherMarriageSideComboBox.Text = "";
-            motherBoysCountTextBox.Text = "";
+            motherMarriageSideComboBox.Text = string.Empty;
+            motherBoysCountTextBox.Text = string.Empty;
             leaveTextBox(motherBoysCountTextBox, "عدد الأبناء");
-            motherGirlsCountTextBox.Text = "";
+            motherGirlsCountTextBox.Text = string.Empty;
             leaveTextBox(motherGirlsCountTextBox, "عدد البنات");
-            motherTotalKidsTextBox.Text = "";
+            motherTotalKidsTextBox.Text = string.Empty;
             leaveTextBox(motherTotalKidsTextBox, "العدد");
-            husbandMotherTextBox.Text = "";
+            husbandMotherTextBox.Text = string.Empty;
             leaveTextBox(husbandMotherTextBox, "جنسية الزوج");
-            motherMarriageDurationTextBox.Text = "";
+            motherMarriageDurationTextBox.Text = string.Empty;
             leaveTextBox(motherMarriageDurationTextBox, "مدة الزواج بالأعوام");
         }
+
+
+
 
         void clearingSeventhPage()
         {
             dailyPocketMoneyRB.Checked = true;
-            pocketMoneyTextBox.Text = "";
+            pocketMoneyTextBox.Text = string.Empty;
             leaveTextBox(pocketMoneyTextBox, "بالدرهم");
-            fatherNationalityTextBox.Text = "";
+            fatherNationalityTextBox.Text = string.Empty;
             leaveTextBox(fatherNationalityTextBox, "الجنسية");
-            fatherEducationLevelTextBox.Text = "";
+            fatherEducationLevelTextBox.Text = string.Empty;
             leaveTextBox(fatherEducationLevelTextBox, "مستوى التعليم");
 
             motherWorkingRB.Checked = true;
-            totalMotherMarriageTextBox.Text = "";
+            totalMotherMarriageTextBox.Text = string.Empty;
             leaveTextBox(totalMotherMarriageTextBox, "عدد مرات الزواج الكلية");
             pocketMoneyIsEnoughCB.Checked = false;
             fromFriendsRB.Checked = true;
-            otherSourceTextBox.Text = "";
-            patientSocialStatusTextBox.Text = "";
+            otherSourceTextBox.Text = string.Empty;
+            patientSocialStatusTextBox.Text = string.Empty;
             leaveTextBox(patientSocialStatusTextBox, "النظر في عمر أصدقائه ومن هم وكيفية العلاقة بينه وبين أصدقاءه والنظر في القدرة على بناء علاقات والمحافظة عليها وإذا كان هنالك دليل على التعرض لاستغلال الأصدقاء في الوقت أو في الماضي.");
             lovedSchoolRB.Checked = true;
-            hatedSchoolTextBox.Text = "";
+            hatedSchoolTextBox.Text = string.Empty;
             leaveTextBox(hatedSchoolTextBox, "الأسباب");
             goodRelationWithStudentsRB.Checked = true;
-            badRelationWithStudentsReasonTextBox.Text = "";
+            badRelationWithStudentsReasonTextBox.Text = string.Empty;
             leaveTextBox(badRelationWithStudentsReasonTextBox, "الأسباب");
             mediumStudentRB.Checked = true;
             badRelationWithTeachersCB.Checked = false;
             notCompehendRB.Checked = true;
-            otherReaonsBadTeacherRelationTextBox.Text = "";
+            otherReaonsBadTeacherRelationTextBox.Text = string.Empty;
 
             schoolStageDGV.Rows.Clear();
             schoolStageDGV.Refresh();
@@ -6481,10 +7063,10 @@ namespace phsycologyForm
 
         void clearingTeenSchoolStagesDGV_7thPage()
         {
-            schoolStageComboBox.Text = "";
-            schoolNameTextBox.Text = "";
-            schoolFailureYearsTextBox.Text = "";
-            schoolNotesTextBox.Text = "";
+            schoolStageComboBox.Text = string.Empty;
+            schoolNameTextBox.Text = string.Empty;
+            schoolFailureYearsTextBox.Text = string.Empty;
+            schoolNotesTextBox.Text = string.Empty;
         }
 
         void clearingEigthPage()
@@ -6494,27 +7076,27 @@ namespace phsycologyForm
             fastingAlwaysRB.Checked = true;
             convictedFamilyMemberCB.Checked = false;
             dadConvictedRB.Checked = true;
-            familyMemberConvictedTextBox.Text = "";
+            familyMemberConvictedTextBox.Text = string.Empty;
             leaveTextBox(familyMemberConvictedTextBox, "ما نوع الجريمة وتفاصيلها");
             drugAbuseFamilyMemberCB.Checked = false;
             dadDrugAbuseRB.Checked = true;
 
-            freeTimeTextBox.Text = "";
+            freeTimeTextBox.Text = string.Empty;
             leaveTextBox(freeTimeTextBox, "كيف تقضي وقت الفراغ");
             haveEmailCB.Checked = false;
             joinChatRoomsRB.Checked = true;
             socialSitesRB.Checked = true;
             travelledCB.Checked = false;
-            whichCountriesTextBox.Text = "";
+            whichCountriesTextBox.Text = string.Empty;
             leaveTextBox(whichCountriesTextBox, "ما الدول وتفاصيل السفر");
 
-            familyTextBox.Text = "";
+            familyTextBox.Text = string.Empty;
             leaveTextBox(familyTextBox, "خذ بعين الاعتبار موقف الأسرة من الحد بعد الجنحة.\nخذ بعين الاعتبار المنطقة السكنية للحدث.");
             familyZeroEvaluationRB.Checked = true;
-            motivationsTextBox.Text = "";
+            motivationsTextBox.Text = string.Empty;
             leaveTextBox(motivationsTextBox, "خذ بعين الاعتبار موقف الحدث من الجنحة, هل يتحمل المسؤولية وتصرفاته وهل يتفهم خطورة سلوكه وتأثير ذلك على الضحية؟\nالنظر في أي دافع وأي تغيير وأي طموحات للمستقبل.\nتحديد أي عوامل إيجابية أو وقائية.");
             motivationsZeroEvaluationRB.Checked = true;
-            socialStatusAbstractRB.Text = "";
+            socialStatusAbstractRB.Text = string.Empty;
             leaveTextBox(socialStatusAbstractRB, "تشخيص حالة الحدث ويجب أن تشمل المخاطر الأساسية وعوامل الجنوح والتوصيات.");
         }
 
@@ -6529,11 +7111,11 @@ namespace phsycologyForm
             mainProgramPsychologicalCB.Checked = false;
             alterBehaviorPsychologicalCB.Checked = false;
             religiousSideCB.Checked = false;
-            meetingTitleTextBox.Text = "";
+            meetingTitleTextBox.Text = string.Empty;
             registeringDate.Text = DateTime.Now.ToShortDateString();
-            meetingPurposeTextBox.Text = "";
-            meetingContentTextBox.Text = "";
-            recommendationTextBox.Text = "";
+            meetingPurposeTextBox.Text = string.Empty;
+            meetingContentTextBox.Text = string.Empty;
+            recommendationTextBox.Text = string.Empty;
 
             targetDGV.Rows.Clear();
             targetDGV.Refresh();
@@ -6542,11 +7124,11 @@ namespace phsycologyForm
         }
         void clearingMeetingDGV_9thPage()
         {
-            ssnNumberTargetTextBox.Text = "";
-            nameTargetTextBox.Text = "";
-            nationalityTargetTextBox.Text = "";
-            ageTargetTextBox.Text = "";
-            caseTargetTextBox.Text = "";
+            ssnNumberTargetTextBox.Text = string.Empty;
+            nameTargetTextBox.Text = string.Empty;
+            nationalityTargetTextBox.Text = string.Empty;
+            ageTargetTextBox.Text = string.Empty;
+            caseTargetTextBox.Text = string.Empty;
         }
 
         private void ToggleConditionButton_Click(object sender, EventArgs e)
@@ -6621,6 +7203,16 @@ namespace phsycologyForm
             {
                 if (fifthPageTextBoxValidation())
                 {
+                    tabControl1.SelectedTab = TabPage2_0;
+                    tabControl3.SelectedTab = TabPage2_3;
+                    normalizeButtonColorStatus();
+                    selectedTabButton(siblingsBigFamilyButton, enviromentAnalysisButton);
+                }
+            }
+            else if (tabControl1.SelectedTab == TabPage2_0 && tabControl3.SelectedTab == TabPage2_3)
+            {
+                if (fourthPageTextBoxValidation_ForBrother_bigFamilyPart2())
+                {
                     if (!adultRB.Checked)
                     {
                         tabControl1.SelectedTab = TabPage3_0;
@@ -6680,6 +7272,10 @@ namespace phsycologyForm
             {
                 clearingSixthPage();
             }
+            else if (tabControl1.SelectedTab == TabPage2_0 && tabControl3.SelectedTab == TabPage2_3)
+            {
+                clearingSixthPage_Siblings();
+            }
             else if (tabControl1.SelectedTab == TabPage3_0 && tabControl5.SelectedTab == TabPage3_1)
             {
                 clearingSeventhPage();
@@ -6708,19 +7304,23 @@ namespace phsycologyForm
                             {
                                 if (fifthPageTextBoxValidation())
                                 {
-                                    if (!adultRB.Checked)
+                                    if (fourthPageTextBoxValidation_ForBrother_bigFamilyPart2())
                                     {
-                                        if (sixthPageTextBoxValidation())
+                                        if (!adultRB.Checked)
                                         {
-                                            if (seventhPageTextBoxValidation())
+                                            if (sixthPageTextBoxValidation())
                                             {
-                                                return true;
+                                                if (seventhPageTextBoxValidation())
+                                                {
+                                                    return true;
+                                                }
                                             }
                                         }
-                                    }
-                                    else if (adultRB.Checked)
-                                    {
-                                        return true;
+
+                                        else if (adultRB.Checked)
+                                        {
+                                            return true;
+                                        }
                                     }
                                 }
                             }
@@ -6731,6 +7331,7 @@ namespace phsycologyForm
             return false;
 
         }
+
         bool SaveNewPatient()
         {
             if (validatePatient())
@@ -6740,6 +7341,7 @@ namespace phsycologyForm
                 saveThirdPage();
                 saveFourthPage();
                 saveFifthPage();
+                saveSiblingsPage();
                 if (!adultRB.Checked)
                 {
                     saveSixthPage();
@@ -6787,7 +7389,7 @@ namespace phsycologyForm
                     ClearAll();
                     newCaseRB.Checked = true;
                 }
-                else if(availableSSNOptional(newSSN.Text))
+                else if (availableSSNOptional(newSSN.Text))
                 {
                     MessageBox.Show($"يرجى التأكد من الرقم الموحد الجديد لأنه مسجل بقواعد البيانات.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
@@ -6940,6 +7542,16 @@ namespace phsycologyForm
             targetMeetingsBrush.Image = whiteBrush;
         }
 
+        private void siblingRushButton_MouseHover(object sender, EventArgs e)
+        {
+            siblingRushButton.Image = orangeBrush;
+        }
+
+        private void siblingRushButton_MouseLeave(object sender, EventArgs e)
+        {
+            siblingRushButton.Image = whiteBrush;
+        }
+
         private void interedInstituteBrush_Click(object sender, EventArgs e)
         {
             clearingRehabilationDGV_1stPage();
@@ -6973,6 +7585,11 @@ namespace phsycologyForm
         private void motherBigFamilyRB_Click(object sender, EventArgs e)
         {
             clearingMotherMariageDGV_6thPage();
+        }
+
+        private void siblingRushButton_Click(object sender, EventArgs e)
+        {
+            clearingSiblingsDGV();
         }
 
         private void studyingPhaseBrush_Click(object sender, EventArgs e)
@@ -7045,7 +7662,7 @@ namespace phsycologyForm
                 meetingTitleComboBox.Visible = true;
                 editMeetingTitlePanel.Visible = true;
                 editTitleOldComboBox.Text = meetingTitleComboBox.Text;
-                editTitleNewTextBox.Text = "";
+                editTitleNewTextBox.Text = string.Empty;
                 meetingToogleButton.IsOn = false;
                 MessageBox.Show("ظهر مربع على يمين الشاشة .. يرجى اختيار العنوان المراد تغييره وإدخال العنوان الجديد والضغط على حفظ", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -7073,7 +7690,7 @@ namespace phsycologyForm
             {
                 foreach (DataRow dr in dt.Rows)
                 {
-                    if (dr["meetingTitle"].ToString() != "")
+                    if (dr["meetingTitle"].ToString() != string.Empty)
                     {
                         meetingTitleComboBox.Items.Add(dr["meetingTitle"].ToString());
                         editTitleOldComboBox.Items.Add(dr["meetingTitle"].ToString());
@@ -7112,7 +7729,6 @@ namespace phsycologyForm
                 DialogResult dialogResult = MessageBox.Show(message, "يرجى التأكد", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
-
                     updateMeetingTitle(editTitleOldComboBox.Text, editTitleNewTextBox.Text);
                     message = "بنجاح " + editTitleNewTextBox.Text + " إلى " + editTitleOldComboBox.Text + " تم تعديل عنوان المقابلة ";
                     MessageBox.Show(message, "عاااش", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -7132,6 +7748,118 @@ namespace phsycologyForm
             patientReports patientReports = new patientReports();
             ReportPrintTool printTool = new ReportPrintTool(patientReports);
             printTool.ShowRibbonPreview();
+        }
+
+        private void meetingsReportButton_Click(object sender, EventArgs e)
+        {
+            PeriodicMeetingReport periodicMeetingReport = new PeriodicMeetingReport();
+            ReportPrintTool printTool = new ReportPrintTool(periodicMeetingReport);
+            printTool.ShowRibbonPreview();
+
+        }
+
+        private void deadSiblingRB_CheckedChanged(object sender, EventArgs e)
+        {
+            if (deadSiblingRB.Checked)
+            {
+                deadSiblingGB.Enabled = true;
+            }
+            else
+            {
+                deadSiblingGB.Enabled = false;
+            }
+        }
+
+        private void uploadButton_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(this.SSNTextBox.Text))
+            {
+                OpenFileDialog choofdlog = new OpenFileDialog();
+                choofdlog.Filter = "All Files (*.*)|*.*";
+                choofdlog.FilterIndex = 1;
+                choofdlog.Multiselect = true;
+                string[] arrAllFiles;
+                if (choofdlog.ShowDialog() == DialogResult.OK)
+                {
+                    arrAllFiles = choofdlog.FileNames; //used when Multiselect = true  
+
+                    string directory = $"C:\\Softer\\Patient\'s Documents\\{this.SSNTextBox.Text}\\";
+                    if (Directory.Exists(directory))
+                    {
+                        Directory.Delete(directory, true);
+                    }
+                    Directory.CreateDirectory(directory);
+                    pdfFilesComboBox.Items.Clear();
+                    foreach (var file in arrAllFiles)
+                    {
+                        string filename = Path.GetFileName(file);
+                        pdfFilesComboBox.Items.Add(filename);
+
+                        string str = directory + filename;
+
+                        if (!File.Exists(str))
+                        {
+                            File.Copy(file, str);
+                        }
+                    }
+
+                    uploadLocation.Visible = false;
+                    pdfFilesComboBox.Visible = true;
+                    PdfInfoLabel.Visible = true;
+
+                    pdfFilesComboBox.Text = pdfFilesComboBox.Items[0].ToString();
+                }
+            }
+            else
+            {
+                MessageBox.Show("أدخل الرقم الموحد أو المميز أولًا", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void pdfButton_Click(object sender, EventArgs e)
+        {
+            if (pdfFilesComboBox.Visible && Path.GetExtension(pdfFilesComboBox.Text) == ".pdf")
+            {
+                string directory = $"C:\\Softer\\Patient\'s Documents\\{this.SSNTextBox.Text}\\" + pdfFilesComboBox.Text;
+                PdfViewer PdfViewer = new PdfViewer(directory);
+                PdfViewer.ShowDialog();
+            }
+            else
+            {
+                PdfViewer PdfViewer = new PdfViewer();
+                PdfViewer.ShowDialog();
+            }
+        }
+
+        private void backupButton_Click(object sender, EventArgs e)
+        {
+            Backup backup = new Backup();
+            backup.ShowDialog();
+        }
+
+        private void birthDayTP_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime zeroTime = new DateTime(1, 1, 1);
+            DateTime olddate = birthDayTP.Value.Date;
+            DateTime curdate = DateTime.Now.ToLocalTime();
+
+            TimeSpan span = curdate - olddate;
+
+            int years = (zeroTime + span).Year - 1;
+            int months = (zeroTime + span).Month - 1;
+            int days = (zeroTime + span).Day;
+
+            ageTextBox.Text = $"{years} عام {months} أشهر {days} أيام";
+
+            if (teenRB.Checked)
+            {
+                years = 17 - years;
+                months = 11 - months;
+                days = 30 - days;
+                till18TextBox.Text = $"{years} عام {months} أشهر {days} أيام";
+
+            }
+
         }
     }
 }

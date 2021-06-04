@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace phsycologyForm
@@ -18,8 +15,8 @@ namespace phsycologyForm
         private float artis;
         private Color borderColor;
         private bool textEnabled;
-        private string OnTex = "";
-        private string OffTex = "";
+        private string OnTex = string.Empty;
+        private string OffTex = string.Empty;
         private Color OnCol;
         private Color OffCol;
         private Timer painTicker = new Timer();
@@ -63,7 +60,7 @@ namespace phsycologyForm
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            e.Graphics.SmoothingMode = (SmoothingMode)SmoothingMode.HighQuality;
+            e.Graphics.SmoothingMode = SmoothingMode.HighQuality;
             if (base.Enabled)
             {
                 Pen pen;
@@ -77,7 +74,7 @@ namespace phsycologyForm
                 }
                 if (this.textEnabled)
                 {
-                    using (Font font = new Font("Century Gothic", (8.2f * this.diameter) / 30f, (FontStyle)FontStyle.Bold))
+                    using (Font font = new Font("Century Gothic", (8.2f * this.diameter) / 30f, FontStyle.Bold))
                     {
                         SolidBrush b = new SolidBrush(this.ForeColor);
                         int height = TextRenderer.MeasureText(this.OnTex, font).Height;

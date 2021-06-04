@@ -140,6 +140,20 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression51 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column52 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression52 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column53 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression53 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column54 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression54 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column55 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression55 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column56 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression56 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column57 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression57 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column58 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression58 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column59 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression59 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Join join1 = new DevExpress.DataAccess.Sql.Join();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo1 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             DevExpress.DataAccess.Sql.Join join2 = new DevExpress.DataAccess.Sql.Join();
@@ -151,46 +165,27 @@
             DevExpress.DataAccess.Sql.Join join5 = new DevExpress.DataAccess.Sql.Join();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo5 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             DevExpress.DataAccess.Sql.SelectQuery selectQuery2 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column53 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression53 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table7 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column54 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression54 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table8 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column55 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression55 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column56 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression56 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column57 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression57 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join6 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo6 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery3 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column58 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression58 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table9 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column59 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression59 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table10 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column60 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression60 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table7 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column61 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression61 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table8 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column62 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression62 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column63 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression63 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column64 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression64 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join7 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo7 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery4 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Join join6 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo6 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery3 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column65 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression65 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table11 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table9 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column66 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression66 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table12 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table10 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column67 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression67 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column68 = new DevExpress.DataAccess.Sql.Column();
@@ -201,59 +196,59 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression70 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column71 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression71 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join7 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo7 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery4 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column72 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression72 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table11 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column73 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression73 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table12 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column74 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression74 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join8 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo8 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery5 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column75 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression75 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table13 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column76 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression76 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table14 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column77 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression77 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column78 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression78 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column79 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression79 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join9 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo9 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery6 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column80 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression80 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table15 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column81 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression81 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table16 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Join join8 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo8 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery5 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column82 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression82 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table13 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column83 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression83 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table14 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column84 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression84 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column85 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression85 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column86 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression86 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join9 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo9 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery6 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column87 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression87 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table15 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column88 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression88 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join10 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo10 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery7 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Table table16 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column89 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression89 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table17 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column90 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression90 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table18 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column91 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression91 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column92 = new DevExpress.DataAccess.Sql.Column();
@@ -264,19 +259,19 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression94 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column95 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression95 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join10 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo10 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery7 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column96 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression96 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table17 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column97 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression97 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join11 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo11 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery8 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Table table18 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column98 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression98 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table19 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column99 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression99 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table20 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column100 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression100 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column101 = new DevExpress.DataAccess.Sql.Column();
@@ -287,57 +282,57 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression103 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column104 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression104 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join11 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo11 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery8 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column105 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression105 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table19 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column106 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression106 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table20 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column107 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression107 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column108 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression108 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join12 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo12 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery9 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column109 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression109 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table21 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column110 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression110 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table22 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column111 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression111 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column112 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression112 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column113 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression113 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join13 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo13 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery10 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column114 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression114 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table23 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column115 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression115 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table24 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Join join12 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo12 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery9 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column116 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression116 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table21 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column117 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression117 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table22 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column118 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression118 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column119 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression119 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join14 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo14 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery11 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column120 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression120 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table25 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Join join13 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo13 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery10 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column121 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression121 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table26 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table23 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column122 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression122 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table24 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column123 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression123 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column124 = new DevExpress.DataAccess.Sql.Column();
@@ -346,21 +341,21 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression125 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column126 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression126 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join14 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo14 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery11 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column127 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression127 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table25 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column128 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression128 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table26 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column129 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression129 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join15 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo15 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery12 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column130 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression130 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table27 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column131 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression131 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table28 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column132 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression132 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column133 = new DevExpress.DataAccess.Sql.Column();
@@ -371,10 +366,15 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression135 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column136 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression136 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join15 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo15 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery12 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column137 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression137 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table27 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column138 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression138 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table28 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column139 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression139 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column140 = new DevExpress.DataAccess.Sql.Column();
@@ -395,15 +395,10 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression147 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column148 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression148 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join16 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo16 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery13 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column149 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression149 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table29 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column150 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression150 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table30 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column151 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression151 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column152 = new DevExpress.DataAccess.Sql.Column();
@@ -412,17 +407,17 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression153 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column154 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression154 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join17 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo17 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery14 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column155 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression155 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table31 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Join join16 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo16 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery13 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column156 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression156 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table32 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table29 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column157 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression157 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table30 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column158 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression158 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column159 = new DevExpress.DataAccess.Sql.Column();
@@ -431,53 +426,53 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression160 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column161 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression161 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join17 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo17 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery14 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column162 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression162 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table31 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column163 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression163 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join18 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo18 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery15 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Table table32 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column164 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression164 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table33 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column165 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression165 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table34 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column166 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression166 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column167 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression167 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column168 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression168 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join19 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo19 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery16 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column169 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression169 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table35 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column170 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression170 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table36 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Join join18 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo18 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery15 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column171 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression171 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table33 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column172 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression172 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table34 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column173 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression173 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column174 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression174 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column175 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression175 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join20 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo20 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery17 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Join join19 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo19 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery16 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column176 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression176 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table37 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table35 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column177 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression177 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table38 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table36 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column178 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression178 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column179 = new DevExpress.DataAccess.Sql.Column();
@@ -488,15 +483,15 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression181 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column182 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression182 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join21 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo21 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery18 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Join join20 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo20 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery17 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column183 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression183 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table39 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table37 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column184 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression184 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table40 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table38 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column185 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression185 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column186 = new DevExpress.DataAccess.Sql.Column();
@@ -507,69 +502,74 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression188 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column189 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression189 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join21 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo21 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery18 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column190 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression190 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join22 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo22 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery19 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Table table39 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column191 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression191 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table41 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table40 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column192 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression192 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table42 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column193 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression193 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column194 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression194 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column195 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression195 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column196 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression196 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column197 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression197 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join22 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo22 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery19 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column198 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression198 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table41 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column199 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression199 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table42 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column200 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression200 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column201 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression201 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column202 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression202 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Join join23 = new DevExpress.DataAccess.Sql.Join();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo23 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             DevExpress.DataAccess.Sql.SelectQuery selectQuery20 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column196 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression196 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table43 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column197 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression197 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table44 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column198 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression198 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Column column199 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression199 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join24 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo24 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery21 = new DevExpress.DataAccess.Sql.SelectQuery();
-            DevExpress.DataAccess.Sql.Column column200 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression200 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table45 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column201 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression201 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table46 = new DevExpress.DataAccess.Sql.Table();
-            DevExpress.DataAccess.Sql.Column column202 = new DevExpress.DataAccess.Sql.Column();
-            DevExpress.DataAccess.Sql.ColumnExpression columnExpression202 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column203 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression203 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join25 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo25 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery22 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Table table43 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column204 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression204 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table47 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Table table44 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column205 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression205 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column206 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression206 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join24 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo24 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery21 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column207 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression207 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table45 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column208 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression208 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table46 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column209 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression209 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column210 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression210 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join25 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo25 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery22 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column211 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression211 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table47 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column212 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression212 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column213 = new DevExpress.DataAccess.Sql.Column();
@@ -604,33 +604,33 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression227 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column228 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression228 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table48 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column229 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression229 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column230 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression230 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column231 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression231 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Join join26 = new DevExpress.DataAccess.Sql.Join();
-            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo26 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
-            DevExpress.DataAccess.Sql.SelectQuery selectQuery23 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column232 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression232 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table49 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column233 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression233 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column234 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression234 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column235 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression235 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table48 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column236 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression236 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column237 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression237 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column238 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression238 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join26 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo26 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery23 = new DevExpress.DataAccess.Sql.SelectQuery();
             DevExpress.DataAccess.Sql.Column column239 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression239 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table49 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column240 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression240 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column241 = new DevExpress.DataAccess.Sql.Column();
@@ -645,24 +645,81 @@
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression245 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column246 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression246 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table50 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column247 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression247 = new DevExpress.DataAccess.Sql.ColumnExpression();
-            DevExpress.DataAccess.Sql.Table table51 = new DevExpress.DataAccess.Sql.Table();
             DevExpress.DataAccess.Sql.Column column248 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression248 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Column column249 = new DevExpress.DataAccess.Sql.Column();
             DevExpress.DataAccess.Sql.ColumnExpression columnExpression249 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column250 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression250 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column251 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression251 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column252 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression252 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column253 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression253 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table50 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column254 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression254 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table51 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column255 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression255 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column256 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression256 = new DevExpress.DataAccess.Sql.ColumnExpression();
             DevExpress.DataAccess.Sql.Join join27 = new DevExpress.DataAccess.Sql.Join();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo27 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             DevExpress.DataAccess.Sql.Join join28 = new DevExpress.DataAccess.Sql.Join();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo28 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
+            DevExpress.DataAccess.Sql.SelectQuery selectQuery24 = new DevExpress.DataAccess.Sql.SelectQuery();
+            DevExpress.DataAccess.Sql.Column column257 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression257 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table52 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column258 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression258 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Table table53 = new DevExpress.DataAccess.Sql.Table();
+            DevExpress.DataAccess.Sql.Column column259 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression259 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column260 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression260 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column261 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression261 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column262 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression262 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column263 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression263 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column264 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression264 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column265 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression265 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column266 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression266 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column267 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression267 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Column column268 = new DevExpress.DataAccess.Sql.Column();
+            DevExpress.DataAccess.Sql.ColumnExpression columnExpression268 = new DevExpress.DataAccess.Sql.ColumnExpression();
+            DevExpress.DataAccess.Sql.Join join29 = new DevExpress.DataAccess.Sql.Join();
+            DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo29 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(patientReports));
             DevExpress.XtraReports.Parameters.DynamicListLookUpSettings dynamicListLookUpSettings1 = new DevExpress.XtraReports.Parameters.DynamicListLookUpSettings();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.xrLine2 = new DevExpress.XtraReports.UI.XRLine();
+            this.xrLabel207 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel208 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel209 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel210 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrLabel205 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel206 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel204 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel203 = new DevExpress.XtraReports.UI.XRLabel();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
-            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrPageBreak1 = new DevExpress.XtraReports.UI.XRPageBreak();
+            this.xrPageInfo2 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.xrLine3 = new DevExpress.XtraReports.UI.XRLine();
+            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.xrLabel211 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrLabel135 = new DevExpress.XtraReports.UI.XRLabel();
@@ -778,14 +835,20 @@
             this.xrLabel141 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport5 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail6 = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupHeader4 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.xrLabel88 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrCheckBox16 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrLabel155 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel156 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel153 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel154 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel152 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrTable19 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow19 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell101 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell102 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell103 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell104 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.GroupHeader4 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.xrLabel88 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel163 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel164 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel161 = new DevExpress.XtraReports.UI.XRLabel();
@@ -803,16 +866,8 @@
             this.xrTableCell106 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell107 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell108 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrCheckBox16 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrLabel155 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel156 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel153 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel154 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel152 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport6 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail7 = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrLabel89 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel90 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel51 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel62 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel61 = new DevExpress.XtraReports.UI.XRLabel();
@@ -827,10 +882,12 @@
             this.xrLabel144 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel143 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrCheckBox14 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrLabel147 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel89 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel90 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrCheckBox15 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrLabel146 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel145 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel147 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel148 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel150 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrCheckBox7 = new DevExpress.XtraReports.UI.XRCheckBox();
@@ -848,28 +905,12 @@
             this.xrLabel173 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel176 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel175 = new DevExpress.XtraReports.UI.XRLabel();
-            this.DetailReport7 = new DevExpress.XtraReports.UI.DetailReportBand();
-            this.Detail8 = new DevExpress.XtraReports.UI.DetailBand();
-            this.GroupHeader5 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable2 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell4 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell6 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLabel27 = new DevExpress.XtraReports.UI.XRLabel();
-            this.DetailReport8 = new DevExpress.XtraReports.UI.DetailReportBand();
-            this.Detail9 = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrTable3 = new DevExpress.XtraReports.UI.XRTable();
-            this.xrTableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell8 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell9 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTable4 = new DevExpress.XtraReports.UI.XRTable();
-            this.xrTableRow4 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell10 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell11 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell12 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrLabel28 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport9 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail10 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrTable6 = new DevExpress.XtraReports.UI.XRTable();
@@ -896,6 +937,13 @@
             this.xrTableCell20 = new DevExpress.XtraReports.UI.XRTableCell();
             this.DetailReport11 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail12 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrTable21 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow21 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell99 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell100 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell109 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell110 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell111 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLabel69 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrTable8 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow8 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -920,13 +968,14 @@
             this.xrTableCell30 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell31 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell32 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrLabel75 = new DevExpress.XtraReports.UI.XRLabel();
+            this.GroupHeader8 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable9 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow9 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell21 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell26 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell27 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell28 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrLabel75 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport14 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail15 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrLabel81 = new DevExpress.XtraReports.UI.XRLabel();
@@ -950,6 +999,7 @@
             this.xrTableCell84 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell117 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell118 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable11 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow11 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell33 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -983,7 +1033,9 @@
             this.xrTableCell46 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell47 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell48 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell49 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell50 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader6 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable14 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow14 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell61 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -1017,6 +1069,7 @@
             this.xrTableCell56 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell57 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell58 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader7 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable16 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow16 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell71 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -1047,6 +1100,7 @@
             this.xrTableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell3 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader11 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.DetailReport20 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail21 = new DevExpress.XtraReports.UI.DetailBand();
             this.DetailReport23 = new DevExpress.XtraReports.UI.DetailReportBand();
@@ -1056,22 +1110,8 @@
             this.DetailReport25 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail26 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrControlStyle1 = new DevExpress.XtraReports.UI.XRControlStyle();
-            this.xrTable21 = new DevExpress.XtraReports.UI.XRTable();
-            this.xrTableRow21 = new DevExpress.XtraReports.UI.XRTableRow();
-            this.xrTableCell99 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell100 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell109 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell110 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell111 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrTableCell49 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader6 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader7 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.GroupHeader8 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.DetailReport26 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail27 = new DevExpress.XtraReports.UI.DetailBand();
-            this.GroupHeader9 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.xrLabel39 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrTable22 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow22 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell112 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -1079,6 +1119,7 @@
             this.xrTableCell114 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell115 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell116 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader9 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrTable23 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow23 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell119 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -1086,77 +1127,161 @@
             this.xrTableCell121 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell122 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell123 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrLabel39 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport27 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail28 = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrLabel70 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel71 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel72 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel73 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel74 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel91 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel92 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel185 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel186 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel183 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel184 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrCheckBox20 = new DevExpress.XtraReports.UI.XRCheckBox();
             this.xrLabel177 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel178 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel179 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel180 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel181 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel182 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCheckBox20 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrLabel183 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel184 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel185 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel186 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel71 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel72 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel73 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel74 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel91 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel92 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel70 = new DevExpress.XtraReports.UI.XRLabel();
             this.DetailReport28 = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail29 = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrLabel187 = new DevExpress.XtraReports.UI.XRLabel();
-            this.GroupHeader10 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.xrLabel188 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel189 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCheckBox21 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox22 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox23 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox24 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrLabel191 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrCheckBox25 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox26 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrCheckBox27 = new DevExpress.XtraReports.UI.XRCheckBox();
-            this.xrLabel190 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel192 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel193 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel194 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel195 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel196 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLine1 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLabel197 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel198 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel199 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel200 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel201 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel202 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLine1 = new DevExpress.XtraReports.UI.XRLine();
-            this.xrLabel203 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel204 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel205 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel206 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel193 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel194 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel195 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel196 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel190 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel192 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrCheckBox25 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox26 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox27 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox21 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox22 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox23 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrCheckBox24 = new DevExpress.XtraReports.UI.XRCheckBox();
+            this.xrLabel191 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel188 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel189 = new DevExpress.XtraReports.UI.XRLabel();
+            this.GroupHeader10 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.xrLabel187 = new DevExpress.XtraReports.UI.XRLabel();
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
-            this.xrLabel207 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel208 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel209 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel210 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrPictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrLabel211 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrPageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
-            this.xrLine2 = new DevExpress.XtraReports.UI.XRLine();
-            this.xrLine3 = new DevExpress.XtraReports.UI.XRLine();
+            this.DetailReport29 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail30 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel221 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel212 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel213 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel220 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel222 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel223 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport30 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail31 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel214 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel215 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel216 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel217 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel218 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel219 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport31 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail32 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel224 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel225 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel226 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel227 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport7 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail8 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel228 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel233 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel229 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport32 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail33 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel232 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel231 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel230 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport33 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail34 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel234 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel235 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel236 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport34 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail35 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel237 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel238 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel239 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport35 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail36 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel240 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel241 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel242 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport36 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail37 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel243 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel244 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel245 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport37 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail38 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel246 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel247 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel248 = new DevExpress.XtraReports.UI.XRLabel();
+            this.DetailReport38 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail39 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrTable24 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow24 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell124 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell125 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell126 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell127 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell128 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell129 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell130 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell131 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell132 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.GroupHeader5 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.xrTable25 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow25 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell133 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell134 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell135 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell136 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell137 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell138 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell139 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell140 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell141 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.DetailReport39 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Detail40 = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrTable27 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow27 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell146 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell147 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell148 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell149 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTable26 = new DevExpress.XtraReports.UI.XRTable();
+            this.xrTableRow26 = new DevExpress.XtraReports.UI.XRTableRow();
+            this.xrTableCell142 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell143 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell144 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell145 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrLabel249 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).BeginInit();
@@ -1168,10 +1293,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // sqlDataSource1
@@ -1179,7 +1307,7 @@
             this.sqlDataSource1.ConnectionName = "constring";
             this.sqlDataSource1.Name = "sqlDataSource1";
             columnExpression1.ColumnName = "ssn";
-            table1.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
+            table1.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"563\" />";
             table1.Name = "patientInfo";
             columnExpression1.Table = table1;
             column1.Expression = columnExpression1;
@@ -1298,7 +1426,7 @@
             column37.Expression = columnExpression37;
             column38.Alias = "fatherMaritalStatus_ssnPatient";
             columnExpression38.ColumnName = "ssnPatient";
-            table4.MetaSerializable = "<Meta X=\"495\" Y=\"30\" Width=\"125\" Height=\"183\" />";
+            table4.MetaSerializable = "<Meta X=\"495\" Y=\"30\" Width=\"125\" Height=\"243\" />";
             table4.Name = "fatherMaritalStatus";
             columnExpression38.Table = table4;
             column38.Expression = columnExpression38;
@@ -1317,7 +1445,7 @@
             column42.Expression = columnExpression42;
             column43.Alias = "motherMaritalStatus_ssnPatient";
             columnExpression43.ColumnName = "ssnPatient";
-            table5.MetaSerializable = "<Meta X=\"650\" Y=\"30\" Width=\"125\" Height=\"183\" />";
+            table5.MetaSerializable = "<Meta X=\"650\" Y=\"30\" Width=\"125\" Height=\"243\" />";
             table5.Name = "motherMaritalStatus";
             columnExpression43.Table = table5;
             column43.Expression = columnExpression43;
@@ -1354,6 +1482,27 @@
             columnExpression52.ColumnName = "purpose";
             columnExpression52.Table = table6;
             column52.Expression = columnExpression52;
+            columnExpression53.ColumnName = "fatherDeathReason";
+            columnExpression53.Table = table4;
+            column53.Expression = columnExpression53;
+            columnExpression54.ColumnName = "fatherDeathPatientAge";
+            columnExpression54.Table = table4;
+            column54.Expression = columnExpression54;
+            columnExpression55.ColumnName = "fatherDeathInfluence";
+            columnExpression55.Table = table4;
+            column55.Expression = columnExpression55;
+            columnExpression56.ColumnName = "motherDeathReason";
+            columnExpression56.Table = table5;
+            column56.Expression = columnExpression56;
+            columnExpression57.ColumnName = "motherDeathPatientAge";
+            columnExpression57.Table = table5;
+            column57.Expression = columnExpression57;
+            columnExpression58.ColumnName = "motherDeathInfluence";
+            columnExpression58.Table = table5;
+            column58.Expression = columnExpression58;
+            columnExpression59.ColumnName = "enteredInstitute";
+            columnExpression59.Table = table1;
+            column59.Expression = columnExpression59;
             selectQuery1.Columns.Add(column1);
             selectQuery1.Columns.Add(column2);
             selectQuery1.Columns.Add(column3);
@@ -1406,6 +1555,13 @@
             selectQuery1.Columns.Add(column50);
             selectQuery1.Columns.Add(column51);
             selectQuery1.Columns.Add(column52);
+            selectQuery1.Columns.Add(column53);
+            selectQuery1.Columns.Add(column54);
+            selectQuery1.Columns.Add(column55);
+            selectQuery1.Columns.Add(column56);
+            selectQuery1.Columns.Add(column57);
+            selectQuery1.Columns.Add(column58);
+            selectQuery1.Columns.Add(column59);
             selectQuery1.Distinct = true;
             selectQuery1.FilterString = "";
             selectQuery1.GroupFilterString = "";
@@ -1446,30 +1602,30 @@
             selectQuery1.Tables.Add(table4);
             selectQuery1.Tables.Add(table5);
             selectQuery1.Tables.Add(table6);
-            columnExpression53.ColumnName = "ssn";
+            columnExpression60.ColumnName = "ssn";
             table7.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table7.Name = "patientInfo";
-            columnExpression53.Table = table7;
-            column53.Expression = columnExpression53;
-            columnExpression54.ColumnName = "ssnPatient";
+            columnExpression60.Table = table7;
+            column60.Expression = columnExpression60;
+            columnExpression61.ColumnName = "ssnPatient";
             table8.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"163\" />";
             table8.Name = "accidents";
-            columnExpression54.Table = table8;
-            column54.Expression = columnExpression54;
-            columnExpression55.ColumnName = "year";
-            columnExpression55.Table = table8;
-            column55.Expression = columnExpression55;
-            columnExpression56.ColumnName = "details";
-            columnExpression56.Table = table8;
-            column56.Expression = columnExpression56;
-            columnExpression57.ColumnName = "fractures";
-            columnExpression57.Table = table8;
-            column57.Expression = columnExpression57;
-            selectQuery2.Columns.Add(column53);
-            selectQuery2.Columns.Add(column54);
-            selectQuery2.Columns.Add(column55);
-            selectQuery2.Columns.Add(column56);
-            selectQuery2.Columns.Add(column57);
+            columnExpression61.Table = table8;
+            column61.Expression = columnExpression61;
+            columnExpression62.ColumnName = "year";
+            columnExpression62.Table = table8;
+            column62.Expression = columnExpression62;
+            columnExpression63.ColumnName = "details";
+            columnExpression63.Table = table8;
+            column63.Expression = columnExpression63;
+            columnExpression64.ColumnName = "fractures";
+            columnExpression64.Table = table8;
+            column64.Expression = columnExpression64;
+            selectQuery2.Columns.Add(column60);
+            selectQuery2.Columns.Add(column61);
+            selectQuery2.Columns.Add(column62);
+            selectQuery2.Columns.Add(column63);
+            selectQuery2.Columns.Add(column64);
             selectQuery2.Distinct = true;
             selectQuery2.FilterString = "";
             selectQuery2.GroupFilterString = "";
@@ -1482,38 +1638,38 @@
             selectQuery2.Relations.Add(join6);
             selectQuery2.Tables.Add(table7);
             selectQuery2.Tables.Add(table8);
-            columnExpression58.ColumnName = "ssn";
+            columnExpression65.ColumnName = "ssn";
             table9.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table9.Name = "patientInfo";
-            columnExpression58.Table = table9;
-            column58.Expression = columnExpression58;
-            columnExpression59.ColumnName = "ssnPatient";
+            columnExpression65.Table = table9;
+            column65.Expression = columnExpression65;
+            columnExpression66.ColumnName = "ssnPatient";
             table10.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"203\" />";
             table10.Name = "drugsAbuse";
-            columnExpression59.Table = table10;
-            column59.Expression = columnExpression59;
-            columnExpression60.ColumnName = "currentStatus";
-            columnExpression60.Table = table10;
-            column60.Expression = columnExpression60;
-            columnExpression61.ColumnName = "startingAge";
-            columnExpression61.Table = table10;
-            column61.Expression = columnExpression61;
-            columnExpression62.ColumnName = "drugsType";
-            columnExpression62.Table = table10;
-            column62.Expression = columnExpression62;
-            columnExpression63.ColumnName = "duration";
-            columnExpression63.Table = table10;
-            column63.Expression = columnExpression63;
-            columnExpression64.ColumnName = "details";
-            columnExpression64.Table = table10;
-            column64.Expression = columnExpression64;
-            selectQuery3.Columns.Add(column58);
-            selectQuery3.Columns.Add(column59);
-            selectQuery3.Columns.Add(column60);
-            selectQuery3.Columns.Add(column61);
-            selectQuery3.Columns.Add(column62);
-            selectQuery3.Columns.Add(column63);
-            selectQuery3.Columns.Add(column64);
+            columnExpression66.Table = table10;
+            column66.Expression = columnExpression66;
+            columnExpression67.ColumnName = "currentStatus";
+            columnExpression67.Table = table10;
+            column67.Expression = columnExpression67;
+            columnExpression68.ColumnName = "startingAge";
+            columnExpression68.Table = table10;
+            column68.Expression = columnExpression68;
+            columnExpression69.ColumnName = "drugsType";
+            columnExpression69.Table = table10;
+            column69.Expression = columnExpression69;
+            columnExpression70.ColumnName = "duration";
+            columnExpression70.Table = table10;
+            column70.Expression = columnExpression70;
+            columnExpression71.ColumnName = "details";
+            columnExpression71.Table = table10;
+            column71.Expression = columnExpression71;
+            selectQuery3.Columns.Add(column65);
+            selectQuery3.Columns.Add(column66);
+            selectQuery3.Columns.Add(column67);
+            selectQuery3.Columns.Add(column68);
+            selectQuery3.Columns.Add(column69);
+            selectQuery3.Columns.Add(column70);
+            selectQuery3.Columns.Add(column71);
             selectQuery3.Distinct = true;
             selectQuery3.FilterString = "";
             selectQuery3.GroupFilterString = "";
@@ -1526,50 +1682,50 @@
             selectQuery3.Relations.Add(join7);
             selectQuery3.Tables.Add(table9);
             selectQuery3.Tables.Add(table10);
-            columnExpression65.ColumnName = "ssn";
+            columnExpression72.ColumnName = "ssn";
             table11.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table11.Name = "patientInfo";
-            columnExpression65.Table = table11;
-            column65.Expression = columnExpression65;
-            columnExpression66.ColumnName = "ssnPatient";
+            columnExpression72.Table = table11;
+            column72.Expression = columnExpression72;
+            columnExpression73.ColumnName = "ssnPatient";
             table12.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"263\" />";
             table12.Name = "employerDetails";
-            columnExpression66.Table = table12;
-            column66.Expression = columnExpression66;
-            columnExpression67.ColumnName = "employer";
-            columnExpression67.Table = table12;
-            column67.Expression = columnExpression67;
-            columnExpression68.ColumnName = "workNature";
-            columnExpression68.Table = table12;
-            column68.Expression = columnExpression68;
-            columnExpression69.ColumnName = "unsatisfied";
-            columnExpression69.Table = table12;
-            column69.Expression = columnExpression69;
-            columnExpression70.ColumnName = "unsatisfiedDetails";
-            columnExpression70.Table = table12;
-            column70.Expression = columnExpression70;
-            columnExpression71.ColumnName = "notes";
-            columnExpression71.Table = table12;
-            column71.Expression = columnExpression71;
-            columnExpression72.ColumnName = "workAge";
-            columnExpression72.Table = table12;
-            column72.Expression = columnExpression72;
-            columnExpression73.ColumnName = "fromDate";
             columnExpression73.Table = table12;
             column73.Expression = columnExpression73;
-            columnExpression74.ColumnName = "toDate";
+            columnExpression74.ColumnName = "employer";
             columnExpression74.Table = table12;
             column74.Expression = columnExpression74;
-            selectQuery4.Columns.Add(column65);
-            selectQuery4.Columns.Add(column66);
-            selectQuery4.Columns.Add(column67);
-            selectQuery4.Columns.Add(column68);
-            selectQuery4.Columns.Add(column69);
-            selectQuery4.Columns.Add(column70);
-            selectQuery4.Columns.Add(column71);
+            columnExpression75.ColumnName = "workNature";
+            columnExpression75.Table = table12;
+            column75.Expression = columnExpression75;
+            columnExpression76.ColumnName = "unsatisfied";
+            columnExpression76.Table = table12;
+            column76.Expression = columnExpression76;
+            columnExpression77.ColumnName = "unsatisfiedDetails";
+            columnExpression77.Table = table12;
+            column77.Expression = columnExpression77;
+            columnExpression78.ColumnName = "notes";
+            columnExpression78.Table = table12;
+            column78.Expression = columnExpression78;
+            columnExpression79.ColumnName = "workAge";
+            columnExpression79.Table = table12;
+            column79.Expression = columnExpression79;
+            columnExpression80.ColumnName = "fromDate";
+            columnExpression80.Table = table12;
+            column80.Expression = columnExpression80;
+            columnExpression81.ColumnName = "toDate";
+            columnExpression81.Table = table12;
+            column81.Expression = columnExpression81;
             selectQuery4.Columns.Add(column72);
             selectQuery4.Columns.Add(column73);
             selectQuery4.Columns.Add(column74);
+            selectQuery4.Columns.Add(column75);
+            selectQuery4.Columns.Add(column76);
+            selectQuery4.Columns.Add(column77);
+            selectQuery4.Columns.Add(column78);
+            selectQuery4.Columns.Add(column79);
+            selectQuery4.Columns.Add(column80);
+            selectQuery4.Columns.Add(column81);
             selectQuery4.Distinct = true;
             selectQuery4.FilterString = "";
             selectQuery4.GroupFilterString = "";
@@ -1582,30 +1738,30 @@
             selectQuery4.Relations.Add(join8);
             selectQuery4.Tables.Add(table11);
             selectQuery4.Tables.Add(table12);
-            columnExpression75.ColumnName = "ssn";
+            columnExpression82.ColumnName = "ssn";
             table13.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table13.Name = "patientInfo";
-            columnExpression75.Table = table13;
-            column75.Expression = columnExpression75;
-            columnExpression76.ColumnName = "existenceOfFamilyHistory";
+            columnExpression82.Table = table13;
+            column82.Expression = columnExpression82;
+            columnExpression83.ColumnName = "existenceOfFamilyHistory";
             table14.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"143\" />";
             table14.Name = "familyPreviousHistory";
-            columnExpression76.Table = table14;
-            column76.Expression = columnExpression76;
-            columnExpression77.ColumnName = "details";
-            columnExpression77.Table = table14;
-            column77.Expression = columnExpression77;
-            columnExpression78.ColumnName = "previousTreatment";
-            columnExpression78.Table = table13;
-            column78.Expression = columnExpression78;
-            columnExpression79.ColumnName = "previousTreatmentNotes";
-            columnExpression79.Table = table13;
-            column79.Expression = columnExpression79;
-            selectQuery5.Columns.Add(column75);
-            selectQuery5.Columns.Add(column76);
-            selectQuery5.Columns.Add(column77);
-            selectQuery5.Columns.Add(column78);
-            selectQuery5.Columns.Add(column79);
+            columnExpression83.Table = table14;
+            column83.Expression = columnExpression83;
+            columnExpression84.ColumnName = "details";
+            columnExpression84.Table = table14;
+            column84.Expression = columnExpression84;
+            columnExpression85.ColumnName = "previousTreatment";
+            columnExpression85.Table = table13;
+            column85.Expression = columnExpression85;
+            columnExpression86.ColumnName = "previousTreatmentNotes";
+            columnExpression86.Table = table13;
+            column86.Expression = columnExpression86;
+            selectQuery5.Columns.Add(column82);
+            selectQuery5.Columns.Add(column83);
+            selectQuery5.Columns.Add(column84);
+            selectQuery5.Columns.Add(column85);
+            selectQuery5.Columns.Add(column86);
             selectQuery5.Distinct = true;
             selectQuery5.FilterString = "";
             selectQuery5.GroupFilterString = "";
@@ -1618,46 +1774,46 @@
             selectQuery5.Relations.Add(join9);
             selectQuery5.Tables.Add(table13);
             selectQuery5.Tables.Add(table14);
-            columnExpression80.ColumnName = "ssn";
+            columnExpression87.ColumnName = "ssn";
             table15.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table15.Name = "patientInfo";
-            columnExpression80.Table = table15;
-            column80.Expression = columnExpression80;
-            columnExpression81.ColumnName = "marriageOrder";
+            columnExpression87.Table = table15;
+            column87.Expression = columnExpression87;
+            columnExpression88.ColumnName = "marriageOrder";
             table16.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"263\" />";
             table16.Name = "fatherMarriageDetails";
-            columnExpression81.Table = table16;
-            column81.Expression = columnExpression81;
-            columnExpression82.ColumnName = "fatherRelativeMarriage";
-            columnExpression82.Table = table16;
-            column82.Expression = columnExpression82;
-            columnExpression83.ColumnName = "fatherRelativeSide";
-            columnExpression83.Table = table16;
-            column83.Expression = columnExpression83;
-            columnExpression84.ColumnName = "boys";
-            columnExpression84.Table = table16;
-            column84.Expression = columnExpression84;
-            columnExpression85.ColumnName = "girls";
-            columnExpression85.Table = table16;
-            column85.Expression = columnExpression85;
-            columnExpression86.ColumnName = "total";
-            columnExpression86.Table = table16;
-            column86.Expression = columnExpression86;
-            columnExpression87.ColumnName = "spouseNationality";
-            columnExpression87.Table = table16;
-            column87.Expression = columnExpression87;
-            columnExpression88.ColumnName = "duration";
             columnExpression88.Table = table16;
             column88.Expression = columnExpression88;
-            selectQuery6.Columns.Add(column80);
-            selectQuery6.Columns.Add(column81);
-            selectQuery6.Columns.Add(column82);
-            selectQuery6.Columns.Add(column83);
-            selectQuery6.Columns.Add(column84);
-            selectQuery6.Columns.Add(column85);
-            selectQuery6.Columns.Add(column86);
+            columnExpression89.ColumnName = "fatherRelativeMarriage";
+            columnExpression89.Table = table16;
+            column89.Expression = columnExpression89;
+            columnExpression90.ColumnName = "fatherRelativeSide";
+            columnExpression90.Table = table16;
+            column90.Expression = columnExpression90;
+            columnExpression91.ColumnName = "boys";
+            columnExpression91.Table = table16;
+            column91.Expression = columnExpression91;
+            columnExpression92.ColumnName = "girls";
+            columnExpression92.Table = table16;
+            column92.Expression = columnExpression92;
+            columnExpression93.ColumnName = "total";
+            columnExpression93.Table = table16;
+            column93.Expression = columnExpression93;
+            columnExpression94.ColumnName = "spouseNationality";
+            columnExpression94.Table = table16;
+            column94.Expression = columnExpression94;
+            columnExpression95.ColumnName = "duration";
+            columnExpression95.Table = table16;
+            column95.Expression = columnExpression95;
             selectQuery6.Columns.Add(column87);
             selectQuery6.Columns.Add(column88);
+            selectQuery6.Columns.Add(column89);
+            selectQuery6.Columns.Add(column90);
+            selectQuery6.Columns.Add(column91);
+            selectQuery6.Columns.Add(column92);
+            selectQuery6.Columns.Add(column93);
+            selectQuery6.Columns.Add(column94);
+            selectQuery6.Columns.Add(column95);
             selectQuery6.Distinct = true;
             selectQuery6.FilterString = "";
             selectQuery6.GroupFilterString = "";
@@ -1670,46 +1826,46 @@
             selectQuery6.Relations.Add(join10);
             selectQuery6.Tables.Add(table15);
             selectQuery6.Tables.Add(table16);
-            columnExpression89.ColumnName = "ssn";
+            columnExpression96.ColumnName = "ssn";
             table17.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table17.Name = "patientInfo";
-            columnExpression89.Table = table17;
-            column89.Expression = columnExpression89;
-            columnExpression90.ColumnName = "marriageOrder";
+            columnExpression96.Table = table17;
+            column96.Expression = columnExpression96;
+            columnExpression97.ColumnName = "marriageOrder";
             table18.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"263\" />";
             table18.Name = "motherMarriageDetails";
-            columnExpression90.Table = table18;
-            column90.Expression = columnExpression90;
-            columnExpression91.ColumnName = "motherRelativeMarriage";
-            columnExpression91.Table = table18;
-            column91.Expression = columnExpression91;
-            columnExpression92.ColumnName = "motherRelativeSide";
-            columnExpression92.Table = table18;
-            column92.Expression = columnExpression92;
-            columnExpression93.ColumnName = "boys";
-            columnExpression93.Table = table18;
-            column93.Expression = columnExpression93;
-            columnExpression94.ColumnName = "girls";
-            columnExpression94.Table = table18;
-            column94.Expression = columnExpression94;
-            columnExpression95.ColumnName = "total";
-            columnExpression95.Table = table18;
-            column95.Expression = columnExpression95;
-            columnExpression96.ColumnName = "spouseNationality";
-            columnExpression96.Table = table18;
-            column96.Expression = columnExpression96;
-            columnExpression97.ColumnName = "duration";
             columnExpression97.Table = table18;
             column97.Expression = columnExpression97;
-            selectQuery7.Columns.Add(column89);
-            selectQuery7.Columns.Add(column90);
-            selectQuery7.Columns.Add(column91);
-            selectQuery7.Columns.Add(column92);
-            selectQuery7.Columns.Add(column93);
-            selectQuery7.Columns.Add(column94);
-            selectQuery7.Columns.Add(column95);
+            columnExpression98.ColumnName = "motherRelativeMarriage";
+            columnExpression98.Table = table18;
+            column98.Expression = columnExpression98;
+            columnExpression99.ColumnName = "motherRelativeSide";
+            columnExpression99.Table = table18;
+            column99.Expression = columnExpression99;
+            columnExpression100.ColumnName = "boys";
+            columnExpression100.Table = table18;
+            column100.Expression = columnExpression100;
+            columnExpression101.ColumnName = "girls";
+            columnExpression101.Table = table18;
+            column101.Expression = columnExpression101;
+            columnExpression102.ColumnName = "total";
+            columnExpression102.Table = table18;
+            column102.Expression = columnExpression102;
+            columnExpression103.ColumnName = "spouseNationality";
+            columnExpression103.Table = table18;
+            column103.Expression = columnExpression103;
+            columnExpression104.ColumnName = "duration";
+            columnExpression104.Table = table18;
+            column104.Expression = columnExpression104;
             selectQuery7.Columns.Add(column96);
             selectQuery7.Columns.Add(column97);
+            selectQuery7.Columns.Add(column98);
+            selectQuery7.Columns.Add(column99);
+            selectQuery7.Columns.Add(column100);
+            selectQuery7.Columns.Add(column101);
+            selectQuery7.Columns.Add(column102);
+            selectQuery7.Columns.Add(column103);
+            selectQuery7.Columns.Add(column104);
             selectQuery7.Distinct = true;
             selectQuery7.FilterString = "";
             selectQuery7.GroupFilterString = "";
@@ -1722,54 +1878,54 @@
             selectQuery7.Relations.Add(join11);
             selectQuery7.Tables.Add(table17);
             selectQuery7.Tables.Add(table18);
-            columnExpression98.ColumnName = "ssn";
+            columnExpression105.ColumnName = "ssn";
             table19.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table19.Name = "patientInfo";
-            columnExpression98.Table = table19;
-            column98.Expression = columnExpression98;
-            columnExpression99.ColumnName = "marriageOrder";
+            columnExpression105.Table = table19;
+            column105.Expression = columnExpression105;
+            columnExpression106.ColumnName = "marriageOrder";
             table20.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"303\" />";
             table20.Name = "patientMarriageDetails";
-            columnExpression99.Table = table20;
-            column99.Expression = columnExpression99;
-            columnExpression100.ColumnName = "relativeMarriage";
-            columnExpression100.Table = table20;
-            column100.Expression = columnExpression100;
-            columnExpression101.ColumnName = "relativeSide";
-            columnExpression101.Table = table20;
-            column101.Expression = columnExpression101;
-            columnExpression102.ColumnName = "boys";
-            columnExpression102.Table = table20;
-            column102.Expression = columnExpression102;
-            columnExpression103.ColumnName = "girls";
-            columnExpression103.Table = table20;
-            column103.Expression = columnExpression103;
-            columnExpression104.ColumnName = "total";
-            columnExpression104.Table = table20;
-            column104.Expression = columnExpression104;
-            columnExpression105.ColumnName = "spouseNationality";
-            columnExpression105.Table = table20;
-            column105.Expression = columnExpression105;
-            columnExpression106.ColumnName = "duration";
             columnExpression106.Table = table20;
             column106.Expression = columnExpression106;
-            columnExpression107.ColumnName = "fromDate";
+            columnExpression107.ColumnName = "relativeMarriage";
             columnExpression107.Table = table20;
             column107.Expression = columnExpression107;
-            columnExpression108.ColumnName = "toDate";
+            columnExpression108.ColumnName = "relativeSide";
             columnExpression108.Table = table20;
             column108.Expression = columnExpression108;
-            selectQuery8.Columns.Add(column98);
-            selectQuery8.Columns.Add(column99);
-            selectQuery8.Columns.Add(column100);
-            selectQuery8.Columns.Add(column101);
-            selectQuery8.Columns.Add(column102);
-            selectQuery8.Columns.Add(column103);
-            selectQuery8.Columns.Add(column104);
+            columnExpression109.ColumnName = "boys";
+            columnExpression109.Table = table20;
+            column109.Expression = columnExpression109;
+            columnExpression110.ColumnName = "girls";
+            columnExpression110.Table = table20;
+            column110.Expression = columnExpression110;
+            columnExpression111.ColumnName = "total";
+            columnExpression111.Table = table20;
+            column111.Expression = columnExpression111;
+            columnExpression112.ColumnName = "spouseNationality";
+            columnExpression112.Table = table20;
+            column112.Expression = columnExpression112;
+            columnExpression113.ColumnName = "duration";
+            columnExpression113.Table = table20;
+            column113.Expression = columnExpression113;
+            columnExpression114.ColumnName = "fromDate";
+            columnExpression114.Table = table20;
+            column114.Expression = columnExpression114;
+            columnExpression115.ColumnName = "toDate";
+            columnExpression115.Table = table20;
+            column115.Expression = columnExpression115;
             selectQuery8.Columns.Add(column105);
             selectQuery8.Columns.Add(column106);
             selectQuery8.Columns.Add(column107);
             selectQuery8.Columns.Add(column108);
+            selectQuery8.Columns.Add(column109);
+            selectQuery8.Columns.Add(column110);
+            selectQuery8.Columns.Add(column111);
+            selectQuery8.Columns.Add(column112);
+            selectQuery8.Columns.Add(column113);
+            selectQuery8.Columns.Add(column114);
+            selectQuery8.Columns.Add(column115);
             selectQuery8.Name = "patientMarriageDetails";
             relationColumnInfo12.NestedKeyColumn = "ssnPatient";
             relationColumnInfo12.ParentKeyColumn = "ssn";
@@ -1779,30 +1935,30 @@
             selectQuery8.Relations.Add(join12);
             selectQuery8.Tables.Add(table19);
             selectQuery8.Tables.Add(table20);
-            columnExpression109.ColumnName = "ssn";
+            columnExpression116.ColumnName = "ssn";
             table21.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table21.Name = "patientInfo";
-            columnExpression109.Table = table21;
-            column109.Expression = columnExpression109;
-            columnExpression110.ColumnName = "hospital";
+            columnExpression116.Table = table21;
+            column116.Expression = columnExpression116;
+            columnExpression117.ColumnName = "hospital";
             table22.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"183\" />";
             table22.Name = "previousTreatment";
-            columnExpression110.Table = table22;
-            column110.Expression = columnExpression110;
-            columnExpression111.ColumnName = "doctor";
-            columnExpression111.Table = table22;
-            column111.Expression = columnExpression111;
-            columnExpression112.ColumnName = "caseNo";
-            columnExpression112.Table = table22;
-            column112.Expression = columnExpression112;
-            columnExpression113.ColumnName = "notes";
-            columnExpression113.Table = table22;
-            column113.Expression = columnExpression113;
-            selectQuery9.Columns.Add(column109);
-            selectQuery9.Columns.Add(column110);
-            selectQuery9.Columns.Add(column111);
-            selectQuery9.Columns.Add(column112);
-            selectQuery9.Columns.Add(column113);
+            columnExpression117.Table = table22;
+            column117.Expression = columnExpression117;
+            columnExpression118.ColumnName = "doctor";
+            columnExpression118.Table = table22;
+            column118.Expression = columnExpression118;
+            columnExpression119.ColumnName = "caseNo";
+            columnExpression119.Table = table22;
+            column119.Expression = columnExpression119;
+            columnExpression120.ColumnName = "notes";
+            columnExpression120.Table = table22;
+            column120.Expression = columnExpression120;
+            selectQuery9.Columns.Add(column116);
+            selectQuery9.Columns.Add(column117);
+            selectQuery9.Columns.Add(column118);
+            selectQuery9.Columns.Add(column119);
+            selectQuery9.Columns.Add(column120);
             selectQuery9.Distinct = true;
             selectQuery9.FilterString = "";
             selectQuery9.GroupFilterString = "";
@@ -1815,34 +1971,34 @@
             selectQuery9.Relations.Add(join13);
             selectQuery9.Tables.Add(table21);
             selectQuery9.Tables.Add(table22);
-            columnExpression114.ColumnName = "ssn";
+            columnExpression121.ColumnName = "ssn";
             table23.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table23.Name = "patientInfo";
-            columnExpression114.Table = table23;
-            column114.Expression = columnExpression114;
-            columnExpression115.ColumnName = "year";
+            columnExpression121.Table = table23;
+            column121.Expression = columnExpression121;
+            columnExpression122.ColumnName = "year";
             table24.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"203\" />";
             table24.Name = "rehabilation";
-            columnExpression115.Table = table24;
-            column115.Expression = columnExpression115;
-            columnExpression116.ColumnName = "caseFile";
-            columnExpression116.Table = table24;
-            column116.Expression = columnExpression116;
-            columnExpression117.ColumnName = "judgement";
-            columnExpression117.Table = table24;
-            column117.Expression = columnExpression117;
-            columnExpression118.ColumnName = "entranceAge";
-            columnExpression118.Table = table24;
-            column118.Expression = columnExpression118;
-            columnExpression119.ColumnName = "notes";
-            columnExpression119.Table = table24;
-            column119.Expression = columnExpression119;
-            selectQuery10.Columns.Add(column114);
-            selectQuery10.Columns.Add(column115);
-            selectQuery10.Columns.Add(column116);
-            selectQuery10.Columns.Add(column117);
-            selectQuery10.Columns.Add(column118);
-            selectQuery10.Columns.Add(column119);
+            columnExpression122.Table = table24;
+            column122.Expression = columnExpression122;
+            columnExpression123.ColumnName = "caseFile";
+            columnExpression123.Table = table24;
+            column123.Expression = columnExpression123;
+            columnExpression124.ColumnName = "judgement";
+            columnExpression124.Table = table24;
+            column124.Expression = columnExpression124;
+            columnExpression125.ColumnName = "entranceAge";
+            columnExpression125.Table = table24;
+            column125.Expression = columnExpression125;
+            columnExpression126.ColumnName = "notes";
+            columnExpression126.Table = table24;
+            column126.Expression = columnExpression126;
+            selectQuery10.Columns.Add(column121);
+            selectQuery10.Columns.Add(column122);
+            selectQuery10.Columns.Add(column123);
+            selectQuery10.Columns.Add(column124);
+            selectQuery10.Columns.Add(column125);
+            selectQuery10.Columns.Add(column126);
             selectQuery10.Distinct = true;
             selectQuery10.FilterString = "";
             selectQuery10.GroupFilterString = "";
@@ -1855,50 +2011,50 @@
             selectQuery10.Relations.Add(join14);
             selectQuery10.Tables.Add(table23);
             selectQuery10.Tables.Add(table24);
-            columnExpression120.ColumnName = "ssn";
+            columnExpression127.ColumnName = "ssn";
             table25.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table25.Name = "patientInfo";
-            columnExpression120.Table = table25;
-            column120.Expression = columnExpression120;
-            columnExpression121.ColumnName = "brothers";
+            columnExpression127.Table = table25;
+            column127.Expression = columnExpression127;
+            columnExpression128.ColumnName = "brothers";
             table26.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"283\" />";
             table26.Name = "siblingsDetails";
-            columnExpression121.Table = table26;
-            column121.Expression = columnExpression121;
-            columnExpression122.ColumnName = "sisters";
-            columnExpression122.Table = table26;
-            column122.Expression = columnExpression122;
-            columnExpression123.ColumnName = "totalSiblings";
-            columnExpression123.Table = table26;
-            column123.Expression = columnExpression123;
-            columnExpression124.ColumnName = "patientOrder";
-            columnExpression124.Table = table26;
-            column124.Expression = columnExpression124;
-            columnExpression125.ColumnName = "nearestPerson";
-            columnExpression125.Table = table26;
-            column125.Expression = columnExpression125;
-            columnExpression126.ColumnName = "responsibleForCount";
-            columnExpression126.Table = table26;
-            column126.Expression = columnExpression126;
-            columnExpression127.ColumnName = "responsibleForDescription";
-            columnExpression127.Table = table26;
-            column127.Expression = columnExpression127;
-            columnExpression128.ColumnName = "responsiblitiesToward";
             columnExpression128.Table = table26;
             column128.Expression = columnExpression128;
-            columnExpression129.ColumnName = "pressuredFromResponsibility";
+            columnExpression129.ColumnName = "sisters";
             columnExpression129.Table = table26;
             column129.Expression = columnExpression129;
-            selectQuery11.Columns.Add(column120);
-            selectQuery11.Columns.Add(column121);
-            selectQuery11.Columns.Add(column122);
-            selectQuery11.Columns.Add(column123);
-            selectQuery11.Columns.Add(column124);
-            selectQuery11.Columns.Add(column125);
-            selectQuery11.Columns.Add(column126);
+            columnExpression130.ColumnName = "totalSiblings";
+            columnExpression130.Table = table26;
+            column130.Expression = columnExpression130;
+            columnExpression131.ColumnName = "patientOrder";
+            columnExpression131.Table = table26;
+            column131.Expression = columnExpression131;
+            columnExpression132.ColumnName = "nearestPerson";
+            columnExpression132.Table = table26;
+            column132.Expression = columnExpression132;
+            columnExpression133.ColumnName = "responsibleForCount";
+            columnExpression133.Table = table26;
+            column133.Expression = columnExpression133;
+            columnExpression134.ColumnName = "responsibleForDescription";
+            columnExpression134.Table = table26;
+            column134.Expression = columnExpression134;
+            columnExpression135.ColumnName = "responsiblitiesToward";
+            columnExpression135.Table = table26;
+            column135.Expression = columnExpression135;
+            columnExpression136.ColumnName = "pressuredFromResponsibility";
+            columnExpression136.Table = table26;
+            column136.Expression = columnExpression136;
             selectQuery11.Columns.Add(column127);
             selectQuery11.Columns.Add(column128);
             selectQuery11.Columns.Add(column129);
+            selectQuery11.Columns.Add(column130);
+            selectQuery11.Columns.Add(column131);
+            selectQuery11.Columns.Add(column132);
+            selectQuery11.Columns.Add(column133);
+            selectQuery11.Columns.Add(column134);
+            selectQuery11.Columns.Add(column135);
+            selectQuery11.Columns.Add(column136);
             selectQuery11.Distinct = true;
             selectQuery11.FilterString = "";
             selectQuery11.GroupFilterString = "";
@@ -1911,74 +2067,67 @@
             selectQuery11.Relations.Add(join15);
             selectQuery11.Tables.Add(table25);
             selectQuery11.Tables.Add(table26);
-            columnExpression130.ColumnName = "ssn";
+            columnExpression137.ColumnName = "ssn";
             table27.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table27.Name = "patientInfo";
-            columnExpression130.Table = table27;
-            column130.Expression = columnExpression130;
-            columnExpression131.ColumnName = "aggressive";
+            columnExpression137.Table = table27;
+            column137.Expression = columnExpression137;
+            columnExpression138.ColumnName = "aggressive";
             table28.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"423\" />";
             table28.Name = "socialCharacteristics";
-            columnExpression131.Table = table28;
-            column131.Expression = columnExpression131;
-            columnExpression132.ColumnName = "depressive";
-            columnExpression132.Table = table28;
-            column132.Expression = columnExpression132;
-            columnExpression133.ColumnName = "anixious";
-            columnExpression133.Table = table28;
-            column133.Expression = columnExpression133;
-            columnExpression134.ColumnName = "doubtful";
-            columnExpression134.Table = table28;
-            column134.Expression = columnExpression134;
-            columnExpression135.ColumnName = "otherCharacteristics";
-            columnExpression135.Table = table28;
-            column135.Expression = columnExpression135;
-            columnExpression136.ColumnName = "bossRelation";
-            columnExpression136.Table = table28;
-            column136.Expression = columnExpression136;
-            columnExpression137.ColumnName = "cooworkersRelations";
-            columnExpression137.Table = table28;
-            column137.Expression = columnExpression137;
-            columnExpression138.ColumnName = "jobRegularity";
             columnExpression138.Table = table28;
             column138.Expression = columnExpression138;
-            columnExpression139.ColumnName = "economicStatus";
+            columnExpression139.ColumnName = "depressive";
             columnExpression139.Table = table28;
             column139.Expression = columnExpression139;
-            columnExpression140.ColumnName = "anotherIncome";
+            columnExpression140.ColumnName = "anixious";
             columnExpression140.Table = table28;
             column140.Expression = columnExpression140;
-            columnExpression141.ColumnName = "home";
+            columnExpression141.ColumnName = "doubtful";
             columnExpression141.Table = table28;
             column141.Expression = columnExpression141;
-            columnExpression142.ColumnName = "homeType";
+            columnExpression142.ColumnName = "otherCharacteristics";
             columnExpression142.Table = table28;
             column142.Expression = columnExpression142;
-            columnExpression143.ColumnName = "roomCount";
+            columnExpression143.ColumnName = "bossRelation";
             columnExpression143.Table = table28;
             column143.Expression = columnExpression143;
-            columnExpression144.ColumnName = "haveOwnRoom";
+            columnExpression144.ColumnName = "cooworkersRelations";
             columnExpression144.Table = table28;
             column144.Expression = columnExpression144;
-            columnExpression145.ColumnName = "shareRoomWith";
+            columnExpression145.ColumnName = "jobRegularity";
             columnExpression145.Table = table28;
             column145.Expression = columnExpression145;
-            columnExpression146.ColumnName = "loan";
+            columnExpression146.ColumnName = "economicStatus";
             columnExpression146.Table = table28;
             column146.Expression = columnExpression146;
-            columnExpression147.ColumnName = "ssnPatient";
+            columnExpression147.ColumnName = "anotherIncome";
             columnExpression147.Table = table28;
             column147.Expression = columnExpression147;
-            columnExpression148.ColumnName = "type";
-            columnExpression148.Table = table27;
+            columnExpression148.ColumnName = "home";
+            columnExpression148.Table = table28;
             column148.Expression = columnExpression148;
-            selectQuery12.Columns.Add(column130);
-            selectQuery12.Columns.Add(column131);
-            selectQuery12.Columns.Add(column132);
-            selectQuery12.Columns.Add(column133);
-            selectQuery12.Columns.Add(column134);
-            selectQuery12.Columns.Add(column135);
-            selectQuery12.Columns.Add(column136);
+            columnExpression149.ColumnName = "homeType";
+            columnExpression149.Table = table28;
+            column149.Expression = columnExpression149;
+            columnExpression150.ColumnName = "roomCount";
+            columnExpression150.Table = table28;
+            column150.Expression = columnExpression150;
+            columnExpression151.ColumnName = "haveOwnRoom";
+            columnExpression151.Table = table28;
+            column151.Expression = columnExpression151;
+            columnExpression152.ColumnName = "shareRoomWith";
+            columnExpression152.Table = table28;
+            column152.Expression = columnExpression152;
+            columnExpression153.ColumnName = "loan";
+            columnExpression153.Table = table28;
+            column153.Expression = columnExpression153;
+            columnExpression154.ColumnName = "ssnPatient";
+            columnExpression154.Table = table28;
+            column154.Expression = columnExpression154;
+            columnExpression155.ColumnName = "type";
+            columnExpression155.Table = table27;
+            column155.Expression = columnExpression155;
             selectQuery12.Columns.Add(column137);
             selectQuery12.Columns.Add(column138);
             selectQuery12.Columns.Add(column139);
@@ -1991,6 +2140,13 @@
             selectQuery12.Columns.Add(column146);
             selectQuery12.Columns.Add(column147);
             selectQuery12.Columns.Add(column148);
+            selectQuery12.Columns.Add(column149);
+            selectQuery12.Columns.Add(column150);
+            selectQuery12.Columns.Add(column151);
+            selectQuery12.Columns.Add(column152);
+            selectQuery12.Columns.Add(column153);
+            selectQuery12.Columns.Add(column154);
+            selectQuery12.Columns.Add(column155);
             selectQuery12.Distinct = true;
             selectQuery12.FilterString = "";
             selectQuery12.GroupFilterString = "";
@@ -2003,34 +2159,34 @@
             selectQuery12.Relations.Add(join16);
             selectQuery12.Tables.Add(table27);
             selectQuery12.Tables.Add(table28);
-            columnExpression149.ColumnName = "ssn";
+            columnExpression156.ColumnName = "ssn";
             table29.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table29.Name = "patientInfo";
-            columnExpression149.Table = table29;
-            column149.Expression = columnExpression149;
-            columnExpression150.ColumnName = "ssnPatient";
+            columnExpression156.Table = table29;
+            column156.Expression = columnExpression156;
+            columnExpression157.ColumnName = "ssnPatient";
             table30.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"183\" />";
             table30.Name = "suicideAttempts";
-            columnExpression150.Table = table30;
-            column150.Expression = columnExpression150;
-            columnExpression151.ColumnName = "attemptStatus";
-            columnExpression151.Table = table30;
-            column151.Expression = columnExpression151;
-            columnExpression152.ColumnName = "way";
-            columnExpression152.Table = table30;
-            column152.Expression = columnExpression152;
-            columnExpression153.ColumnName = "details";
-            columnExpression153.Table = table30;
-            column153.Expression = columnExpression153;
-            columnExpression154.ColumnName = "notes";
-            columnExpression154.Table = table30;
-            column154.Expression = columnExpression154;
-            selectQuery13.Columns.Add(column149);
-            selectQuery13.Columns.Add(column150);
-            selectQuery13.Columns.Add(column151);
-            selectQuery13.Columns.Add(column152);
-            selectQuery13.Columns.Add(column153);
-            selectQuery13.Columns.Add(column154);
+            columnExpression157.Table = table30;
+            column157.Expression = columnExpression157;
+            columnExpression158.ColumnName = "attemptStatus";
+            columnExpression158.Table = table30;
+            column158.Expression = columnExpression158;
+            columnExpression159.ColumnName = "way";
+            columnExpression159.Table = table30;
+            column159.Expression = columnExpression159;
+            columnExpression160.ColumnName = "details";
+            columnExpression160.Table = table30;
+            column160.Expression = columnExpression160;
+            columnExpression161.ColumnName = "notes";
+            columnExpression161.Table = table30;
+            column161.Expression = columnExpression161;
+            selectQuery13.Columns.Add(column156);
+            selectQuery13.Columns.Add(column157);
+            selectQuery13.Columns.Add(column158);
+            selectQuery13.Columns.Add(column159);
+            selectQuery13.Columns.Add(column160);
+            selectQuery13.Columns.Add(column161);
             selectQuery13.Name = "suicideAttempts";
             relationColumnInfo17.NestedKeyColumn = "ssnPatient";
             relationColumnInfo17.ParentKeyColumn = "ssn";
@@ -2040,46 +2196,46 @@
             selectQuery13.Relations.Add(join17);
             selectQuery13.Tables.Add(table29);
             selectQuery13.Tables.Add(table30);
-            columnExpression155.ColumnName = "ssn";
+            columnExpression162.ColumnName = "ssn";
             table31.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table31.Name = "patientInfo";
-            columnExpression155.Table = table31;
-            column155.Expression = columnExpression155;
-            columnExpression156.ColumnName = "prayer";
+            columnExpression162.Table = table31;
+            column162.Expression = columnExpression162;
+            columnExpression163.ColumnName = "prayer";
             table32.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"263\" />";
             table32.Name = "teenBehavior";
-            columnExpression156.Table = table32;
-            column156.Expression = columnExpression156;
-            columnExpression157.ColumnName = "quran";
-            columnExpression157.Table = table32;
-            column157.Expression = columnExpression157;
-            columnExpression158.ColumnName = "fastingRamadan";
-            columnExpression158.Table = table32;
-            column158.Expression = columnExpression158;
-            columnExpression159.ColumnName = "convictedFamilyMember";
-            columnExpression159.Table = table32;
-            column159.Expression = columnExpression159;
-            columnExpression160.ColumnName = "whoConvictedMember";
-            columnExpression160.Table = table32;
-            column160.Expression = columnExpression160;
-            columnExpression161.ColumnName = "convictionDetails";
-            columnExpression161.Table = table32;
-            column161.Expression = columnExpression161;
-            columnExpression162.ColumnName = "drugsAddictedFamilyMember";
-            columnExpression162.Table = table32;
-            column162.Expression = columnExpression162;
-            columnExpression163.ColumnName = "whoDrugMember";
             columnExpression163.Table = table32;
             column163.Expression = columnExpression163;
-            selectQuery14.Columns.Add(column155);
-            selectQuery14.Columns.Add(column156);
-            selectQuery14.Columns.Add(column157);
-            selectQuery14.Columns.Add(column158);
-            selectQuery14.Columns.Add(column159);
-            selectQuery14.Columns.Add(column160);
-            selectQuery14.Columns.Add(column161);
+            columnExpression164.ColumnName = "quran";
+            columnExpression164.Table = table32;
+            column164.Expression = columnExpression164;
+            columnExpression165.ColumnName = "fastingRamadan";
+            columnExpression165.Table = table32;
+            column165.Expression = columnExpression165;
+            columnExpression166.ColumnName = "convictedFamilyMember";
+            columnExpression166.Table = table32;
+            column166.Expression = columnExpression166;
+            columnExpression167.ColumnName = "whoConvictedMember";
+            columnExpression167.Table = table32;
+            column167.Expression = columnExpression167;
+            columnExpression168.ColumnName = "convictionDetails";
+            columnExpression168.Table = table32;
+            column168.Expression = columnExpression168;
+            columnExpression169.ColumnName = "drugsAddictedFamilyMember";
+            columnExpression169.Table = table32;
+            column169.Expression = columnExpression169;
+            columnExpression170.ColumnName = "whoDrugMember";
+            columnExpression170.Table = table32;
+            column170.Expression = columnExpression170;
             selectQuery14.Columns.Add(column162);
             selectQuery14.Columns.Add(column163);
+            selectQuery14.Columns.Add(column164);
+            selectQuery14.Columns.Add(column165);
+            selectQuery14.Columns.Add(column166);
+            selectQuery14.Columns.Add(column167);
+            selectQuery14.Columns.Add(column168);
+            selectQuery14.Columns.Add(column169);
+            selectQuery14.Columns.Add(column170);
             selectQuery14.Distinct = true;
             selectQuery14.FilterString = "";
             selectQuery14.GroupFilterString = "";
@@ -2092,30 +2248,30 @@
             selectQuery14.Relations.Add(join18);
             selectQuery14.Tables.Add(table31);
             selectQuery14.Tables.Add(table32);
-            columnExpression164.ColumnName = "ssn";
+            columnExpression171.ColumnName = "ssn";
             table33.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table33.Name = "patientInfo";
-            columnExpression164.Table = table33;
-            column164.Expression = columnExpression164;
-            columnExpression165.ColumnName = "amount";
+            columnExpression171.Table = table33;
+            column171.Expression = columnExpression171;
+            columnExpression172.ColumnName = "amount";
             table34.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"183\" />";
             table34.Name = "teenEconomicStatus";
-            columnExpression165.Table = table34;
-            column165.Expression = columnExpression165;
-            columnExpression166.ColumnName = "amountType";
-            columnExpression166.Table = table34;
-            column166.Expression = columnExpression166;
-            columnExpression167.ColumnName = "wasEnough";
-            columnExpression167.Table = table34;
-            column167.Expression = columnExpression167;
-            columnExpression168.ColumnName = "shortComeCoverage";
-            columnExpression168.Table = table34;
-            column168.Expression = columnExpression168;
-            selectQuery15.Columns.Add(column164);
-            selectQuery15.Columns.Add(column165);
-            selectQuery15.Columns.Add(column166);
-            selectQuery15.Columns.Add(column167);
-            selectQuery15.Columns.Add(column168);
+            columnExpression172.Table = table34;
+            column172.Expression = columnExpression172;
+            columnExpression173.ColumnName = "amountType";
+            columnExpression173.Table = table34;
+            column173.Expression = columnExpression173;
+            columnExpression174.ColumnName = "wasEnough";
+            columnExpression174.Table = table34;
+            column174.Expression = columnExpression174;
+            columnExpression175.ColumnName = "shortComeCoverage";
+            columnExpression175.Table = table34;
+            column175.Expression = columnExpression175;
+            selectQuery15.Columns.Add(column171);
+            selectQuery15.Columns.Add(column172);
+            selectQuery15.Columns.Add(column173);
+            selectQuery15.Columns.Add(column174);
+            selectQuery15.Columns.Add(column175);
             selectQuery15.Distinct = true;
             selectQuery15.FilterString = "";
             selectQuery15.GroupFilterString = "";
@@ -2128,38 +2284,38 @@
             selectQuery15.Relations.Add(join19);
             selectQuery15.Tables.Add(table33);
             selectQuery15.Tables.Add(table34);
-            columnExpression169.ColumnName = "ssn";
+            columnExpression176.ColumnName = "ssn";
             table35.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table35.Name = "patientInfo";
-            columnExpression169.Table = table35;
-            column169.Expression = columnExpression169;
-            columnExpression170.ColumnName = "timeSpent";
+            columnExpression176.Table = table35;
+            column176.Expression = columnExpression176;
+            columnExpression177.ColumnName = "timeSpent";
             table36.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"223\" />";
             table36.Name = "teenFreeTime";
-            columnExpression170.Table = table36;
-            column170.Expression = columnExpression170;
-            columnExpression171.ColumnName = "haveEmail";
-            columnExpression171.Table = table36;
-            column171.Expression = columnExpression171;
-            columnExpression172.ColumnName = "emailReason";
-            columnExpression172.Table = table36;
-            column172.Expression = columnExpression172;
-            columnExpression173.ColumnName = "mostVisitedSites";
-            columnExpression173.Table = table36;
-            column173.Expression = columnExpression173;
-            columnExpression174.ColumnName = "traveledBefore";
-            columnExpression174.Table = table36;
-            column174.Expression = columnExpression174;
-            columnExpression175.ColumnName = "countriesVisited";
-            columnExpression175.Table = table36;
-            column175.Expression = columnExpression175;
-            selectQuery16.Columns.Add(column169);
-            selectQuery16.Columns.Add(column170);
-            selectQuery16.Columns.Add(column171);
-            selectQuery16.Columns.Add(column172);
-            selectQuery16.Columns.Add(column173);
-            selectQuery16.Columns.Add(column174);
-            selectQuery16.Columns.Add(column175);
+            columnExpression177.Table = table36;
+            column177.Expression = columnExpression177;
+            columnExpression178.ColumnName = "haveEmail";
+            columnExpression178.Table = table36;
+            column178.Expression = columnExpression178;
+            columnExpression179.ColumnName = "emailReason";
+            columnExpression179.Table = table36;
+            column179.Expression = columnExpression179;
+            columnExpression180.ColumnName = "mostVisitedSites";
+            columnExpression180.Table = table36;
+            column180.Expression = columnExpression180;
+            columnExpression181.ColumnName = "traveledBefore";
+            columnExpression181.Table = table36;
+            column181.Expression = columnExpression181;
+            columnExpression182.ColumnName = "countriesVisited";
+            columnExpression182.Table = table36;
+            column182.Expression = columnExpression182;
+            selectQuery16.Columns.Add(column176);
+            selectQuery16.Columns.Add(column177);
+            selectQuery16.Columns.Add(column178);
+            selectQuery16.Columns.Add(column179);
+            selectQuery16.Columns.Add(column180);
+            selectQuery16.Columns.Add(column181);
+            selectQuery16.Columns.Add(column182);
             selectQuery16.Name = "teenFreeTime";
             relationColumnInfo20.NestedKeyColumn = "ssnPatient";
             relationColumnInfo20.ParentKeyColumn = "ssn";
@@ -2169,38 +2325,38 @@
             selectQuery16.Relations.Add(join20);
             selectQuery16.Tables.Add(table35);
             selectQuery16.Tables.Add(table36);
-            columnExpression176.ColumnName = "ssn";
+            columnExpression183.ColumnName = "ssn";
             table37.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table37.Name = "patientInfo";
-            columnExpression176.Table = table37;
-            column176.Expression = columnExpression176;
-            columnExpression177.ColumnName = "socialRelations";
+            columnExpression183.Table = table37;
+            column183.Expression = columnExpression183;
+            columnExpression184.ColumnName = "socialRelations";
             table38.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"223\" />";
             table38.Name = "teenRelation";
-            columnExpression177.Table = table38;
-            column177.Expression = columnExpression177;
-            columnExpression178.ColumnName = "familyRelations";
-            columnExpression178.Table = table38;
-            column178.Expression = columnExpression178;
-            columnExpression179.ColumnName = "familyEvaluation";
-            columnExpression179.Table = table38;
-            column179.Expression = columnExpression179;
-            columnExpression180.ColumnName = "chaningMotivation";
-            columnExpression180.Table = table38;
-            column180.Expression = columnExpression180;
-            columnExpression181.ColumnName = "motivationEvaluation";
-            columnExpression181.Table = table38;
-            column181.Expression = columnExpression181;
-            columnExpression182.ColumnName = "socialSituationSummary";
-            columnExpression182.Table = table38;
-            column182.Expression = columnExpression182;
-            selectQuery17.Columns.Add(column176);
-            selectQuery17.Columns.Add(column177);
-            selectQuery17.Columns.Add(column178);
-            selectQuery17.Columns.Add(column179);
-            selectQuery17.Columns.Add(column180);
-            selectQuery17.Columns.Add(column181);
-            selectQuery17.Columns.Add(column182);
+            columnExpression184.Table = table38;
+            column184.Expression = columnExpression184;
+            columnExpression185.ColumnName = "familyRelations";
+            columnExpression185.Table = table38;
+            column185.Expression = columnExpression185;
+            columnExpression186.ColumnName = "familyEvaluation";
+            columnExpression186.Table = table38;
+            column186.Expression = columnExpression186;
+            columnExpression187.ColumnName = "chaningMotivation";
+            columnExpression187.Table = table38;
+            column187.Expression = columnExpression187;
+            columnExpression188.ColumnName = "motivationEvaluation";
+            columnExpression188.Table = table38;
+            column188.Expression = columnExpression188;
+            columnExpression189.ColumnName = "socialSituationSummary";
+            columnExpression189.Table = table38;
+            column189.Expression = columnExpression189;
+            selectQuery17.Columns.Add(column183);
+            selectQuery17.Columns.Add(column184);
+            selectQuery17.Columns.Add(column185);
+            selectQuery17.Columns.Add(column186);
+            selectQuery17.Columns.Add(column187);
+            selectQuery17.Columns.Add(column188);
+            selectQuery17.Columns.Add(column189);
             selectQuery17.Distinct = true;
             selectQuery17.FilterString = "";
             selectQuery17.GroupFilterString = "";
@@ -2213,42 +2369,42 @@
             selectQuery17.Relations.Add(join21);
             selectQuery17.Tables.Add(table37);
             selectQuery17.Tables.Add(table38);
-            columnExpression183.ColumnName = "ssn";
+            columnExpression190.ColumnName = "ssn";
             table39.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table39.Name = "patientInfo";
-            columnExpression183.Table = table39;
-            column183.Expression = columnExpression183;
-            columnExpression184.ColumnName = "likedScool";
+            columnExpression190.Table = table39;
+            column190.Expression = columnExpression190;
+            columnExpression191.ColumnName = "likedScool";
             table40.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"243\" />";
             table40.Name = "teenSchoolGeneral";
-            columnExpression184.Table = table40;
-            column184.Expression = columnExpression184;
-            columnExpression185.ColumnName = "hatedSchoolReasons";
-            columnExpression185.Table = table40;
-            column185.Expression = columnExpression185;
-            columnExpression186.ColumnName = "realtionWithStudents";
-            columnExpression186.Table = table40;
-            column186.Expression = columnExpression186;
-            columnExpression187.ColumnName = "badStudentsRelationReasons";
-            columnExpression187.Table = table40;
-            column187.Expression = columnExpression187;
-            columnExpression188.ColumnName = "studentGrades";
-            columnExpression188.Table = table40;
-            column188.Expression = columnExpression188;
-            columnExpression189.ColumnName = "badRelationWithteachers";
-            columnExpression189.Table = table40;
-            column189.Expression = columnExpression189;
-            columnExpression190.ColumnName = "reasons";
-            columnExpression190.Table = table40;
-            column190.Expression = columnExpression190;
-            selectQuery18.Columns.Add(column183);
-            selectQuery18.Columns.Add(column184);
-            selectQuery18.Columns.Add(column185);
-            selectQuery18.Columns.Add(column186);
-            selectQuery18.Columns.Add(column187);
-            selectQuery18.Columns.Add(column188);
-            selectQuery18.Columns.Add(column189);
+            columnExpression191.Table = table40;
+            column191.Expression = columnExpression191;
+            columnExpression192.ColumnName = "hatedSchoolReasons";
+            columnExpression192.Table = table40;
+            column192.Expression = columnExpression192;
+            columnExpression193.ColumnName = "realtionWithStudents";
+            columnExpression193.Table = table40;
+            column193.Expression = columnExpression193;
+            columnExpression194.ColumnName = "badStudentsRelationReasons";
+            columnExpression194.Table = table40;
+            column194.Expression = columnExpression194;
+            columnExpression195.ColumnName = "studentGrades";
+            columnExpression195.Table = table40;
+            column195.Expression = columnExpression195;
+            columnExpression196.ColumnName = "badRelationWithteachers";
+            columnExpression196.Table = table40;
+            column196.Expression = columnExpression196;
+            columnExpression197.ColumnName = "reasons";
+            columnExpression197.Table = table40;
+            column197.Expression = columnExpression197;
             selectQuery18.Columns.Add(column190);
+            selectQuery18.Columns.Add(column191);
+            selectQuery18.Columns.Add(column192);
+            selectQuery18.Columns.Add(column193);
+            selectQuery18.Columns.Add(column194);
+            selectQuery18.Columns.Add(column195);
+            selectQuery18.Columns.Add(column196);
+            selectQuery18.Columns.Add(column197);
             selectQuery18.Distinct = true;
             selectQuery18.FilterString = "";
             selectQuery18.GroupFilterString = "";
@@ -2261,30 +2417,30 @@
             selectQuery18.Relations.Add(join22);
             selectQuery18.Tables.Add(table39);
             selectQuery18.Tables.Add(table40);
-            columnExpression191.ColumnName = "ssn";
+            columnExpression198.ColumnName = "ssn";
             table41.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table41.Name = "patientInfo";
-            columnExpression191.Table = table41;
-            column191.Expression = columnExpression191;
-            columnExpression192.ColumnName = "stage";
+            columnExpression198.Table = table41;
+            column198.Expression = columnExpression198;
+            columnExpression199.ColumnName = "stage";
             table42.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"183\" />";
             table42.Name = "teenStudyPhaseDetails";
-            columnExpression192.Table = table42;
-            column192.Expression = columnExpression192;
-            columnExpression193.ColumnName = "schoolName";
-            columnExpression193.Table = table42;
-            column193.Expression = columnExpression193;
-            columnExpression194.ColumnName = "failureYears";
-            columnExpression194.Table = table42;
-            column194.Expression = columnExpression194;
-            columnExpression195.ColumnName = "notes";
-            columnExpression195.Table = table42;
-            column195.Expression = columnExpression195;
-            selectQuery19.Columns.Add(column191);
-            selectQuery19.Columns.Add(column192);
-            selectQuery19.Columns.Add(column193);
-            selectQuery19.Columns.Add(column194);
-            selectQuery19.Columns.Add(column195);
+            columnExpression199.Table = table42;
+            column199.Expression = columnExpression199;
+            columnExpression200.ColumnName = "schoolName";
+            columnExpression200.Table = table42;
+            column200.Expression = columnExpression200;
+            columnExpression201.ColumnName = "failureYears";
+            columnExpression201.Table = table42;
+            column201.Expression = columnExpression201;
+            columnExpression202.ColumnName = "notes";
+            columnExpression202.Table = table42;
+            column202.Expression = columnExpression202;
+            selectQuery19.Columns.Add(column198);
+            selectQuery19.Columns.Add(column199);
+            selectQuery19.Columns.Add(column200);
+            selectQuery19.Columns.Add(column201);
+            selectQuery19.Columns.Add(column202);
             selectQuery19.Distinct = true;
             selectQuery19.FilterString = "";
             selectQuery19.GroupFilterString = "";
@@ -2297,26 +2453,26 @@
             selectQuery19.Relations.Add(join23);
             selectQuery19.Tables.Add(table41);
             selectQuery19.Tables.Add(table42);
-            columnExpression196.ColumnName = "ssn";
+            columnExpression203.ColumnName = "ssn";
             table43.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table43.Name = "patientInfo";
-            columnExpression196.Table = table43;
-            column196.Expression = columnExpression196;
-            columnExpression197.ColumnName = "occurence";
+            columnExpression203.Table = table43;
+            column203.Expression = columnExpression203;
+            columnExpression204.ColumnName = "occurence";
             table44.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"163\" />";
             table44.Name = "unconsioussness";
-            columnExpression197.Table = table44;
-            column197.Expression = columnExpression197;
-            columnExpression198.ColumnName = "count";
-            columnExpression198.Table = table44;
-            column198.Expression = columnExpression198;
-            columnExpression199.ColumnName = "details";
-            columnExpression199.Table = table44;
-            column199.Expression = columnExpression199;
-            selectQuery20.Columns.Add(column196);
-            selectQuery20.Columns.Add(column197);
-            selectQuery20.Columns.Add(column198);
-            selectQuery20.Columns.Add(column199);
+            columnExpression204.Table = table44;
+            column204.Expression = columnExpression204;
+            columnExpression205.ColumnName = "count";
+            columnExpression205.Table = table44;
+            column205.Expression = columnExpression205;
+            columnExpression206.ColumnName = "details";
+            columnExpression206.Table = table44;
+            column206.Expression = columnExpression206;
+            selectQuery20.Columns.Add(column203);
+            selectQuery20.Columns.Add(column204);
+            selectQuery20.Columns.Add(column205);
+            selectQuery20.Columns.Add(column206);
             selectQuery20.Name = "unconsioussness";
             relationColumnInfo24.NestedKeyColumn = "ssnPatient";
             relationColumnInfo24.ParentKeyColumn = "ssn";
@@ -2326,26 +2482,26 @@
             selectQuery20.Relations.Add(join24);
             selectQuery20.Tables.Add(table43);
             selectQuery20.Tables.Add(table44);
-            columnExpression200.ColumnName = "ssn";
+            columnExpression207.ColumnName = "ssn";
             table45.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table45.Name = "patientInfo";
-            columnExpression200.Table = table45;
-            column200.Expression = columnExpression200;
-            columnExpression201.ColumnName = "entered";
+            columnExpression207.Table = table45;
+            column207.Expression = columnExpression207;
+            columnExpression208.ColumnName = "entered";
             table46.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"163\" />";
             table46.Name = "warehouse";
-            columnExpression201.Table = table46;
-            column201.Expression = columnExpression201;
-            columnExpression202.ColumnName = "count";
-            columnExpression202.Table = table46;
-            column202.Expression = columnExpression202;
-            columnExpression203.ColumnName = "details";
-            columnExpression203.Table = table46;
-            column203.Expression = columnExpression203;
-            selectQuery21.Columns.Add(column200);
-            selectQuery21.Columns.Add(column201);
-            selectQuery21.Columns.Add(column202);
-            selectQuery21.Columns.Add(column203);
+            columnExpression208.Table = table46;
+            column208.Expression = columnExpression208;
+            columnExpression209.ColumnName = "count";
+            columnExpression209.Table = table46;
+            column209.Expression = columnExpression209;
+            columnExpression210.ColumnName = "details";
+            columnExpression210.Table = table46;
+            column210.Expression = columnExpression210;
+            selectQuery21.Columns.Add(column207);
+            selectQuery21.Columns.Add(column208);
+            selectQuery21.Columns.Add(column209);
+            selectQuery21.Columns.Add(column210);
             selectQuery21.Distinct = true;
             selectQuery21.FilterString = "";
             selectQuery21.GroupFilterString = "";
@@ -2358,101 +2514,94 @@
             selectQuery21.Relations.Add(join25);
             selectQuery21.Tables.Add(table45);
             selectQuery21.Tables.Add(table46);
-            columnExpression204.ColumnName = "ssn";
+            columnExpression211.ColumnName = "ssn";
             table47.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
             table47.Name = "patientInfo";
-            columnExpression204.Table = table47;
-            column204.Expression = columnExpression204;
-            columnExpression205.ColumnName = "name";
-            columnExpression205.Table = table47;
-            column205.Expression = columnExpression205;
-            columnExpression206.ColumnName = "age";
-            columnExpression206.Table = table47;
-            column206.Expression = columnExpression206;
-            columnExpression207.ColumnName = "nationality";
-            columnExpression207.Table = table47;
-            column207.Expression = columnExpression207;
-            columnExpression208.ColumnName = "phoneNumber";
-            columnExpression208.Table = table47;
-            column208.Expression = columnExpression208;
-            columnExpression209.ColumnName = "residencePlace";
-            columnExpression209.Table = table47;
-            column209.Expression = columnExpression209;
-            columnExpression210.ColumnName = "length";
-            columnExpression210.Table = table47;
-            column210.Expression = columnExpression210;
-            columnExpression211.ColumnName = "weight";
             columnExpression211.Table = table47;
             column211.Expression = columnExpression211;
-            columnExpression212.ColumnName = "waist";
+            columnExpression212.ColumnName = "name";
             columnExpression212.Table = table47;
             column212.Expression = columnExpression212;
-            columnExpression213.ColumnName = "languistics";
+            columnExpression213.ColumnName = "age";
             columnExpression213.Table = table47;
             column213.Expression = columnExpression213;
-            columnExpression214.ColumnName = "walking";
+            columnExpression214.ColumnName = "nationality";
             columnExpression214.Table = table47;
             column214.Expression = columnExpression214;
-            columnExpression215.ColumnName = "muscles";
+            columnExpression215.ColumnName = "phoneNumber";
             columnExpression215.Table = table47;
             column215.Expression = columnExpression215;
-            columnExpression216.ColumnName = "caseFile";
+            columnExpression216.ColumnName = "residencePlace";
             columnExpression216.Table = table47;
             column216.Expression = columnExpression216;
-            columnExpression217.ColumnName = "judge";
+            columnExpression217.ColumnName = "length";
             columnExpression217.Table = table47;
             column217.Expression = columnExpression217;
-            columnExpression218.ColumnName = "birthDay";
+            columnExpression218.ColumnName = "weight";
             columnExpression218.Table = table47;
             column218.Expression = columnExpression218;
-            columnExpression219.ColumnName = "maritalStatus";
+            columnExpression219.ColumnName = "waist";
             columnExpression219.Table = table47;
             column219.Expression = columnExpression219;
-            columnExpression220.ColumnName = "sex";
+            columnExpression220.ColumnName = "languistics";
             columnExpression220.Table = table47;
             column220.Expression = columnExpression220;
-            columnExpression221.ColumnName = "type";
+            columnExpression221.ColumnName = "walking";
             columnExpression221.Table = table47;
             column221.Expression = columnExpression221;
-            columnExpression222.ColumnName = "adultType";
+            columnExpression222.ColumnName = "muscles";
             columnExpression222.Table = table47;
             column222.Expression = columnExpression222;
-            columnExpression223.ColumnName = "canBeCalledAgain";
+            columnExpression223.ColumnName = "caseFile";
             columnExpression223.Table = table47;
             column223.Expression = columnExpression223;
-            columnExpression224.ColumnName = "signDate";
+            columnExpression224.ColumnName = "judge";
             columnExpression224.Table = table47;
             column224.Expression = columnExpression224;
-            columnExpression225.ColumnName = "previousTreatment";
+            columnExpression225.ColumnName = "birthDay";
             columnExpression225.Table = table47;
             column225.Expression = columnExpression225;
-            columnExpression226.ColumnName = "previousTreatmentNotes";
+            columnExpression226.ColumnName = "maritalStatus";
             columnExpression226.Table = table47;
             column226.Expression = columnExpression226;
-            columnExpression227.ColumnName = "accidents";
+            columnExpression227.ColumnName = "sex";
             columnExpression227.Table = table47;
             column227.Expression = columnExpression227;
-            columnExpression228.ColumnName = "Id";
+            columnExpression228.ColumnName = "type";
+            columnExpression228.Table = table47;
+            column228.Expression = columnExpression228;
+            columnExpression229.ColumnName = "adultType";
+            columnExpression229.Table = table47;
+            column229.Expression = columnExpression229;
+            columnExpression230.ColumnName = "canBeCalledAgain";
+            columnExpression230.Table = table47;
+            column230.Expression = columnExpression230;
+            columnExpression231.ColumnName = "signDate";
+            columnExpression231.Table = table47;
+            column231.Expression = columnExpression231;
+            columnExpression232.ColumnName = "previousTreatment";
+            columnExpression232.Table = table47;
+            column232.Expression = columnExpression232;
+            columnExpression233.ColumnName = "previousTreatmentNotes";
+            columnExpression233.Table = table47;
+            column233.Expression = columnExpression233;
+            columnExpression234.ColumnName = "accidents";
+            columnExpression234.Table = table47;
+            column234.Expression = columnExpression234;
+            columnExpression235.ColumnName = "Id";
             table48.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"143\" />";
             table48.Name = "familyPreviousHistory";
-            columnExpression228.Table = table48;
-            column228.Expression = columnExpression228;
-            columnExpression229.ColumnName = "ssnPatient";
-            columnExpression229.Table = table48;
-            column229.Expression = columnExpression229;
-            columnExpression230.ColumnName = "existenceOfFamilyHistory";
-            columnExpression230.Table = table48;
-            column230.Expression = columnExpression230;
-            columnExpression231.ColumnName = "details";
-            columnExpression231.Table = table48;
-            column231.Expression = columnExpression231;
-            selectQuery22.Columns.Add(column204);
-            selectQuery22.Columns.Add(column205);
-            selectQuery22.Columns.Add(column206);
-            selectQuery22.Columns.Add(column207);
-            selectQuery22.Columns.Add(column208);
-            selectQuery22.Columns.Add(column209);
-            selectQuery22.Columns.Add(column210);
+            columnExpression235.Table = table48;
+            column235.Expression = columnExpression235;
+            columnExpression236.ColumnName = "ssnPatient";
+            columnExpression236.Table = table48;
+            column236.Expression = columnExpression236;
+            columnExpression237.ColumnName = "existenceOfFamilyHistory";
+            columnExpression237.Table = table48;
+            column237.Expression = columnExpression237;
+            columnExpression238.ColumnName = "details";
+            columnExpression238.Table = table48;
+            column238.Expression = columnExpression238;
             selectQuery22.Columns.Add(column211);
             selectQuery22.Columns.Add(column212);
             selectQuery22.Columns.Add(column213);
@@ -2474,6 +2623,13 @@
             selectQuery22.Columns.Add(column229);
             selectQuery22.Columns.Add(column230);
             selectQuery22.Columns.Add(column231);
+            selectQuery22.Columns.Add(column232);
+            selectQuery22.Columns.Add(column233);
+            selectQuery22.Columns.Add(column234);
+            selectQuery22.Columns.Add(column235);
+            selectQuery22.Columns.Add(column236);
+            selectQuery22.Columns.Add(column237);
+            selectQuery22.Columns.Add(column238);
             selectQuery22.Name = "patientInfo_1";
             relationColumnInfo26.NestedKeyColumn = "ssnPatient";
             relationColumnInfo26.ParentKeyColumn = "ssn";
@@ -2483,73 +2639,66 @@
             selectQuery22.Relations.Add(join26);
             selectQuery22.Tables.Add(table47);
             selectQuery22.Tables.Add(table48);
-            columnExpression232.ColumnName = "socialSide";
+            columnExpression239.ColumnName = "socialSide";
             table49.MetaSerializable = "<Meta X=\"340\" Y=\"30\" Width=\"125\" Height=\"363\" />";
             table49.Name = "periodicMeetings";
-            columnExpression232.Table = table49;
-            column232.Expression = columnExpression232;
-            columnExpression233.ColumnName = "socialMainProgram";
-            columnExpression233.Table = table49;
-            column233.Expression = columnExpression233;
-            columnExpression234.ColumnName = "socialAlterBehavior";
-            columnExpression234.Table = table49;
-            column234.Expression = columnExpression234;
-            columnExpression235.ColumnName = "psychologicalSide";
-            columnExpression235.Table = table49;
-            column235.Expression = columnExpression235;
-            columnExpression236.ColumnName = "psychologicalMainProgram";
-            columnExpression236.Table = table49;
-            column236.Expression = columnExpression236;
-            columnExpression237.ColumnName = "psychologicalAlterBehavior";
-            columnExpression237.Table = table49;
-            column237.Expression = columnExpression237;
-            columnExpression238.ColumnName = "religiousSide";
-            columnExpression238.Table = table49;
-            column238.Expression = columnExpression238;
-            columnExpression239.ColumnName = "meetingTitle";
             columnExpression239.Table = table49;
             column239.Expression = columnExpression239;
-            columnExpression240.ColumnName = "meetingDate";
+            columnExpression240.ColumnName = "socialMainProgram";
             columnExpression240.Table = table49;
             column240.Expression = columnExpression240;
-            columnExpression241.ColumnName = "signingDate";
+            columnExpression241.ColumnName = "socialAlterBehavior";
             columnExpression241.Table = table49;
             column241.Expression = columnExpression241;
-            columnExpression242.ColumnName = "meetingTarget";
+            columnExpression242.ColumnName = "psychologicalSide";
             columnExpression242.Table = table49;
             column242.Expression = columnExpression242;
-            columnExpression243.ColumnName = "meetingContent";
+            columnExpression243.ColumnName = "psychologicalMainProgram";
             columnExpression243.Table = table49;
             column243.Expression = columnExpression243;
-            columnExpression244.ColumnName = "recommendations";
+            columnExpression244.ColumnName = "psychologicalAlterBehavior";
             columnExpression244.Table = table49;
             column244.Expression = columnExpression244;
-            columnExpression245.ColumnName = "meetingType";
+            columnExpression245.ColumnName = "religiousSide";
             columnExpression245.Table = table49;
             column245.Expression = columnExpression245;
-            columnExpression246.ColumnName = "ssn";
-            table50.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
-            table50.Name = "patientInfo";
-            columnExpression246.Table = table50;
+            columnExpression246.ColumnName = "meetingTitle";
+            columnExpression246.Table = table49;
             column246.Expression = columnExpression246;
-            columnExpression247.ColumnName = "ssnPatient";
-            table51.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"203\" />";
-            table51.Name = "periodicMeetingsDetails";
-            columnExpression247.Table = table51;
+            columnExpression247.ColumnName = "meetingDate";
+            columnExpression247.Table = table49;
             column247.Expression = columnExpression247;
-            columnExpression248.ColumnName = "idMainMeeting";
-            columnExpression248.Table = table51;
+            columnExpression248.ColumnName = "signingDate";
+            columnExpression248.Table = table49;
             column248.Expression = columnExpression248;
-            columnExpression249.ColumnName = "Id";
+            columnExpression249.ColumnName = "meetingTarget";
             columnExpression249.Table = table49;
             column249.Expression = columnExpression249;
-            selectQuery23.Columns.Add(column232);
-            selectQuery23.Columns.Add(column233);
-            selectQuery23.Columns.Add(column234);
-            selectQuery23.Columns.Add(column235);
-            selectQuery23.Columns.Add(column236);
-            selectQuery23.Columns.Add(column237);
-            selectQuery23.Columns.Add(column238);
+            columnExpression250.ColumnName = "meetingContent";
+            columnExpression250.Table = table49;
+            column250.Expression = columnExpression250;
+            columnExpression251.ColumnName = "recommendations";
+            columnExpression251.Table = table49;
+            column251.Expression = columnExpression251;
+            columnExpression252.ColumnName = "meetingType";
+            columnExpression252.Table = table49;
+            column252.Expression = columnExpression252;
+            columnExpression253.ColumnName = "ssn";
+            table50.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"543\" />";
+            table50.Name = "patientInfo";
+            columnExpression253.Table = table50;
+            column253.Expression = columnExpression253;
+            columnExpression254.ColumnName = "ssnPatient";
+            table51.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"203\" />";
+            table51.Name = "periodicMeetingsDetails";
+            columnExpression254.Table = table51;
+            column254.Expression = columnExpression254;
+            columnExpression255.ColumnName = "idMainMeeting";
+            columnExpression255.Table = table51;
+            column255.Expression = columnExpression255;
+            columnExpression256.ColumnName = "Id";
+            columnExpression256.Table = table49;
+            column256.Expression = columnExpression256;
             selectQuery23.Columns.Add(column239);
             selectQuery23.Columns.Add(column240);
             selectQuery23.Columns.Add(column241);
@@ -2561,6 +2710,13 @@
             selectQuery23.Columns.Add(column247);
             selectQuery23.Columns.Add(column248);
             selectQuery23.Columns.Add(column249);
+            selectQuery23.Columns.Add(column250);
+            selectQuery23.Columns.Add(column251);
+            selectQuery23.Columns.Add(column252);
+            selectQuery23.Columns.Add(column253);
+            selectQuery23.Columns.Add(column254);
+            selectQuery23.Columns.Add(column255);
+            selectQuery23.Columns.Add(column256);
             selectQuery23.Distinct = true;
             selectQuery23.FilterString = "";
             selectQuery23.GroupFilterString = "";
@@ -2580,6 +2736,70 @@
             selectQuery23.Tables.Add(table50);
             selectQuery23.Tables.Add(table51);
             selectQuery23.Tables.Add(table49);
+            columnExpression257.ColumnName = "ssn";
+            table52.MetaSerializable = "<Meta X=\"30\" Y=\"30\" Width=\"125\" Height=\"563\" />";
+            table52.Name = "patientInfo";
+            columnExpression257.Table = table52;
+            column257.Expression = columnExpression257;
+            columnExpression258.ColumnName = "ssnPatient";
+            table53.MetaSerializable = "<Meta X=\"185\" Y=\"30\" Width=\"125\" Height=\"303\" />";
+            table53.Name = "siblingsTreeDetail";
+            columnExpression258.Table = table53;
+            column258.Expression = columnExpression258;
+            columnExpression259.ColumnName = "sex";
+            columnExpression259.Table = table53;
+            column259.Expression = columnExpression259;
+            columnExpression260.ColumnName = "age";
+            columnExpression260.Table = table53;
+            column260.Expression = columnExpression260;
+            columnExpression261.ColumnName = "education";
+            columnExpression261.Table = table53;
+            column261.Expression = columnExpression261;
+            columnExpression262.ColumnName = "maritalStatus";
+            columnExpression262.Table = table53;
+            column262.Expression = columnExpression262;
+            columnExpression263.ColumnName = "deathReason";
+            columnExpression263.Table = table53;
+            column263.Expression = columnExpression263;
+            columnExpression264.ColumnName = "deathAge";
+            columnExpression264.Table = table53;
+            column264.Expression = columnExpression264;
+            columnExpression265.ColumnName = "patientAgeAtDeath";
+            columnExpression265.Table = table53;
+            column265.Expression = columnExpression265;
+            columnExpression266.ColumnName = "deathInfeluence";
+            columnExpression266.Table = table53;
+            column266.Expression = columnExpression266;
+            columnExpression267.ColumnName = "notes";
+            columnExpression267.Table = table53;
+            column267.Expression = columnExpression267;
+            columnExpression268.ColumnName = "additionalInfo";
+            columnExpression268.Table = table53;
+            column268.Expression = columnExpression268;
+            selectQuery24.Columns.Add(column257);
+            selectQuery24.Columns.Add(column258);
+            selectQuery24.Columns.Add(column259);
+            selectQuery24.Columns.Add(column260);
+            selectQuery24.Columns.Add(column261);
+            selectQuery24.Columns.Add(column262);
+            selectQuery24.Columns.Add(column263);
+            selectQuery24.Columns.Add(column264);
+            selectQuery24.Columns.Add(column265);
+            selectQuery24.Columns.Add(column266);
+            selectQuery24.Columns.Add(column267);
+            selectQuery24.Columns.Add(column268);
+            selectQuery24.Distinct = true;
+            selectQuery24.FilterString = "";
+            selectQuery24.GroupFilterString = "";
+            selectQuery24.Name = "siblingsTreeDetail";
+            relationColumnInfo29.NestedKeyColumn = "ssnPatient";
+            relationColumnInfo29.ParentKeyColumn = "ssn";
+            join29.KeyColumns.Add(relationColumnInfo29);
+            join29.Nested = table53;
+            join29.Parent = table52;
+            selectQuery24.Relations.Add(join29);
+            selectQuery24.Tables.Add(table52);
+            selectQuery24.Tables.Add(table53);
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             selectQuery1,
             selectQuery2,
@@ -2603,7 +2823,8 @@
             selectQuery20,
             selectQuery21,
             selectQuery22,
-            selectQuery23});
+            selectQuery23,
+            selectQuery24});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
             // 
             // TopMargin
@@ -2619,23 +2840,183 @@
             this.xrLabel206,
             this.xrLabel204,
             this.xrLabel203});
-            this.TopMargin.HeightF = 161.96F;
+            this.TopMargin.HeightF = 162F;
             this.TopMargin.Name = "TopMargin";
+            // 
+            // xrLine2
+            // 
+            this.xrLine2.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 129.3211F);
+            this.xrLine2.Name = "xrLine2";
+            this.xrLine2.SizeF = new System.Drawing.SizeF(725F, 23F);
+            // 
+            // xrLabel207
+            // 
+            this.xrLabel207.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel207.LocationFloat = new DevExpress.Utils.PointFloat(18.22294F, 25.43213F);
+            this.xrLabel207.Multiline = true;
+            this.xrLabel207.Name = "xrLabel207";
+            this.xrLabel207.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel207.SizeF = new System.Drawing.SizeF(262.4021F, 23F);
+            this.xrLabel207.StylePriority.UseFont = false;
+            this.xrLabel207.StylePriority.UseTextAlignment = false;
+            this.xrLabel207.Text = "Abu Dhabi Government";
+            this.xrLabel207.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel208
+            // 
+            this.xrLabel208.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel208.LocationFloat = new DevExpress.Utils.PointFloat(18.22294F, 48.43213F);
+            this.xrLabel208.Multiline = true;
+            this.xrLabel208.Name = "xrLabel208";
+            this.xrLabel208.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel208.SizeF = new System.Drawing.SizeF(262.4021F, 22.99999F);
+            this.xrLabel208.StylePriority.UseFont = false;
+            this.xrLabel208.StylePriority.UseTextAlignment = false;
+            this.xrLabel208.Text = "Abu Dhabi Police G.H.Q.";
+            this.xrLabel208.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel209
+            // 
+            this.xrLabel209.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel209.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 106.3211F);
+            this.xrLabel209.Multiline = true;
+            this.xrLabel209.Name = "xrLabel209";
+            this.xrLabel209.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel209.SizeF = new System.Drawing.SizeF(231.5759F, 23.00001F);
+            this.xrLabel209.StylePriority.UseFont = false;
+            this.xrLabel209.StylePriority.UseTextAlignment = false;
+            this.xrLabel209.Text = "Medical Serices Directorate";
+            this.xrLabel209.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel210
+            // 
+            this.xrLabel210.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel210.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 83.32106F);
+            this.xrLabel210.Multiline = true;
+            this.xrLabel210.Name = "xrLabel210";
+            this.xrLabel210.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel210.SizeF = new System.Drawing.SizeF(231.5759F, 23F);
+            this.xrLabel210.StylePriority.UseFont = false;
+            this.xrLabel210.StylePriority.UseTextAlignment = false;
+            this.xrLabel210.Text = "Financial & Services sector";
+            this.xrLabel210.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrPictureBox1
+            // 
+            this.xrPictureBox1.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource(global::phsycologyForm.Properties.Resources.abu, true);
+            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(330.7701F, 29.32106F);
+            this.xrPictureBox1.Name = "xrPictureBox1";
+            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(100F, 100F);
+            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // xrLabel205
+            // 
+            this.xrLabel205.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel205.LocationFloat = new DevExpress.Utils.PointFloat(494.8186F, 83.32106F);
+            this.xrLabel205.Multiline = true;
+            this.xrLabel205.Name = "xrLabel205";
+            this.xrLabel205.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel205.SizeF = new System.Drawing.SizeF(204.197F, 23F);
+            this.xrLabel205.StylePriority.UseFont = false;
+            this.xrLabel205.StylePriority.UseTextAlignment = false;
+            this.xrLabel205.Text = "قطاع المالية والخدمات";
+            this.xrLabel205.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel206
+            // 
+            this.xrLabel206.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel206.LocationFloat = new DevExpress.Utils.PointFloat(494.8186F, 106.3211F);
+            this.xrLabel206.Multiline = true;
+            this.xrLabel206.Name = "xrLabel206";
+            this.xrLabel206.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel206.SizeF = new System.Drawing.SizeF(204.197F, 22.99999F);
+            this.xrLabel206.StylePriority.UseFont = false;
+            this.xrLabel206.StylePriority.UseTextAlignment = false;
+            this.xrLabel206.Text = "مديرية الخدمات الطبية";
+            this.xrLabel206.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel204
+            // 
+            this.xrLabel204.Font = new System.Drawing.Font("Algerian", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel204.LocationFloat = new DevExpress.Utils.PointFloat(481.3115F, 48.43213F);
+            this.xrLabel204.Multiline = true;
+            this.xrLabel204.Name = "xrLabel204";
+            this.xrLabel204.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel204.SizeF = new System.Drawing.SizeF(217.7038F, 23F);
+            this.xrLabel204.StylePriority.UseFont = false;
+            this.xrLabel204.StylePriority.UseTextAlignment = false;
+            this.xrLabel204.Text = "القيادة العامة لشرطة أبوظبي";
+            this.xrLabel204.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel203
+            // 
+            this.xrLabel203.Font = new System.Drawing.Font("Algerian", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel203.LocationFloat = new DevExpress.Utils.PointFloat(481.7369F, 25.43213F);
+            this.xrLabel203.Multiline = true;
+            this.xrLabel203.Name = "xrLabel203";
+            this.xrLabel203.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel203.SizeF = new System.Drawing.SizeF(217.2787F, 23F);
+            this.xrLabel203.StylePriority.UseFont = false;
+            this.xrLabel203.StylePriority.UseTextAlignment = false;
+            this.xrLabel203.Text = "حكومة أبوظبي";
+            this.xrLabel203.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // BottomMargin
             // 
             this.BottomMargin.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrPageBreak1,
+            this.xrPageInfo2,
             this.xrLine3,
             this.xrPageInfo1,
-            this.xrLabel211,
-            this.xrPictureBox2});
-            this.BottomMargin.HeightF = 100F;
+            this.xrLabel211});
             this.BottomMargin.Name = "BottomMargin";
             // 
-            // Detail
+            // xrPageBreak1
             // 
-            this.Detail.HeightF = 0F;
-            this.Detail.Name = "Detail";
+            this.xrPageBreak1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 29.66152F);
+            this.xrPageBreak1.Name = "xrPageBreak1";
+            // 
+            // xrPageInfo2
+            // 
+            this.xrPageInfo2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrPageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(328.7571F, 39.23274F);
+            this.xrPageInfo2.Name = "xrPageInfo2";
+            this.xrPageInfo2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo2.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrPageInfo2.StylePriority.UseFont = false;
+            this.xrPageInfo2.StylePriority.UseTextAlignment = false;
+            this.xrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrLine3
+            // 
+            this.xrLine3.LocationFloat = new DevExpress.Utils.PointFloat(10.00003F, 0F);
+            this.xrLine3.Name = "xrLine3";
+            this.xrLine3.SizeF = new System.Drawing.SizeF(725F, 23F);
+            // 
+            // xrPageInfo1
+            // 
+            this.xrPageInfo1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 39.23289F);
+            this.xrPageInfo1.Name = "xrPageInfo1";
+            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
+            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(212.9F, 23F);
+            this.xrPageInfo1.StartPageNumber = 0;
+            this.xrPageInfo1.StylePriority.UseFont = false;
+            this.xrPageInfo1.TextFormatString = " {0:h:mm tt dd MMMM yyyy} أنشئت في";
+            // 
+            // xrLabel211
+            // 
+            this.xrLabel211.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel211.LocationFloat = new DevExpress.Utils.PointFloat(568.3344F, 39.23273F);
+            this.xrLabel211.Multiline = true;
+            this.xrLabel211.Name = "xrLabel211";
+            this.xrLabel211.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel211.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
+            this.xrLabel211.StylePriority.UseFont = false;
+            this.xrLabel211.StylePriority.UseTextAlignment = false;
+            this.xrLabel211.Text = "الأخصائي الاجتماعي";
+            this.xrLabel211.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // DetailReport
             // 
@@ -2722,11 +3103,13 @@
             // 
             this.xrLabel134.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[purpose]")});
+            this.xrLabel134.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel134.LocationFloat = new DevExpress.Utils.PointFloat(388.1635F, 448.2451F);
             this.xrLabel134.Multiline = true;
             this.xrLabel134.Name = "xrLabel134";
             this.xrLabel134.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel134.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel134.StylePriority.UseFont = false;
             this.xrLabel134.StylePriority.UseTextAlignment = false;
             this.xrLabel134.Text = "xrLabel14";
             this.xrLabel134.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2735,11 +3118,13 @@
             // 
             this.xrLabel133.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[attendedWith]")});
+            this.xrLabel133.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel133.LocationFloat = new DevExpress.Utils.PointFloat(388.165F, 425.2451F);
             this.xrLabel133.Multiline = true;
             this.xrLabel133.Name = "xrLabel133";
             this.xrLabel133.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel133.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel133.StylePriority.UseFont = false;
             this.xrLabel133.StylePriority.UseTextAlignment = false;
             this.xrLabel133.Text = "xrLabel14";
             this.xrLabel133.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2761,11 +3146,13 @@
             // 
             this.xrLabel131.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[convertedFrom]")});
+            this.xrLabel131.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel131.LocationFloat = new DevExpress.Utils.PointFloat(68.82372F, 425.2451F);
             this.xrLabel131.Multiline = true;
             this.xrLabel131.Name = "xrLabel131";
             this.xrLabel131.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel131.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel131.StylePriority.UseFont = false;
             this.xrLabel131.StylePriority.UseTextAlignment = false;
             this.xrLabel131.Text = "xrLabel20";
             this.xrLabel131.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2787,11 +3174,13 @@
             // 
             this.xrLabel136.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[currentComplain]")});
+            this.xrLabel136.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel136.LocationFloat = new DevExpress.Utils.PointFloat(68.82359F, 448.2451F);
             this.xrLabel136.Multiline = true;
             this.xrLabel136.Name = "xrLabel136";
             this.xrLabel136.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel136.SizeF = new System.Drawing.SizeF(190.1739F, 23F);
+            this.xrLabel136.StylePriority.UseFont = false;
             this.xrLabel136.StylePriority.UseTextAlignment = false;
             this.xrLabel136.Text = "xrLabel32";
             this.xrLabel136.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2960,11 +3349,13 @@
             // 
             this.xrLabel11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[ssn]")});
+            this.xrLabel11.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(388.1635F, 98.2353F);
             this.xrLabel11.Multiline = true;
             this.xrLabel11.Name = "xrLabel11";
             this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel11.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel11.StylePriority.UseFont = false;
             this.xrLabel11.StylePriority.UseTextAlignment = false;
             this.xrLabel11.Text = "xrLabel11";
             this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2973,11 +3364,13 @@
             // 
             this.xrLabel12.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel12.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(388.1635F, 121.2353F);
             this.xrLabel12.Multiline = true;
             this.xrLabel12.Name = "xrLabel12";
             this.xrLabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel12.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel12.StylePriority.UseFont = false;
             this.xrLabel12.StylePriority.UseTextAlignment = false;
             this.xrLabel12.Text = "xrLabel12";
             this.xrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -2986,24 +3379,29 @@
             // 
             this.xrLabel13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[age]")});
+            this.xrLabel13.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(388.1635F, 144.2353F);
             this.xrLabel13.Multiline = true;
             this.xrLabel13.Name = "xrLabel13";
             this.xrLabel13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel13.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrLabel13.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel13.StylePriority.UseFont = false;
             this.xrLabel13.StylePriority.UseTextAlignment = false;
             this.xrLabel13.Text = "xrLabel13";
-            this.xrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel14
             // 
             this.xrLabel14.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[nationality]")});
+            this.xrLabel14.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(388.1635F, 167.2352F);
             this.xrLabel14.Multiline = true;
             this.xrLabel14.Name = "xrLabel14";
             this.xrLabel14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel14.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel14.StylePriority.UseFont = false;
             this.xrLabel14.StylePriority.UseTextAlignment = false;
             this.xrLabel14.Text = "xrLabel14";
             this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3012,11 +3410,13 @@
             // 
             this.xrLabel16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[length]")});
+            this.xrLabel16.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 98.2353F);
             this.xrLabel16.Multiline = true;
             this.xrLabel16.Name = "xrLabel16";
             this.xrLabel16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel16.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel16.StylePriority.UseFont = false;
             this.xrLabel16.StylePriority.UseTextAlignment = false;
             this.xrLabel16.Text = "xrLabel16";
             this.xrLabel16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3025,11 +3425,13 @@
             // 
             this.xrLabel17.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[weight]")});
+            this.xrLabel17.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel17.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 121.2353F);
             this.xrLabel17.Multiline = true;
             this.xrLabel17.Name = "xrLabel17";
             this.xrLabel17.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel17.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel17.StylePriority.UseFont = false;
             this.xrLabel17.StylePriority.UseTextAlignment = false;
             this.xrLabel17.Text = "xrLabel17";
             this.xrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3038,11 +3440,13 @@
             // 
             this.xrLabel18.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[waist]")});
+            this.xrLabel18.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel18.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 144.2353F);
             this.xrLabel18.Multiline = true;
             this.xrLabel18.Name = "xrLabel18";
             this.xrLabel18.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel18.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel18.StylePriority.UseFont = false;
             this.xrLabel18.StylePriority.UseTextAlignment = false;
             this.xrLabel18.Text = "xrLabel18";
             this.xrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3052,11 +3456,13 @@
             // 
             this.xrLabel19.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[languistics]")});
+            this.xrLabel19.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 167.2352F);
             this.xrLabel19.Multiline = true;
             this.xrLabel19.Name = "xrLabel19";
             this.xrLabel19.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel19.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel19.StylePriority.UseFont = false;
             this.xrLabel19.StylePriority.UseTextAlignment = false;
             this.xrLabel19.Text = "xrLabel19";
             this.xrLabel19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3065,11 +3471,13 @@
             // 
             this.xrLabel20.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[walking]")});
+            this.xrLabel20.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel20.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 190.2353F);
             this.xrLabel20.Multiline = true;
             this.xrLabel20.Name = "xrLabel20";
             this.xrLabel20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel20.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel20.StylePriority.UseFont = false;
             this.xrLabel20.StylePriority.UseTextAlignment = false;
             this.xrLabel20.Text = "xrLabel20";
             this.xrLabel20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3078,11 +3486,13 @@
             // 
             this.xrLabel118.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[judge]")});
+            this.xrLabel118.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel118.LocationFloat = new DevExpress.Utils.PointFloat(388.1633F, 259.2353F);
             this.xrLabel118.Multiline = true;
             this.xrLabel118.Name = "xrLabel118";
             this.xrLabel118.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel118.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel118.StylePriority.UseFont = false;
             this.xrLabel118.StylePriority.UseTextAlignment = false;
             this.xrLabel118.Text = "xrLabel14";
             this.xrLabel118.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3091,11 +3501,13 @@
             // 
             this.xrLabel117.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[caseFile]")});
+            this.xrLabel117.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel117.LocationFloat = new DevExpress.Utils.PointFloat(388.1633F, 236.2353F);
             this.xrLabel117.Multiline = true;
             this.xrLabel117.Name = "xrLabel117";
             this.xrLabel117.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel117.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel117.StylePriority.UseFont = false;
             this.xrLabel117.StylePriority.UseTextAlignment = false;
             this.xrLabel117.Text = "xrLabel13";
             this.xrLabel117.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3104,11 +3516,13 @@
             // 
             this.xrLabel116.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[phoneNumber]")});
+            this.xrLabel116.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel116.LocationFloat = new DevExpress.Utils.PointFloat(388.1633F, 213.2353F);
             this.xrLabel116.Multiline = true;
             this.xrLabel116.Name = "xrLabel116";
             this.xrLabel116.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel116.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel116.StylePriority.UseFont = false;
             this.xrLabel116.StylePriority.UseTextAlignment = false;
             this.xrLabel116.Text = "xrLabel12";
             this.xrLabel116.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3117,11 +3531,13 @@
             // 
             this.xrLabel115.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[residencePlace]")});
+            this.xrLabel115.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel115.LocationFloat = new DevExpress.Utils.PointFloat(388.1633F, 190.2353F);
             this.xrLabel115.Multiline = true;
             this.xrLabel115.Name = "xrLabel115";
             this.xrLabel115.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel115.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel115.StylePriority.UseFont = false;
             this.xrLabel115.StylePriority.UseTextAlignment = false;
             this.xrLabel115.Text = "xrLabel11";
             this.xrLabel115.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3182,11 +3598,13 @@
             // 
             this.xrLabel120.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[type]")});
+            this.xrLabel120.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel120.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 259.2353F);
             this.xrLabel120.Multiline = true;
             this.xrLabel120.Name = "xrLabel120";
             this.xrLabel120.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel120.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel120.StylePriority.UseFont = false;
             this.xrLabel120.StylePriority.UseTextAlignment = false;
             this.xrLabel120.Text = "xrLabel20";
             this.xrLabel120.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3195,11 +3613,13 @@
             // 
             this.xrLabel119.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[sex]")});
+            this.xrLabel119.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel119.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 236.2353F);
             this.xrLabel119.Multiline = true;
             this.xrLabel119.Name = "xrLabel119";
             this.xrLabel119.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel119.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel119.StylePriority.UseFont = false;
             this.xrLabel119.StylePriority.UseTextAlignment = false;
             this.xrLabel119.Text = "xrLabel19";
             this.xrLabel119.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3208,11 +3628,13 @@
             // 
             this.xrLabel22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[muscles]")});
+            this.xrLabel22.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel22.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 213.2353F);
             this.xrLabel22.Multiline = true;
             this.xrLabel22.Name = "xrLabel22";
             this.xrLabel22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel22.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel22.StylePriority.UseFont = false;
             this.xrLabel22.StylePriority.UseTextAlignment = false;
             this.xrLabel22.Text = "xrLabel18";
             this.xrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3274,11 +3696,13 @@
             // 
             this.xrLabel121.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[adultType]")});
+            this.xrLabel121.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel121.LocationFloat = new DevExpress.Utils.PointFloat(68.82357F, 282.2353F);
             this.xrLabel121.Multiline = true;
             this.xrLabel121.Name = "xrLabel121";
             this.xrLabel121.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel121.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel121.StylePriority.UseFont = false;
             this.xrLabel121.StylePriority.UseTextAlignment = false;
             this.xrLabel121.Text = "xrLabel20";
             this.xrLabel121.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3300,11 +3724,13 @@
             // 
             this.xrLabel123.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[maritalStatus]")});
+            this.xrLabel123.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel123.LocationFloat = new DevExpress.Utils.PointFloat(388.1648F, 282.2353F);
             this.xrLabel123.Multiline = true;
             this.xrLabel123.Name = "xrLabel123";
             this.xrLabel123.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel123.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel123.StylePriority.UseFont = false;
             this.xrLabel123.StylePriority.UseTextAlignment = false;
             this.xrLabel123.Text = "xrLabel14";
             this.xrLabel123.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3313,11 +3739,13 @@
             // 
             this.xrLabel128.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[birthDay]")});
+            this.xrLabel128.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel128.LocationFloat = new DevExpress.Utils.PointFloat(388.1633F, 305.2353F);
             this.xrLabel128.Multiline = true;
             this.xrLabel128.Name = "xrLabel128";
             this.xrLabel128.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel128.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel128.StylePriority.UseFont = false;
             this.xrLabel128.StylePriority.UseTextAlignment = false;
             this.xrLabel128.Text = "xrLabel14";
             this.xrLabel128.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3340,11 +3768,13 @@
             // 
             this.xrLabel126.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[signDate]")});
+            this.xrLabel126.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel126.LocationFloat = new DevExpress.Utils.PointFloat(68.82327F, 305.2353F);
             this.xrLabel126.Multiline = true;
             this.xrLabel126.Name = "xrLabel126";
             this.xrLabel126.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel126.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel126.StylePriority.UseFont = false;
             this.xrLabel126.StylePriority.UseTextAlignment = false;
             this.xrLabel126.Text = "xrLabel20";
             this.xrLabel126.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3420,10 +3850,12 @@
             this.xrLabel24.AutoWidth = true;
             this.xrLabel24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[degree]")});
+            this.xrLabel24.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel24.LocationFloat = new DevExpress.Utils.PointFloat(388.4092F, 9.999968F);
             this.xrLabel24.Name = "xrLabel24";
             this.xrLabel24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel24.SizeF = new System.Drawing.SizeF(192.0135F, 23F);
+            this.xrLabel24.StylePriority.UseFont = false;
             this.xrLabel24.StylePriority.UseTextAlignment = false;
             this.xrLabel24.Text = "xrLabel24";
             this.xrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3433,10 +3865,12 @@
             this.xrLabel26.AutoWidth = true;
             this.xrLabel26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[graduationAge]")});
+            this.xrLabel26.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel26.LocationFloat = new DevExpress.Utils.PointFloat(69.06906F, 9.999968F);
             this.xrLabel26.Name = "xrLabel26";
             this.xrLabel26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel26.SizeF = new System.Drawing.SizeF(190.1737F, 23F);
+            this.xrLabel26.StylePriority.UseFont = false;
             this.xrLabel26.StylePriority.UseTextAlignment = false;
             this.xrLabel26.Text = "xrLabel24";
             this.xrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3458,11 +3892,13 @@
             // 
             this.xrLabel29.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[Reasons]")});
+            this.xrLabel29.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel29.LocationFloat = new DevExpress.Utils.PointFloat(388.4089F, 32.9999F);
             this.xrLabel29.Multiline = true;
             this.xrLabel29.Name = "xrLabel29";
             this.xrLabel29.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel29.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
+            this.xrLabel29.StylePriority.UseFont = false;
             this.xrLabel29.StylePriority.UseTextAlignment = false;
             this.xrLabel29.Text = "xrLabel29";
             this.xrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3537,11 +3973,13 @@
             // 
             this.xrLabel32.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[wifeDegree]")});
+            this.xrLabel32.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel32.LocationFloat = new DevExpress.Utils.PointFloat(384.8243F, 0F);
             this.xrLabel32.Multiline = true;
             this.xrLabel32.Name = "xrLabel32";
             this.xrLabel32.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel32.SizeF = new System.Drawing.SizeF(195.3532F, 23F);
+            this.xrLabel32.StylePriority.UseFont = false;
             this.xrLabel32.StylePriority.UseTextAlignment = false;
             this.xrLabel32.Text = "xrLabel32";
             this.xrLabel32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3579,11 +4017,13 @@
             // 
             this.xrLabel33.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[wifeGraduationAge]")});
+            this.xrLabel33.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel33.LocationFloat = new DevExpress.Utils.PointFloat(68.82432F, 0F);
             this.xrLabel33.Multiline = true;
             this.xrLabel33.Name = "xrLabel33";
             this.xrLabel33.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel33.SizeF = new System.Drawing.SizeF(190.1736F, 23F);
+            this.xrLabel33.StylePriority.UseFont = false;
             this.xrLabel33.StylePriority.UseTextAlignment = false;
             this.xrLabel33.Text = "xrLabel33";
             this.xrLabel33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3660,12 +4100,14 @@
             // 
             this.xrCheckBox3.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[socialCharacteristics].[aggressive]")});
+            this.xrCheckBox3.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrCheckBox3.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
             this.xrCheckBox3.LocationFloat = new DevExpress.Utils.PointFloat(590.4438F, 55.8204F);
             this.xrCheckBox3.Name = "xrCheckBox3";
             this.xrCheckBox3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox3.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrCheckBox3.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox3.StylePriority.UseFont = false;
             this.xrCheckBox3.StylePriority.UseTextAlignment = false;
             this.xrCheckBox3.Text = "عدواني";
             // 
@@ -3673,12 +4115,14 @@
             // 
             this.xrCheckBox4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[socialCharacteristics].[anixious]")});
+            this.xrCheckBox4.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrCheckBox4.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
             this.xrCheckBox4.LocationFloat = new DevExpress.Utils.PointFloat(328.7571F, 55.8204F);
             this.xrCheckBox4.Name = "xrCheckBox4";
             this.xrCheckBox4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox4.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrCheckBox4.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox4.StylePriority.UseFont = false;
             this.xrCheckBox4.StylePriority.UseTextAlignment = false;
             this.xrCheckBox4.Text = "وسواس";
             // 
@@ -3686,12 +4130,14 @@
             // 
             this.xrCheckBox5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[socialCharacteristics].[depressive]")});
+            this.xrCheckBox5.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrCheckBox5.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
             this.xrCheckBox5.LocationFloat = new DevExpress.Utils.PointFloat(459.6003F, 55.8204F);
             this.xrCheckBox5.Name = "xrCheckBox5";
             this.xrCheckBox5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox5.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrCheckBox5.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox5.StylePriority.UseFont = false;
             this.xrCheckBox5.StylePriority.UseTextAlignment = false;
             this.xrCheckBox5.Text = "اكتئابي";
             // 
@@ -3699,12 +4145,14 @@
             // 
             this.xrCheckBox6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[socialCharacteristics].[doubtful]")});
+            this.xrCheckBox6.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrCheckBox6.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
             this.xrCheckBox6.LocationFloat = new DevExpress.Utils.PointFloat(197.9139F, 55.8204F);
             this.xrCheckBox6.Name = "xrCheckBox6";
             this.xrCheckBox6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox6.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrCheckBox6.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox6.StylePriority.UseFont = false;
             this.xrCheckBox6.StylePriority.UseTextAlignment = false;
             this.xrCheckBox6.Text = "شكاك";
             // 
@@ -3712,12 +4160,14 @@
             // 
             this.xrLabel41.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[otherCharacteristics]")});
+            this.xrLabel41.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel41.LocationFloat = new DevExpress.Utils.PointFloat(67.07036F, 55.8204F);
             this.xrLabel41.Multiline = true;
             this.xrLabel41.Name = "xrLabel41";
             this.xrLabel41.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel41.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
             this.xrLabel41.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrLabel41.StylePriority.UseFont = false;
             this.xrLabel41.StylePriority.UseTextAlignment = false;
             this.xrLabel41.Text = "xrLabel41";
             this.xrLabel41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
@@ -3754,11 +4204,13 @@
             // 
             this.xrLabel44.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[economicStatus]")});
+            this.xrLabel44.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel44.LocationFloat = new DevExpress.Utils.PointFloat(386.4104F, 130.3837F);
             this.xrLabel44.Multiline = true;
             this.xrLabel44.Name = "xrLabel44";
             this.xrLabel44.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel44.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel44.StylePriority.UseFont = false;
             this.xrLabel44.StylePriority.UseTextAlignment = false;
             this.xrLabel44.Text = "xrLabel44";
             this.xrLabel44.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3780,11 +4232,13 @@
             // 
             this.xrLabel46.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[anotherIncome]")});
+            this.xrLabel46.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel46.LocationFloat = new DevExpress.Utils.PointFloat(67.07008F, 153.3836F);
             this.xrLabel46.Multiline = true;
             this.xrLabel46.Name = "xrLabel46";
             this.xrLabel46.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel46.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel46.StylePriority.UseFont = false;
             this.xrLabel46.StylePriority.UseTextAlignment = false;
             this.xrLabel46.Text = "xrLabel46";
             this.xrLabel46.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3806,11 +4260,13 @@
             // 
             this.xrLabel48.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[home]")});
+            this.xrLabel48.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel48.LocationFloat = new DevExpress.Utils.PointFloat(386.4104F, 153.3836F);
             this.xrLabel48.Multiline = true;
             this.xrLabel48.Name = "xrLabel48";
             this.xrLabel48.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel48.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel48.StylePriority.UseFont = false;
             this.xrLabel48.StylePriority.UseTextAlignment = false;
             this.xrLabel48.Text = "xrLabel48";
             this.xrLabel48.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3832,11 +4288,13 @@
             // 
             this.xrLabel50.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[loan]")});
+            this.xrLabel50.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel50.LocationFloat = new DevExpress.Utils.PointFloat(67.07008F, 130.3837F);
             this.xrLabel50.Multiline = true;
             this.xrLabel50.Name = "xrLabel50";
             this.xrLabel50.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel50.SizeF = new System.Drawing.SizeF(190.1737F, 22.99998F);
+            this.xrLabel50.StylePriority.UseFont = false;
             this.xrLabel50.StylePriority.UseTextAlignment = false;
             this.xrLabel50.Text = "xrLabel50";
             this.xrLabel50.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3845,11 +4303,13 @@
             // 
             this.xrLabel139.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[roomCount]")});
+            this.xrLabel139.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel139.LocationFloat = new DevExpress.Utils.PointFloat(67.07054F, 176.3836F);
             this.xrLabel139.Multiline = true;
             this.xrLabel139.Name = "xrLabel139";
             this.xrLabel139.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel139.SizeF = new System.Drawing.SizeF(190.1737F, 22.99998F);
+            this.xrLabel139.StylePriority.UseFont = false;
             this.xrLabel139.StylePriority.UseTextAlignment = false;
             this.xrLabel139.Text = "xrLabel50";
             this.xrLabel139.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3871,11 +4331,13 @@
             // 
             this.xrLabel38.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[homeType]")});
+            this.xrLabel38.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel38.LocationFloat = new DevExpress.Utils.PointFloat(386.6559F, 176.3836F);
             this.xrLabel38.Multiline = true;
             this.xrLabel38.Name = "xrLabel38";
             this.xrLabel38.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel38.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel38.StylePriority.UseFont = false;
             this.xrLabel38.StylePriority.UseTextAlignment = false;
             this.xrLabel38.Text = "xrLabel48";
             this.xrLabel38.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3912,11 +4374,13 @@
             // 
             this.xrLabel140.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[shareRoomWith]")});
+            this.xrLabel140.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel140.LocationFloat = new DevExpress.Utils.PointFloat(386.4089F, 199.3834F);
             this.xrLabel140.Multiline = true;
             this.xrLabel140.Name = "xrLabel140";
             this.xrLabel140.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel140.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
+            this.xrLabel140.StylePriority.UseFont = false;
             this.xrLabel140.StylePriority.UseTextAlignment = false;
             this.xrLabel140.Text = "xrLabel29";
             this.xrLabel140.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -3966,11 +4430,13 @@
             // 
             this.xrLabel54.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[bossRelation]")});
+            this.xrLabel54.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel54.LocationFloat = new DevExpress.Utils.PointFloat(494.4481F, 9.999968F);
             this.xrLabel54.Multiline = true;
             this.xrLabel54.Name = "xrLabel54";
             this.xrLabel54.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel54.SizeF = new System.Drawing.SizeF(114.4231F, 23F);
+            this.xrLabel54.StylePriority.UseFont = false;
             this.xrLabel54.StylePriority.UseTextAlignment = false;
             this.xrLabel54.Text = "xrLabel54";
             this.xrLabel54.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -3992,11 +4458,13 @@
             // 
             this.xrLabel55.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[cooworkersRelations]")});
+            this.xrLabel55.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel55.LocationFloat = new DevExpress.Utils.PointFloat(281.6001F, 9.999968F);
             this.xrLabel55.Multiline = true;
             this.xrLabel55.Name = "xrLabel55";
             this.xrLabel55.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel55.SizeF = new System.Drawing.SizeF(114.423F, 23F);
+            this.xrLabel55.StylePriority.UseFont = false;
             this.xrLabel55.StylePriority.UseTextAlignment = false;
             this.xrLabel55.Text = "xrLabel55";
             this.xrLabel55.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4018,11 +4486,13 @@
             // 
             this.xrLabel57.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[socialCharacteristics].[jobRegularity]")});
+            this.xrLabel57.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel57.LocationFloat = new DevExpress.Utils.PointFloat(67.06761F, 9.999968F);
             this.xrLabel57.Multiline = true;
             this.xrLabel57.Name = "xrLabel57";
             this.xrLabel57.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel57.SizeF = new System.Drawing.SizeF(114.4231F, 23F);
+            this.xrLabel57.StylePriority.UseFont = false;
             this.xrLabel57.StylePriority.UseTextAlignment = false;
             this.xrLabel57.Text = "xrLabel57";
             this.xrLabel57.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4160,12 +4630,130 @@
             this.Detail6.HeightF = 0F;
             this.Detail6.Name = "Detail6";
             // 
+            // GroupHeader4
+            // 
+            this.GroupHeader4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel88,
+            this.xrCheckBox16,
+            this.xrLabel155,
+            this.xrLabel156,
+            this.xrLabel153,
+            this.xrLabel154,
+            this.xrLabel152});
+            this.GroupHeader4.HeightF = 110.7031F;
+            this.GroupHeader4.KeepTogether = true;
+            this.GroupHeader4.Name = "GroupHeader4";
+            // 
+            // xrLabel88
+            // 
+            this.xrLabel88.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[amountType]")});
+            this.xrLabel88.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel88.LocationFloat = new DevExpress.Utils.PointFloat(377.2292F, 64.70299F);
+            this.xrLabel88.Multiline = true;
+            this.xrLabel88.Name = "xrLabel88";
+            this.xrLabel88.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel88.SizeF = new System.Drawing.SizeF(104.2602F, 22.99998F);
+            this.xrLabel88.StylePriority.UseFont = false;
+            this.xrLabel88.StylePriority.UseTextAlignment = false;
+            this.xrLabel88.Text = "xrLabel48";
+            this.xrLabel88.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrCheckBox16
+            // 
+            this.xrCheckBox16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[teenEconomicStatus].[wasEnough]")});
+            this.xrCheckBox16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrCheckBox16.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox16.LocationFloat = new DevExpress.Utils.PointFloat(53.07385F, 64.70297F);
+            this.xrCheckBox16.Name = "xrCheckBox16";
+            this.xrCheckBox16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox16.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox16.SizeF = new System.Drawing.SizeF(309.9984F, 23F);
+            this.xrCheckBox16.StylePriority.UseFont = false;
+            this.xrCheckBox16.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox16.Text = "هل كان المبلغ المخصص كافيًا للمصاريف الشخصية؟";
+            // 
+            // xrLabel155
+            // 
+            this.xrLabel155.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([wasEnough]==true),false,true)\n")});
+            this.xrLabel155.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel155.LocationFloat = new DevExpress.Utils.PointFloat(243.0743F, 87.70307F);
+            this.xrLabel155.Multiline = true;
+            this.xrLabel155.Name = "xrLabel155";
+            this.xrLabel155.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel155.SizeF = new System.Drawing.SizeF(118.1578F, 23F);
+            this.xrLabel155.StylePriority.UseFont = false;
+            this.xrLabel155.StylePriority.UseTextAlignment = false;
+            this.xrLabel155.Text = "مصدر تغطية العجز؟";
+            this.xrLabel155.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel156
+            // 
+            this.xrLabel156.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[shortComeCoverage]")});
+            this.xrLabel156.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel156.LocationFloat = new DevExpress.Utils.PointFloat(53.07385F, 87.70294F);
+            this.xrLabel156.Multiline = true;
+            this.xrLabel156.Name = "xrLabel156";
+            this.xrLabel156.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel156.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
+            this.xrLabel156.StylePriority.UseFont = false;
+            this.xrLabel156.StylePriority.UseTextAlignment = false;
+            this.xrLabel156.Text = "xrLabel48";
+            this.xrLabel156.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel153
+            // 
+            this.xrLabel153.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[amount]")});
+            this.xrLabel153.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel153.LocationFloat = new DevExpress.Utils.PointFloat(481.7368F, 64.70337F);
+            this.xrLabel153.Multiline = true;
+            this.xrLabel153.Name = "xrLabel153";
+            this.xrLabel153.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel153.SizeF = new System.Drawing.SizeF(86.68628F, 22.99998F);
+            this.xrLabel153.StylePriority.UseFont = false;
+            this.xrLabel153.StylePriority.UseTextAlignment = false;
+            this.xrLabel153.Text = "xrLabel48";
+            this.xrLabel153.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel154
+            // 
+            this.xrLabel154.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel154.LocationFloat = new DevExpress.Utils.PointFloat(568.423F, 64.70337F);
+            this.xrLabel154.Multiline = true;
+            this.xrLabel154.Name = "xrLabel154";
+            this.xrLabel154.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel154.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
+            this.xrLabel154.StylePriority.UseFont = false;
+            this.xrLabel154.StylePriority.UseTextAlignment = false;
+            this.xrLabel154.Text = "المصروف بالدرهم";
+            this.xrLabel154.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel152
+            // 
+            this.xrLabel152.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel152.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel152.LocationFloat = new DevExpress.Utils.PointFloat(276.2427F, 22.91667F);
+            this.xrLabel152.Multiline = true;
+            this.xrLabel152.Name = "xrLabel152";
+            this.xrLabel152.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel152.SizeF = new System.Drawing.SizeF(205.0288F, 23F);
+            this.xrLabel152.StylePriority.UseBorders = false;
+            this.xrLabel152.StylePriority.UseFont = false;
+            this.xrLabel152.StylePriority.UseTextAlignment = false;
+            this.xrLabel152.Text = "خاص بالمراهقين والقاصرات";
+            this.xrLabel152.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
             // xrTable19
             // 
             this.xrTable19.BorderColor = System.Drawing.Color.DimGray;
             this.xrTable19.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable19.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable19.LocationFloat = new DevExpress.Utils.PointFloat(39.07032F, 0F);
             this.xrTable19.Name = "xrTable19";
             this.xrTable19.OddStyleName = "xrControlStyle1";
@@ -4175,6 +4763,7 @@
             this.xrTable19.SizeF = new System.Drawing.SizeF(660F, 25F);
             this.xrTable19.StylePriority.UseBorderColor = false;
             this.xrTable19.StylePriority.UseBorders = false;
+            this.xrTable19.StylePriority.UseFont = false;
             // 
             // xrTableRow19
             // 
@@ -4230,33 +4819,6 @@
             this.xrTableCell104.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell104.Weight = 0.38461538461538464D;
             // 
-            // GroupHeader4
-            // 
-            this.GroupHeader4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel88,
-            this.xrCheckBox16,
-            this.xrLabel155,
-            this.xrLabel156,
-            this.xrLabel153,
-            this.xrLabel154,
-            this.xrLabel152});
-            this.GroupHeader4.HeightF = 110.7031F;
-            this.GroupHeader4.KeepTogether = true;
-            this.GroupHeader4.Name = "GroupHeader4";
-            // 
-            // xrLabel88
-            // 
-            this.xrLabel88.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[amountType]")});
-            this.xrLabel88.LocationFloat = new DevExpress.Utils.PointFloat(377.2292F, 64.70299F);
-            this.xrLabel88.Multiline = true;
-            this.xrLabel88.Name = "xrLabel88";
-            this.xrLabel88.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel88.SizeF = new System.Drawing.SizeF(104.2602F, 22.99998F);
-            this.xrLabel88.StylePriority.UseTextAlignment = false;
-            this.xrLabel88.Text = "xrLabel48";
-            this.xrLabel88.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
             // xrLabel163
             // 
             this.xrLabel163.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
@@ -4274,11 +4836,13 @@
             // 
             this.xrLabel164.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[studentGrades]")});
+            this.xrLabel164.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel164.LocationFloat = new DevExpress.Utils.PointFloat(376.5559F, 20.83336F);
             this.xrLabel164.Multiline = true;
             this.xrLabel164.Name = "xrLabel164";
             this.xrLabel164.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel164.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
+            this.xrLabel164.StylePriority.UseFont = false;
             this.xrLabel164.StylePriority.UseTextAlignment = false;
             this.xrLabel164.Text = "xrLabel48";
             this.xrLabel164.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4286,18 +4850,23 @@
             // xrLabel161
             // 
             this.xrLabel161.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[badStudentsRelationReasons]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[badStudentsRelationReasons]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([realtionWithStudents] == false),true ,false )")});
+            this.xrLabel161.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel161.LocationFloat = new DevExpress.Utils.PointFloat(53.22281F, 89.83369F);
             this.xrLabel161.Multiline = true;
             this.xrLabel161.Name = "xrLabel161";
             this.xrLabel161.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel161.SizeF = new System.Drawing.SizeF(189.7233F, 22.99998F);
+            this.xrLabel161.StylePriority.UseFont = false;
             this.xrLabel161.StylePriority.UseTextAlignment = false;
             this.xrLabel161.Text = "xrLabel48";
             this.xrLabel161.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel162
             // 
+            this.xrLabel162.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([badRelationWithteachers] == true),true ,false )")});
             this.xrLabel162.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel162.LocationFloat = new DevExpress.Utils.PointFloat(243.0738F, 43.83347F);
             this.xrLabel162.Multiline = true;
@@ -4341,6 +4910,8 @@
             // 
             // xrLabel159
             // 
+            this.xrLabel159.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([realtionWithStudents] == false),true ,false )")});
             this.xrLabel159.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel159.LocationFloat = new DevExpress.Utils.PointFloat(242.946F, 89.83369F);
             this.xrLabel159.Multiline = true;
@@ -4355,12 +4926,15 @@
             // xrLabel160
             // 
             this.xrLabel160.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[reasons]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[reasons]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([badRelationWithteachers] == true),true ,false )")});
+            this.xrLabel160.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel160.LocationFloat = new DevExpress.Utils.PointFloat(53.07386F, 43.83347F);
             this.xrLabel160.Multiline = true;
             this.xrLabel160.Name = "xrLabel160";
             this.xrLabel160.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel160.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
+            this.xrLabel160.StylePriority.UseFont = false;
             this.xrLabel160.StylePriority.UseTextAlignment = false;
             this.xrLabel160.Text = "xrLabel48";
             this.xrLabel160.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4368,18 +4942,23 @@
             // xrLabel157
             // 
             this.xrLabel157.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[hatedSchoolReasons]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenSchoolGeneral].[hatedSchoolReasons]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([likedScool] == [fasle]),true ,false )")});
+            this.xrLabel157.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel157.LocationFloat = new DevExpress.Utils.PointFloat(376.5557F, 89.83369F);
             this.xrLabel157.Multiline = true;
             this.xrLabel157.Name = "xrLabel157";
             this.xrLabel157.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel157.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
+            this.xrLabel157.StylePriority.UseFont = false;
             this.xrLabel157.StylePriority.UseTextAlignment = false;
             this.xrLabel157.Text = "xrLabel48";
             this.xrLabel157.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel158
             // 
+            this.xrLabel158.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([likedScool] == [fasle]),true ,false )")});
             this.xrLabel158.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel158.LocationFloat = new DevExpress.Utils.PointFloat(566.5562F, 89.83386F);
             this.xrLabel158.Multiline = true;
@@ -4465,88 +5044,6 @@
             this.xrTableCell108.Text = "المرحلة الدراسية";
             this.xrTableCell108.Weight = 0.38461538461538464D;
             // 
-            // xrCheckBox16
-            // 
-            this.xrCheckBox16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[teenEconomicStatus].[wasEnough]")});
-            this.xrCheckBox16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrCheckBox16.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox16.LocationFloat = new DevExpress.Utils.PointFloat(53.07385F, 64.70297F);
-            this.xrCheckBox16.Name = "xrCheckBox16";
-            this.xrCheckBox16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox16.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox16.SizeF = new System.Drawing.SizeF(309.9984F, 23F);
-            this.xrCheckBox16.StylePriority.UseFont = false;
-            this.xrCheckBox16.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox16.Text = "هل كان المبلغ المخصص كافيًا للمصاريف الشخصية؟";
-            // 
-            // xrLabel155
-            // 
-            this.xrLabel155.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel155.LocationFloat = new DevExpress.Utils.PointFloat(243.0743F, 87.70307F);
-            this.xrLabel155.Multiline = true;
-            this.xrLabel155.Name = "xrLabel155";
-            this.xrLabel155.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel155.SizeF = new System.Drawing.SizeF(118.1578F, 23F);
-            this.xrLabel155.StylePriority.UseFont = false;
-            this.xrLabel155.StylePriority.UseTextAlignment = false;
-            this.xrLabel155.Text = "مصدر تغطية العجز؟";
-            this.xrLabel155.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel156
-            // 
-            this.xrLabel156.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[shortComeCoverage]")});
-            this.xrLabel156.LocationFloat = new DevExpress.Utils.PointFloat(53.07385F, 87.70294F);
-            this.xrLabel156.Multiline = true;
-            this.xrLabel156.Name = "xrLabel156";
-            this.xrLabel156.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel156.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
-            this.xrLabel156.StylePriority.UseTextAlignment = false;
-            this.xrLabel156.Text = "xrLabel48";
-            this.xrLabel156.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel153
-            // 
-            this.xrLabel153.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenEconomicStatus].[amount]")});
-            this.xrLabel153.LocationFloat = new DevExpress.Utils.PointFloat(481.7368F, 64.70337F);
-            this.xrLabel153.Multiline = true;
-            this.xrLabel153.Name = "xrLabel153";
-            this.xrLabel153.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel153.SizeF = new System.Drawing.SizeF(86.68628F, 22.99998F);
-            this.xrLabel153.StylePriority.UseTextAlignment = false;
-            this.xrLabel153.Text = "xrLabel48";
-            this.xrLabel153.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel154
-            // 
-            this.xrLabel154.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel154.LocationFloat = new DevExpress.Utils.PointFloat(568.423F, 64.70337F);
-            this.xrLabel154.Multiline = true;
-            this.xrLabel154.Name = "xrLabel154";
-            this.xrLabel154.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel154.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
-            this.xrLabel154.StylePriority.UseFont = false;
-            this.xrLabel154.StylePriority.UseTextAlignment = false;
-            this.xrLabel154.Text = "المصروف بالدرهم";
-            this.xrLabel154.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel152
-            // 
-            this.xrLabel152.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel152.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel152.LocationFloat = new DevExpress.Utils.PointFloat(276.2427F, 22.91667F);
-            this.xrLabel152.Multiline = true;
-            this.xrLabel152.Name = "xrLabel152";
-            this.xrLabel152.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel152.SizeF = new System.Drawing.SizeF(205.0288F, 23F);
-            this.xrLabel152.StylePriority.UseBorders = false;
-            this.xrLabel152.StylePriority.UseFont = false;
-            this.xrLabel152.StylePriority.UseTextAlignment = false;
-            this.xrLabel152.Text = "خاص بالمراهقين والقاصرات";
-            this.xrLabel152.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
             // DetailReport6
             // 
             this.DetailReport6.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -4582,32 +5079,6 @@
             this.Detail7.KeepTogether = true;
             this.Detail7.Name = "Detail7";
             // 
-            // xrLabel89
-            // 
-            this.xrLabel89.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[mostVisitedSites]")});
-            this.xrLabel89.LocationFloat = new DevExpress.Utils.PointFloat(378.3342F, 59.79872F);
-            this.xrLabel89.Multiline = true;
-            this.xrLabel89.Name = "xrLabel89";
-            this.xrLabel89.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel89.SizeF = new System.Drawing.SizeF(190.8225F, 22.99998F);
-            this.xrLabel89.StylePriority.UseTextAlignment = false;
-            this.xrLabel89.Text = "xrLabel48";
-            this.xrLabel89.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel90
-            // 
-            this.xrLabel90.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel90.LocationFloat = new DevExpress.Utils.PointFloat(569.1567F, 59.7992F);
-            this.xrLabel90.Multiline = true;
-            this.xrLabel90.Name = "xrLabel90";
-            this.xrLabel90.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel90.SizeF = new System.Drawing.SizeF(118.1578F, 23F);
-            this.xrLabel90.StylePriority.UseFont = false;
-            this.xrLabel90.StylePriority.UseTextAlignment = false;
-            this.xrLabel90.Text = "أكثر المواقع زيارةً";
-            this.xrLabel90.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
             // xrLabel51
             // 
             this.xrLabel51.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
@@ -4627,11 +5098,13 @@
             // 
             this.xrLabel62.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[fastingRamadan]")});
+            this.xrLabel62.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(376.4068F, 110.5136F);
             this.xrLabel62.Multiline = true;
             this.xrLabel62.Name = "xrLabel62";
             this.xrLabel62.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel62.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
+            this.xrLabel62.StylePriority.UseFont = false;
             this.xrLabel62.StylePriority.UseTextAlignment = false;
             this.xrLabel62.Text = "xrLabel29";
             this.xrLabel62.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -4653,11 +5126,13 @@
             // 
             this.xrLabel60.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[quran]")});
+            this.xrLabel60.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel60.LocationFloat = new DevExpress.Utils.PointFloat(376.6538F, 87.51377F);
             this.xrLabel60.Multiline = true;
             this.xrLabel60.Name = "xrLabel60";
             this.xrLabel60.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel60.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel60.StylePriority.UseFont = false;
             this.xrLabel60.StylePriority.UseTextAlignment = false;
             this.xrLabel60.Text = "xrLabel48";
             this.xrLabel60.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4666,11 +5141,13 @@
             // 
             this.xrLabel59.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[prayer]")});
+            this.xrLabel59.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel59.LocationFloat = new DevExpress.Utils.PointFloat(376.4086F, 64.51369F);
             this.xrLabel59.Multiline = true;
             this.xrLabel59.Name = "xrLabel59";
             this.xrLabel59.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel59.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel59.StylePriority.UseFont = false;
             this.xrLabel59.StylePriority.UseTextAlignment = false;
             this.xrLabel59.Text = "xrLabel48";
             this.xrLabel59.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4694,7 +5171,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[teenBehavior].[convictedFamilyMember]")});
             this.xrCheckBox13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrCheckBox13.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox13.LocationFloat = new DevExpress.Utils.PointFloat(48.90889F, 64.51369F);
+            this.xrCheckBox13.LocationFloat = new DevExpress.Utils.PointFloat(49.57275F, 116.7637F);
             this.xrCheckBox13.Name = "xrCheckBox13";
             this.xrCheckBox13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox13.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -4705,8 +5182,10 @@
             // 
             // xrLabel64
             // 
+            this.xrLabel64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(( [convictedFamilyMember]== true),true ,false )")});
             this.xrLabel64.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel64.LocationFloat = new DevExpress.Utils.PointFloat(274.8849F, 87.51377F);
+            this.xrLabel64.LocationFloat = new DevExpress.Utils.PointFloat(275.5488F, 139.7639F);
             this.xrLabel64.Multiline = true;
             this.xrLabel64.Name = "xrLabel64";
             this.xrLabel64.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -4719,12 +5198,15 @@
             // xrLabel63
             // 
             this.xrLabel63.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[whoConvictedMember]")});
-            this.xrLabel63.LocationFloat = new DevExpress.Utils.PointFloat(48.90889F, 87.51377F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[whoConvictedMember]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(( [convictedFamilyMember]== true),true ,false )")});
+            this.xrLabel63.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel63.LocationFloat = new DevExpress.Utils.PointFloat(49.57275F, 139.7639F);
             this.xrLabel63.Multiline = true;
             this.xrLabel63.Name = "xrLabel63";
             this.xrLabel63.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel63.SizeF = new System.Drawing.SizeF(225.9759F, 22.99999F);
+            this.xrLabel63.StylePriority.UseFont = false;
             this.xrLabel63.StylePriority.UseTextAlignment = false;
             this.xrLabel63.Text = "xrLabel48";
             this.xrLabel63.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4732,20 +5214,25 @@
             // xrLabel142
             // 
             this.xrLabel142.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[convictionDetails]")});
-            this.xrLabel142.LocationFloat = new DevExpress.Utils.PointFloat(48.90889F, 110.5138F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[convictionDetails]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(( [convictedFamilyMember]== true),true ,false )")});
+            this.xrLabel142.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel142.LocationFloat = new DevExpress.Utils.PointFloat(49.57275F, 162.764F);
             this.xrLabel142.Multiline = true;
             this.xrLabel142.Name = "xrLabel142";
             this.xrLabel142.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel142.SizeF = new System.Drawing.SizeF(225.9759F, 22.99998F);
+            this.xrLabel142.StylePriority.UseFont = false;
             this.xrLabel142.StylePriority.UseTextAlignment = false;
             this.xrLabel142.Text = "xrLabel48";
             this.xrLabel142.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel66
             // 
+            this.xrLabel66.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(( [convictedFamilyMember]== true),true ,false )")});
             this.xrLabel66.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel66.LocationFloat = new DevExpress.Utils.PointFloat(274.8849F, 110.5138F);
+            this.xrLabel66.LocationFloat = new DevExpress.Utils.PointFloat(275.5488F, 162.764F);
             this.xrLabel66.Multiline = true;
             this.xrLabel66.Name = "xrLabel66";
             this.xrLabel66.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -4758,20 +5245,25 @@
             // xrLabel144
             // 
             this.xrLabel144.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[whoDrugMember]")});
-            this.xrLabel144.LocationFloat = new DevExpress.Utils.PointFloat(49.57277F, 156.5139F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenBehavior].[whoDrugMember]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([drugsAddictedFamilyMember] == true),true ,false )")});
+            this.xrLabel144.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel144.LocationFloat = new DevExpress.Utils.PointFloat(49.57275F, 87.51373F);
             this.xrLabel144.Multiline = true;
             this.xrLabel144.Name = "xrLabel144";
             this.xrLabel144.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel144.SizeF = new System.Drawing.SizeF(225.9759F, 22.99999F);
+            this.xrLabel144.StylePriority.UseFont = false;
             this.xrLabel144.StylePriority.UseTextAlignment = false;
             this.xrLabel144.Text = "xrLabel48";
             this.xrLabel144.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel143
             // 
+            this.xrLabel143.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([drugsAddictedFamilyMember] == true),true ,false )")});
             this.xrLabel143.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel143.LocationFloat = new DevExpress.Utils.PointFloat(275.5486F, 156.5139F);
+            this.xrLabel143.LocationFloat = new DevExpress.Utils.PointFloat(275.5486F, 87.51373F);
             this.xrLabel143.Multiline = true;
             this.xrLabel143.Name = "xrLabel143";
             this.xrLabel143.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -4787,7 +5279,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[teenBehavior].[drugsAddictedFamilyMember]")});
             this.xrCheckBox14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrCheckBox14.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox14.LocationFloat = new DevExpress.Utils.PointFloat(49.57277F, 133.5138F);
+            this.xrCheckBox14.LocationFloat = new DevExpress.Utils.PointFloat(49.57275F, 64.51365F);
             this.xrCheckBox14.Name = "xrCheckBox14";
             this.xrCheckBox14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox14.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -4795,6 +5287,47 @@
             this.xrCheckBox14.StylePriority.UseFont = false;
             this.xrCheckBox14.StylePriority.UseTextAlignment = false;
             this.xrCheckBox14.Text = "هل يتعاطى أحد أفراد الأسرة المسكرات؟";
+            // 
+            // xrLabel147
+            // 
+            this.xrLabel147.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel147.LocationFloat = new DevExpress.Utils.PointFloat(568.6685F, 110.5138F);
+            this.xrLabel147.Multiline = true;
+            this.xrLabel147.Name = "xrLabel147";
+            this.xrLabel147.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel147.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
+            this.xrLabel147.StylePriority.UseFont = false;
+            this.xrLabel147.StylePriority.UseTextAlignment = false;
+            this.xrLabel147.Text = "يصوم رمضان؟";
+            this.xrLabel147.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel89
+            // 
+            this.xrLabel89.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[mostVisitedSites]")});
+            this.xrLabel89.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel89.LocationFloat = new DevExpress.Utils.PointFloat(378.3342F, 59.79872F);
+            this.xrLabel89.Multiline = true;
+            this.xrLabel89.Name = "xrLabel89";
+            this.xrLabel89.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel89.SizeF = new System.Drawing.SizeF(190.8225F, 22.99998F);
+            this.xrLabel89.StylePriority.UseFont = false;
+            this.xrLabel89.StylePriority.UseTextAlignment = false;
+            this.xrLabel89.Text = "xrLabel48";
+            this.xrLabel89.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel90
+            // 
+            this.xrLabel90.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel90.LocationFloat = new DevExpress.Utils.PointFloat(569.1567F, 59.7992F);
+            this.xrLabel90.Multiline = true;
+            this.xrLabel90.Name = "xrLabel90";
+            this.xrLabel90.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel90.SizeF = new System.Drawing.SizeF(118.1578F, 23F);
+            this.xrLabel90.StylePriority.UseFont = false;
+            this.xrLabel90.StylePriority.UseTextAlignment = false;
+            this.xrLabel90.Text = "أكثر المواقع زيارةً";
+            this.xrLabel90.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrCheckBox15
             // 
@@ -4813,6 +5346,8 @@
             // 
             // xrLabel146
             // 
+            this.xrLabel146.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([haveEmail] == true),true ,false )")});
             this.xrLabel146.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel146.LocationFloat = new DevExpress.Utils.PointFloat(568.3343F, 36.7988F);
             this.xrLabel146.Multiline = true;
@@ -4827,28 +5362,18 @@
             // xrLabel145
             // 
             this.xrLabel145.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[emailReason]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[emailReason]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([haveEmail] == true),true ,false )")});
+            this.xrLabel145.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel145.LocationFloat = new DevExpress.Utils.PointFloat(378.3342F, 36.7988F);
             this.xrLabel145.Multiline = true;
             this.xrLabel145.Name = "xrLabel145";
             this.xrLabel145.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel145.SizeF = new System.Drawing.SizeF(190.0001F, 22.99998F);
+            this.xrLabel145.StylePriority.UseFont = false;
             this.xrLabel145.StylePriority.UseTextAlignment = false;
             this.xrLabel145.Text = "xrLabel48";
             this.xrLabel145.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel147
-            // 
-            this.xrLabel147.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel147.LocationFloat = new DevExpress.Utils.PointFloat(568.6685F, 110.5138F);
-            this.xrLabel147.Multiline = true;
-            this.xrLabel147.Name = "xrLabel147";
-            this.xrLabel147.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel147.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
-            this.xrLabel147.StylePriority.UseFont = false;
-            this.xrLabel147.StylePriority.UseTextAlignment = false;
-            this.xrLabel147.Text = "يصوم رمضان؟";
-            this.xrLabel147.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel148
             // 
@@ -4866,12 +5391,15 @@
             // xrLabel150
             // 
             this.xrLabel150.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[countriesVisited]")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[countriesVisited]"),
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([traveledBefore] == true),true ,false )")});
+            this.xrLabel150.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel150.LocationFloat = new DevExpress.Utils.PointFloat(49.40584F, 59.79887F);
             this.xrLabel150.Multiline = true;
             this.xrLabel150.Name = "xrLabel150";
             this.xrLabel150.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel150.SizeF = new System.Drawing.SizeF(223.458F, 22.99998F);
+            this.xrLabel150.StylePriority.UseFont = false;
             this.xrLabel150.StylePriority.UseTextAlignment = false;
             this.xrLabel150.Text = "xrLabel48";
             this.xrLabel150.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4893,6 +5421,8 @@
             // 
             // xrLabel151
             // 
+            this.xrLabel151.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([traveledBefore] == true),true ,false )")});
             this.xrLabel151.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.xrLabel151.LocationFloat = new DevExpress.Utils.PointFloat(272.8636F, 59.80005F);
             this.xrLabel151.Multiline = true;
@@ -4908,11 +5438,13 @@
             // 
             this.xrLabel149.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenFreeTime].[timeSpent]")});
+            this.xrLabel149.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel149.LocationFloat = new DevExpress.Utils.PointFloat(49.40584F, 13.79944F);
             this.xrLabel149.Multiline = true;
             this.xrLabel149.Name = "xrLabel149";
             this.xrLabel149.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel149.SizeF = new System.Drawing.SizeF(179.6043F, 22.99908F);
+            this.xrLabel149.StylePriority.UseFont = false;
             this.xrLabel149.StylePriority.UseTextAlignment = false;
             this.xrLabel149.Text = "xrLabel29";
             this.xrLabel149.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
@@ -4925,6 +5457,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel166.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[socialRelations]")});
+            this.xrLabel166.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel166.LocationFloat = new DevExpress.Utils.PointFloat(535.5197F, 26.07417F);
             this.xrLabel166.Multiline = true;
             this.xrLabel166.Name = "xrLabel166";
@@ -4932,6 +5465,7 @@
             this.xrLabel166.SizeF = new System.Drawing.SizeF(163.5505F, 17.58578F);
             this.xrLabel166.StylePriority.UseBorderColor = false;
             this.xrLabel166.StylePriority.UseBorders = false;
+            this.xrLabel166.StylePriority.UseFont = false;
             this.xrLabel166.StylePriority.UseTextAlignment = false;
             this.xrLabel166.Text = "xrLabel48";
             this.xrLabel166.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -4980,6 +5514,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel167.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[familyRelations]")});
+            this.xrLabel167.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel167.LocationFloat = new DevExpress.Utils.PointFloat(370.5196F, 26.0742F);
             this.xrLabel167.Multiline = true;
             this.xrLabel167.Name = "xrLabel167";
@@ -4987,6 +5522,7 @@
             this.xrLabel167.SizeF = new System.Drawing.SizeF(163.7115F, 17.58578F);
             this.xrLabel167.StylePriority.UseBorderColor = false;
             this.xrLabel167.StylePriority.UseBorders = false;
+            this.xrLabel167.StylePriority.UseFont = false;
             this.xrLabel167.StylePriority.UseTextAlignment = false;
             this.xrLabel167.Text = "xrLabel48";
             this.xrLabel167.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5017,6 +5553,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel169.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[chaningMotivation]")});
+            this.xrLabel169.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel169.LocationFloat = new DevExpress.Utils.PointFloat(205.5197F, 26.07417F);
             this.xrLabel169.Multiline = true;
             this.xrLabel169.Name = "xrLabel169";
@@ -5024,6 +5561,7 @@
             this.xrLabel169.SizeF = new System.Drawing.SizeF(163.5505F, 17.58578F);
             this.xrLabel169.StylePriority.UseBorderColor = false;
             this.xrLabel169.StylePriority.UseBorders = false;
+            this.xrLabel169.StylePriority.UseFont = false;
             this.xrLabel169.StylePriority.UseTextAlignment = false;
             this.xrLabel169.Text = "xrLabel48";
             this.xrLabel169.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5036,6 +5574,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel172.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[socialSituationSummary]")});
+            this.xrLabel172.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel172.LocationFloat = new DevExpress.Utils.PointFloat(40.51986F, 26.07417F);
             this.xrLabel172.Multiline = true;
             this.xrLabel172.Name = "xrLabel172";
@@ -5043,6 +5582,7 @@
             this.xrLabel172.SizeF = new System.Drawing.SizeF(163.5505F, 17.58578F);
             this.xrLabel172.StylePriority.UseBorderColor = false;
             this.xrLabel172.StylePriority.UseBorders = false;
+            this.xrLabel172.StylePriority.UseFont = false;
             this.xrLabel172.StylePriority.UseTextAlignment = false;
             this.xrLabel172.Text = "xrLabel48";
             this.xrLabel172.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5069,7 +5609,7 @@
             // 
             this.xrLabel174.BorderColor = System.Drawing.Color.DarkGray;
             this.xrLabel174.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel174.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel174.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel174.LocationFloat = new DevExpress.Utils.PointFloat(452.045F, 43.65995F);
             this.xrLabel174.Multiline = true;
             this.xrLabel174.Name = "xrLabel174";
@@ -5089,6 +5629,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel173.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[familyEvaluation]")});
+            this.xrLabel173.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel173.LocationFloat = new DevExpress.Utils.PointFloat(406.8606F, 43.66049F);
             this.xrLabel173.Multiline = true;
             this.xrLabel173.Name = "xrLabel173";
@@ -5096,6 +5637,7 @@
             this.xrLabel173.SizeF = new System.Drawing.SizeF(45.18448F, 22.99994F);
             this.xrLabel173.StylePriority.UseBorderColor = false;
             this.xrLabel173.StylePriority.UseBorders = false;
+            this.xrLabel173.StylePriority.UseFont = false;
             this.xrLabel173.StylePriority.UseTextAlignment = false;
             this.xrLabel173.Text = "xrLabel48";
             this.xrLabel173.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5107,6 +5649,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel176.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[teenRelation].[motivationEvaluation]")});
+            this.xrLabel176.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel176.LocationFloat = new DevExpress.Utils.PointFloat(242.946F, 43.65994F);
             this.xrLabel176.Multiline = true;
             this.xrLabel176.Name = "xrLabel176";
@@ -5114,6 +5657,7 @@
             this.xrLabel176.SizeF = new System.Drawing.SizeF(45.18448F, 22.99994F);
             this.xrLabel176.StylePriority.UseBorderColor = false;
             this.xrLabel176.StylePriority.UseBorders = false;
+            this.xrLabel176.StylePriority.UseFont = false;
             this.xrLabel176.StylePriority.UseTextAlignment = false;
             this.xrLabel176.Text = "xrLabel48";
             this.xrLabel176.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5122,7 +5666,7 @@
             // 
             this.xrLabel175.BorderColor = System.Drawing.Color.DarkGray;
             this.xrLabel175.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel175.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel175.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel175.LocationFloat = new DevExpress.Utils.PointFloat(288.1305F, 43.6605F);
             this.xrLabel175.Multiline = true;
             this.xrLabel175.Name = "xrLabel175";
@@ -5135,29 +5679,6 @@
             this.xrLabel175.Text = "التقييم";
             this.xrLabel175.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
-            // DetailReport7
-            // 
-            this.DetailReport7.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
-            this.Detail8,
-            this.GroupHeader5});
-            this.DetailReport7.DataSource = this.sqlDataSource1;
-            this.DetailReport7.Level = 12;
-            this.DetailReport7.Name = "DetailReport7";
-            // 
-            // Detail8
-            // 
-            this.Detail8.HeightF = 0F;
-            this.Detail8.Name = "Detail8";
-            // 
-            // GroupHeader5
-            // 
-            this.GroupHeader5.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable2,
-            this.xrLabel27});
-            this.GroupHeader5.HeightF = 89.76962F;
-            this.GroupHeader5.KeepTogether = true;
-            this.GroupHeader5.Name = "GroupHeader5";
-            // 
             // xrTable2
             // 
             this.xrTable2.BackColor = System.Drawing.Color.DarkGray;
@@ -5167,7 +5688,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(45.06862F, 64.76962F);
+            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(45.06823F, 75F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -5221,7 +5742,7 @@
             // 
             this.xrLabel27.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel27.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 24.32713F);
+            this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(306.8635F, 34.55734F);
             this.xrLabel27.Multiline = true;
             this.xrLabel27.Name = "xrLabel27";
             this.xrLabel27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5232,149 +5753,6 @@
             this.xrLabel27.Text = "الحوادث والإصابات";
             this.xrLabel27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
-            // DetailReport8
-            // 
-            this.DetailReport8.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
-            this.Detail9});
-            this.DetailReport8.DataMember = "suicideAttempts";
-            this.DetailReport8.DataSource = this.sqlDataSource1;
-            this.DetailReport8.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport8.Level = 15;
-            this.DetailReport8.Name = "DetailReport8";
-            // 
-            // Detail9
-            // 
-            this.Detail9.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable3,
-            this.xrTable4,
-            this.xrLabel28});
-            this.Detail9.HeightF = 132.8091F;
-            this.Detail9.KeepTogether = true;
-            this.Detail9.Name = "Detail9";
-            // 
-            // xrTable3
-            // 
-            this.xrTable3.BorderColor = System.Drawing.Color.DimGray;
-            this.xrTable3.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable3.LocationFloat = new DevExpress.Utils.PointFloat(47.06989F, 82.27353F);
-            this.xrTable3.Name = "xrTable3";
-            this.xrTable3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrTable3.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
-            this.xrTableRow3});
-            this.xrTable3.SizeF = new System.Drawing.SizeF(652F, 25F);
-            this.xrTable3.StylePriority.UseBorderColor = false;
-            this.xrTable3.StylePriority.UseBorders = false;
-            this.xrTable3.StylePriority.UseTextAlignment = false;
-            this.xrTable3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            // 
-            // xrTableRow3
-            // 
-            this.xrTableRow3.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell7,
-            this.xrTableCell8,
-            this.xrTableCell9});
-            this.xrTableRow3.Name = "xrTableRow3";
-            this.xrTableRow3.Weight = 11.5D;
-            // 
-            // xrTableCell7
-            // 
-            this.xrTableCell7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[suicideAttempts].[details]")});
-            this.xrTableCell7.Multiline = true;
-            this.xrTableCell7.Name = "xrTableCell7";
-            this.xrTableCell7.Text = "xrTableCell7";
-            this.xrTableCell7.Weight = 0.28409090909090912D;
-            // 
-            // xrTableCell8
-            // 
-            this.xrTableCell8.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[suicideAttempts].[way]")});
-            this.xrTableCell8.Multiline = true;
-            this.xrTableCell8.Name = "xrTableCell8";
-            this.xrTableCell8.Text = "xrTableCell8";
-            this.xrTableCell8.Weight = 0.28409090909090912D;
-            // 
-            // xrTableCell9
-            // 
-            this.xrTableCell9.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[suicideAttempts].[attemptStatus]")});
-            this.xrTableCell9.Multiline = true;
-            this.xrTableCell9.Name = "xrTableCell9";
-            this.xrTableCell9.Text = "xrTableCell9";
-            this.xrTableCell9.Weight = 0.28409090909090912D;
-            // 
-            // xrTable4
-            // 
-            this.xrTable4.BackColor = System.Drawing.Color.DarkGray;
-            this.xrTable4.BorderColor = System.Drawing.Color.DimGray;
-            this.xrTable4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable4.LocationFloat = new DevExpress.Utils.PointFloat(47.06977F, 57.2734F);
-            this.xrTable4.Name = "xrTable4";
-            this.xrTable4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrTable4.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
-            this.xrTableRow4});
-            this.xrTable4.SizeF = new System.Drawing.SizeF(652F, 25F);
-            this.xrTable4.StylePriority.UseBackColor = false;
-            this.xrTable4.StylePriority.UseBorderColor = false;
-            this.xrTable4.StylePriority.UseBorders = false;
-            this.xrTable4.StylePriority.UseFont = false;
-            // 
-            // xrTableRow4
-            // 
-            this.xrTableRow4.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell10,
-            this.xrTableCell11,
-            this.xrTableCell12});
-            this.xrTableRow4.Name = "xrTableRow4";
-            this.xrTableRow4.Weight = 11.5D;
-            // 
-            // xrTableCell10
-            // 
-            this.xrTableCell10.Multiline = true;
-            this.xrTableCell10.Name = "xrTableCell10";
-            this.xrTableCell10.StylePriority.UseTextAlignment = false;
-            this.xrTableCell10.Text = "التفاصيل";
-            this.xrTableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell10.Weight = 0.28409090909090912D;
-            // 
-            // xrTableCell11
-            // 
-            this.xrTableCell11.Multiline = true;
-            this.xrTableCell11.Name = "xrTableCell11";
-            this.xrTableCell11.StylePriority.UseTextAlignment = false;
-            this.xrTableCell11.Text = "الطريقة التي فكر بها";
-            this.xrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell11.Weight = 0.28409090909090912D;
-            // 
-            // xrTableCell12
-            // 
-            this.xrTableCell12.Multiline = true;
-            this.xrTableCell12.Name = "xrTableCell12";
-            this.xrTableCell12.StylePriority.UseTextAlignment = false;
-            this.xrTableCell12.Text = "لديه محاولة انتحار أو التفكير بها؟";
-            this.xrTableCell12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell12.Weight = 0.28409090909090912D;
-            // 
-            // xrLabel28
-            // 
-            this.xrLabel28.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel28.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 23.67424F);
-            this.xrLabel28.Multiline = true;
-            this.xrLabel28.Name = "xrLabel28";
-            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel28.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
-            this.xrLabel28.StylePriority.UseBorders = false;
-            this.xrLabel28.StylePriority.UseFont = false;
-            this.xrLabel28.StylePriority.UseTextAlignment = false;
-            this.xrLabel28.Text = "محاولات الانتحار";
-            this.xrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
             // DetailReport9
             // 
             this.DetailReport9.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -5382,7 +5760,7 @@
             this.DetailReport9.DataMember = "warehouse";
             this.DetailReport9.DataSource = this.sqlDataSource1;
             this.DetailReport9.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport9.Level = 16;
+            this.DetailReport9.Level = 18;
             this.DetailReport9.Name = "DetailReport9";
             // 
             // Detail10
@@ -5392,6 +5770,8 @@
             this.xrCheckBox8,
             this.xrLabel34,
             this.xrTable5});
+            this.Detail10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([entered]==true,true,false)")});
             this.Detail10.HeightF = 115.7069F;
             this.Detail10.KeepTogether = true;
             this.Detail10.Name = "Detail10";
@@ -5401,13 +5781,15 @@
             this.xrTable6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(46.82264F, 58.59929F);
+            this.xrTable6.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTable6.LocationFloat = new DevExpress.Utils.PointFloat(46.82264F, 80.70688F);
             this.xrTable6.Name = "xrTable6";
             this.xrTable6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable6.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow6});
             this.xrTable6.SizeF = new System.Drawing.SizeF(434.6667F, 25F);
             this.xrTable6.StylePriority.UseBorders = false;
+            this.xrTable6.StylePriority.UseFont = false;
             this.xrTable6.StylePriority.UseTextAlignment = false;
             this.xrTable6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
@@ -5454,7 +5836,7 @@
             this.xrCheckBox8.Font = new System.Drawing.Font("Arial", 15F);
             this.xrCheckBox8.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox8.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox8.LocationFloat = new DevExpress.Utils.PointFloat(481.4893F, 58.59929F);
+            this.xrCheckBox8.LocationFloat = new DevExpress.Utils.PointFloat(481.4893F, 80.70688F);
             this.xrCheckBox8.Name = "xrCheckBox8";
             this.xrCheckBox8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox8.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -5469,7 +5851,7 @@
             // 
             this.xrLabel34.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel34.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel34.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 0F);
+            this.xrLabel34.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 22.10759F);
             this.xrLabel34.Multiline = true;
             this.xrLabel34.Name = "xrLabel34";
             this.xrLabel34.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5488,7 +5870,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(46.82264F, 33.59925F);
+            this.xrTable5.LocationFloat = new DevExpress.Utils.PointFloat(46.82264F, 55.70684F);
             this.xrTable5.Name = "xrTable5";
             this.xrTable5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable5.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -5542,7 +5924,7 @@
             this.DetailReport10.DataMember = "unconsioussness";
             this.DetailReport10.DataSource = this.sqlDataSource1;
             this.DetailReport10.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport10.Level = 17;
+            this.DetailReport10.Level = 20;
             this.DetailReport10.Name = "DetailReport10";
             // 
             // Detail11
@@ -5553,7 +5935,10 @@
             this.xrCheckBox9,
             this.xrLabel65,
             this.xrTable7});
+            this.Detail11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([occurence]==true,true,false)")});
             this.Detail11.HeightF = 115.1959F;
+            this.Detail11.KeepTogether = true;
             this.Detail11.Name = "Detail11";
             // 
             // xrLabel67
@@ -5564,13 +5949,15 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel67.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[details]")});
-            this.xrLabel67.LocationFloat = new DevExpress.Utils.PointFloat(47.07007F, 58.59929F);
+            this.xrLabel67.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel67.LocationFloat = new DevExpress.Utils.PointFloat(47.07007F, 82.1959F);
             this.xrLabel67.Multiline = true;
             this.xrLabel67.Name = "xrLabel67";
             this.xrLabel67.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel67.SizeF = new System.Drawing.SizeF(217.3335F, 23F);
             this.xrLabel67.StylePriority.UseBorderColor = false;
             this.xrLabel67.StylePriority.UseBorders = false;
+            this.xrLabel67.StylePriority.UseFont = false;
             this.xrLabel67.StylePriority.UseTextAlignment = false;
             this.xrLabel67.Text = "xrLabel67";
             this.xrLabel67.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -5583,13 +5970,15 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel68.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[count]")});
-            this.xrLabel68.LocationFloat = new DevExpress.Utils.PointFloat(264.4033F, 58.59929F);
+            this.xrLabel68.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel68.LocationFloat = new DevExpress.Utils.PointFloat(264.4033F, 82.1959F);
             this.xrLabel68.Multiline = true;
             this.xrLabel68.Name = "xrLabel68";
             this.xrLabel68.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel68.SizeF = new System.Drawing.SizeF(217.3336F, 23F);
             this.xrLabel68.StylePriority.UseBorderColor = false;
             this.xrLabel68.StylePriority.UseBorders = false;
+            this.xrLabel68.StylePriority.UseFont = false;
             this.xrLabel68.StylePriority.UseTextAlignment = false;
             this.xrLabel68.Text = "xrLabel68";
             this.xrLabel68.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -5605,7 +5994,7 @@
             this.xrCheckBox9.Font = new System.Drawing.Font("Arial", 15F);
             this.xrCheckBox9.GlyphOptions.Alignment = DevExpress.Utils.HorzAlignment.Center;
             this.xrCheckBox9.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox9.LocationFloat = new DevExpress.Utils.PointFloat(481.7369F, 58.59929F);
+            this.xrCheckBox9.LocationFloat = new DevExpress.Utils.PointFloat(481.7369F, 82.1959F);
             this.xrCheckBox9.Name = "xrCheckBox9";
             this.xrCheckBox9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox9.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -5620,7 +6009,7 @@
             // 
             this.xrLabel65.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel65.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel65.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 0F);
+            this.xrLabel65.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 23.59661F);
             this.xrLabel65.Multiline = true;
             this.xrLabel65.Name = "xrLabel65";
             this.xrLabel65.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5639,7 +6028,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable7.LocationFloat = new DevExpress.Utils.PointFloat(47.07007F, 33.59925F);
+            this.xrTable7.LocationFloat = new DevExpress.Utils.PointFloat(47.07007F, 57.19586F);
             this.xrTable7.Name = "xrTable7";
             this.xrTable7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable7.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -5693,7 +6082,7 @@
             this.DetailReport11.DataMember = "drugAbuse";
             this.DetailReport11.DataSource = this.sqlDataSource1;
             this.DetailReport11.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport11.Level = 18;
+            this.DetailReport11.Level = 22;
             this.DetailReport11.Name = "DetailReport11";
             // 
             // Detail12
@@ -5702,14 +6091,102 @@
             this.xrTable21,
             this.xrLabel69,
             this.xrTable8});
+            this.Detail12.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([currentStatus]==\'يتعاطى\',true,false)")});
             this.Detail12.HeightF = 111.9108F;
+            this.Detail12.KeepTogether = true;
             this.Detail12.Name = "Detail12";
+            // 
+            // xrTable21
+            // 
+            this.xrTable21.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable21.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable21.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTable21.LocationFloat = new DevExpress.Utils.PointFloat(45.31618F, 76.9108F);
+            this.xrTable21.Name = "xrTable21";
+            this.xrTable21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable21.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow21});
+            this.xrTable21.SizeF = new System.Drawing.SizeF(652F, 25F);
+            this.xrTable21.StylePriority.UseBorderColor = false;
+            this.xrTable21.StylePriority.UseBorders = false;
+            this.xrTable21.StylePriority.UseFont = false;
+            this.xrTable21.StylePriority.UseTextAlignment = false;
+            this.xrTable21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTableRow21
+            // 
+            this.xrTableRow21.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell99,
+            this.xrTableCell100,
+            this.xrTableCell109,
+            this.xrTableCell110,
+            this.xrTableCell111});
+            this.xrTableRow21.Name = "xrTableRow21";
+            this.xrTableRow21.Weight = 11.5D;
+            // 
+            // xrTableCell99
+            // 
+            this.xrTableCell99.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[details]")});
+            this.xrTableCell99.Multiline = true;
+            this.xrTableCell99.Name = "xrTableCell99";
+            this.xrTableCell99.StylePriority.UseTextAlignment = false;
+            this.xrTableCell99.Text = "xrTableCell99";
+            this.xrTableCell99.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell99.Weight = 0.4065040650406504D;
+            // 
+            // xrTableCell100
+            // 
+            this.xrTableCell100.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[duration]")});
+            this.xrTableCell100.Multiline = true;
+            this.xrTableCell100.Name = "xrTableCell100";
+            this.xrTableCell100.StylePriority.UseTextAlignment = false;
+            this.xrTableCell100.Text = "xrTableCell100";
+            this.xrTableCell100.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell100.Weight = 0.4065040650406504D;
+            // 
+            // xrTableCell109
+            // 
+            this.xrTableCell109.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[drugsType]")});
+            this.xrTableCell109.Multiline = true;
+            this.xrTableCell109.Name = "xrTableCell109";
+            this.xrTableCell109.StylePriority.UseTextAlignment = false;
+            this.xrTableCell109.Text = "xrTableCell109";
+            this.xrTableCell109.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell109.Weight = 0.4065040650406504D;
+            // 
+            // xrTableCell110
+            // 
+            this.xrTableCell110.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[startingAge]")});
+            this.xrTableCell110.Multiline = true;
+            this.xrTableCell110.Name = "xrTableCell110";
+            this.xrTableCell110.StylePriority.UseTextAlignment = false;
+            this.xrTableCell110.Text = "xrTableCell110";
+            this.xrTableCell110.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell110.Weight = 0.4065040650406504D;
+            // 
+            // xrTableCell111
+            // 
+            this.xrTableCell111.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[currentStatus]")});
+            this.xrTableCell111.Multiline = true;
+            this.xrTableCell111.Name = "xrTableCell111";
+            this.xrTableCell111.StylePriority.UseTextAlignment = false;
+            this.xrTableCell111.Text = "xrTableCell111";
+            this.xrTableCell111.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell111.Weight = 0.4065040650406504D;
             // 
             // xrLabel69
             // 
             this.xrLabel69.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel69.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel69.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 0F);
+            this.xrLabel69.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 17.97658F);
             this.xrLabel69.Multiline = true;
             this.xrLabel69.Name = "xrLabel69";
             this.xrLabel69.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5728,7 +6205,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable8.LocationFloat = new DevExpress.Utils.PointFloat(45.06858F, 33.93421F);
+            this.xrTable8.LocationFloat = new DevExpress.Utils.PointFloat(45.06858F, 51.91079F);
             this.xrTable8.Name = "xrTable8";
             this.xrTable8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable8.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -5763,8 +6240,6 @@
             // 
             // xrTableCell22
             // 
-            this.xrTableCell22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "المدة بالشهور")});
             this.xrTableCell22.Multiline = true;
             this.xrTableCell22.Name = "xrTableCell22";
             this.xrTableCell22.Text = "المدة بالشهور";
@@ -5772,8 +6247,6 @@
             // 
             // xrTableCell23
             // 
-            this.xrTableCell23.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "الأنواع التي بتعاطاها")});
             this.xrTableCell23.Multiline = true;
             this.xrTableCell23.Name = "xrTableCell23";
             this.xrTableCell23.StylePriority.UseTextAlignment = false;
@@ -5783,8 +6256,6 @@
             // 
             // xrTableCell24
             // 
-            this.xrTableCell24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "سن بداية التعاطي")});
             this.xrTableCell24.Multiline = true;
             this.xrTableCell24.Name = "xrTableCell24";
             this.xrTableCell24.StylePriority.UseTextAlignment = false;
@@ -5794,8 +6265,6 @@
             // 
             // xrTableCell25
             // 
-            this.xrTableCell25.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "الحالة الحالية")});
             this.xrTableCell25.Multiline = true;
             this.xrTableCell25.Name = "xrTableCell25";
             this.xrTableCell25.StylePriority.UseTextAlignment = false;
@@ -5810,7 +6279,7 @@
             this.DetailReport12.DataMember = "familyPreviousHistory";
             this.DetailReport12.DataSource = this.sqlDataSource1;
             this.DetailReport12.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport12.Level = 19;
+            this.DetailReport12.Level = 24;
             this.DetailReport12.Name = "DetailReport12";
             // 
             // Detail13
@@ -5822,14 +6291,15 @@
             this.xrLabel79,
             this.xrLabel80,
             this.xrLabel78});
-            this.Detail13.HeightF = 119.3695F;
+            this.Detail13.HeightF = 115.0654F;
+            this.Detail13.KeepTogether = true;
             this.Detail13.Name = "Detail13";
             // 
             // xrLabel76
             // 
             this.xrLabel76.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel76.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel76.LocationFloat = new DevExpress.Utils.PointFloat(555.2838F, 0F);
+            this.xrLabel76.LocationFloat = new DevExpress.Utils.PointFloat(551.9338F, 35.54945F);
             this.xrLabel76.Multiline = true;
             this.xrLabel76.Name = "xrLabel76";
             this.xrLabel76.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5845,7 +6315,7 @@
             this.xrCheckBox10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[familyPreviousHistory].[existenceOfFamilyHistory]")});
             this.xrCheckBox10.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox10.LocationFloat = new DevExpress.Utils.PointFloat(492.5143F, 33.00018F);
+            this.xrCheckBox10.LocationFloat = new DevExpress.Utils.PointFloat(489.1641F, 68.54913F);
             this.xrCheckBox10.Name = "xrCheckBox10";
             this.xrCheckBox10.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrCheckBox10.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -5856,11 +6326,13 @@
             // 
             this.xrLabel77.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[familyPreviousHistory].[details]")});
-            this.xrLabel77.LocationFloat = new DevExpress.Utils.PointFloat(284.5685F, 33.00018F);
+            this.xrLabel77.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel77.LocationFloat = new DevExpress.Utils.PointFloat(281.2183F, 68.54927F);
             this.xrLabel77.Multiline = true;
             this.xrLabel77.Name = "xrLabel77";
             this.xrLabel77.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel77.SizeF = new System.Drawing.SizeF(173.8667F, 60.57743F);
+            this.xrLabel77.SizeF = new System.Drawing.SizeF(173.8667F, 22.99987F);
+            this.xrLabel77.StylePriority.UseFont = false;
             this.xrLabel77.StylePriority.UseTextAlignment = false;
             this.xrLabel77.Text = "xrLabel77";
             this.xrLabel77.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5868,7 +6340,7 @@
             // xrLabel79
             // 
             this.xrLabel79.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel79.LocationFloat = new DevExpress.Utils.PointFloat(312.1789F, 10.0001F);
+            this.xrLabel79.LocationFloat = new DevExpress.Utils.PointFloat(308.8286F, 45.54904F);
             this.xrLabel79.Multiline = true;
             this.xrLabel79.Name = "xrLabel79";
             this.xrLabel79.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5881,7 +6353,7 @@
             // xrLabel80
             // 
             this.xrLabel80.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel80.LocationFloat = new DevExpress.Utils.PointFloat(63.81353F, 10.0001F);
+            this.xrLabel80.LocationFloat = new DevExpress.Utils.PointFloat(60.46334F, 45.54904F);
             this.xrLabel80.Multiline = true;
             this.xrLabel80.Name = "xrLabel80";
             this.xrLabel80.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -5895,11 +6367,13 @@
             // 
             this.xrLabel78.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[familyPreviousHistory].[previousTreatmentNotes]")});
-            this.xrLabel78.LocationFloat = new DevExpress.Utils.PointFloat(63.81353F, 33.00018F);
+            this.xrLabel78.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel78.LocationFloat = new DevExpress.Utils.PointFloat(60.46334F, 68.54927F);
             this.xrLabel78.Multiline = true;
             this.xrLabel78.Name = "xrLabel78";
             this.xrLabel78.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel78.SizeF = new System.Drawing.SizeF(173.8667F, 60.57743F);
+            this.xrLabel78.SizeF = new System.Drawing.SizeF(173.8667F, 22.99987F);
+            this.xrLabel78.StylePriority.UseFont = false;
             this.xrLabel78.StylePriority.UseTextAlignment = false;
             this.xrLabel78.Text = "xrLabel77";
             this.xrLabel78.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -5911,8 +6385,10 @@
             this.GroupHeader8});
             this.DetailReport13.DataMember = "previousTreatment";
             this.DetailReport13.DataSource = this.sqlDataSource1;
+            this.DetailReport13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([previousTreatment]== True),true,false)\n")});
             this.DetailReport13.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport13.Level = 20;
+            this.DetailReport13.Level = 25;
             this.DetailReport13.Name = "DetailReport13";
             // 
             // Detail14
@@ -5929,6 +6405,7 @@
             this.xrTable10.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable10.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable10.LocationFloat = new DevExpress.Utils.PointFloat(47.07031F, 0F);
             this.xrTable10.Name = "xrTable10";
             this.xrTable10.OddStyleName = "xrControlStyle1";
@@ -5938,6 +6415,7 @@
             this.xrTable10.SizeF = new System.Drawing.SizeF(652F, 25F);
             this.xrTable10.StylePriority.UseBorderColor = false;
             this.xrTable10.StylePriority.UseBorders = false;
+            this.xrTable10.StylePriority.UseFont = false;
             this.xrTable10.StylePriority.UseTextAlignment = false;
             this.xrTable10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
@@ -5993,20 +6471,14 @@
             this.xrTableCell32.Text = "xrTableCell32";
             this.xrTableCell32.Weight = 0.3968253968253968D;
             // 
-            // xrLabel75
+            // GroupHeader8
             // 
-            this.xrLabel75.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel75.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel75.LocationFloat = new DevExpress.Utils.PointFloat(306.864F, 0F);
-            this.xrLabel75.Multiline = true;
-            this.xrLabel75.Name = "xrLabel75";
-            this.xrLabel75.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel75.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
-            this.xrLabel75.StylePriority.UseBorders = false;
-            this.xrLabel75.StylePriority.UseFont = false;
-            this.xrLabel75.StylePriority.UseTextAlignment = false;
-            this.xrLabel75.Text = "أماكن تلقي العلاج سابقًا";
-            this.xrLabel75.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.GroupHeader8.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable9,
+            this.xrLabel75});
+            this.GroupHeader8.HeightF = 82.89396F;
+            this.GroupHeader8.KeepTogether = true;
+            this.GroupHeader8.Name = "GroupHeader8";
             // 
             // xrTable9
             // 
@@ -6016,7 +6488,7 @@
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTable9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.xrTable9.LocationFloat = new DevExpress.Utils.PointFloat(46.82278F, 35.88726F);
+            this.xrTable9.LocationFloat = new DevExpress.Utils.PointFloat(46.82278F, 57.89396F);
             this.xrTable9.Name = "xrTable9";
             this.xrTable9.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable9.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -6073,6 +6545,21 @@
             this.xrTableCell28.Text = "المستشفى";
             this.xrTableCell28.Weight = 0.3968253968253968D;
             // 
+            // xrLabel75
+            // 
+            this.xrLabel75.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel75.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel75.LocationFloat = new DevExpress.Utils.PointFloat(306.864F, 22.0067F);
+            this.xrLabel75.Multiline = true;
+            this.xrLabel75.Name = "xrLabel75";
+            this.xrLabel75.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel75.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
+            this.xrLabel75.StylePriority.UseBorders = false;
+            this.xrLabel75.StylePriority.UseFont = false;
+            this.xrLabel75.StylePriority.UseTextAlignment = false;
+            this.xrLabel75.Text = "أماكن تلقي العلاج سابقًا";
+            this.xrLabel75.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
             // DetailReport14
             // 
             this.DetailReport14.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -6080,7 +6567,7 @@
             this.DetailReport14.DataMember = "nonRepeatable";
             this.DetailReport14.DataSource = this.sqlDataSource1;
             this.DetailReport14.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport14.Level = 21;
+            this.DetailReport14.Level = 27;
             this.DetailReport14.Name = "DetailReport14";
             // 
             // Detail15
@@ -6093,7 +6580,7 @@
             this.xrLabel82,
             this.xrLabel87,
             this.xrLabel86});
-            this.Detail15.HeightF = 137.1882F;
+            this.Detail15.HeightF = 116.1252F;
             this.Detail15.KeepTogether = true;
             this.Detail15.Name = "Detail15";
             // 
@@ -6129,11 +6616,13 @@
             // 
             this.xrLabel84.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[maritalStatusReason]")});
+            this.xrLabel84.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel84.LocationFloat = new DevExpress.Utils.PointFloat(71.00441F, 70.12511F);
             this.xrLabel84.Multiline = true;
             this.xrLabel84.Name = "xrLabel84";
             this.xrLabel84.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel84.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel84.StylePriority.UseFont = false;
             this.xrLabel84.StylePriority.UseTextAlignment = false;
             this.xrLabel84.Text = "xrLabel46";
             this.xrLabel84.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6155,11 +6644,13 @@
             // 
             this.xrLabel82.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[maritalStatus]")});
+            this.xrLabel82.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel82.LocationFloat = new DevExpress.Utils.PointFloat(416.4308F, 70.12511F);
             this.xrLabel82.Multiline = true;
             this.xrLabel82.Name = "xrLabel82";
             this.xrLabel82.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel82.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel82.StylePriority.UseFont = false;
             this.xrLabel82.StylePriority.UseTextAlignment = false;
             this.xrLabel82.Text = "xrLabel44";
             this.xrLabel82.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6170,11 +6661,13 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[totalMariageNumber]"),
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( (([nonRepeatable].[maritalStatus] ==\'أعزب\')|| ([nonRepeatable].[maritalStatu" +
                     "s]==\'عزباء\')),false,true)")});
+            this.xrLabel87.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel87.LocationFloat = new DevExpress.Utils.PointFloat(416.4308F, 93.12523F);
             this.xrLabel87.Multiline = true;
             this.xrLabel87.Name = "xrLabel87";
             this.xrLabel87.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel87.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel87.StylePriority.UseFont = false;
             this.xrLabel87.StylePriority.UseTextAlignment = false;
             this.xrLabel87.Text = "xrLabel44";
             this.xrLabel87.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6206,7 +6699,7 @@
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( (([nonRepeatable].[maritalStatus] ==\'أعزب\')|| ([nonRepeatable].[maritalStatu" +
                     "s]==\'عزباء\')),false,true)")});
             this.DetailReport15.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport15.Level = 22;
+            this.DetailReport15.Level = 29;
             this.DetailReport15.Name = "DetailReport15";
             // 
             // Detail16
@@ -6223,6 +6716,7 @@
             this.xrTable17.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable17.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable17.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrTable17.Name = "xrTable17";
             this.xrTable17.OddStyleName = "xrControlStyle1";
@@ -6232,6 +6726,9 @@
             this.xrTable17.SizeF = new System.Drawing.SizeF(743F, 25F);
             this.xrTable17.StylePriority.UseBorderColor = false;
             this.xrTable17.StylePriority.UseBorders = false;
+            this.xrTable17.StylePriority.UseFont = false;
+            this.xrTable17.StylePriority.UseTextAlignment = false;
+            this.xrTable17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrTableRow17
             // 
@@ -6361,6 +6858,14 @@
             this.xrTableCell118.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell118.Weight = 0.13458950201884254D;
             // 
+            // GroupHeader2
+            // 
+            this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable11});
+            this.GroupHeader2.HeightF = 65.06195F;
+            this.GroupHeader2.KeepTogether = true;
+            this.GroupHeader2.Name = "GroupHeader2";
+            // 
             // xrTable11
             // 
             this.xrTable11.BackColor = System.Drawing.Color.DarkGray;
@@ -6368,7 +6873,7 @@
             this.xrTable11.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable11.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable11.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40.06195F);
             this.xrTable11.Name = "xrTable11";
             this.xrTable11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable11.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
@@ -6512,7 +7017,7 @@
             this.DetailReport16.DataMember = "nonRepeatable";
             this.DetailReport16.DataSource = this.sqlDataSource1;
             this.DetailReport16.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport16.Level = 23;
+            this.DetailReport16.Level = 30;
             this.DetailReport16.Name = "DetailReport16";
             // 
             // Detail17
@@ -6527,7 +7032,7 @@
             this.xrLabel94,
             this.xrLabel101,
             this.xrLabel100});
-            this.Detail17.HeightF = 113.5435F;
+            this.Detail17.HeightF = 100.5886F;
             this.Detail17.KeepTogether = true;
             this.Detail17.Name = "Detail17";
             // 
@@ -6564,11 +7069,13 @@
             // 
             this.xrLabel98.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[totalMarriages]")});
+            this.xrLabel98.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel98.LocationFloat = new DevExpress.Utils.PointFloat(406.8606F, 77.58858F);
             this.xrLabel98.Multiline = true;
             this.xrLabel98.Name = "xrLabel98";
             this.xrLabel98.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel98.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel98.StylePriority.UseFont = false;
             this.xrLabel98.StylePriority.UseTextAlignment = false;
             this.xrLabel98.Text = "xrLabel44";
             this.xrLabel98.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6577,11 +7084,13 @@
             // 
             this.xrLabel97.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[fatherStatus]")});
+            this.xrLabel97.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel97.LocationFloat = new DevExpress.Utils.PointFloat(406.8606F, 54.5889F);
             this.xrLabel97.Multiline = true;
             this.xrLabel97.Name = "xrLabel97";
             this.xrLabel97.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel97.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel97.StylePriority.UseFont = false;
             this.xrLabel97.StylePriority.UseTextAlignment = false;
             this.xrLabel97.Text = "xrLabel44";
             this.xrLabel97.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6603,11 +7112,13 @@
             // 
             this.xrLabel95.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[education]")});
+            this.xrLabel95.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel95.LocationFloat = new DevExpress.Utils.PointFloat(61.43419F, 54.5889F);
             this.xrLabel95.Multiline = true;
             this.xrLabel95.Name = "xrLabel95";
             this.xrLabel95.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel95.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel95.StylePriority.UseFont = false;
             this.xrLabel95.StylePriority.UseTextAlignment = false;
             this.xrLabel95.Text = "xrLabel46";
             this.xrLabel95.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6629,11 +7140,13 @@
             // 
             this.xrLabel101.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[fatherMaritalStatus_nationality]")});
+            this.xrLabel101.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel101.LocationFloat = new DevExpress.Utils.PointFloat(61.43419F, 77.58858F);
             this.xrLabel101.Multiline = true;
             this.xrLabel101.Name = "xrLabel101";
             this.xrLabel101.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel101.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel101.StylePriority.UseFont = false;
             this.xrLabel101.StylePriority.UseTextAlignment = false;
             this.xrLabel101.Text = "xrLabel46";
             this.xrLabel101.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6659,7 +7172,7 @@
             this.DetailReport17.DataMember = "fatherMarriageDetails";
             this.DetailReport17.DataSource = this.sqlDataSource1;
             this.DetailReport17.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport17.Level = 24;
+            this.DetailReport17.Level = 32;
             this.DetailReport17.Name = "DetailReport17";
             // 
             // Detail18
@@ -6667,13 +7180,16 @@
             this.Detail18.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable12});
             this.Detail18.HeightF = 25F;
+            this.Detail18.KeepTogether = true;
             this.Detail18.Name = "Detail18";
             // 
             // xrTable12
             // 
+            this.xrTable12.BorderColor = System.Drawing.Color.DimGray;
             this.xrTable12.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable12.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable12.LocationFloat = new DevExpress.Utils.PointFloat(2.270653E-05F, 0F);
             this.xrTable12.Name = "xrTable12";
             this.xrTable12.OddStyleName = "xrControlStyle1";
@@ -6681,7 +7197,11 @@
             this.xrTable12.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow12});
             this.xrTable12.SizeF = new System.Drawing.SizeF(743F, 25F);
+            this.xrTable12.StylePriority.UseBorderColor = false;
             this.xrTable12.StylePriority.UseBorders = false;
+            this.xrTable12.StylePriority.UseFont = false;
+            this.xrTable12.StylePriority.UseTextAlignment = false;
+            this.xrTable12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrTableRow12
             // 
@@ -6763,6 +7283,17 @@
             this.xrTableCell48.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell48.Weight = 0.13458950201884254D;
             // 
+            // xrTableCell49
+            // 
+            this.xrTableCell49.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([fatherMarriageDetails].[fatherRelativeMarriage] == true,\'نعم\' , \'لا\')")});
+            this.xrTableCell49.Multiline = true;
+            this.xrTableCell49.Name = "xrTableCell49";
+            this.xrTableCell49.StylePriority.UseTextAlignment = false;
+            this.xrTableCell49.Text = "xrTableCell49";
+            this.xrTableCell49.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell49.Weight = 0.13458950201884254D;
+            // 
             // xrTableCell50
             // 
             this.xrTableCell50.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
@@ -6774,6 +7305,14 @@
             this.xrTableCell50.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell50.Weight = 0.13458950201884254D;
             // 
+            // GroupHeader6
+            // 
+            this.GroupHeader6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable14});
+            this.GroupHeader6.HeightF = 51.13169F;
+            this.GroupHeader6.KeepTogether = true;
+            this.GroupHeader6.Name = "GroupHeader6";
+            // 
             // xrTable14
             // 
             this.xrTable14.BackColor = System.Drawing.Color.DarkGray;
@@ -6781,7 +7320,7 @@
             this.xrTable14.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable14.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable14.LocationFloat = new DevExpress.Utils.PointFloat(0F, 26.13169F);
             this.xrTable14.Name = "xrTable14";
             this.xrTable14.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable14.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -6902,7 +7441,7 @@
             this.DetailReport18.DataMember = "nonRepeatable";
             this.DetailReport18.DataSource = this.sqlDataSource1;
             this.DetailReport18.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport18.Level = 25;
+            this.DetailReport18.Level = 33;
             this.DetailReport18.Name = "DetailReport18";
             // 
             // Detail19
@@ -6917,7 +7456,7 @@
             this.xrLabel104,
             this.xrLabel103,
             this.xrLabel102});
-            this.Detail19.HeightF = 118.4014F;
+            this.Detail19.HeightF = 100.1714F;
             this.Detail19.KeepTogether = true;
             this.Detail19.Name = "Detail19";
             // 
@@ -6938,11 +7477,13 @@
             // 
             this.xrLabel109.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[motherMaritalStatus_nationality]")});
+            this.xrLabel109.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel109.LocationFloat = new DevExpress.Utils.PointFloat(59.68012F, 77.17145F);
             this.xrLabel109.Multiline = true;
             this.xrLabel109.Name = "xrLabel109";
             this.xrLabel109.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel109.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel109.StylePriority.UseFont = false;
             this.xrLabel109.StylePriority.UseTextAlignment = false;
             this.xrLabel109.Text = "xrLabel46";
             this.xrLabel109.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6964,11 +7505,13 @@
             // 
             this.xrLabel107.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[motherMaritalStatus_education]")});
+            this.xrLabel107.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel107.LocationFloat = new DevExpress.Utils.PointFloat(59.68012F, 54.17177F);
             this.xrLabel107.Multiline = true;
             this.xrLabel107.Name = "xrLabel107";
             this.xrLabel107.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel107.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel107.StylePriority.UseFont = false;
             this.xrLabel107.StylePriority.UseTextAlignment = false;
             this.xrLabel107.Text = "xrLabel46";
             this.xrLabel107.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -6990,11 +7533,13 @@
             // 
             this.xrLabel105.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[motherStatus]")});
+            this.xrLabel105.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel105.LocationFloat = new DevExpress.Utils.PointFloat(405.1065F, 54.17177F);
             this.xrLabel105.Multiline = true;
             this.xrLabel105.Name = "xrLabel105";
             this.xrLabel105.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel105.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel105.StylePriority.UseFont = false;
             this.xrLabel105.StylePriority.UseTextAlignment = false;
             this.xrLabel105.Text = "xrLabel44";
             this.xrLabel105.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -7003,11 +7548,13 @@
             // 
             this.xrLabel104.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[motherMaritalStatus_totalMarriages]")});
+            this.xrLabel104.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel104.LocationFloat = new DevExpress.Utils.PointFloat(405.1065F, 77.17145F);
             this.xrLabel104.Multiline = true;
             this.xrLabel104.Name = "xrLabel104";
             this.xrLabel104.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel104.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel104.StylePriority.UseFont = false;
             this.xrLabel104.StylePriority.UseTextAlignment = false;
             this.xrLabel104.Text = "xrLabel44";
             this.xrLabel104.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
@@ -7049,7 +7596,7 @@
             this.DetailReport19.DataMember = "motherMarriageDetails";
             this.DetailReport19.DataSource = this.sqlDataSource1;
             this.DetailReport19.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport19.Level = 26;
+            this.DetailReport19.Level = 35;
             this.DetailReport19.Name = "DetailReport19";
             // 
             // Detail20
@@ -7066,6 +7613,7 @@
             this.xrTable13.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable13.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable13.LocationFloat = new DevExpress.Utils.PointFloat(2.270653E-05F, 0F);
             this.xrTable13.Name = "xrTable13";
             this.xrTable13.OddStyleName = "xrControlStyle1";
@@ -7075,6 +7623,9 @@
             this.xrTable13.SizeF = new System.Drawing.SizeF(743F, 25F);
             this.xrTable13.StylePriority.UseBorderColor = false;
             this.xrTable13.StylePriority.UseBorders = false;
+            this.xrTable13.StylePriority.UseFont = false;
+            this.xrTable13.StylePriority.UseTextAlignment = false;
+            this.xrTable13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrTableRow13
             // 
@@ -7178,6 +7729,14 @@
             this.xrTableCell58.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell58.Weight = 0.13458950201884254D;
             // 
+            // GroupHeader7
+            // 
+            this.GroupHeader7.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable16});
+            this.GroupHeader7.HeightF = 53.08838F;
+            this.GroupHeader7.KeepTogether = true;
+            this.GroupHeader7.Name = "GroupHeader7";
+            // 
             // xrTable16
             // 
             this.xrTable16.BackColor = System.Drawing.Color.DarkGray;
@@ -7185,7 +7744,7 @@
             this.xrTable16.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable16.LocationFloat = new DevExpress.Utils.PointFloat(2.264977E-05F, 0F);
+            this.xrTable16.LocationFloat = new DevExpress.Utils.PointFloat(2.264977E-05F, 28.08838F);
             this.xrTable16.Name = "xrTable16";
             this.xrTable16.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
             this.xrTable16.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
@@ -7314,9 +7873,11 @@
             // 
             // xrTable15
             // 
+            this.xrTable15.BorderColor = System.Drawing.Color.DimGray;
             this.xrTable15.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable15.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable15.LocationFloat = new DevExpress.Utils.PointFloat(1.999982F, 0F);
             this.xrTable15.Name = "xrTable15";
             this.xrTable15.OddStyleName = "xrControlStyle1";
@@ -7324,7 +7885,9 @@
             this.xrTable15.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow15});
             this.xrTable15.SizeF = new System.Drawing.SizeF(743F, 25F);
+            this.xrTable15.StylePriority.UseBorderColor = false;
             this.xrTable15.StylePriority.UseBorders = false;
+            this.xrTable15.StylePriority.UseFont = false;
             // 
             // xrTableRow15
             // 
@@ -7454,11 +8017,14 @@
             // DetailReport22
             // 
             this.DetailReport22.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
-            this.Detail23});
+            this.Detail23,
+            this.GroupHeader11});
             this.DetailReport22.DataMember = "accidents";
             this.DetailReport22.DataSource = this.sqlDataSource1;
+            this.DetailReport22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([nonRepeatable].[accidents]==true),true,false)")});
             this.DetailReport22.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport22.Level = 13;
+            this.DetailReport22.Level = 14;
             this.DetailReport22.Name = "DetailReport22";
             // 
             // Detail23
@@ -7475,6 +8041,7 @@
             this.xrTable1.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
             | DevExpress.XtraPrinting.BorderSide.Right) 
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable1.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(45.06836F, 0F);
             this.xrTable1.Name = "xrTable1";
             this.xrTable1.OddStyleName = "xrControlStyle1";
@@ -7484,6 +8051,7 @@
             this.xrTable1.SizeF = new System.Drawing.SizeF(652F, 25F);
             this.xrTable1.StylePriority.UseBorderColor = false;
             this.xrTable1.StylePriority.UseBorders = false;
+            this.xrTable1.StylePriority.UseFont = false;
             this.xrTable1.StylePriority.UseTextAlignment = false;
             this.xrTable1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
@@ -7528,6 +8096,14 @@
             this.xrTableCell3.Text = "xrTableCell3";
             this.xrTableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell3.Weight = 0.28985507246376813D;
+            // 
+            // GroupHeader11
+            // 
+            this.GroupHeader11.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable2,
+            this.xrLabel27});
+            this.GroupHeader11.KeepTogether = true;
+            this.GroupHeader11.Name = "GroupHeader11";
             // 
             // DetailReport20
             // 
@@ -7640,7 +8216,6 @@
             this.xrLabel173,
             this.xrLabel176,
             this.xrLabel169});
-            this.Detail26.FillEmptySpace = true;
             this.Detail26.HeightF = 67.83577F;
             this.Detail26.KeepTogether = true;
             this.Detail26.Name = "Detail26";
@@ -7651,129 +8226,6 @@
             this.xrControlStyle1.Name = "xrControlStyle1";
             this.xrControlStyle1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             // 
-            // xrTable21
-            // 
-            this.xrTable21.BorderColor = System.Drawing.Color.DimGray;
-            this.xrTable21.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrTable21.LocationFloat = new DevExpress.Utils.PointFloat(45.31618F, 58.93422F);
-            this.xrTable21.Name = "xrTable21";
-            this.xrTable21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrTable21.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
-            this.xrTableRow21});
-            this.xrTable21.SizeF = new System.Drawing.SizeF(652F, 25F);
-            this.xrTable21.StylePriority.UseBorderColor = false;
-            this.xrTable21.StylePriority.UseBorders = false;
-            this.xrTable21.StylePriority.UseTextAlignment = false;
-            this.xrTable21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            // 
-            // xrTableRow21
-            // 
-            this.xrTableRow21.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
-            this.xrTableCell99,
-            this.xrTableCell100,
-            this.xrTableCell109,
-            this.xrTableCell110,
-            this.xrTableCell111});
-            this.xrTableRow21.Name = "xrTableRow21";
-            this.xrTableRow21.Weight = 11.5D;
-            // 
-            // xrTableCell99
-            // 
-            this.xrTableCell99.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[details]")});
-            this.xrTableCell99.Multiline = true;
-            this.xrTableCell99.Name = "xrTableCell99";
-            this.xrTableCell99.StylePriority.UseTextAlignment = false;
-            this.xrTableCell99.Text = "xrTableCell99";
-            this.xrTableCell99.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell99.Weight = 0.4065040650406504D;
-            // 
-            // xrTableCell100
-            // 
-            this.xrTableCell100.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[duration]")});
-            this.xrTableCell100.Multiline = true;
-            this.xrTableCell100.Name = "xrTableCell100";
-            this.xrTableCell100.StylePriority.UseTextAlignment = false;
-            this.xrTableCell100.Text = "xrTableCell100";
-            this.xrTableCell100.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell100.Weight = 0.4065040650406504D;
-            // 
-            // xrTableCell109
-            // 
-            this.xrTableCell109.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[drugsType]")});
-            this.xrTableCell109.Multiline = true;
-            this.xrTableCell109.Name = "xrTableCell109";
-            this.xrTableCell109.StylePriority.UseTextAlignment = false;
-            this.xrTableCell109.Text = "xrTableCell109";
-            this.xrTableCell109.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell109.Weight = 0.4065040650406504D;
-            // 
-            // xrTableCell110
-            // 
-            this.xrTableCell110.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[startingAge]")});
-            this.xrTableCell110.Multiline = true;
-            this.xrTableCell110.Name = "xrTableCell110";
-            this.xrTableCell110.StylePriority.UseTextAlignment = false;
-            this.xrTableCell110.Text = "xrTableCell110";
-            this.xrTableCell110.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell110.Weight = 0.4065040650406504D;
-            // 
-            // xrTableCell111
-            // 
-            this.xrTableCell111.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[currentStatus]")});
-            this.xrTableCell111.Multiline = true;
-            this.xrTableCell111.Name = "xrTableCell111";
-            this.xrTableCell111.StylePriority.UseTextAlignment = false;
-            this.xrTableCell111.Text = "xrTableCell111";
-            this.xrTableCell111.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell111.Weight = 0.4065040650406504D;
-            // 
-            // xrTableCell49
-            // 
-            this.xrTableCell49.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([fatherMarriageDetails].[fatherRelativeMarriage] == true,\'نعم\' , \'لا\')")});
-            this.xrTableCell49.Multiline = true;
-            this.xrTableCell49.Name = "xrTableCell49";
-            this.xrTableCell49.StylePriority.UseTextAlignment = false;
-            this.xrTableCell49.Text = "xrTableCell49";
-            this.xrTableCell49.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell49.Weight = 0.13458950201884254D;
-            // 
-            // GroupHeader2
-            // 
-            this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable11});
-            this.GroupHeader2.HeightF = 25.01168F;
-            this.GroupHeader2.Name = "GroupHeader2";
-            // 
-            // GroupHeader6
-            // 
-            this.GroupHeader6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable14});
-            this.GroupHeader6.HeightF = 25F;
-            this.GroupHeader6.Name = "GroupHeader6";
-            // 
-            // GroupHeader7
-            // 
-            this.GroupHeader7.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable16});
-            this.GroupHeader7.HeightF = 25F;
-            this.GroupHeader7.Name = "GroupHeader7";
-            // 
-            // GroupHeader8
-            // 
-            this.GroupHeader8.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable9,
-            this.xrLabel75});
-            this.GroupHeader8.HeightF = 60.88726F;
-            this.GroupHeader8.Name = "GroupHeader8";
-            // 
             // DetailReport26
             // 
             this.DetailReport26.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -7781,8 +8233,10 @@
             this.GroupHeader9});
             this.DetailReport26.DataMember = "rehabilation";
             this.DetailReport26.DataSource = this.sqlDataSource1;
+            this.DetailReport26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([nonRepeatable].[enteredInstitute]==true),true,false)")});
             this.DetailReport26.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport26.Level = 14;
+            this.DetailReport26.Level = 13;
             this.DetailReport26.Name = "DetailReport26";
             // 
             // Detail27
@@ -7790,34 +8244,13 @@
             this.Detail27.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable22});
             this.Detail27.HeightF = 25F;
+            this.Detail27.KeepTogether = true;
             this.Detail27.Name = "Detail27";
-            // 
-            // GroupHeader9
-            // 
-            this.GroupHeader9.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrTable23,
-            this.xrLabel39});
-            this.GroupHeader9.HeightF = 90.00002F;
-            this.GroupHeader9.Name = "GroupHeader9";
-            // 
-            // xrLabel39
-            // 
-            this.xrLabel39.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel39.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel39.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
-            this.xrLabel39.Multiline = true;
-            this.xrLabel39.Name = "xrLabel39";
-            this.xrLabel39.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel39.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
-            this.xrLabel39.StylePriority.UseBorders = false;
-            this.xrLabel39.StylePriority.UseFont = false;
-            this.xrLabel39.StylePriority.UseTextAlignment = false;
-            this.xrLabel39.Text = "سجل دخول المؤسسة";
-            this.xrLabel39.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // xrTable22
             // 
             this.xrTable22.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable22.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrTable22.LocationFloat = new DevExpress.Utils.PointFloat(45.06824F, 0F);
             this.xrTable22.Name = "xrTable22";
             this.xrTable22.OddStyleName = "xrControlStyle1";
@@ -7826,6 +8259,7 @@
             this.xrTableRow22});
             this.xrTable22.SizeF = new System.Drawing.SizeF(652F, 25F);
             this.xrTable22.StylePriority.UseBorderColor = false;
+            this.xrTable22.StylePriority.UseFont = false;
             // 
             // xrTableRow22
             // 
@@ -7913,6 +8347,15 @@
             this.xrTableCell116.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell116.Weight = 0.40816326530612246D;
             // 
+            // GroupHeader9
+            // 
+            this.GroupHeader9.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable23,
+            this.xrLabel39});
+            this.GroupHeader9.HeightF = 90.00002F;
+            this.GroupHeader9.KeepTogether = true;
+            this.GroupHeader9.Name = "GroupHeader9";
+            // 
             // xrTable23
             // 
             this.xrTable23.BackColor = System.Drawing.Color.DarkGray;
@@ -7982,6 +8425,21 @@
             this.xrTableCell123.Text = "السنة";
             this.xrTableCell123.Weight = 0.40816326530612246D;
             // 
+            // xrLabel39
+            // 
+            this.xrLabel39.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel39.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel39.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel39.Multiline = true;
+            this.xrLabel39.Name = "xrLabel39";
+            this.xrLabel39.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel39.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel39.StylePriority.UseBorders = false;
+            this.xrLabel39.StylePriority.UseFont = false;
+            this.xrLabel39.StylePriority.UseTextAlignment = false;
+            this.xrLabel39.Text = "سجل دخول المؤسسة";
+            this.xrLabel39.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
             // DetailReport27
             // 
             this.DetailReport27.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -7989,7 +8447,7 @@
             this.DetailReport27.DataMember = "siblingsDetails";
             this.DetailReport27.DataSource = this.sqlDataSource1;
             this.DetailReport27.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport27.Level = 27;
+            this.DetailReport27.Level = 36;
             this.DetailReport27.Name = "DetailReport27";
             // 
             // Detail28
@@ -8013,200 +8471,42 @@
             this.xrLabel91,
             this.xrLabel92,
             this.xrLabel70});
-            this.Detail28.HeightF = 172.5978F;
+            this.Detail28.HeightF = 193.1102F;
+            this.Detail28.KeepTogether = true;
             this.Detail28.Name = "Detail28";
             // 
-            // xrLabel70
+            // xrLabel185
             // 
-            this.xrLabel70.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel70.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel70.LocationFloat = new DevExpress.Utils.PointFloat(306.864F, 9.999996F);
-            this.xrLabel70.Multiline = true;
-            this.xrLabel70.Name = "xrLabel70";
-            this.xrLabel70.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel70.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrLabel70.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
-            this.xrLabel70.StylePriority.UseBorders = false;
-            this.xrLabel70.StylePriority.UseFont = false;
-            this.xrLabel70.StylePriority.UseTextAlignment = false;
-            this.xrLabel70.Text = "الأشقاء والشقيقات";
-            this.xrLabel70.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel185.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[responsiblitiesToward]")});
+            this.xrLabel185.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel185.LocationFloat = new DevExpress.Utils.PointFloat(376.1612F, 170.11F);
+            this.xrLabel185.Multiline = true;
+            this.xrLabel185.Name = "xrLabel185";
+            this.xrLabel185.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel185.SizeF = new System.Drawing.SizeF(160.1543F, 22.99998F);
+            this.xrLabel185.StylePriority.UseFont = false;
+            this.xrLabel185.StylePriority.UseTextAlignment = false;
+            this.xrLabel185.Text = "xrLabel29";
+            this.xrLabel185.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrLabel71
+            // xrLabel186
             // 
-            this.xrLabel71.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel71.LocationFloat = new DevExpress.Utils.PointFloat(555.2838F, 96.02197F);
-            this.xrLabel71.Multiline = true;
-            this.xrLabel71.Name = "xrLabel71";
-            this.xrLabel71.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel71.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
-            this.xrLabel71.StylePriority.UseFont = false;
-            this.xrLabel71.StylePriority.UseTextAlignment = false;
-            this.xrLabel71.Text = "عدد الأشقاء والشقيقات الكلي";
-            this.xrLabel71.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel72
-            // 
-            this.xrLabel72.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel72.LocationFloat = new DevExpress.Utils.PointFloat(555.0381F, 50.02145F);
-            this.xrLabel72.Multiline = true;
-            this.xrLabel72.Name = "xrLabel72";
-            this.xrLabel72.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel72.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
-            this.xrLabel72.StylePriority.UseFont = false;
-            this.xrLabel72.StylePriority.UseTextAlignment = false;
-            this.xrLabel72.Text = "الأشقاء من الوالدين";
-            this.xrLabel72.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel73
-            // 
-            this.xrLabel73.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[brothers]")});
-            this.xrLabel73.LocationFloat = new DevExpress.Utils.PointFloat(376.6541F, 50.02145F);
-            this.xrLabel73.Multiline = true;
-            this.xrLabel73.Name = "xrLabel73";
-            this.xrLabel73.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel73.SizeF = new System.Drawing.SizeF(159.4163F, 22.99998F);
-            this.xrLabel73.StylePriority.UseTextAlignment = false;
-            this.xrLabel73.Text = "xrLabel48";
-            this.xrLabel73.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel74
-            // 
-            this.xrLabel74.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[sisters]")});
-            this.xrLabel74.LocationFloat = new DevExpress.Utils.PointFloat(376.8993F, 73.02187F);
-            this.xrLabel74.Multiline = true;
-            this.xrLabel74.Name = "xrLabel74";
-            this.xrLabel74.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel74.SizeF = new System.Drawing.SizeF(159.4162F, 22.99998F);
-            this.xrLabel74.StylePriority.UseTextAlignment = false;
-            this.xrLabel74.Text = "xrLabel48";
-            this.xrLabel74.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel91
-            // 
-            this.xrLabel91.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel91.LocationFloat = new DevExpress.Utils.PointFloat(555.2835F, 73.02187F);
-            this.xrLabel91.Multiline = true;
-            this.xrLabel91.Name = "xrLabel91";
-            this.xrLabel91.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel91.SizeF = new System.Drawing.SizeF(132.2764F, 22.99998F);
-            this.xrLabel91.StylePriority.UseFont = false;
-            this.xrLabel91.StylePriority.UseTextAlignment = false;
-            this.xrLabel91.Text = "الشقيقات من الوالدين";
-            this.xrLabel91.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel92
-            // 
-            this.xrLabel92.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[totalSiblings]")});
-            this.xrLabel92.LocationFloat = new DevExpress.Utils.PointFloat(376.6523F, 96.02197F);
-            this.xrLabel92.Multiline = true;
-            this.xrLabel92.Name = "xrLabel92";
-            this.xrLabel92.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel92.SizeF = new System.Drawing.SizeF(159.4164F, 23F);
-            this.xrLabel92.StylePriority.UseTextAlignment = false;
-            this.xrLabel92.Text = "xrLabel29";
-            this.xrLabel92.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            // 
-            // xrLabel177
-            // 
-            this.xrLabel177.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[responsibleForCount]")});
-            this.xrLabel177.LocationFloat = new DevExpress.Utils.PointFloat(36.99553F, 126.5977F);
-            this.xrLabel177.Multiline = true;
-            this.xrLabel177.Name = "xrLabel177";
-            this.xrLabel177.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel177.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
-            this.xrLabel177.StylePriority.UseTextAlignment = false;
-            this.xrLabel177.Text = "xrLabel29";
-            this.xrLabel177.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            // 
-            // xrLabel178
-            // 
-            this.xrLabel178.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel178.LocationFloat = new DevExpress.Utils.PointFloat(229.0101F, 73.02175F);
-            this.xrLabel178.Multiline = true;
-            this.xrLabel178.Name = "xrLabel178";
-            this.xrLabel178.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel178.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
-            this.xrLabel178.StylePriority.UseFont = false;
-            this.xrLabel178.StylePriority.UseTextAlignment = false;
-            this.xrLabel178.Text = "أقرب شخص له";
-            this.xrLabel178.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel179
-            // 
-            this.xrLabel179.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[nearestPerson]")});
-            this.xrLabel179.LocationFloat = new DevExpress.Utils.PointFloat(36.99553F, 73.02171F);
-            this.xrLabel179.Multiline = true;
-            this.xrLabel179.Name = "xrLabel179";
-            this.xrLabel179.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel179.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
-            this.xrLabel179.StylePriority.UseTextAlignment = false;
-            this.xrLabel179.Text = "xrLabel48";
-            this.xrLabel179.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel180
-            // 
-            this.xrLabel180.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[patientOrder]")});
-            this.xrLabel180.LocationFloat = new DevExpress.Utils.PointFloat(36.75028F, 50.0216F);
-            this.xrLabel180.Multiline = true;
-            this.xrLabel180.Name = "xrLabel180";
-            this.xrLabel180.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel180.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
-            this.xrLabel180.StylePriority.UseTextAlignment = false;
-            this.xrLabel180.Text = "xrLabel48";
-            this.xrLabel180.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel181
-            // 
-            this.xrLabel181.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel181.LocationFloat = new DevExpress.Utils.PointFloat(228.7649F, 50.02164F);
-            this.xrLabel181.Multiline = true;
-            this.xrLabel181.Name = "xrLabel181";
-            this.xrLabel181.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel181.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
-            this.xrLabel181.StylePriority.UseFont = false;
-            this.xrLabel181.StylePriority.UseTextAlignment = false;
-            this.xrLabel181.Text = "ترتيب المفحوص";
-            this.xrLabel181.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel182
-            // 
-            this.xrLabel182.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel182.LocationFloat = new DevExpress.Utils.PointFloat(229.0106F, 126.5977F);
-            this.xrLabel182.Multiline = true;
-            this.xrLabel182.Name = "xrLabel182";
-            this.xrLabel182.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel182.SizeF = new System.Drawing.SizeF(132.4672F, 22.99999F);
-            this.xrLabel182.StylePriority.UseFont = false;
-            this.xrLabel182.StylePriority.UseTextAlignment = false;
-            this.xrLabel182.Text = "عدد الأفراد المسؤول عنهم";
-            this.xrLabel182.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrCheckBox20
-            // 
-            this.xrCheckBox20.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[siblingsDetails].[pressuredFromResponsibility]")});
-            this.xrCheckBox20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrCheckBox20.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox20.LocationFloat = new DevExpress.Utils.PointFloat(376.4104F, 126.5977F);
-            this.xrCheckBox20.Name = "xrCheckBox20";
-            this.xrCheckBox20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox20.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox20.SizeF = new System.Drawing.SizeF(310.9042F, 23F);
-            this.xrCheckBox20.StylePriority.UseFont = false;
-            this.xrCheckBox20.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox20.Text = "يعاني من ضغوطات نتيجة تحمل مسؤولية الأسرة المتزايدة؟";
+            this.xrLabel186.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel186.LocationFloat = new DevExpress.Utils.PointFloat(568.423F, 170.1099F);
+            this.xrLabel186.Multiline = true;
+            this.xrLabel186.Name = "xrLabel186";
+            this.xrLabel186.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel186.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
+            this.xrLabel186.StylePriority.UseFont = false;
+            this.xrLabel186.StylePriority.UseTextAlignment = false;
+            this.xrLabel186.Text = "المسؤولية اتجاه";
+            this.xrLabel186.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
             // xrLabel183
             // 
             this.xrLabel183.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel183.LocationFloat = new DevExpress.Utils.PointFloat(228.5201F, 149.5978F);
+            this.xrLabel183.LocationFloat = new DevExpress.Utils.PointFloat(228.5201F, 170.1102F);
             this.xrLabel183.Multiline = true;
             this.xrLabel183.Name = "xrLabel183";
             this.xrLabel183.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -8220,40 +8520,215 @@
             // 
             this.xrLabel184.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[responsibleForDescription]")});
-            this.xrLabel184.LocationFloat = new DevExpress.Utils.PointFloat(36.50513F, 149.5978F);
+            this.xrLabel184.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel184.LocationFloat = new DevExpress.Utils.PointFloat(36.50513F, 170.1102F);
             this.xrLabel184.Multiline = true;
             this.xrLabel184.Name = "xrLabel184";
             this.xrLabel184.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel184.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
+            this.xrLabel184.StylePriority.UseFont = false;
             this.xrLabel184.StylePriority.UseTextAlignment = false;
             this.xrLabel184.Text = "xrLabel29";
             this.xrLabel184.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrLabel185
+            // xrCheckBox20
             // 
-            this.xrLabel185.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[responsiblitiesToward]")});
-            this.xrLabel185.LocationFloat = new DevExpress.Utils.PointFloat(376.1612F, 149.5976F);
-            this.xrLabel185.Multiline = true;
-            this.xrLabel185.Name = "xrLabel185";
-            this.xrLabel185.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel185.SizeF = new System.Drawing.SizeF(160.1543F, 22.99998F);
-            this.xrLabel185.StylePriority.UseTextAlignment = false;
-            this.xrLabel185.Text = "xrLabel29";
-            this.xrLabel185.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.xrCheckBox20.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[siblingsDetails].[pressuredFromResponsibility]")});
+            this.xrCheckBox20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrCheckBox20.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox20.LocationFloat = new DevExpress.Utils.PointFloat(376.4104F, 147.1101F);
+            this.xrCheckBox20.Name = "xrCheckBox20";
+            this.xrCheckBox20.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox20.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox20.SizeF = new System.Drawing.SizeF(310.9042F, 23F);
+            this.xrCheckBox20.StylePriority.UseFont = false;
+            this.xrCheckBox20.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox20.Text = "يعاني من ضغوطات نتيجة تحمل مسؤولية الأسرة المتزايدة؟";
             // 
-            // xrLabel186
+            // xrLabel177
             // 
-            this.xrLabel186.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel186.LocationFloat = new DevExpress.Utils.PointFloat(568.423F, 149.5975F);
-            this.xrLabel186.Multiline = true;
-            this.xrLabel186.Name = "xrLabel186";
-            this.xrLabel186.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel186.SizeF = new System.Drawing.SizeF(118.6461F, 23F);
-            this.xrLabel186.StylePriority.UseFont = false;
-            this.xrLabel186.StylePriority.UseTextAlignment = false;
-            this.xrLabel186.Text = "المسؤولية اتجاه";
-            this.xrLabel186.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel177.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[responsibleForCount]")});
+            this.xrLabel177.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel177.LocationFloat = new DevExpress.Utils.PointFloat(36.99553F, 147.1101F);
+            this.xrLabel177.Multiline = true;
+            this.xrLabel177.Name = "xrLabel177";
+            this.xrLabel177.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel177.SizeF = new System.Drawing.SizeF(192.0148F, 23F);
+            this.xrLabel177.StylePriority.UseFont = false;
+            this.xrLabel177.StylePriority.UseTextAlignment = false;
+            this.xrLabel177.Text = "xrLabel29";
+            this.xrLabel177.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel178
+            // 
+            this.xrLabel178.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel178.LocationFloat = new DevExpress.Utils.PointFloat(229.0101F, 93.53411F);
+            this.xrLabel178.Multiline = true;
+            this.xrLabel178.Name = "xrLabel178";
+            this.xrLabel178.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel178.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
+            this.xrLabel178.StylePriority.UseFont = false;
+            this.xrLabel178.StylePriority.UseTextAlignment = false;
+            this.xrLabel178.Text = "أقرب شخص له";
+            this.xrLabel178.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel179
+            // 
+            this.xrLabel179.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[nearestPerson]")});
+            this.xrLabel179.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel179.LocationFloat = new DevExpress.Utils.PointFloat(36.99553F, 93.53407F);
+            this.xrLabel179.Multiline = true;
+            this.xrLabel179.Name = "xrLabel179";
+            this.xrLabel179.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel179.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel179.StylePriority.UseFont = false;
+            this.xrLabel179.StylePriority.UseTextAlignment = false;
+            this.xrLabel179.Text = "xrLabel48";
+            this.xrLabel179.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel180
+            // 
+            this.xrLabel180.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[patientOrder]")});
+            this.xrLabel180.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel180.LocationFloat = new DevExpress.Utils.PointFloat(36.75028F, 70.53396F);
+            this.xrLabel180.Multiline = true;
+            this.xrLabel180.Name = "xrLabel180";
+            this.xrLabel180.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel180.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel180.StylePriority.UseFont = false;
+            this.xrLabel180.StylePriority.UseTextAlignment = false;
+            this.xrLabel180.Text = "xrLabel48";
+            this.xrLabel180.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel181
+            // 
+            this.xrLabel181.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel181.LocationFloat = new DevExpress.Utils.PointFloat(228.7649F, 70.534F);
+            this.xrLabel181.Multiline = true;
+            this.xrLabel181.Name = "xrLabel181";
+            this.xrLabel181.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel181.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
+            this.xrLabel181.StylePriority.UseFont = false;
+            this.xrLabel181.StylePriority.UseTextAlignment = false;
+            this.xrLabel181.Text = "ترتيب المفحوص";
+            this.xrLabel181.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel182
+            // 
+            this.xrLabel182.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel182.LocationFloat = new DevExpress.Utils.PointFloat(229.0106F, 147.1101F);
+            this.xrLabel182.Multiline = true;
+            this.xrLabel182.Name = "xrLabel182";
+            this.xrLabel182.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel182.SizeF = new System.Drawing.SizeF(132.4672F, 22.99999F);
+            this.xrLabel182.StylePriority.UseFont = false;
+            this.xrLabel182.StylePriority.UseTextAlignment = false;
+            this.xrLabel182.Text = "عدد الأفراد المسؤول عنهم";
+            this.xrLabel182.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel71
+            // 
+            this.xrLabel71.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel71.LocationFloat = new DevExpress.Utils.PointFloat(555.2838F, 116.5343F);
+            this.xrLabel71.Multiline = true;
+            this.xrLabel71.Name = "xrLabel71";
+            this.xrLabel71.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel71.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
+            this.xrLabel71.StylePriority.UseFont = false;
+            this.xrLabel71.StylePriority.UseTextAlignment = false;
+            this.xrLabel71.Text = "عدد الأشقاء والشقيقات الكلي";
+            this.xrLabel71.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel72
+            // 
+            this.xrLabel72.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel72.LocationFloat = new DevExpress.Utils.PointFloat(555.0381F, 70.53381F);
+            this.xrLabel72.Multiline = true;
+            this.xrLabel72.Name = "xrLabel72";
+            this.xrLabel72.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel72.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
+            this.xrLabel72.StylePriority.UseFont = false;
+            this.xrLabel72.StylePriority.UseTextAlignment = false;
+            this.xrLabel72.Text = "الأشقاء من الوالدين";
+            this.xrLabel72.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel73
+            // 
+            this.xrLabel73.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[brothers]")});
+            this.xrLabel73.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel73.LocationFloat = new DevExpress.Utils.PointFloat(376.6541F, 70.53381F);
+            this.xrLabel73.Multiline = true;
+            this.xrLabel73.Name = "xrLabel73";
+            this.xrLabel73.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel73.SizeF = new System.Drawing.SizeF(159.4163F, 22.99998F);
+            this.xrLabel73.StylePriority.UseFont = false;
+            this.xrLabel73.StylePriority.UseTextAlignment = false;
+            this.xrLabel73.Text = "xrLabel48";
+            this.xrLabel73.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel74
+            // 
+            this.xrLabel74.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[sisters]")});
+            this.xrLabel74.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel74.LocationFloat = new DevExpress.Utils.PointFloat(376.8993F, 93.53423F);
+            this.xrLabel74.Multiline = true;
+            this.xrLabel74.Name = "xrLabel74";
+            this.xrLabel74.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel74.SizeF = new System.Drawing.SizeF(159.4162F, 22.99998F);
+            this.xrLabel74.StylePriority.UseFont = false;
+            this.xrLabel74.StylePriority.UseTextAlignment = false;
+            this.xrLabel74.Text = "xrLabel48";
+            this.xrLabel74.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel91
+            // 
+            this.xrLabel91.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel91.LocationFloat = new DevExpress.Utils.PointFloat(555.2835F, 93.53423F);
+            this.xrLabel91.Multiline = true;
+            this.xrLabel91.Name = "xrLabel91";
+            this.xrLabel91.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel91.SizeF = new System.Drawing.SizeF(132.2764F, 22.99998F);
+            this.xrLabel91.StylePriority.UseFont = false;
+            this.xrLabel91.StylePriority.UseTextAlignment = false;
+            this.xrLabel91.Text = "الشقيقات من الوالدين";
+            this.xrLabel91.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel92
+            // 
+            this.xrLabel92.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsDetails].[totalSiblings]")});
+            this.xrLabel92.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel92.LocationFloat = new DevExpress.Utils.PointFloat(376.6523F, 116.5343F);
+            this.xrLabel92.Multiline = true;
+            this.xrLabel92.Name = "xrLabel92";
+            this.xrLabel92.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel92.SizeF = new System.Drawing.SizeF(159.4164F, 23F);
+            this.xrLabel92.StylePriority.UseFont = false;
+            this.xrLabel92.StylePriority.UseTextAlignment = false;
+            this.xrLabel92.Text = "xrLabel29";
+            this.xrLabel92.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel70
+            // 
+            this.xrLabel70.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel70.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel70.LocationFloat = new DevExpress.Utils.PointFloat(306.864F, 30.51236F);
+            this.xrLabel70.Multiline = true;
+            this.xrLabel70.Name = "xrLabel70";
+            this.xrLabel70.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel70.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrLabel70.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
+            this.xrLabel70.StylePriority.UseBorders = false;
+            this.xrLabel70.StylePriority.UseFont = false;
+            this.xrLabel70.StylePriority.UseTextAlignment = false;
+            this.xrLabel70.Text = "الأشقاء والشقيقات";
+            this.xrLabel70.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // DetailReport28
             // 
@@ -8263,7 +8738,7 @@
             this.DetailReport28.DataMember = "periodicMeeting";
             this.DetailReport28.DataSource = this.sqlDataSource1;
             this.DetailReport28.FilterString = "[ssn] = ?ssnFilter";
-            this.DetailReport28.Level = 28;
+            this.DetailReport28.Level = 38;
             this.DetailReport28.Name = "DetailReport28";
             // 
             // Detail29
@@ -8292,243 +8767,17 @@
             this.xrLabel191,
             this.xrLabel188,
             this.xrLabel189});
+            this.Detail29.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([?ssnFilter] In ([ssnPatient],[ssn]) ), false,true)\n\n")});
             this.Detail29.HeightF = 258.428F;
+            this.Detail29.KeepTogether = true;
             this.Detail29.Name = "Detail29";
             // 
-            // xrLabel187
+            // xrLine1
             // 
-            this.xrLabel187.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel187.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
-            this.xrLabel187.LocationFloat = new DevExpress.Utils.PointFloat(305.8682F, 27.29793F);
-            this.xrLabel187.Multiline = true;
-            this.xrLabel187.Name = "xrLabel187";
-            this.xrLabel187.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel187.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrLabel187.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
-            this.xrLabel187.StylePriority.UseBorders = false;
-            this.xrLabel187.StylePriority.UseFont = false;
-            this.xrLabel187.StylePriority.UseTextAlignment = false;
-            this.xrLabel187.Text = "المقابلات الدورية";
-            this.xrLabel187.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
-            // GroupHeader10
-            // 
-            this.GroupHeader10.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrLabel187});
-            this.GroupHeader10.HeightF = 68.78111F;
-            this.GroupHeader10.Name = "GroupHeader10";
-            // 
-            // xrLabel188
-            // 
-            this.xrLabel188.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingType]")});
-            this.xrLabel188.LocationFloat = new DevExpress.Utils.PointFloat(377.6721F, 0F);
-            this.xrLabel188.Multiline = true;
-            this.xrLabel188.Name = "xrLabel188";
-            this.xrLabel188.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel188.SizeF = new System.Drawing.SizeF(159.4163F, 22.99998F);
-            this.xrLabel188.StylePriority.UseTextAlignment = false;
-            this.xrLabel188.Text = "xrLabel48";
-            this.xrLabel188.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel189
-            // 
-            this.xrLabel189.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel189.LocationFloat = new DevExpress.Utils.PointFloat(556.0562F, 0F);
-            this.xrLabel189.Multiline = true;
-            this.xrLabel189.Name = "xrLabel189";
-            this.xrLabel189.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel189.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
-            this.xrLabel189.StylePriority.UseFont = false;
-            this.xrLabel189.StylePriority.UseTextAlignment = false;
-            this.xrLabel189.Text = "نوع المقابلة";
-            this.xrLabel189.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrCheckBox21
-            // 
-            this.xrCheckBox21.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalSide]")});
-            this.xrCheckBox21.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox21.LocationFloat = new DevExpress.Utils.PointFloat(333.5709F, 84.86085F);
-            this.xrCheckBox21.Name = "xrCheckBox21";
-            this.xrCheckBox21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox21.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox21.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.xrCheckBox21.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox21.Text = "الجانب النفسي";
-            // 
-            // xrCheckBox22
-            // 
-            this.xrCheckBox22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialMainProgram]")});
-            this.xrCheckBox22.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox22.LocationFloat = new DevExpress.Utils.PointFloat(470.3801F, 72.23457F);
-            this.xrCheckBox22.Name = "xrCheckBox22";
-            this.xrCheckBox22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox22.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox22.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
-            this.xrCheckBox22.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox22.Text = "برنامج عام";
-            // 
-            // xrCheckBox23
-            // 
-            this.xrCheckBox23.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialAlterBehavior]")});
-            this.xrCheckBox23.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox23.LocationFloat = new DevExpress.Utils.PointFloat(470.3801F, 95.23468F);
-            this.xrCheckBox23.Name = "xrCheckBox23";
-            this.xrCheckBox23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox23.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox23.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
-            this.xrCheckBox23.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox23.Text = "برنامج تعديل سلوك";
-            // 
-            // xrCheckBox24
-            // 
-            this.xrCheckBox24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialSide]")});
-            this.xrCheckBox24.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox24.LocationFloat = new DevExpress.Utils.PointFloat(586.4921F, 84.86096F);
-            this.xrCheckBox24.Name = "xrCheckBox24";
-            this.xrCheckBox24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox24.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox24.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.xrCheckBox24.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox24.Text = "الجانب الاجتماعي";
-            // 
-            // xrLabel191
-            // 
-            this.xrLabel191.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel191.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel191.LocationFloat = new DevExpress.Utils.PointFloat(608.871F, 48.1944F);
-            this.xrLabel191.Multiline = true;
-            this.xrLabel191.Name = "xrLabel191";
-            this.xrLabel191.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel191.SizeF = new System.Drawing.SizeF(112.0192F, 17.94948F);
-            this.xrLabel191.StylePriority.UseBorders = false;
-            this.xrLabel191.StylePriority.UseFont = false;
-            this.xrLabel191.StylePriority.UseTextAlignment = false;
-            this.xrLabel191.Text = "السمات السلوكية";
-            this.xrLabel191.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
-            // xrCheckBox25
-            // 
-            this.xrCheckBox25.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalAlterBehavior]")});
-            this.xrCheckBox25.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox25.LocationFloat = new DevExpress.Utils.PointFloat(217.2031F, 95.23468F);
-            this.xrCheckBox25.Name = "xrCheckBox25";
-            this.xrCheckBox25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox25.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox25.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
-            this.xrCheckBox25.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox25.Text = "برنامج تعديل سلوك";
-            // 
-            // xrCheckBox26
-            // 
-            this.xrCheckBox26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalMainProgram]")});
-            this.xrCheckBox26.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox26.LocationFloat = new DevExpress.Utils.PointFloat(217.2031F, 72.23457F);
-            this.xrCheckBox26.Name = "xrCheckBox26";
-            this.xrCheckBox26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox26.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox26.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
-            this.xrCheckBox26.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox26.Text = "برنامج عام";
-            // 
-            // xrCheckBox27
-            // 
-            this.xrCheckBox27.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[religiousSide]")});
-            this.xrCheckBox27.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
-            this.xrCheckBox27.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 84.86096F);
-            this.xrCheckBox27.Name = "xrCheckBox27";
-            this.xrCheckBox27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrCheckBox27.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
-            this.xrCheckBox27.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.xrCheckBox27.StylePriority.UseTextAlignment = false;
-            this.xrCheckBox27.Text = "الجانب الديني";
-            // 
-            // xrLabel190
-            // 
-            this.xrLabel190.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingTitle]")});
-            this.xrLabel190.LocationFloat = new DevExpress.Utils.PointFloat(179.4854F, 141.2036F);
-            this.xrLabel190.Multiline = true;
-            this.xrLabel190.Name = "xrLabel190";
-            this.xrLabel190.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel190.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
-            this.xrLabel190.StylePriority.UseTextAlignment = false;
-            this.xrLabel190.Text = "xrLabel48";
-            this.xrLabel190.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel192
-            // 
-            this.xrLabel192.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel192.LocationFloat = new DevExpress.Utils.PointFloat(371.5F, 141.2036F);
-            this.xrLabel192.Multiline = true;
-            this.xrLabel192.Name = "xrLabel192";
-            this.xrLabel192.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel192.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
-            this.xrLabel192.StylePriority.UseFont = false;
-            this.xrLabel192.StylePriority.UseTextAlignment = false;
-            this.xrLabel192.Text = "عنوان المقابلة";
-            this.xrLabel192.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel193
-            // 
-            this.xrLabel193.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel193.LocationFloat = new DevExpress.Utils.PointFloat(160.5975F, 0F);
-            this.xrLabel193.Multiline = true;
-            this.xrLabel193.Name = "xrLabel193";
-            this.xrLabel193.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel193.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.xrLabel193.StylePriority.UseFont = false;
-            this.xrLabel193.StylePriority.UseTextAlignment = false;
-            this.xrLabel193.Text = "تاريخ التسجيل";
-            this.xrLabel193.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel194
-            // 
-            this.xrLabel194.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[signingDate]")});
-            this.xrLabel194.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 0F);
-            this.xrLabel194.Multiline = true;
-            this.xrLabel194.Name = "xrLabel194";
-            this.xrLabel194.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel194.SizeF = new System.Drawing.SizeF(86.29745F, 23.00002F);
-            this.xrLabel194.StylePriority.UseTextAlignment = false;
-            this.xrLabel194.Text = "xrLabel20";
-            this.xrLabel194.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            this.xrLabel194.TextFormatString = "{0:dd/MM/yyyy}";
-            // 
-            // xrLabel195
-            // 
-            this.xrLabel195.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel195.LocationFloat = new DevExpress.Utils.PointFloat(162.4375F, 22.9998F);
-            this.xrLabel195.Multiline = true;
-            this.xrLabel195.Name = "xrLabel195";
-            this.xrLabel195.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel195.SizeF = new System.Drawing.SizeF(98.15987F, 23F);
-            this.xrLabel195.StylePriority.UseFont = false;
-            this.xrLabel195.StylePriority.UseTextAlignment = false;
-            this.xrLabel195.Text = "تاريخ المقابلة";
-            this.xrLabel195.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            // 
-            // xrLabel196
-            // 
-            this.xrLabel196.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingDate]")});
-            this.xrLabel196.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 22.9998F);
-            this.xrLabel196.Multiline = true;
-            this.xrLabel196.Name = "xrLabel196";
-            this.xrLabel196.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel196.SizeF = new System.Drawing.SizeF(88.13766F, 23.00002F);
-            this.xrLabel196.StylePriority.UseTextAlignment = false;
-            this.xrLabel196.Text = "xrLabel14";
-            this.xrLabel196.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
-            this.xrLabel196.TextFormatString = "{0:dd/MM/yyyy}";
+            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 225.4281F);
+            this.xrLine1.Name = "xrLine1";
+            this.xrLine1.SizeF = new System.Drawing.SizeF(725F, 23F);
             // 
             // xrLabel197
             // 
@@ -8538,6 +8787,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel197.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[recommendations]")});
+            this.xrLabel197.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel197.LocationFloat = new DevExpress.Utils.PointFloat(115.2656F, 203.7208F);
             this.xrLabel197.Multiline = true;
             this.xrLabel197.Name = "xrLabel197";
@@ -8545,6 +8795,7 @@
             this.xrLabel197.SizeF = new System.Drawing.SizeF(163.5505F, 17.58578F);
             this.xrLabel197.StylePriority.UseBorderColor = false;
             this.xrLabel197.StylePriority.UseBorders = false;
+            this.xrLabel197.StylePriority.UseFont = false;
             this.xrLabel197.StylePriority.UseTextAlignment = false;
             this.xrLabel197.Text = "xrLabel48";
             this.xrLabel197.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -8575,6 +8826,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel199.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingContent]")});
+            this.xrLabel199.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel199.LocationFloat = new DevExpress.Utils.PointFloat(280.2655F, 203.7208F);
             this.xrLabel199.Multiline = true;
             this.xrLabel199.Name = "xrLabel199";
@@ -8582,6 +8834,7 @@
             this.xrLabel199.SizeF = new System.Drawing.SizeF(163.7115F, 17.58578F);
             this.xrLabel199.StylePriority.UseBorderColor = false;
             this.xrLabel199.StylePriority.UseBorders = false;
+            this.xrLabel199.StylePriority.UseFont = false;
             this.xrLabel199.StylePriority.UseTextAlignment = false;
             this.xrLabel199.Text = "xrLabel48";
             this.xrLabel199.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
@@ -8630,6 +8883,7 @@
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel202.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingTarget]")});
+            this.xrLabel202.Font = new System.Drawing.Font("Arial", 9.75F);
             this.xrLabel202.LocationFloat = new DevExpress.Utils.PointFloat(445.2655F, 203.7208F);
             this.xrLabel202.Multiline = true;
             this.xrLabel202.Name = "xrLabel202";
@@ -8637,181 +8891,1466 @@
             this.xrLabel202.SizeF = new System.Drawing.SizeF(163.5505F, 17.58578F);
             this.xrLabel202.StylePriority.UseBorderColor = false;
             this.xrLabel202.StylePriority.UseBorders = false;
+            this.xrLabel202.StylePriority.UseFont = false;
             this.xrLabel202.StylePriority.UseTextAlignment = false;
             this.xrLabel202.Text = "xrLabel48";
             this.xrLabel202.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
-            // xrLine1
+            // xrLabel193
             // 
-            this.xrLine1.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 225.4281F);
-            this.xrLine1.Name = "xrLine1";
-            this.xrLine1.SizeF = new System.Drawing.SizeF(725F, 23F);
+            this.xrLabel193.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel193.LocationFloat = new DevExpress.Utils.PointFloat(160.5975F, 0F);
+            this.xrLabel193.Multiline = true;
+            this.xrLabel193.Name = "xrLabel193";
+            this.xrLabel193.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel193.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrLabel193.StylePriority.UseFont = false;
+            this.xrLabel193.StylePriority.UseTextAlignment = false;
+            this.xrLabel193.Text = "تاريخ التسجيل";
+            this.xrLabel193.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
-            // xrLabel203
+            // xrLabel194
             // 
-            this.xrLabel203.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel203.LocationFloat = new DevExpress.Utils.PointFloat(494.8186F, 25.43212F);
-            this.xrLabel203.Multiline = true;
-            this.xrLabel203.Name = "xrLabel203";
-            this.xrLabel203.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel203.SizeF = new System.Drawing.SizeF(204.197F, 23F);
-            this.xrLabel203.StylePriority.UseFont = false;
-            this.xrLabel203.StylePriority.UseTextAlignment = false;
-            this.xrLabel203.Text = "حكومة أبوظبي";
-            this.xrLabel203.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel194.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[signingDate]")});
+            this.xrLabel194.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel194.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 0F);
+            this.xrLabel194.Multiline = true;
+            this.xrLabel194.Name = "xrLabel194";
+            this.xrLabel194.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel194.SizeF = new System.Drawing.SizeF(86.29745F, 23.00002F);
+            this.xrLabel194.StylePriority.UseFont = false;
+            this.xrLabel194.StylePriority.UseTextAlignment = false;
+            this.xrLabel194.Text = "xrLabel20";
+            this.xrLabel194.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel194.TextFormatString = "{0:dd/MM/yyyy}";
             // 
-            // xrLabel204
+            // xrLabel195
             // 
-            this.xrLabel204.Font = new System.Drawing.Font("Algerian", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel204.LocationFloat = new DevExpress.Utils.PointFloat(494.3932F, 48.43212F);
-            this.xrLabel204.Multiline = true;
-            this.xrLabel204.Name = "xrLabel204";
-            this.xrLabel204.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel204.SizeF = new System.Drawing.SizeF(204.6222F, 23F);
-            this.xrLabel204.StylePriority.UseFont = false;
-            this.xrLabel204.StylePriority.UseTextAlignment = false;
-            this.xrLabel204.Text = "القيادة العامة لشرطة أبوظبي";
-            this.xrLabel204.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel195.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel195.LocationFloat = new DevExpress.Utils.PointFloat(162.4375F, 22.9998F);
+            this.xrLabel195.Multiline = true;
+            this.xrLabel195.Name = "xrLabel195";
+            this.xrLabel195.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel195.SizeF = new System.Drawing.SizeF(98.15987F, 23F);
+            this.xrLabel195.StylePriority.UseFont = false;
+            this.xrLabel195.StylePriority.UseTextAlignment = false;
+            this.xrLabel195.Text = "تاريخ المقابلة";
+            this.xrLabel195.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
             // 
-            // xrLabel205
+            // xrLabel196
             // 
-            this.xrLabel205.Font = new System.Drawing.Font("Algerian", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel205.LocationFloat = new DevExpress.Utils.PointFloat(494.8186F, 83.32106F);
-            this.xrLabel205.Multiline = true;
-            this.xrLabel205.Name = "xrLabel205";
-            this.xrLabel205.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel205.SizeF = new System.Drawing.SizeF(204.197F, 23F);
-            this.xrLabel205.StylePriority.UseFont = false;
-            this.xrLabel205.StylePriority.UseTextAlignment = false;
-            this.xrLabel205.Text = "قطاع المالية والخدمات";
-            this.xrLabel205.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel196.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingDate]")});
+            this.xrLabel196.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel196.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 22.9998F);
+            this.xrLabel196.Multiline = true;
+            this.xrLabel196.Name = "xrLabel196";
+            this.xrLabel196.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel196.SizeF = new System.Drawing.SizeF(88.13766F, 23.00002F);
+            this.xrLabel196.StylePriority.UseFont = false;
+            this.xrLabel196.StylePriority.UseTextAlignment = false;
+            this.xrLabel196.Text = "xrLabel14";
+            this.xrLabel196.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel196.TextFormatString = "{0:dd/MM/yyyy}";
             // 
-            // xrLabel206
+            // xrLabel190
             // 
-            this.xrLabel206.Font = new System.Drawing.Font("Algerian", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel206.LocationFloat = new DevExpress.Utils.PointFloat(494.8186F, 106.3211F);
-            this.xrLabel206.Multiline = true;
-            this.xrLabel206.Name = "xrLabel206";
-            this.xrLabel206.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel206.SizeF = new System.Drawing.SizeF(204.197F, 22.99999F);
-            this.xrLabel206.StylePriority.UseFont = false;
-            this.xrLabel206.StylePriority.UseTextAlignment = false;
-            this.xrLabel206.Text = "مديرية الخدمات الطبية";
-            this.xrLabel206.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel190.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingTitle]")});
+            this.xrLabel190.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel190.LocationFloat = new DevExpress.Utils.PointFloat(179.4854F, 141.2036F);
+            this.xrLabel190.Multiline = true;
+            this.xrLabel190.Name = "xrLabel190";
+            this.xrLabel190.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel190.SizeF = new System.Drawing.SizeF(192.0146F, 22.99998F);
+            this.xrLabel190.StylePriority.UseFont = false;
+            this.xrLabel190.StylePriority.UseTextAlignment = false;
+            this.xrLabel190.Text = "xrLabel48";
+            this.xrLabel190.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel192
+            // 
+            this.xrLabel192.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel192.LocationFloat = new DevExpress.Utils.PointFloat(371.5F, 141.2036F);
+            this.xrLabel192.Multiline = true;
+            this.xrLabel192.Name = "xrLabel192";
+            this.xrLabel192.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel192.SizeF = new System.Drawing.SizeF(132.4672F, 23F);
+            this.xrLabel192.StylePriority.UseFont = false;
+            this.xrLabel192.StylePriority.UseTextAlignment = false;
+            this.xrLabel192.Text = "عنوان المقابلة";
+            this.xrLabel192.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrCheckBox25
+            // 
+            this.xrCheckBox25.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalAlterBehavior]")});
+            this.xrCheckBox25.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox25.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox25.LocationFloat = new DevExpress.Utils.PointFloat(217.2031F, 95.23468F);
+            this.xrCheckBox25.Name = "xrCheckBox25";
+            this.xrCheckBox25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox25.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox25.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
+            this.xrCheckBox25.StylePriority.UseFont = false;
+            this.xrCheckBox25.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox25.Text = "برنامج تعديل سلوك";
+            // 
+            // xrCheckBox26
+            // 
+            this.xrCheckBox26.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalMainProgram]")});
+            this.xrCheckBox26.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox26.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox26.LocationFloat = new DevExpress.Utils.PointFloat(217.2031F, 72.23457F);
+            this.xrCheckBox26.Name = "xrCheckBox26";
+            this.xrCheckBox26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox26.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox26.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
+            this.xrCheckBox26.StylePriority.UseFont = false;
+            this.xrCheckBox26.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox26.Text = "برنامج عام";
+            // 
+            // xrCheckBox27
+            // 
+            this.xrCheckBox27.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[religiousSide]")});
+            this.xrCheckBox27.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox27.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox27.LocationFloat = new DevExpress.Utils.PointFloat(74.3F, 84.86096F);
+            this.xrCheckBox27.Name = "xrCheckBox27";
+            this.xrCheckBox27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox27.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox27.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox27.StylePriority.UseFont = false;
+            this.xrCheckBox27.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox27.Text = "الجانب الديني";
+            // 
+            // xrCheckBox21
+            // 
+            this.xrCheckBox21.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[psychologicalSide]")});
+            this.xrCheckBox21.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox21.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox21.LocationFloat = new DevExpress.Utils.PointFloat(333.5709F, 84.86085F);
+            this.xrCheckBox21.Name = "xrCheckBox21";
+            this.xrCheckBox21.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox21.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox21.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox21.StylePriority.UseFont = false;
+            this.xrCheckBox21.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox21.Text = "الجانب النفسي";
+            // 
+            // xrCheckBox22
+            // 
+            this.xrCheckBox22.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialMainProgram]")});
+            this.xrCheckBox22.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox22.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox22.LocationFloat = new DevExpress.Utils.PointFloat(470.3801F, 72.23457F);
+            this.xrCheckBox22.Name = "xrCheckBox22";
+            this.xrCheckBox22.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox22.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox22.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
+            this.xrCheckBox22.StylePriority.UseFont = false;
+            this.xrCheckBox22.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox22.Text = "برنامج عام";
+            // 
+            // xrCheckBox23
+            // 
+            this.xrCheckBox23.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialAlterBehavior]")});
+            this.xrCheckBox23.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox23.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox23.LocationFloat = new DevExpress.Utils.PointFloat(470.3801F, 95.23468F);
+            this.xrCheckBox23.Name = "xrCheckBox23";
+            this.xrCheckBox23.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox23.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox23.SizeF = new System.Drawing.SizeF(116.1119F, 23F);
+            this.xrCheckBox23.StylePriority.UseFont = false;
+            this.xrCheckBox23.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox23.Text = "برنامج تعديل سلوك";
+            // 
+            // xrCheckBox24
+            // 
+            this.xrCheckBox24.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "CheckBoxState", "[periodicMeeting].[socialSide]")});
+            this.xrCheckBox24.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrCheckBox24.GlyphOptions.Style = DevExpress.XtraPrinting.GlyphStyle.YesNoBox;
+            this.xrCheckBox24.LocationFloat = new DevExpress.Utils.PointFloat(586.4921F, 84.86096F);
+            this.xrCheckBox24.Name = "xrCheckBox24";
+            this.xrCheckBox24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrCheckBox24.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrCheckBox24.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrCheckBox24.StylePriority.UseFont = false;
+            this.xrCheckBox24.StylePriority.UseTextAlignment = false;
+            this.xrCheckBox24.Text = "الجانب الاجتماعي";
+            // 
+            // xrLabel191
+            // 
+            this.xrLabel191.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel191.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel191.LocationFloat = new DevExpress.Utils.PointFloat(608.871F, 48.1944F);
+            this.xrLabel191.Multiline = true;
+            this.xrLabel191.Name = "xrLabel191";
+            this.xrLabel191.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel191.SizeF = new System.Drawing.SizeF(112.0192F, 17.94948F);
+            this.xrLabel191.StylePriority.UseBorders = false;
+            this.xrLabel191.StylePriority.UseFont = false;
+            this.xrLabel191.StylePriority.UseTextAlignment = false;
+            this.xrLabel191.Text = "السمات السلوكية";
+            this.xrLabel191.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel188
+            // 
+            this.xrLabel188.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[periodicMeeting].[meetingType]")});
+            this.xrLabel188.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel188.LocationFloat = new DevExpress.Utils.PointFloat(377.6721F, 0F);
+            this.xrLabel188.Multiline = true;
+            this.xrLabel188.Name = "xrLabel188";
+            this.xrLabel188.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel188.SizeF = new System.Drawing.SizeF(159.4163F, 22.99998F);
+            this.xrLabel188.StylePriority.UseFont = false;
+            this.xrLabel188.StylePriority.UseTextAlignment = false;
+            this.xrLabel188.Text = "xrLabel48";
+            this.xrLabel188.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // xrLabel189
+            // 
+            this.xrLabel189.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel189.LocationFloat = new DevExpress.Utils.PointFloat(556.0562F, 0F);
+            this.xrLabel189.Multiline = true;
+            this.xrLabel189.Name = "xrLabel189";
+            this.xrLabel189.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel189.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
+            this.xrLabel189.StylePriority.UseFont = false;
+            this.xrLabel189.StylePriority.UseTextAlignment = false;
+            this.xrLabel189.Text = "نوع المقابلة";
+            this.xrLabel189.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            // 
+            // GroupHeader10
+            // 
+            this.GroupHeader10.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel187});
+            this.GroupHeader10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([?ssnFilter] In ([ssnPatient],[ssn]) ), false,true)\n\n")});
+            this.GroupHeader10.HeightF = 79.43179F;
+            this.GroupHeader10.KeepTogether = true;
+            this.GroupHeader10.Name = "GroupHeader10";
+            // 
+            // xrLabel187
+            // 
+            this.xrLabel187.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel187.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel187.LocationFloat = new DevExpress.Utils.PointFloat(306.8821F, 32.38252F);
+            this.xrLabel187.Multiline = true;
+            this.xrLabel187.Name = "xrLabel187";
+            this.xrLabel187.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel187.RightToLeft = DevExpress.XtraReports.UI.RightToLeft.Yes;
+            this.xrLabel187.SizeF = new System.Drawing.SizeF(143.7862F, 24.95313F);
+            this.xrLabel187.StylePriority.UseBorders = false;
+            this.xrLabel187.StylePriority.UseFont = false;
+            this.xrLabel187.StylePriority.UseTextAlignment = false;
+            this.xrLabel187.Text = "المقابلات الدورية";
+            this.xrLabel187.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // imageCollection1
             // 
             this.imageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imageCollection1.ImageStream")));
             // 
-            // xrLabel207
+            // DetailReport29
             // 
-            this.xrLabel207.Font = new System.Drawing.Font("Harrington", 14.25F, System.Drawing.FontStyle.Bold);
-            this.xrLabel207.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 25.43213F);
-            this.xrLabel207.Multiline = true;
-            this.xrLabel207.Name = "xrLabel207";
-            this.xrLabel207.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel207.SizeF = new System.Drawing.SizeF(233.3848F, 23F);
-            this.xrLabel207.StylePriority.UseFont = false;
-            this.xrLabel207.StylePriority.UseTextAlignment = false;
-            this.xrLabel207.Text = "Abu Dhabi Government";
-            this.xrLabel207.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.DetailReport29.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail30});
+            this.DetailReport29.DataMember = "nonRepeatable";
+            this.DetailReport29.DataSource = this.sqlDataSource1;
+            this.DetailReport29.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([nonRepeatable].[motherStatus]==\'متوفية\'),true,false)")});
+            this.DetailReport29.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport29.Level = 34;
+            this.DetailReport29.Name = "DetailReport29";
             // 
-            // xrLabel208
+            // Detail30
             // 
-            this.xrLabel208.Font = new System.Drawing.Font("Harrington", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel208.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 48.43212F);
-            this.xrLabel208.Multiline = true;
-            this.xrLabel208.Name = "xrLabel208";
-            this.xrLabel208.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel208.SizeF = new System.Drawing.SizeF(233.3848F, 22.99999F);
-            this.xrLabel208.StylePriority.UseFont = false;
-            this.xrLabel208.StylePriority.UseTextAlignment = false;
-            this.xrLabel208.Text = "Abu Dhabi Police G.H.Q.";
-            this.xrLabel208.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.Detail30.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel221,
+            this.xrLabel212,
+            this.xrLabel213,
+            this.xrLabel220,
+            this.xrLabel222,
+            this.xrLabel223});
+            this.Detail30.HeightF = 46.00008F;
+            this.Detail30.KeepTogether = true;
+            this.Detail30.Name = "Detail30";
             // 
-            // xrLabel209
+            // xrLabel221
             // 
-            this.xrLabel209.Font = new System.Drawing.Font("Harrington", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel209.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 106.3211F);
-            this.xrLabel209.Multiline = true;
-            this.xrLabel209.Name = "xrLabel209";
-            this.xrLabel209.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel209.SizeF = new System.Drawing.SizeF(231.5759F, 23.00001F);
-            this.xrLabel209.StylePriority.UseFont = false;
-            this.xrLabel209.StylePriority.UseTextAlignment = false;
-            this.xrLabel209.Text = "Medical Serices Directorate";
-            this.xrLabel209.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrLabel221.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel221.LocationFloat = new DevExpress.Utils.PointFloat(286.0454F, 0F);
+            this.xrLabel221.Multiline = true;
+            this.xrLabel221.Name = "xrLabel221";
+            this.xrLabel221.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel221.SizeF = new System.Drawing.SizeF(74.94186F, 46F);
+            this.xrLabel221.StylePriority.UseFont = false;
+            this.xrLabel221.StylePriority.UseTextAlignment = false;
+            this.xrLabel221.Text = "عمر المفحوص في الوفاة";
+            this.xrLabel221.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrLabel210
+            // xrLabel212
             // 
-            this.xrLabel210.Font = new System.Drawing.Font("Harrington", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel210.LocationFloat = new DevExpress.Utils.PointFloat(18.22295F, 83.32106F);
-            this.xrLabel210.Multiline = true;
-            this.xrLabel210.Name = "xrLabel210";
-            this.xrLabel210.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel210.SizeF = new System.Drawing.SizeF(231.5759F, 23F);
-            this.xrLabel210.StylePriority.UseFont = false;
-            this.xrLabel210.StylePriority.UseTextAlignment = false;
-            this.xrLabel210.Text = "Financial & Services sector";
-            this.xrLabel210.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            this.xrLabel212.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel212.LocationFloat = new DevExpress.Utils.PointFloat(597.1813F, 23.00008F);
+            this.xrLabel212.Multiline = true;
+            this.xrLabel212.Name = "xrLabel212";
+            this.xrLabel212.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel212.SizeF = new System.Drawing.SizeF(90.37866F, 23F);
+            this.xrLabel212.StylePriority.UseFont = false;
+            this.xrLabel212.StylePriority.UseTextAlignment = false;
+            this.xrLabel212.Text = "تأثير الوفاة ";
+            this.xrLabel212.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrPictureBox1
+            // xrLabel213
             // 
-            this.xrPictureBox1.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource(global::phsycologyForm.Properties.Resources.abu_dhabi_police_logo_21AF543362_seeklogo_com, true);
-            this.xrPictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(330.7701F, 29.32106F);
-            this.xrPictureBox1.Name = "xrPictureBox1";
-            this.xrPictureBox1.SizeF = new System.Drawing.SizeF(100F, 100F);
-            this.xrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrLabel213.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[motherDeathInfluence]")});
+            this.xrLabel213.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel213.LocationFloat = new DevExpress.Utils.PointFloat(405.1678F, 23.00008F);
+            this.xrLabel213.Multiline = true;
+            this.xrLabel213.Name = "xrLabel213";
+            this.xrLabel213.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel213.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel213.StylePriority.UseFont = false;
+            this.xrLabel213.StylePriority.UseTextAlignment = false;
+            this.xrLabel213.Text = "xrLabel44";
+            this.xrLabel213.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrPictureBox2
+            // xrLabel220
             // 
-            this.xrPictureBox2.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource(global::phsycologyForm.Properties.Resources.Untitled_1, true);
-            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(287.509F, 23F);
-            this.xrPictureBox2.Name = "xrPictureBox2";
-            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(180.5047F, 53.73456F);
-            this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrLabel220.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[motherDeathReason]")});
+            this.xrLabel220.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel220.LocationFloat = new DevExpress.Utils.PointFloat(405.1678F, 0F);
+            this.xrLabel220.Multiline = true;
+            this.xrLabel220.Name = "xrLabel220";
+            this.xrLabel220.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel220.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel220.StylePriority.UseFont = false;
+            this.xrLabel220.StylePriority.UseTextAlignment = false;
+            this.xrLabel220.Text = "xrLabel44";
+            this.xrLabel220.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrLabel211
+            // xrLabel222
             // 
-            this.xrLabel211.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
-            this.xrLabel211.LocationFloat = new DevExpress.Utils.PointFloat(568.3344F, 39.23273F);
-            this.xrLabel211.Multiline = true;
-            this.xrLabel211.Name = "xrLabel211";
-            this.xrLabel211.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel211.SizeF = new System.Drawing.SizeF(132.2764F, 23F);
-            this.xrLabel211.StylePriority.UseFont = false;
-            this.xrLabel211.StylePriority.UseTextAlignment = false;
-            this.xrLabel211.Text = "الأخصائي الاجتماعي";
-            this.xrLabel211.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.xrLabel222.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[motherDeathPatientAge]")});
+            this.xrLabel222.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel222.LocationFloat = new DevExpress.Utils.PointFloat(58.01487F, 0F);
+            this.xrLabel222.Multiline = true;
+            this.xrLabel222.Name = "xrLabel222";
+            this.xrLabel222.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel222.SizeF = new System.Drawing.SizeF(188.3647F, 22.99999F);
+            this.xrLabel222.StylePriority.UseFont = false;
+            this.xrLabel222.StylePriority.UseTextAlignment = false;
+            this.xrLabel222.Text = "xrLabel46";
+            this.xrLabel222.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrPageInfo1
+            // xrLabel223
             // 
-            this.xrPageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 39.23273F);
-            this.xrPageInfo1.Name = "xrPageInfo1";
-            this.xrPageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrPageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
-            this.xrPageInfo1.SizeF = new System.Drawing.SizeF(186.3949F, 23F);
-            this.xrPageInfo1.StartPageNumber = 0;
-            this.xrPageInfo1.TextFormatString = " {0:h:mm tt dd MMMM yyyy} أنشئت في";
+            this.xrLabel223.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel223.LocationFloat = new DevExpress.Utils.PointFloat(597.1813F, 0F);
+            this.xrLabel223.Multiline = true;
+            this.xrLabel223.Name = "xrLabel223";
+            this.xrLabel223.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel223.SizeF = new System.Drawing.SizeF(90.37866F, 23F);
+            this.xrLabel223.StylePriority.UseFont = false;
+            this.xrLabel223.StylePriority.UseTextAlignment = false;
+            this.xrLabel223.Text = "سبب الوفاة";
+            this.xrLabel223.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             // 
-            // xrLine2
+            // DetailReport30
             // 
-            this.xrLine2.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 129.3211F);
-            this.xrLine2.Name = "xrLine2";
-            this.xrLine2.SizeF = new System.Drawing.SizeF(725F, 23F);
+            this.DetailReport30.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail31});
+            this.DetailReport30.DataMember = "nonRepeatable";
+            this.DetailReport30.DataSource = this.sqlDataSource1;
+            this.DetailReport30.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([nonRepeatable].[fatherStatus]==\'متوفي\'),true,false)")});
+            this.DetailReport30.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport30.Level = 31;
+            this.DetailReport30.Name = "DetailReport30";
             // 
-            // xrLine3
+            // Detail31
             // 
-            this.xrLine3.LocationFloat = new DevExpress.Utils.PointFloat(10.00003F, 0F);
-            this.xrLine3.Name = "xrLine3";
-            this.xrLine3.SizeF = new System.Drawing.SizeF(725F, 23F);
+            this.Detail31.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel214,
+            this.xrLabel215,
+            this.xrLabel216,
+            this.xrLabel217,
+            this.xrLabel218,
+            this.xrLabel219});
+            this.Detail31.HeightF = 46F;
+            this.Detail31.KeepTogether = true;
+            this.Detail31.Name = "Detail31";
+            // 
+            // xrLabel214
+            // 
+            this.xrLabel214.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel214.LocationFloat = new DevExpress.Utils.PointFloat(598.874F, 0F);
+            this.xrLabel214.Multiline = true;
+            this.xrLabel214.Name = "xrLabel214";
+            this.xrLabel214.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel214.SizeF = new System.Drawing.SizeF(90.37866F, 23F);
+            this.xrLabel214.StylePriority.UseFont = false;
+            this.xrLabel214.StylePriority.UseTextAlignment = false;
+            this.xrLabel214.Text = "سبب الوفاة";
+            this.xrLabel214.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel215
+            // 
+            this.xrLabel215.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[fatherDeathPatientAge]")});
+            this.xrLabel215.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel215.LocationFloat = new DevExpress.Utils.PointFloat(59.70764F, 0F);
+            this.xrLabel215.Multiline = true;
+            this.xrLabel215.Name = "xrLabel215";
+            this.xrLabel215.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel215.SizeF = new System.Drawing.SizeF(188.3647F, 22.99999F);
+            this.xrLabel215.StylePriority.UseFont = false;
+            this.xrLabel215.StylePriority.UseTextAlignment = false;
+            this.xrLabel215.Text = "xrLabel46";
+            this.xrLabel215.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel216
+            // 
+            this.xrLabel216.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel216.LocationFloat = new DevExpress.Utils.PointFloat(288.1305F, 0F);
+            this.xrLabel216.Multiline = true;
+            this.xrLabel216.Name = "xrLabel216";
+            this.xrLabel216.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel216.SizeF = new System.Drawing.SizeF(74.94186F, 46F);
+            this.xrLabel216.StylePriority.UseFont = false;
+            this.xrLabel216.StylePriority.UseTextAlignment = false;
+            this.xrLabel216.Text = "عمر المفحوص في الوفاة";
+            this.xrLabel216.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel217
+            // 
+            this.xrLabel217.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[fatherDeathReason]")});
+            this.xrLabel217.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel217.LocationFloat = new DevExpress.Utils.PointFloat(406.8606F, 0F);
+            this.xrLabel217.Multiline = true;
+            this.xrLabel217.Name = "xrLabel217";
+            this.xrLabel217.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel217.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel217.StylePriority.UseFont = false;
+            this.xrLabel217.StylePriority.UseTextAlignment = false;
+            this.xrLabel217.Text = "xrLabel44";
+            this.xrLabel217.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel218
+            // 
+            this.xrLabel218.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[fatherDeathInfluence]")});
+            this.xrLabel218.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel218.LocationFloat = new DevExpress.Utils.PointFloat(406.8606F, 23F);
+            this.xrLabel218.Multiline = true;
+            this.xrLabel218.Name = "xrLabel218";
+            this.xrLabel218.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel218.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel218.StylePriority.UseFont = false;
+            this.xrLabel218.StylePriority.UseTextAlignment = false;
+            this.xrLabel218.Text = "xrLabel44";
+            this.xrLabel218.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel219
+            // 
+            this.xrLabel219.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel219.LocationFloat = new DevExpress.Utils.PointFloat(598.874F, 23F);
+            this.xrLabel219.Multiline = true;
+            this.xrLabel219.Name = "xrLabel219";
+            this.xrLabel219.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel219.SizeF = new System.Drawing.SizeF(90.37866F, 23F);
+            this.xrLabel219.StylePriority.UseFont = false;
+            this.xrLabel219.StylePriority.UseTextAlignment = false;
+            this.xrLabel219.Text = "تأثير الوفاة ";
+            this.xrLabel219.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // DetailReport31
+            // 
+            this.DetailReport31.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail32});
+            this.DetailReport31.DataMember = "nonRepeatable";
+            this.DetailReport31.DataSource = this.sqlDataSource1;
+            this.DetailReport31.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( (([nonRepeatable].[sex]==\'أنثى\')&&(([nonRepeatable].[maritalStatus]==\'متزوجة" +
+                    "\'))),true,false)\n")});
+            this.DetailReport31.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport31.Level = 28;
+            this.DetailReport31.Name = "DetailReport31";
+            // 
+            // Detail32
+            // 
+            this.Detail32.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel224,
+            this.xrLabel225,
+            this.xrLabel226,
+            this.xrLabel227});
+            this.Detail32.HeightF = 23F;
+            this.Detail32.KeepTogether = true;
+            this.Detail32.Name = "Detail32";
+            // 
+            // xrLabel224
+            // 
+            this.xrLabel224.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ageAtMarriage]")});
+            this.xrLabel224.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel224.LocationFloat = new DevExpress.Utils.PointFloat(416.4308F, 0F);
+            this.xrLabel224.Multiline = true;
+            this.xrLabel224.Name = "xrLabel224";
+            this.xrLabel224.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel224.SizeF = new System.Drawing.SizeF(192.0133F, 22.99999F);
+            this.xrLabel224.StylePriority.UseFont = false;
+            this.xrLabel224.StylePriority.UseTextAlignment = false;
+            this.xrLabel224.Text = "xrLabel44";
+            this.xrLabel224.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel225
+            // 
+            this.xrLabel225.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel225.LocationFloat = new DevExpress.Utils.PointFloat(261.1779F, 0F);
+            this.xrLabel225.Multiline = true;
+            this.xrLabel225.Name = "xrLabel225";
+            this.xrLabel225.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel225.SizeF = new System.Drawing.SizeF(111.4644F, 22.99999F);
+            this.xrLabel225.StylePriority.UseFont = false;
+            this.xrLabel225.StylePriority.UseTextAlignment = false;
+            this.xrLabel225.Text = "عمر الإنجاب";
+            this.xrLabel225.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel226
+            // 
+            this.xrLabel226.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[ageAtProcreation]")});
+            this.xrLabel226.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel226.LocationFloat = new DevExpress.Utils.PointFloat(71.00443F, 0F);
+            this.xrLabel226.Multiline = true;
+            this.xrLabel226.Name = "xrLabel226";
+            this.xrLabel226.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel226.SizeF = new System.Drawing.SizeF(190.1736F, 22.99999F);
+            this.xrLabel226.StylePriority.UseFont = false;
+            this.xrLabel226.StylePriority.UseTextAlignment = false;
+            this.xrLabel226.Text = "xrLabel46";
+            this.xrLabel226.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel227
+            // 
+            this.xrLabel227.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel227.LocationFloat = new DevExpress.Utils.PointFloat(608.4441F, 0F);
+            this.xrLabel227.Multiline = true;
+            this.xrLabel227.Name = "xrLabel227";
+            this.xrLabel227.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel227.SizeF = new System.Drawing.SizeF(90.37866F, 23F);
+            this.xrLabel227.StylePriority.UseFont = false;
+            this.xrLabel227.StylePriority.UseTextAlignment = false;
+            this.xrLabel227.Text = "عمر الزواج";
+            this.xrLabel227.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // DetailReport7
+            // 
+            this.DetailReport7.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail8});
+            this.DetailReport7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([nonRepeatable].[accidents]==true),false,true)\n")});
+            this.DetailReport7.Level = 15;
+            this.DetailReport7.Name = "DetailReport7";
+            // 
+            // Detail8
+            // 
+            this.Detail8.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel228,
+            this.xrLabel233,
+            this.xrLabel229});
+            this.Detail8.HeightF = 98.96843F;
+            this.Detail8.KeepTogether = true;
+            this.Detail8.Name = "Detail8";
+            // 
+            // xrLabel228
+            // 
+            this.xrLabel228.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel228.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel228.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel228.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 75.96843F);
+            this.xrLabel228.Multiline = true;
+            this.xrLabel228.Name = "xrLabel228";
+            this.xrLabel228.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel228.SizeF = new System.Drawing.SizeF(170.3047F, 22.99995F);
+            this.xrLabel228.StylePriority.UseBorderColor = false;
+            this.xrLabel228.StylePriority.UseBorders = false;
+            this.xrLabel228.StylePriority.UseFont = false;
+            this.xrLabel228.StylePriority.UseTextAlignment = false;
+            this.xrLabel228.Text = "لا يوجد سجل حوادث ل";
+            this.xrLabel228.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel233
+            // 
+            this.xrLabel233.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel233.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel233.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 75.96843F);
+            this.xrLabel233.Multiline = true;
+            this.xrLabel233.Name = "xrLabel233";
+            this.xrLabel233.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel233.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel233.StylePriority.UseFont = false;
+            this.xrLabel233.StylePriority.UseTextAlignment = false;
+            this.xrLabel233.Text = "xrLabel12";
+            this.xrLabel233.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel229
+            // 
+            this.xrLabel229.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel229.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel229.LocationFloat = new DevExpress.Utils.PointFloat(305.8683F, 36.82243F);
+            this.xrLabel229.Multiline = true;
+            this.xrLabel229.Name = "xrLabel229";
+            this.xrLabel229.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel229.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel229.StylePriority.UseBorders = false;
+            this.xrLabel229.StylePriority.UseFont = false;
+            this.xrLabel229.StylePriority.UseTextAlignment = false;
+            this.xrLabel229.Text = "الحوادث والإصابات";
+            this.xrLabel229.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // DetailReport32
+            // 
+            this.DetailReport32.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail33});
+            this.DetailReport32.DataMember = "rehabilation";
+            this.DetailReport32.DataSource = this.sqlDataSource1;
+            this.DetailReport32.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif( ([nonRepeatable].[enteredInstitute]==true),false,true)\n")});
+            this.DetailReport32.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport32.Level = 12;
+            this.DetailReport32.Name = "DetailReport32";
+            // 
+            // Detail33
+            // 
+            this.Detail33.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel232,
+            this.xrLabel231,
+            this.xrLabel230});
+            this.Detail33.HeightF = 90.00002F;
+            this.Detail33.KeepTogether = true;
+            this.Detail33.Name = "Detail33";
+            // 
+            // xrLabel232
+            // 
+            this.xrLabel232.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel232.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel232.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel232.Multiline = true;
+            this.xrLabel232.Name = "xrLabel232";
+            this.xrLabel232.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel232.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel232.StylePriority.UseFont = false;
+            this.xrLabel232.StylePriority.UseTextAlignment = false;
+            this.xrLabel232.Text = "xrLabel12";
+            this.xrLabel232.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel231
+            // 
+            this.xrLabel231.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel231.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel231.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel231.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 67.00001F);
+            this.xrLabel231.Multiline = true;
+            this.xrLabel231.Name = "xrLabel231";
+            this.xrLabel231.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel231.SizeF = new System.Drawing.SizeF(170.3047F, 22.99995F);
+            this.xrLabel231.StylePriority.UseBorderColor = false;
+            this.xrLabel231.StylePriority.UseBorders = false;
+            this.xrLabel231.StylePriority.UseFont = false;
+            this.xrLabel231.StylePriority.UseTextAlignment = false;
+            this.xrLabel231.Text = "لا يوجد سجل دخول المؤسسة ل";
+            this.xrLabel231.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel230
+            // 
+            this.xrLabel230.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel230.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel230.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel230.Multiline = true;
+            this.xrLabel230.Name = "xrLabel230";
+            this.xrLabel230.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel230.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel230.StylePriority.UseBorders = false;
+            this.xrLabel230.StylePriority.UseFont = false;
+            this.xrLabel230.StylePriority.UseTextAlignment = false;
+            this.xrLabel230.Text = "سجل دخول المؤسسة";
+            this.xrLabel230.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // DetailReport33
+            // 
+            this.DetailReport33.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail34});
+            this.DetailReport33.DataMember = "suicideAttempts";
+            this.DetailReport33.DataSource = this.sqlDataSource1;
+            this.DetailReport33.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport33.Level = 17;
+            this.DetailReport33.Name = "DetailReport33";
+            // 
+            // Detail34
+            // 
+            this.Detail34.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel234,
+            this.xrLabel235,
+            this.xrLabel236});
+            this.Detail34.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([attemptStatus]==\'لا يوجد\',true,false)")});
+            this.Detail34.HeightF = 90.00001F;
+            this.Detail34.KeepTogether = true;
+            this.Detail34.Name = "Detail34";
+            // 
+            // xrLabel234
+            // 
+            this.xrLabel234.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel234.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel234.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel234.Multiline = true;
+            this.xrLabel234.Name = "xrLabel234";
+            this.xrLabel234.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel234.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel234.StylePriority.UseBorders = false;
+            this.xrLabel234.StylePriority.UseFont = false;
+            this.xrLabel234.StylePriority.UseTextAlignment = false;
+            this.xrLabel234.Text = "محاولات الانتحار";
+            this.xrLabel234.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel235
+            // 
+            this.xrLabel235.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel235.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel235.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel235.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 67.00001F);
+            this.xrLabel235.Multiline = true;
+            this.xrLabel235.Name = "xrLabel235";
+            this.xrLabel235.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel235.SizeF = new System.Drawing.SizeF(170.3047F, 22.99995F);
+            this.xrLabel235.StylePriority.UseBorderColor = false;
+            this.xrLabel235.StylePriority.UseBorders = false;
+            this.xrLabel235.StylePriority.UseFont = false;
+            this.xrLabel235.StylePriority.UseTextAlignment = false;
+            this.xrLabel235.Text = "لا يوجد سجل محاولات انتحار ل";
+            this.xrLabel235.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel236
+            // 
+            this.xrLabel236.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel236.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel236.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel236.Multiline = true;
+            this.xrLabel236.Name = "xrLabel236";
+            this.xrLabel236.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel236.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel236.StylePriority.UseFont = false;
+            this.xrLabel236.StylePriority.UseTextAlignment = false;
+            this.xrLabel236.Text = "xrLabel12";
+            this.xrLabel236.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // DetailReport34
+            // 
+            this.DetailReport34.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail35});
+            this.DetailReport34.DataMember = "warehouse";
+            this.DetailReport34.DataSource = this.sqlDataSource1;
+            this.DetailReport34.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport34.Level = 19;
+            this.DetailReport34.Name = "DetailReport34";
+            // 
+            // Detail35
+            // 
+            this.Detail35.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel237,
+            this.xrLabel238,
+            this.xrLabel239});
+            this.Detail35.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([entered]==true,false,true)")});
+            this.Detail35.KeepTogether = true;
+            this.Detail35.Name = "Detail35";
+            // 
+            // xrLabel237
+            // 
+            this.xrLabel237.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel237.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel237.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel237.Multiline = true;
+            this.xrLabel237.Name = "xrLabel237";
+            this.xrLabel237.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel237.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel237.StylePriority.UseFont = false;
+            this.xrLabel237.StylePriority.UseTextAlignment = false;
+            this.xrLabel237.Text = "xrLabel12";
+            this.xrLabel237.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel238
+            // 
+            this.xrLabel238.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel238.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel238.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel238.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 67.00001F);
+            this.xrLabel238.Multiline = true;
+            this.xrLabel238.Name = "xrLabel238";
+            this.xrLabel238.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel238.SizeF = new System.Drawing.SizeF(170.3047F, 22.99995F);
+            this.xrLabel238.StylePriority.UseBorderColor = false;
+            this.xrLabel238.StylePriority.UseBorders = false;
+            this.xrLabel238.StylePriority.UseFont = false;
+            this.xrLabel238.StylePriority.UseTextAlignment = false;
+            this.xrLabel238.Text = "لا يوجد سجل دخول العنبر ل";
+            this.xrLabel238.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel239
+            // 
+            this.xrLabel239.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel239.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel239.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel239.Multiline = true;
+            this.xrLabel239.Name = "xrLabel239";
+            this.xrLabel239.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel239.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel239.StylePriority.UseBorders = false;
+            this.xrLabel239.StylePriority.UseFont = false;
+            this.xrLabel239.StylePriority.UseTextAlignment = false;
+            this.xrLabel239.Text = "دخول العنبر";
+            this.xrLabel239.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // DetailReport35
+            // 
+            this.DetailReport35.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail36});
+            this.DetailReport35.DataMember = "unconsioussness";
+            this.DetailReport35.DataSource = this.sqlDataSource1;
+            this.DetailReport35.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport35.Level = 21;
+            this.DetailReport35.Name = "DetailReport35";
+            // 
+            // Detail36
+            // 
+            this.Detail36.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel240,
+            this.xrLabel241,
+            this.xrLabel242});
+            this.Detail36.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([occurence]==true,false,true)\n")});
+            this.Detail36.HeightF = 90.00001F;
+            this.Detail36.KeepTogether = true;
+            this.Detail36.Name = "Detail36";
+            // 
+            // xrLabel240
+            // 
+            this.xrLabel240.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel240.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel240.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel240.Multiline = true;
+            this.xrLabel240.Name = "xrLabel240";
+            this.xrLabel240.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel240.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel240.StylePriority.UseBorders = false;
+            this.xrLabel240.StylePriority.UseFont = false;
+            this.xrLabel240.StylePriority.UseTextAlignment = false;
+            this.xrLabel240.Text = "فقدان الوعي";
+            this.xrLabel240.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel241
+            // 
+            this.xrLabel241.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel241.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel241.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel241.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 67.00001F);
+            this.xrLabel241.Multiline = true;
+            this.xrLabel241.Name = "xrLabel241";
+            this.xrLabel241.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel241.SizeF = new System.Drawing.SizeF(170.3047F, 22.99995F);
+            this.xrLabel241.StylePriority.UseBorderColor = false;
+            this.xrLabel241.StylePriority.UseBorders = false;
+            this.xrLabel241.StylePriority.UseFont = false;
+            this.xrLabel241.StylePriority.UseTextAlignment = false;
+            this.xrLabel241.Text = "لا يوجد سجل لفقدان الوعي ل";
+            this.xrLabel241.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel242
+            // 
+            this.xrLabel242.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel242.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel242.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel242.Multiline = true;
+            this.xrLabel242.Name = "xrLabel242";
+            this.xrLabel242.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel242.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel242.StylePriority.UseFont = false;
+            this.xrLabel242.StylePriority.UseTextAlignment = false;
+            this.xrLabel242.Text = "xrLabel12";
+            this.xrLabel242.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // DetailReport36
+            // 
+            this.DetailReport36.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail37});
+            this.DetailReport36.DataMember = "drugAbuse";
+            this.DetailReport36.DataSource = this.sqlDataSource1;
+            this.DetailReport36.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport36.Level = 23;
+            this.DetailReport36.Name = "DetailReport36";
+            // 
+            // Detail37
+            // 
+            this.Detail37.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel243,
+            this.xrLabel244,
+            this.xrLabel245});
+            this.Detail37.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([currentStatus]==\'يتعاطى\',false,true)\n")});
+            this.Detail37.KeepTogether = true;
+            this.Detail37.Name = "Detail37";
+            // 
+            // xrLabel243
+            // 
+            this.xrLabel243.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel243.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel243.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel243.Multiline = true;
+            this.xrLabel243.Name = "xrLabel243";
+            this.xrLabel243.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel243.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel243.StylePriority.UseFont = false;
+            this.xrLabel243.StylePriority.UseTextAlignment = false;
+            this.xrLabel243.Text = "xrLabel12";
+            this.xrLabel243.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // xrLabel244
+            // 
+            this.xrLabel244.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel244.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel244.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel244.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 66.99993F);
+            this.xrLabel244.Multiline = true;
+            this.xrLabel244.Name = "xrLabel244";
+            this.xrLabel244.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel244.SizeF = new System.Drawing.SizeF(201.4268F, 22.99995F);
+            this.xrLabel244.StylePriority.UseBorderColor = false;
+            this.xrLabel244.StylePriority.UseBorders = false;
+            this.xrLabel244.StylePriority.UseFont = false;
+            this.xrLabel244.StylePriority.UseTextAlignment = false;
+            this.xrLabel244.Text = "لا يوجد سجل سوء استخدام العقاقير ل";
+            this.xrLabel244.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel245
+            // 
+            this.xrLabel245.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel245.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel245.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel245.Multiline = true;
+            this.xrLabel245.Name = "xrLabel245";
+            this.xrLabel245.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel245.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel245.StylePriority.UseBorders = false;
+            this.xrLabel245.StylePriority.UseFont = false;
+            this.xrLabel245.StylePriority.UseTextAlignment = false;
+            this.xrLabel245.Text = "سوء استخدام العقاقير";
+            this.xrLabel245.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // DetailReport37
+            // 
+            this.DetailReport37.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail38});
+            this.DetailReport37.DataMember = "nonRepeatable";
+            this.DetailReport37.DataSource = this.sqlDataSource1;
+            this.DetailReport37.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport37.Level = 26;
+            this.DetailReport37.Name = "DetailReport37";
+            // 
+            // Detail38
+            // 
+            this.Detail38.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel246,
+            this.xrLabel247,
+            this.xrLabel248});
+            this.Detail38.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([previousTreatment]== True),false,true)\n\n")});
+            this.Detail38.KeepTogether = true;
+            this.Detail38.Name = "Detail38";
+            // 
+            // xrLabel246
+            // 
+            this.xrLabel246.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel246.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel246.LocationFloat = new DevExpress.Utils.PointFloat(306.8639F, 25.87308F);
+            this.xrLabel246.Multiline = true;
+            this.xrLabel246.Name = "xrLabel246";
+            this.xrLabel246.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel246.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel246.StylePriority.UseBorders = false;
+            this.xrLabel246.StylePriority.UseFont = false;
+            this.xrLabel246.StylePriority.UseTextAlignment = false;
+            this.xrLabel246.Text = "أماكن تلقي العلاج سابقًا";
+            this.xrLabel246.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel247
+            // 
+            this.xrLabel247.BorderColor = System.Drawing.Color.DarkGray;
+            this.xrLabel247.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrLabel247.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel247.LocationFloat = new DevExpress.Utils.PointFloat(367.7299F, 66.99993F);
+            this.xrLabel247.Multiline = true;
+            this.xrLabel247.Name = "xrLabel247";
+            this.xrLabel247.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel247.SizeF = new System.Drawing.SizeF(201.4268F, 22.99995F);
+            this.xrLabel247.StylePriority.UseBorderColor = false;
+            this.xrLabel247.StylePriority.UseBorders = false;
+            this.xrLabel247.StylePriority.UseFont = false;
+            this.xrLabel247.StylePriority.UseTextAlignment = false;
+            this.xrLabel247.Text = "لا يوجد سجل لتلقي العلاج سابقًا ل";
+            this.xrLabel247.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // xrLabel248
+            // 
+            this.xrLabel248.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[nonRepeatable].[name]")});
+            this.xrLabel248.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrLabel248.LocationFloat = new DevExpress.Utils.PointFloat(175.7162F, 67.00001F);
+            this.xrLabel248.Multiline = true;
+            this.xrLabel248.Name = "xrLabel248";
+            this.xrLabel248.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel248.SizeF = new System.Drawing.SizeF(192.0138F, 23F);
+            this.xrLabel248.StylePriority.UseFont = false;
+            this.xrLabel248.StylePriority.UseTextAlignment = false;
+            this.xrLabel248.Text = "xrLabel12";
+            this.xrLabel248.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // DetailReport38
+            // 
+            this.DetailReport38.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail39,
+            this.GroupHeader5});
+            this.DetailReport38.DataMember = "siblingsTreeDetail";
+            this.DetailReport38.DataSource = this.sqlDataSource1;
+            this.DetailReport38.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport38.Level = 37;
+            this.DetailReport38.Name = "DetailReport38";
+            // 
+            // Detail39
+            // 
+            this.Detail39.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable24});
+            this.Detail39.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([additionalInfo]==true),true ,false )\n")});
+            this.Detail39.HeightF = 25F;
+            this.Detail39.KeepTogether = true;
+            this.Detail39.Name = "Detail39";
+            // 
+            // xrTable24
+            // 
+            this.xrTable24.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable24.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable24.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTable24.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.xrTable24.Name = "xrTable24";
+            this.xrTable24.OddStyleName = "xrControlStyle1";
+            this.xrTable24.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable24.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow24});
+            this.xrTable24.SizeF = new System.Drawing.SizeF(745F, 25F);
+            this.xrTable24.StylePriority.UseBorderColor = false;
+            this.xrTable24.StylePriority.UseBorders = false;
+            this.xrTable24.StylePriority.UseFont = false;
+            this.xrTable24.StylePriority.UseTextAlignment = false;
+            this.xrTable24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTableRow24
+            // 
+            this.xrTableRow24.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell124,
+            this.xrTableCell125,
+            this.xrTableCell126,
+            this.xrTableCell127,
+            this.xrTableCell128,
+            this.xrTableCell129,
+            this.xrTableCell130,
+            this.xrTableCell131,
+            this.xrTableCell132});
+            this.xrTableRow24.Name = "xrTableRow24";
+            this.xrTableRow24.Weight = 11.5D;
+            // 
+            // xrTableCell124
+            // 
+            this.xrTableCell124.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[notes]")});
+            this.xrTableCell124.Multiline = true;
+            this.xrTableCell124.Name = "xrTableCell124";
+            this.xrTableCell124.Text = "xrTableCell124";
+            this.xrTableCell124.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell125
+            // 
+            this.xrTableCell125.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[deathInfeluence]")});
+            this.xrTableCell125.Multiline = true;
+            this.xrTableCell125.Name = "xrTableCell125";
+            this.xrTableCell125.Text = "xrTableCell125";
+            this.xrTableCell125.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell126
+            // 
+            this.xrTableCell126.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[patientAgeAtDeath]")});
+            this.xrTableCell126.Multiline = true;
+            this.xrTableCell126.Name = "xrTableCell126";
+            this.xrTableCell126.Text = "xrTableCell126";
+            this.xrTableCell126.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell127
+            // 
+            this.xrTableCell127.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[deathAge]")});
+            this.xrTableCell127.Multiline = true;
+            this.xrTableCell127.Name = "xrTableCell127";
+            this.xrTableCell127.Text = "xrTableCell127";
+            this.xrTableCell127.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell128
+            // 
+            this.xrTableCell128.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[deathReason]")});
+            this.xrTableCell128.Multiline = true;
+            this.xrTableCell128.Name = "xrTableCell128";
+            this.xrTableCell128.Text = "xrTableCell128";
+            this.xrTableCell128.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell129
+            // 
+            this.xrTableCell129.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[maritalStatus]")});
+            this.xrTableCell129.Multiline = true;
+            this.xrTableCell129.Name = "xrTableCell129";
+            this.xrTableCell129.Text = "xrTableCell129";
+            this.xrTableCell129.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell130
+            // 
+            this.xrTableCell130.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[education]")});
+            this.xrTableCell130.Multiline = true;
+            this.xrTableCell130.Name = "xrTableCell130";
+            this.xrTableCell130.Text = "xrTableCell130";
+            this.xrTableCell130.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell131
+            // 
+            this.xrTableCell131.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[age]")});
+            this.xrTableCell131.Multiline = true;
+            this.xrTableCell131.Name = "xrTableCell131";
+            this.xrTableCell131.Text = "xrTableCell131";
+            this.xrTableCell131.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell132
+            // 
+            this.xrTableCell132.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[siblingsTreeDetail].[sex]")});
+            this.xrTableCell132.Multiline = true;
+            this.xrTableCell132.Name = "xrTableCell132";
+            this.xrTableCell132.Text = "xrTableCell132";
+            this.xrTableCell132.Weight = 0.13422818791946309D;
+            // 
+            // GroupHeader5
+            // 
+            this.GroupHeader5.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable25});
+            this.GroupHeader5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif(([additionalInfo]==true),true ,false )")});
+            this.GroupHeader5.HeightF = 53.39993F;
+            this.GroupHeader5.KeepTogether = true;
+            this.GroupHeader5.Name = "GroupHeader5";
+            // 
+            // xrTable25
+            // 
+            this.xrTable25.BackColor = System.Drawing.Color.DarkGray;
+            this.xrTable25.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable25.LocationFloat = new DevExpress.Utils.PointFloat(0F, 28.39993F);
+            this.xrTable25.Name = "xrTable25";
+            this.xrTable25.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable25.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow25});
+            this.xrTable25.SizeF = new System.Drawing.SizeF(745F, 25F);
+            this.xrTable25.StylePriority.UseBackColor = false;
+            this.xrTable25.StylePriority.UseBorderColor = false;
+            this.xrTable25.StylePriority.UseTextAlignment = false;
+            this.xrTable25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTableRow25
+            // 
+            this.xrTableRow25.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell133,
+            this.xrTableCell134,
+            this.xrTableCell135,
+            this.xrTableCell136,
+            this.xrTableCell137,
+            this.xrTableCell138,
+            this.xrTableCell139,
+            this.xrTableCell140,
+            this.xrTableCell141});
+            this.xrTableRow25.Name = "xrTableRow25";
+            this.xrTableRow25.Weight = 11.5D;
+            // 
+            // xrTableCell133
+            // 
+            this.xrTableCell133.Name = "xrTableCell133";
+            this.xrTableCell133.StylePriority.UseTextAlignment = false;
+            this.xrTableCell133.Text = "ملحوظات";
+            this.xrTableCell133.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell133.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell134
+            // 
+            this.xrTableCell134.Name = "xrTableCell134";
+            this.xrTableCell134.StylePriority.UseTextAlignment = false;
+            this.xrTableCell134.Text = "مدى تأثير الفقدان";
+            this.xrTableCell134.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell134.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell135
+            // 
+            this.xrTableCell135.Name = "xrTableCell135";
+            this.xrTableCell135.StylePriority.UseTextAlignment = false;
+            this.xrTableCell135.Text = "عمر المفحوص";
+            this.xrTableCell135.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell135.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell136
+            // 
+            this.xrTableCell136.Name = "xrTableCell136";
+            this.xrTableCell136.StylePriority.UseTextAlignment = false;
+            this.xrTableCell136.Text = "عمر الوفاة";
+            this.xrTableCell136.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell136.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell137
+            // 
+            this.xrTableCell137.Name = "xrTableCell137";
+            this.xrTableCell137.StylePriority.UseTextAlignment = false;
+            this.xrTableCell137.Text = "سبب الوفاة";
+            this.xrTableCell137.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell137.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell138
+            // 
+            this.xrTableCell138.Name = "xrTableCell138";
+            this.xrTableCell138.StylePriority.UseTextAlignment = false;
+            this.xrTableCell138.Text = "الحالة الاجتماعية";
+            this.xrTableCell138.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell138.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell139
+            // 
+            this.xrTableCell139.Name = "xrTableCell139";
+            this.xrTableCell139.StylePriority.UseTextAlignment = false;
+            this.xrTableCell139.Text = "المؤهل العلمي";
+            this.xrTableCell139.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell139.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell140
+            // 
+            this.xrTableCell140.Name = "xrTableCell140";
+            this.xrTableCell140.StylePriority.UseTextAlignment = false;
+            this.xrTableCell140.Text = "العمر";
+            this.xrTableCell140.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell140.Weight = 0.13422818791946309D;
+            // 
+            // xrTableCell141
+            // 
+            this.xrTableCell141.Name = "xrTableCell141";
+            this.xrTableCell141.StylePriority.UseTextAlignment = false;
+            this.xrTableCell141.Text = "الجنس";
+            this.xrTableCell141.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell141.Weight = 0.13422818791946309D;
+            // 
+            // Detail
+            // 
+            this.Detail.HeightF = 0F;
+            this.Detail.Name = "Detail";
+            this.Detail.Visible = false;
+            // 
+            // DetailReport39
+            // 
+            this.DetailReport39.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+            this.Detail40});
+            this.DetailReport39.DataMember = "suicideAttempts";
+            this.DetailReport39.DataSource = this.sqlDataSource1;
+            this.DetailReport39.FilterString = "[ssn] = ?ssnFilter";
+            this.DetailReport39.Level = 16;
+            this.DetailReport39.Name = "DetailReport39";
+            // 
+            // Detail40
+            // 
+            this.Detail40.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrTable27,
+            this.xrTable26,
+            this.xrLabel249});
+            this.Detail40.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Visible", "Iif([attemptStatus]==\'لا يوجد\',false ,true)")});
+            this.Detail40.KeepTogether = true;
+            this.Detail40.Name = "Detail40";
+            // 
+            // xrTable27
+            // 
+            this.xrTable27.BackColor = System.Drawing.Color.DarkGray;
+            this.xrTable27.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable27.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.xrTable27.LocationFloat = new DevExpress.Utils.PointFloat(46.8244F, 40.00006F);
+            this.xrTable27.Name = "xrTable27";
+            this.xrTable27.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable27.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow27});
+            this.xrTable27.SizeF = new System.Drawing.SizeF(652.0001F, 25F);
+            this.xrTable27.StylePriority.UseBackColor = false;
+            this.xrTable27.StylePriority.UseBorderColor = false;
+            this.xrTable27.StylePriority.UseFont = false;
+            this.xrTable27.StylePriority.UseTextAlignment = false;
+            this.xrTable27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTableRow27
+            // 
+            this.xrTableRow27.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell146,
+            this.xrTableCell147,
+            this.xrTableCell148,
+            this.xrTableCell149});
+            this.xrTableRow27.Name = "xrTableRow27";
+            this.xrTableRow27.Weight = 11.5D;
+            // 
+            // xrTableCell146
+            // 
+            this.xrTableCell146.Multiline = true;
+            this.xrTableCell146.Name = "xrTableCell146";
+            this.xrTableCell146.Text = "ملحوظات";
+            this.xrTableCell146.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell147
+            // 
+            this.xrTableCell147.Multiline = true;
+            this.xrTableCell147.Name = "xrTableCell147";
+            this.xrTableCell147.Text = "التفاصيل";
+            this.xrTableCell147.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell148
+            // 
+            this.xrTableCell148.Multiline = true;
+            this.xrTableCell148.Name = "xrTableCell148";
+            this.xrTableCell148.Text = "الطريقة التي فكر بها";
+            this.xrTableCell148.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell149
+            // 
+            this.xrTableCell149.Multiline = true;
+            this.xrTableCell149.Name = "xrTableCell149";
+            this.xrTableCell149.Text = "لديه محاولة انتحار ";
+            this.xrTableCell149.Weight = 0.29298259023586432D;
+            // 
+            // xrTable26
+            // 
+            this.xrTable26.BorderColor = System.Drawing.Color.DimGray;
+            this.xrTable26.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrTable26.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.xrTable26.LocationFloat = new DevExpress.Utils.PointFloat(46.82278F, 65.00011F);
+            this.xrTable26.Name = "xrTable26";
+            this.xrTable26.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
+            this.xrTable26.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
+            this.xrTableRow26});
+            this.xrTable26.SizeF = new System.Drawing.SizeF(651.9999F, 25F);
+            this.xrTable26.StylePriority.UseBorderColor = false;
+            this.xrTable26.StylePriority.UseBorders = false;
+            this.xrTable26.StylePriority.UseFont = false;
+            this.xrTable26.StylePriority.UseTextAlignment = false;
+            this.xrTable26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrTableRow26
+            // 
+            this.xrTableRow26.Cells.AddRange(new DevExpress.XtraReports.UI.XRTableCell[] {
+            this.xrTableCell142,
+            this.xrTableCell143,
+            this.xrTableCell144,
+            this.xrTableCell145});
+            this.xrTableRow26.Name = "xrTableRow26";
+            this.xrTableRow26.Weight = 11.5D;
+            // 
+            // xrTableCell142
+            // 
+            this.xrTableCell142.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[notes]")});
+            this.xrTableCell142.Multiline = true;
+            this.xrTableCell142.Name = "xrTableCell142";
+            this.xrTableCell142.Text = "xrTableCell142";
+            this.xrTableCell142.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell143
+            // 
+            this.xrTableCell143.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[details]")});
+            this.xrTableCell143.Multiline = true;
+            this.xrTableCell143.Name = "xrTableCell143";
+            this.xrTableCell143.Text = "xrTableCell143";
+            this.xrTableCell143.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell144
+            // 
+            this.xrTableCell144.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[way]")});
+            this.xrTableCell144.Multiline = true;
+            this.xrTableCell144.Name = "xrTableCell144";
+            this.xrTableCell144.Text = "xrTableCell144";
+            this.xrTableCell144.Weight = 0.28985507246376813D;
+            // 
+            // xrTableCell145
+            // 
+            this.xrTableCell145.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[attemptStatus]")});
+            this.xrTableCell145.Multiline = true;
+            this.xrTableCell145.Name = "xrTableCell145";
+            this.xrTableCell145.Text = "xrTableCell145";
+            this.xrTableCell145.Weight = 0.28985507246376813D;
+            // 
+            // xrLabel249
+            // 
+            this.xrLabel249.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Top | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel249.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Bold);
+            this.xrLabel249.LocationFloat = new DevExpress.Utils.PointFloat(308.2588F, 9.99999F);
+            this.xrLabel249.Multiline = true;
+            this.xrLabel249.Name = "xrLabel249";
+            this.xrLabel249.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel249.SizeF = new System.Drawing.SizeF(143.7863F, 23F);
+            this.xrLabel249.StylePriority.UseBorders = false;
+            this.xrLabel249.StylePriority.UseFont = false;
+            this.xrLabel249.StylePriority.UseTextAlignment = false;
+            this.xrLabel249.Text = "محاولات الانتحار";
+            this.xrLabel249.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // patientReports
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.TopMargin,
             this.BottomMargin,
-            this.Detail,
             this.DetailReport,
             this.DetailReport1,
             this.DetailReport2,
@@ -8819,8 +10358,6 @@
             this.DetailReport4,
             this.DetailReport5,
             this.DetailReport6,
-            this.DetailReport7,
-            this.DetailReport8,
             this.DetailReport9,
             this.DetailReport10,
             this.DetailReport11,
@@ -8840,14 +10377,27 @@
             this.DetailReport25,
             this.DetailReport26,
             this.DetailReport27,
-            this.DetailReport28});
+            this.DetailReport28,
+            this.DetailReport29,
+            this.DetailReport30,
+            this.DetailReport31,
+            this.DetailReport7,
+            this.DetailReport32,
+            this.DetailReport33,
+            this.DetailReport34,
+            this.DetailReport35,
+            this.DetailReport36,
+            this.DetailReport37,
+            this.DetailReport38,
+            this.Detail,
+            this.DetailReport39});
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
             this.sqlDataSource1});
             this.DataMember = "nonRepeatable";
             this.DataSource = this.sqlDataSource1;
             this.FilterString = "[ssn] = ?ssnFilter";
-            this.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.Margins = new System.Drawing.Printing.Margins(53, 52, 162, 100);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Margins = new System.Drawing.Printing.Margins(51, 52, 162, 100);
             this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
             this.ssnFilter});
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
@@ -8857,11 +10407,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable9)).EndInit();
@@ -8873,10 +10422,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.xrTable16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -8886,7 +10438,6 @@
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
         private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
-        private DevExpress.XtraReports.UI.DetailBand Detail;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
         private DevExpress.XtraReports.UI.DetailBand Detail1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel2;
@@ -9063,27 +10614,12 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel173;
         private DevExpress.XtraReports.UI.XRLabel xrLabel176;
         private DevExpress.XtraReports.UI.XRLabel xrLabel175;
-        private DevExpress.XtraReports.UI.DetailReportBand DetailReport7;
-        private DevExpress.XtraReports.UI.DetailBand Detail8;
         private DevExpress.XtraReports.UI.XRTable xrTable2;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow2;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell4;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell5;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell6;
         private DevExpress.XtraReports.UI.XRLabel xrLabel27;
-        private DevExpress.XtraReports.UI.DetailReportBand DetailReport8;
-        private DevExpress.XtraReports.UI.DetailBand Detail9;
-        private DevExpress.XtraReports.UI.XRTable xrTable4;
-        private DevExpress.XtraReports.UI.XRTableRow xrTableRow4;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell10;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell11;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell12;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel28;
-        private DevExpress.XtraReports.UI.XRTable xrTable3;
-        private DevExpress.XtraReports.UI.XRTableRow xrTableRow3;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell7;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell8;
-        private DevExpress.XtraReports.UI.XRTableCell xrTableCell9;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport9;
         private DevExpress.XtraReports.UI.DetailBand Detail10;
         private DevExpress.XtraReports.UI.XRLabel xrLabel34;
@@ -9263,7 +10799,6 @@
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell70;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport21;
         private DevExpress.XtraReports.UI.DetailBand Detail22;
-        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader5;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport22;
         private DevExpress.XtraReports.UI.DetailBand Detail23;
         private DevExpress.XtraReports.UI.XRTable xrTable1;
@@ -9367,10 +10902,110 @@
         private DevExpress.XtraReports.UI.XRLabel xrLabel208;
         private DevExpress.XtraReports.UI.XRLabel xrLabel209;
         private DevExpress.XtraReports.UI.XRLabel xrLabel210;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox2;
         private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel211;
         private DevExpress.XtraReports.UI.XRLine xrLine2;
         private DevExpress.XtraReports.UI.XRLine xrLine3;
+        private DevExpress.XtraReports.UI.XRPageBreak xrPageBreak1;
+        private DevExpress.XtraReports.UI.XRPageInfo xrPageInfo2;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport29;
+        private DevExpress.XtraReports.UI.DetailBand Detail30;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport30;
+        private DevExpress.XtraReports.UI.DetailBand Detail31;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel214;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel215;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel216;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel217;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel218;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel219;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel212;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel213;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel220;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel222;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel223;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel221;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport31;
+        private DevExpress.XtraReports.UI.DetailBand Detail32;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel224;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel225;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel226;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel227;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader11;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport7;
+        private DevExpress.XtraReports.UI.DetailBand Detail8;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport32;
+        private DevExpress.XtraReports.UI.DetailBand Detail33;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport33;
+        private DevExpress.XtraReports.UI.DetailBand Detail34;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport34;
+        private DevExpress.XtraReports.UI.DetailBand Detail35;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport35;
+        private DevExpress.XtraReports.UI.DetailBand Detail36;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport36;
+        private DevExpress.XtraReports.UI.DetailBand Detail37;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport37;
+        private DevExpress.XtraReports.UI.DetailBand Detail38;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel229;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel231;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel230;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel232;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel228;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel233;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel234;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel235;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel236;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel237;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel238;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel239;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel240;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel241;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel242;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel243;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel244;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel245;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel246;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel247;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel248;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport38;
+        private DevExpress.XtraReports.UI.DetailBand Detail39;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader5;
+        private DevExpress.XtraReports.UI.XRTable xrTable24;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow24;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell124;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell125;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell126;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell127;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell128;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell129;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell130;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell131;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell132;
+        private DevExpress.XtraReports.UI.XRTable xrTable25;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow25;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell133;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell134;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell135;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell136;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell137;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell138;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell139;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell140;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell141;
+        private DevExpress.XtraReports.UI.DetailBand Detail;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport39;
+        private DevExpress.XtraReports.UI.DetailBand Detail40;
+        private DevExpress.XtraReports.UI.XRTable xrTable27;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow27;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell146;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell147;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell148;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell149;
+        private DevExpress.XtraReports.UI.XRTable xrTable26;
+        private DevExpress.XtraReports.UI.XRTableRow xrTableRow26;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell142;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell143;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell144;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell145;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel249;
     }
 }

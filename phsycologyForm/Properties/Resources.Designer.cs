@@ -22,7 +22,7 @@ namespace phsycologyForm.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace phsycologyForm.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("phsycologyForm.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace phsycologyForm.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,9 +63,9 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap abu_dhabi_police_logo_21AF543362_seeklogo_com {
+        public static System.Drawing.Bitmap abu {
             get {
-                object obj = ResourceManager.GetObject("abu-dhabi-police-logo-21AF543362-seeklogo.com", resourceCulture);
+                object obj = ResourceManager.GetObject("abu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,7 +73,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap brushOrange {
+        public static System.Drawing.Bitmap brushOrange {
             get {
                 object obj = ResourceManager.GetObject("brushOrange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap brushWhite {
+        public static System.Drawing.Bitmap brushWhite {
             get {
                 object obj = ResourceManager.GetObject("brushWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,17 +93,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap closed {
-            get {
-                object obj = ResourceManager.GetObject("closed", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap closed__ {
+        public static System.Drawing.Bitmap closed__ {
             get {
                 object obj = ResourceManager.GetObject("closed__", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +103,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap d {
+        public static System.Drawing.Bitmap d {
             get {
                 object obj = ResourceManager.GetObject("d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +113,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap daf {
+        public static System.Drawing.Bitmap daf {
             get {
                 object obj = ResourceManager.GetObject("daf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +123,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap daf_orange {
+        public static System.Drawing.Bitmap daf_orange {
             get {
                 object obj = ResourceManager.GetObject("daf_orange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +133,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ds {
+        public static System.Drawing.Bitmap ds {
             get {
                 object obj = ResourceManager.GetObject("ds", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +143,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ds_open {
+        public static System.Drawing.Bitmap ds_open {
             get {
                 object obj = ResourceManager.GetObject("ds_open", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +153,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ds_open1 {
+        public static System.Drawing.Bitmap ds_open1 {
             get {
                 object obj = ResourceManager.GetObject("ds_open1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +163,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ds1 {
+        public static System.Drawing.Bitmap ds1 {
             get {
                 object obj = ResourceManager.GetObject("ds1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +173,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fdff {
+        public static System.Drawing.Bitmap fdff {
             get {
                 object obj = ResourceManager.GetObject("fdff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +183,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fds {
+        public static System.Drawing.Bitmap fds {
             get {
                 object obj = ResourceManager.GetObject("fds", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +193,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kdf {
+        public static System.Drawing.Bitmap kdf {
             get {
                 object obj = ResourceManager.GetObject("kdf", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +203,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap open {
+        public static System.Drawing.Bitmap open {
             get {
                 object obj = ResourceManager.GetObject("open", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +213,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OR {
+        public static System.Drawing.Bitmap OR {
             get {
                 object obj = ResourceManager.GetObject("OR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +223,37 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap reportMeetingOrange {
+        public static System.Drawing.Bitmap pdfOrange {
+            get {
+                object obj = ResourceManager.GetObject("pdfOrange", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap pdfWhite {
+            get {
+                object obj = ResourceManager.GetObject("pdfWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap PsyForm {
+            get {
+                object obj = ResourceManager.GetObject("PsyForm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap reportMeetingOrange {
             get {
                 object obj = ResourceManager.GetObject("reportMeetingOrange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +263,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap reportMeetingWhite {
+        public static System.Drawing.Bitmap reportMeetingWhite {
             get {
                 object obj = ResourceManager.GetObject("reportMeetingWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +273,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sas {
+        public static System.Drawing.Bitmap sas {
             get {
                 object obj = ResourceManager.GetObject("sas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -263,7 +283,17 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TideOrange {
+        public static System.Drawing.Bitmap staticsWhite {
+            get {
+                object obj = ResourceManager.GetObject("staticsWhite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap TideOrange {
             get {
                 object obj = ResourceManager.GetObject("TideOrange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -273,7 +303,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TideWhite {
+        public static System.Drawing.Bitmap TideWhite {
             get {
                 object obj = ResourceManager.GetObject("TideWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -283,9 +313,9 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Untitled_1 {
+        public static System.Drawing.Bitmap Unt {
             get {
-                object obj = ResourceManager.GetObject("Untitled-1", resourceCulture);
+                object obj = ResourceManager.GetObject("Unt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,7 +323,27 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WR {
+        public static System.Drawing.Bitmap uploadImg {
+            get {
+                object obj = ResourceManager.GetObject("uploadImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap uploadImg1 {
+            get {
+                object obj = ResourceManager.GetObject("uploadImg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap WR {
             get {
                 object obj = ResourceManager.GetObject("WR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -303,7 +353,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WWOrange {
+        public static System.Drawing.Bitmap WWOrange {
             get {
                 object obj = ResourceManager.GetObject("WWOrange", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -313,7 +363,7 @@ namespace phsycologyForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WWWhite {
+        public static System.Drawing.Bitmap WWWhite {
             get {
                 object obj = ResourceManager.GetObject("WWWhite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
